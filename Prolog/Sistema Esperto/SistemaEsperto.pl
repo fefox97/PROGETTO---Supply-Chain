@@ -80,7 +80,7 @@ writePath([H|T]) :-
 %VERIFICA PRECEDENZA
 
 %stampa percorso
-writePrecedenza(NodoA, NodoB, Percorso):-
+writePrecedenza(NodoA, NodoB):-
     precedenza(NodoA, NodoB, Percorso),
     writePath(Percorso).
 
@@ -105,10 +105,9 @@ percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPerco
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approviggionamento da parte della Farmacia centrale.
 regola1():-
-    writePrecedenza(NameA, NameB, Percorso),
-    getIndividual('Comunicazione',_,ShortIndividualA),
+    precedenza(NameA, NameB, _),
+    getIndividual('Richiesta di approvvigionamento',_,ShortIndividualA),
     annotatedElement(_,NameA,_,task,_,_,ShortIndividualA),
-    sub_atom(ShortIndividualA,_,_,_,'RA'),
-    getIndividual('Comunicazione',_,ShortIndividualB),
-    annotatedElement(_,NameB,_,task,_,_,ShortIndividualB),
-    sub_atom(ShortIndividualB,_,_,_,'OA').
+    getIndividual('Ordine di acquisto',_,ShortIndividualB),
+    annotatedElement(_,NameB,_,sendTask,_,_,ShortIndividualB),
+    format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w",[ShortIndividualA,ShortIndividualB]).
