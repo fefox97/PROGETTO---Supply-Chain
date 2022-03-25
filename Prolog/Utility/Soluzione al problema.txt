@@ -1,0 +1,30 @@
+Problema: le IRI delle ontologie MM e BPMN2OWL non coincidono con quelle del loro utilizzo nella MM-BPMN ontology, in quanto realizzate per una vecchia versione del tool
+
+
+
+
+Nei fatti ottenuti da Thea sostituire la stringa:
+http://localhost:8060/BPMNSemanticAnnotator/resources/files/BPMN2_Ontology.owl#
+con la seguente:
+http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#
+
+
+
+
+Sostituire anche la stringa:
+http://localhost:8080/BPMNSemanticAnnotator/resources/files/MM_Ontology.owl#
+con la seguente:
+http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#
+
+
+NOTA: occorre fare il load di 4 ontologie: MM_Ontology.owl, BPMN2_Ontology.owl, S-BPMN.owl, MM-BPMN.owl
+Utilizzare la regola
+start():-
+	consult('path/thea/thea-master/thea.pl'),
+	load_axioms('path/MM_Ontology.owl'),
+	load_axioms('path/BPMN2_Ontology.owl'),
+	load_axioms('path/ontologia.bpmn-s.owl'),
+	load_axioms('path/bpmnProponibilita.bpmn-mm'),
+	save_axioms('path/fatti.pl',pl),
+	consult('path/regoleSupportoBPMNAggiustate.pl').
+

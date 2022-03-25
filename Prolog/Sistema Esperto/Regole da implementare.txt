@@ -1,0 +1,4 @@
+1) Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approviggionamento da parte della Farmacia centrale.
+2) Verificare che la proclamazione di un vincitore per una gara d'appalto sia preceduta, in ordine da: una verifica dei documenti per l'emanazione del bando e una emanazione della gara di appalto
+3) Verificare che l'emissione di un Certificato di Pagamento avvenga solo ed esclusivamente in seguito all'evazione dell'ordine.
+4) Verificare che tutte le approvzioni dell'amministrazione siano giustificate dall'assenza di materiale in farmacia

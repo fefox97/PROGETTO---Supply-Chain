@@ -1,0 +1,453 @@
+Prolog/Utility/thea-master/.DS_Store
+Prolog/Utility/thea-master/.gitignore
+Prolog/Utility/thea-master/aceowlxml.owl
+Prolog/Utility/thea-master/configure
+Prolog/Utility/thea-master/configure.in
+Prolog/Utility/thea-master/Cookbook.txt
+Prolog/Utility/thea-master/graph.xml
+Prolog/Utility/thea-master/httpd.log
+Prolog/Utility/thea-master/install-sh
+Prolog/Utility/thea-master/INSTALL.txt
+Prolog/Utility/thea-master/Makefile.in
+Prolog/Utility/thea-master/MANIFEST
+Prolog/Utility/thea-master/owl_parser.pl
+Prolog/Utility/thea-master/owl2_catalog.pl
+Prolog/Utility/thea-master/owl2_classifier.pl
+Prolog/Utility/thea-master/owl2_classifier.plt
+Prolog/Utility/thea-master/owl2_dotty.pl
+Prolog/Utility/thea-master/owl2_export_rdf.pl
+Prolog/Utility/thea-master/owl2_export_rdf.plt
+Prolog/Utility/thea-master/owl2_fol.pl
+Prolog/Utility/thea-master/owl2_from_rdf_utils.pl
+Prolog/Utility/thea-master/owl2_from_rdf.pl
+Prolog/Utility/thea-master/owl2_from_rdf.plt
+Prolog/Utility/thea-master/owl2_from_rdf.txt
+Prolog/Utility/thea-master/owl2_graph_reasoner.pl
+Prolog/Utility/thea-master/owl2_instance_util.pl
+Prolog/Utility/thea-master/owl2_io.pl
+Prolog/Utility/thea-master/owl2_java_owlapi.pl
+Prolog/Utility/thea-master/owl2_java_owlapi.plt
+Prolog/Utility/thea-master/owl2_lcs.pl
+Prolog/Utility/thea-master/owl2_lcs.plt
+Prolog/Utility/thea-master/owl2_manchester_parser.pl
+Prolog/Utility/thea-master/owl2_manchester_parser.plt
+Prolog/Utility/thea-master/owl2_metamodel.pl
+Prolog/Utility/thea-master/owl2_model.pl
+Prolog/Utility/thea-master/owl2_model.plt
+Prolog/Utility/thea-master/owl2_obo_parser.pl
+Prolog/Utility/thea-master/owl2_owllink.pl
+Prolog/Utility/thea-master/owl2_owllink.txt
+Prolog/Utility/thea-master/owl2_plsyn.pl
+Prolog/Utility/thea-master/owl2_popl.pl
+Prolog/Utility/thea-master/owl2_profiles.pl
+Prolog/Utility/thea-master/owl2_reasoner.pl
+Prolog/Utility/thea-master/owl2_reasoning_rules.pl
+Prolog/Utility/thea-master/owl2_rl_rules.pl
+Prolog/Utility/thea-master/owl2_rl_rules.plt
+Prolog/Utility/thea-master/owl2_shell.pl
+Prolog/Utility/thea-master/owl2_text_display.pl
+Prolog/Utility/thea-master/owl2_thea1_compat.pl
+Prolog/Utility/thea-master/owl2_to_progol.pl
+Prolog/Utility/thea-master/owl2_to_prolog_dlp.pl
+Prolog/Utility/thea-master/owl2_to_prolog_dlp.plt
+Prolog/Utility/thea-master/owl2_util.pl
+Prolog/Utility/thea-master/owl2_xml.pl
+Prolog/Utility/thea-master/owl2_xml.plt
+Prolog/Utility/thea-master/pldoc.sty
+Prolog/Utility/thea-master/README
+Prolog/Utility/thea-master/Reasoning_using_Thea.txt
+Prolog/Utility/thea-master/Release_prep.txt
+Prolog/Utility/thea-master/swrl_rdf_hooks.pl
+Prolog/Utility/thea-master/swrl.pl
+Prolog/Utility/thea-master/swrl.plt
+Prolog/Utility/thea-master/thea.pl
+Prolog/Utility/thea-master/apps/.DS_Store
+Prolog/Utility/thea-master/apps/labelgen/labelgen.pl
+Prolog/Utility/thea-master/apps/labelgen/testont_phenotype.pl
+Prolog/Utility/thea-master/apps/labelgen/grammars/phenotype.pl
+Prolog/Utility/thea-master/apps/mireot/mireot.pl
+Prolog/Utility/thea-master/apps/opencalais/example_thea_opencalais.pl
+Prolog/Utility/thea-master/apps/opencalais/owl.opencalais-4.3.xml.owl
+Prolog/Utility/thea-master/apps/opencalais/papal_visits
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.pdf
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.pl
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.txt
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.txt.htm
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.txt_files/injection_graph_func.js
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.txt_files/injection_nh_graph.css
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.txt_files/pldoc.css
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.txt_files/pldoc.js
+Prolog/Utility/thea-master/apps/opencalais/thea_opencalais.txt_files/skypeplugin_dropdownmenu.css
+Prolog/Utility/thea-master/apps/owlmacros/owlmacros.pl
+Prolog/Utility/thea-master/apps/owlmacros/README.txt
+Prolog/Utility/thea-master/apps/semsim/owl2_semsim.pl
+Prolog/Utility/thea-master/apps/semsim/README
+Prolog/Utility/thea-master/apps/webthea/README.txt
+Prolog/Utility/thea-master/apps/webthea_old/webthea.pl
+Prolog/Utility/thea-master/apps/webthea_old/css/tabber.css
+Prolog/Utility/thea-master/apps/webthea_old/css/webthea.css
+Prolog/Utility/thea-master/apps/webthea_old/js/tabber.js
+Prolog/Utility/thea-master/benchmarks/benchmarks.txt
+Prolog/Utility/thea-master/benchmarks/benchmarks.xls
+Prolog/Utility/thea-master/benchmarks/parse-bench.pl
+Prolog/Utility/thea-master/bin/_thea_owllink_request.xml
+Prolog/Utility/thea-master/bin/_thea_owllink_response.xml
+Prolog/Utility/thea-master/bin/httpd.log
+Prolog/Utility/thea-master/bin/iswc-2009-complete.rdf
+Prolog/Utility/thea-master/bin/macrowl
+Prolog/Utility/thea-master/bin/thea
+Prolog/Utility/thea-master/bin/thea_owl_linked_data.pl
+Prolog/Utility/thea-master/bin/thea_owllink.pl
+Prolog/Utility/thea-master/bin/thea-download-import-closure
+Prolog/Utility/thea-master/bin/thea-jpl
+Prolog/Utility/thea-master/bin/thea-jpl-pellet
+Prolog/Utility/thea-master/bin/thea-jpl-pellet-ask-all
+Prolog/Utility/thea-master/bin/thea-jpl-pellet-get-superclasses
+Prolog/Utility/thea-master/bin/thea-jpl.bat
+Prolog/Utility/thea-master/bin/thea-owl-i
+Prolog/Utility/thea-master/bin/thea-owl-to-dlp
+Prolog/Utility/thea-master/bin/thea-owl-to-dlp-yap
+Prolog/Utility/thea-master/bin/thea-owl-to-dlv
+Prolog/Utility/thea-master/bin/thea-owl-to-owlx
+Prolog/Utility/thea-master/bin/thea-owl-to-prolog
+Prolog/Utility/thea-master/bin/thea-owl-to-prolog-no-ns
+Prolog/Utility/thea-master/bin/thea-owl2j
+Prolog/Utility/thea-master/bin/thea-owl2owlx
+Prolog/Utility/thea-master/bin/thea-owl2plsyn
+Prolog/Utility/thea-master/bin/thea-owlapi
+Prolog/Utility/thea-master/bin/thea-owlapi-reasoner
+Prolog/Utility/thea-master/bin/thea-owlapi-reasoner.pl
+Prolog/Utility/thea-master/bin/thea-owlpl-to-dlp
+Prolog/Utility/thea-master/bin/thea-pl2owl
+Prolog/Utility/thea-master/bin/thea-poshj
+Prolog/Utility/thea-master/bin/thea-prolog-to-swrl
+Prolog/Utility/thea-master/bin/thea-prolog-to-swrl-owl
+Prolog/Utility/thea-master/bin/thea-rl
+Prolog/Utility/thea-master/bin/thea-rl-ask-all
+Prolog/Utility/thea-master/bin/thea-run-tests
+Prolog/Utility/thea-master/bin/thea-run-tests-java
+Prolog/Utility/thea-master/bin/thea-sim-to-owl
+Prolog/Utility/thea-master/bin/thea-test-wizard
+Prolog/Utility/thea-master/bin/thea-transform
+Prolog/Utility/thea-master/bin/thea.bat
+Prolog/Utility/thea-master/doc/index.html
+Prolog/Utility/thea-master/doc/owled-2009.tgz
+Prolog/Utility/thea-master/doc/OWLlink-Tutorial09_Thea.ppt
+Prolog/Utility/thea-master/doc/THEA_OWLED09.ppt
+Prolog/Utility/thea-master/doc/Thea_OWLLInk_Demo.ppt
+Prolog/Utility/thea-master/doc/Thea_OWLLink_examples.ppt
+Prolog/Utility/thea-master/doc/Thea_Slideshare.pptx
+Prolog/Utility/thea-master/doc/thea-paper.pdf
+Prolog/Utility/thea-master/doc/Thea2vsOLWAPI.xls
+Prolog/Utility/thea-master/doc/index_files/colorschememapping.xml
+Prolog/Utility/thea-master/doc/index_files/filelist.xml
+Prolog/Utility/thea-master/doc/index_files/themedata.thmx
+Prolog/Utility/thea-master/examples/convert_disjoints.pl
+Prolog/Utility/thea-master/examples/enforce_jepd.pl
+Prolog/Utility/thea-master/examples/owllink/owl.xsd
+Prolog/Utility/thea-master/examples/owllink/owled08-req-1.xml
+Prolog/Utility/thea-master/examples/owllink/owled08-req-2.xml
+Prolog/Utility/thea-master/examples/owllink/owled08-res-1.xml
+Prolog/Utility/thea-master/examples/owllink/owled08-res-2.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-20091116.xsd
+Prolog/Utility/thea-master/examples/owllink/owllink-example-CreateKB-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-CreateKB-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-GetDescription-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-GetDescription-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-GetSettings-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-GetSettings-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-LoadOntology-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-LoadOntology-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-poolingrequests-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-poolingrequests-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-Prefix-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-Prefix-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-request.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-response.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-Set-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-Set-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-taxonomy-request-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-example-taxonomy-response-20091016.xml
+Prolog/Utility/thea-master/examples/owllink/owllink-xml.xsd
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-CreateKB-request.xml
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-GetDescription-request.xml
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-LoadOntology-request.xml
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-PoolingRequests-request.xml
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-Prefixes-request.xml
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-RetrieveSettings-request.xml
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-SetSettings-request.xml
+Prolog/Utility/thea-master/examples/owllink/thea-owllink-example-Taxonomy-request.xml
+Prolog/Utility/thea-master/iso/gpload.pl
+Prolog/Utility/thea-master/iso/xsbload.P
+Prolog/Utility/thea-master/jars/aterm-java-1.6.jar
+Prolog/Utility/thea-master/jars/FaCTpp-OWLAPI-v1.4.0.1.jar
+Prolog/Utility/thea-master/jars/org.semanticweb.HermiT.jar
+Prolog/Utility/thea-master/jars/owlapi-bin.jar
+Prolog/Utility/thea-master/jars/pellet-cli.jar
+Prolog/Utility/thea-master/jars/pellet-core.jar
+Prolog/Utility/thea-master/jars/pellet-datatypes.jar
+Prolog/Utility/thea-master/jars/pellet-dig.jar
+Prolog/Utility/thea-master/jars/pellet-el.jar
+Prolog/Utility/thea-master/jars/pellet-explanation.jar
+Prolog/Utility/thea-master/jars/pellet-jena.jar
+Prolog/Utility/thea-master/jars/pellet-modularity.jar
+Prolog/Utility/thea-master/jars/pellet-owlapi.jar
+Prolog/Utility/thea-master/jars/pellet-owlapiv3.jar
+Prolog/Utility/thea-master/jars/pellet-pellint.jar
+Prolog/Utility/thea-master/jars/pellet-query.jar
+Prolog/Utility/thea-master/jars/pellet-rules.jar
+Prolog/Utility/thea-master/jars/pellet-test.jar
+Prolog/Utility/thea-master/jars/pellet.jar
+Prolog/Utility/thea-master/owl2java/swrl_owlapi_hooks.pl
+Prolog/Utility/thea-master/owlgres/owl2_sqlmap_owlgres.pl
+Prolog/Utility/thea-master/owlgres/owlgres_sql_schema.pl
+Prolog/Utility/thea-master/t/example_rules.pl
+Prolog/Utility/thea-master/t/wine.owl
+Prolog/Utility/thea-master/testfiles/annot_test.owl
+Prolog/Utility/thea-master/testfiles/annotations_test.pl
+Prolog/Utility/thea-master/testfiles/bfo2-relations.owl
+Prolog/Utility/thea-master/testfiles/caro.owl
+Prolog/Utility/thea-master/testfiles/cell.owlpl
+Prolog/Utility/thea-master/testfiles/clinchem.owl
+Prolog/Utility/thea-master/testfiles/clinchem.plsyn
+Prolog/Utility/thea-master/testfiles/community-label.owl
+Prolog/Utility/thea-master/testfiles/country.owl
+Prolog/Utility/thea-master/testfiles/dl-safe-ancestor.owl
+Prolog/Utility/thea-master/testfiles/dl-safe-ancestor.ttl
+Prolog/Utility/thea-master/testfiles/dlptest.pro
+Prolog/Utility/thea-master/testfiles/elevator5-tiles.owl
+Prolog/Utility/thea-master/testfiles/epithelium.popl
+Prolog/Utility/thea-master/testfiles/example_catalog.xml
+Prolog/Utility/thea-master/testfiles/example_rules.pl
+Prolog/Utility/thea-master/testfiles/example_sparql.pl
+Prolog/Utility/thea-master/testfiles/family.owl
+Prolog/Utility/thea-master/testfiles/food.owl
+Prolog/Utility/thea-master/testfiles/foodsafe.owl
+Prolog/Utility/thea-master/testfiles/Hydrology.owl
+Prolog/Utility/thea-master/testfiles/import_test.owl
+Prolog/Utility/thea-master/testfiles/inverseOftest.owl
+Prolog/Utility/thea-master/testfiles/lcstest.owlpl
+Prolog/Utility/thea-master/testfiles/lctest.plsyn
+Prolog/Utility/thea-master/testfiles/list_test.pl
+Prolog/Utility/thea-master/testfiles/list-example.owl
+Prolog/Utility/thea-master/testfiles/location-mapping.ttl
+Prolog/Utility/thea-master/testfiles/mtest.owlpl
+Prolog/Utility/thea-master/testfiles/music_ontology.owl
+Prolog/Utility/thea-master/testfiles/ontology-test.owl
+Prolog/Utility/thea-master/testfiles/people.owl
+Prolog/Utility/thea-master/testfiles/pets.owl
+Prolog/Utility/thea-master/testfiles/pizza.owl
+Prolog/Utility/thea-master/testfiles/premiseontology-1.rdf
+Prolog/Utility/thea-master/testfiles/processual_part_of.pl
+Prolog/Utility/thea-master/testfiles/propertyChain.owl
+Prolog/Utility/thea-master/testfiles/rdfowl_test.owl
+Prolog/Utility/thea-master/testfiles/reflexivity_test.owlpl
+Prolog/Utility/thea-master/testfiles/rl_rules_test.pl
+Prolog/Utility/thea-master/testfiles/rnao.owlms
+Prolog/Utility/thea-master/testfiles/rnao.owlx
+Prolog/Utility/thea-master/testfiles/rtest.owlpl
+Prolog/Utility/thea-master/testfiles/spicy.plsyn
+Prolog/Utility/thea-master/testfiles/teams.owl
+Prolog/Utility/thea-master/testfiles/test.owl
+Prolog/Utility/thea-master/testfiles/test2.owl
+Prolog/Utility/thea-master/testfiles/test3.owl
+Prolog/Utility/thea-master/testfiles/testcase_thiago.pl
+Prolog/Utility/thea-master/testfiles/testcase.log
+Prolog/Utility/thea-master/testfiles/thiago.pl
+Prolog/Utility/thea-master/testfiles/uncle.pl
+Prolog/Utility/thea-master/testfiles/undeclared_test.owl
+Prolog/Utility/thea-master/testfiles/wine_g.owl
+Prolog/Utility/thea-master/testfiles/wine_no_ontology.owl
+Prolog/Utility/thea-master/testfiles/wine.owl
+Prolog/Utility/thea-master/tools/install-sh
+Prolog/Utility/thea-master/util/dot.pl
+Prolog/Utility/thea-master/util/memoization.pl
+ScontoDORIC-MM-cameraReadyVF.pdf
+supplychain_asl.pdf
+Ontologie/Ontologie di Supporto/.DS_Store
+Ontologie/Ontologie di Supporto/.project
+Ontologie/Ontologie di Supporto/catalog-v001.xml
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master.zip
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master.zip
+Ontologie/Ontologie di Supporto/scro_ontology_fixed.owl
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/.DS_Store
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/catalog-v001.xml
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/LICENSE
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/README.md
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/Term Analysis Procedure v2.pdf
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/Terms-Patterns-Modules/locations.md
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/Terms-Patterns-Modules/Planned-Processes.md
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/Terms-Patterns-Modules/Pump-Example.md
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/failure-event.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/FailureModule.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/location-1.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/location-2.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/location-3.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/location-4.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/pump-stasis.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Documentation & Resources/images/pump.png
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Supply Chain Reference Ontology/.DS_Store
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Supply Chain Reference Ontology/catalog-v001.xml
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Supply Chain Reference Ontology/SCRO.owl
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Traceability Ontology/text file
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/Traceability Ontology/Traceability-BFO-Merged.owl
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/imports/bfo-2020.owl
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/imports/IOF_AnnotationsVocabulary.rdf
+Ontologie/Ontologie di Supporto/IOF-SupplyChain-WG-master/imports/IOF.owl
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/.DS_Store
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/LICENSE
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/README.md
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Documentation & Resources/.DS_Store
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Documentation & Resources/Maintenance_Working_Group - Terms__Taxonomy_and_First_order_Logic_Formalisation.pdf
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Documentation & Resources/README.md
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Documentation & Resources/images/maintenance_wg_context.png
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Domain Ontologies  & Use Cases/README.md
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Domain Ontologies  & Use Cases/Failure Modes and Effects Analysis Ontology/README.md
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Domain Ontologies  & Use Cases/Maintenance Procedure Ontology/README.md
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Publications (Maintenance WG Authors)/README.md
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Reference Ontology - Maintenance Working Group/.DS_Store
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Reference Ontology - Maintenance Working Group/catalog-v001.xml
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Reference Ontology - Maintenance Working Group/maintenace_wg_ontology_iofcore.owl
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Reference Ontology - Maintenance Working Group/README.md
+Ontologie/Ontologie di Supporto/IOF_Maintenance_Working_Group_Public-master/Reference Ontology - Maintenance Working Group/imports/IOF.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/.DS_Store
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/README.md
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/test.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/upendo.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Customers/customersTables.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Customers/Database.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Customers/features.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Customers/NewCustomers.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/DeliveryServices/grimau-florent-database.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/DeliveryServices/grimau-florent-erd.drawio.png
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/DeliveryServices/grimau-florent-erd.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/DeliveryServices/grimau-florent-features.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/DeliveryServices/grimau-florent-queries.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/DeliveryServices/query_mapping.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Ontology/.DS_Store
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Ontology/CustomersOntology.owl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Ontology/suppliers-ontology.owl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Ontology/upendo-ontology.owl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Ontology/Warehouse-ontology.owl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Ontology/Complete Ontology/Ontology.owl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Ontology/Complete Ontology/Ontology.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Products/entity-sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Products/Jallow-Amadou-Sarjo-database.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Products/Jallow-Amadou-Sarjo-erd.drawio.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Products/Jallow-Amadou-Sarjo-features.docx
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Products/Jallow-Amadou-Sarjo-queries.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Products/product_query.png
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Products/sparql-query.txt
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Warehouses/ilic_milan_features.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Warehouses/ilic-milan-database.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Warehouses/ilic-milan-erd.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Warehouses/ilic-milan-queries.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Warehouses/warehouse-erd-new.png
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/Warehouses/Warehouse-new.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/ecommerce-mapping.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/merge_with address.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/merge.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/ontologyTest.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/Readme.md
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/customer/customer-data.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/customer/customer-mapping.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/customer/customerMappingForDremio.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/deliveryServices/deliveryServices-data.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/deliveryServices/deliveryServices-mapping.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/products/products-data.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/products/products-mapping.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/products/soko.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/suppliers/mappingStandard.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/suppliers/suppliers-data.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/suppliers/suppliers-mapping.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/warehouse mapping/warehouse-data-new.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/warehouse mapping/warehouse-data.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/warehouse mapping/warehouse-mapping-new.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/mapping/warehouse mapping/warehouse-mapping.ttl
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/suppliers/ordoñez-brenda-erd.drawio.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/suppliers/ordoñez-brenda-features.pdf
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/suppliers/ordoñez-brenda-queries.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/suppliers/SupplierEntities.sql
+Ontologie/Ontologie di Supporto/e-commerce-semantic-web-system-main/suppliers/SUPPLIERS.sql
+Ontologie/Ontologie di Supporto/ePO-master/.gitignore
+Ontologie/Ontologie di Supporto/ePO-master/.project
+Ontologie/Ontologie di Supporto/ePO-master/eProcurement-2.0.1-release-notes.md
+Ontologie/Ontologie di Supporto/ePO-master/LICENSE
+Ontologie/Ontologie di Supporto/ePO-master/Makefile
+Ontologie/Ontologie di Supporto/ePO-master/README.md
+Ontologie/Ontologie di Supporto/ePO-master/.github/workflows/transform.yml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/conceptual_model/.gitignore
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/conceptual_model/ePO_CM.eap
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form02.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form03.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form05.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form06.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form17.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form18.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form24.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/ted_mappings/Form25.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/ePO_owl_core.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/ePO_restrictions.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/ePO_shacl_shapes.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/BDTI-ApplicationProfile/BDTI_restrictions.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/BDTI-ApplicationProfile/BDTI_shacl_shapes.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/BDTI-ApplicationProfile/BDTI-owl-core.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/Reg2015-ApplicationProfile/reg2015_restrictions.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/Reg2015-ApplicationProfile/reg2015_shacl_shapes.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/owl_ontology/Reg2015-ApplicationProfile/reg2015-owl-core.rdf
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/ePO_CM.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/ePO-CM_v2.0.1.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/BDTI-ApplicationProfile/BDTI_XMI.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/Reg2015-ApplicationProfile/reg2015_XMI.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/agent-diagram
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/agent-diagram.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/agent.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/cav.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/cccev.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/cv-common.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/dcat-ap.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/dcterms.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/ePO-CM-frozen.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/ePO-CM.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/foaf.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/lcn.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/org.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/rov.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/ubl.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xmi_conceptual_model/other/UML_EA.DTD
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xsd_schema/ePO_CM_XSD.xml
+Ontologie/Ontologie di Supporto/ePO-master/analysis_and_design/transformation_output/xsd_schema/UML_EA.DTD
+Ontologie/Ontologie di Supporto/ePO-master/glossary/CodeLists.xml
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ePO_definitions.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ePO-Glossary.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ePO-Glossary.xml
+Ontologie/Ontologie di Supporto/ePO-master/glossary/eProcurement glossary - edition instructions.pdf
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/ePO_DED.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/eProcurement_glossary.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/WayforwardCompetencyQuestions.pdf
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/xlst/Glossary_as_ISO11179-5-2015.xml
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/xlst/Glossary_From_ISO11179ToHTML5.xslt
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/xlst/Glossary_From_ODStoISO11179.xslt
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/xlst/Glossary.html
+Ontologie/Ontologie di Supporto/ePO-master/glossary/ir_ded/xlst/css/Glossary.css
+Ontologie/Ontologie di Supporto/ePO-master/implementation/Glossary transformation/CodeLists.xsl
+Ontologie/Ontologie di Supporto/ePO-master/implementation/Glossary transformation/XMI_XML.xsl
+Ontologie/Ontologie di Supporto/ePO-master/implementation/art/ePO Methodology.jpg
+Ontologie/Ontologie di Supporto/ePO-master/implementation/art/PoC Methodology.jpg
+Ontologie/Ontologie di Supporto/ePO-master/implementation/art/Timeline.png
+Ontologie/Ontologie di Supporto/ePO-master/implementation/art/zotero ePO.jpg
+Ontologie/Ontologie di Supporto/ePO-master/implementation/cl/ods/README
+Ontologie/Ontologie di Supporto/ePO-master/implementation/cl/xlsx/O3PO-CodeLists-V00.01.00.xlsx
+Ontologie/Ontologie di Supporto/ePO-master/implementation/ttl/ccts.ttl
+Ontologie/Ontologie di Supporto/ePO-master/implementation/ttl/ePO_v2.0.0.ttl
+Ontologie/Ontologie di Supporto/ePO-master/implementation/ttl/ubl.ttl
+Ontologie/cellfie.log
+Ontologie/Dati/BANDI E GARE DEL PROGRAMMA - Dataset - Open Data Consip.webloc
+Ontologie/Dati/bandiegare2021.xlsx
+Ontologie/Dati/cig_csv_2021_01.csv
+Ontologie/Dati/elencocontrattiaslm.csv
+Ontologie/Dati/Procedure_di_gara_gestite_tramite_Sintel.csv
+Ontologie/Dati/programmagareregionali20152016.csv
+Ontologie/Dati utilizzati/cellfie.log

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://w3id.org/italia/onto/PublicContract/0.4" uri="https://raw.githubusercontent.com/italia/daf-ontologie-vocabolari-controllati/master/Ontologie/PublicContract/latest/PublicContract-AP_IT.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/italia/onto/MU" uri="file:/Users/fefox/Downloads/MU.owl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/italia/onto/TI" uri="file:/Users/fefox/Downloads/TI.owl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/italia/onto/RO" uri="file:/Users/fefox/Downloads/RO.owl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/italia/onto/COV/0.12" uri="https://ontopia-lode.agid.gov.it/lode/source?url=https://w3id.org/italia/onto/COV"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/italia/onto/COV/0.12" uri="https://w3id.org/italia/onto/COV/"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/italia/onto/PublicContract/0.4" uri="https://w3id.org/italia/onto/PublicContract/"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/italia/onto/l0/0.8" uri="https://w3id.org/italia/onto/l0/"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/italia/onto/TI/0.8" uri="https://w3id.org/italia/onto/TI"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1647964326771" name="http://www.semanticweb.org/fefox/ontologies/2022/1/PCSCOPRO" uri="PCSCOPRO_VECCHI_DATI.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647964326771" name="duplicate:http://www.semanticweb.org/fefox/ontologies/2022/1/PCSCOPRO2" uri="PCSCOPRO_POP.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647964326771" name="duplicate:http://www.semanticweb.org/fefox/ontologies/2022/1/PCSCOPRO2" uri="PCSCOPRO_NO_DATA%20copia.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647964326771" name="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO_POP" uri="PCSCOPRO_POP_MERGED.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647964326771" name="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO" uri="SCOPRO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1647964326771" name="https://w3id.org/italia/onto/PublicContract/" uri="KEBDICasconeDatianaOntologiaContrattiV6_1.owl"/>
+    </group>
+</catalog>
