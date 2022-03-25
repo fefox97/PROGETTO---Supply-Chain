@@ -621,6 +621,7 @@
         <BPMN2_Ontology:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ricezione offerta di partecipazione</BPMN2_Ontology:name>
         <BPMN2_Ontology:instantiate rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</BPMN2_Ontology:instantiate>
         <BPMN2_Ontology:isForCompensation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</BPMN2_Ontology:isForCompensation>
+        <BPMN2_Ontology:has_sequenceFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_115uegz"/>
         <BPMN2_Ontology:has_sequenceFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_1ozhtdz"/>
     </owl:NamedIndividual>
     
@@ -1037,7 +1038,6 @@
         <BPMN2_Ontology:parallelMultiple rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</BPMN2_Ontology:parallelMultiple>
         <BPMN2_Ontology:cancelActivity rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</BPMN2_Ontology:cancelActivity>
         <BPMN2_Ontology:has_attachedToRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Activity_16fn4p4"/>
-        <BPMN2_Ontology:has_sequenceFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_115uegz"/>
         <BPMN2_Ontology:has_eventDefinition rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#TimerEventDefinition_1le7bst"/>
     </owl:NamedIndividual>
     
@@ -1347,7 +1347,7 @@
         <rdf:type rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#sequenceFlow"/>
         <BPMN2_Ontology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#ID">Flow_115uegz</BPMN2_Ontology:id>
         <BPMN2_Ontology:has_targetRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Activity_0s4fm1e"/>
-        <BPMN2_Ontology:has_sourceRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Event_1ix6uvl"/>
+        <BPMN2_Ontology:has_sourceRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Activity_16fn4p4"/>
     </owl:NamedIndividual>
     
 
