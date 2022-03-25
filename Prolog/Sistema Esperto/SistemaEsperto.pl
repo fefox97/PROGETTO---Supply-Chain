@@ -38,7 +38,7 @@ replaceString(String, ToReplace, ReplaceWith, Result) :-
 getIndividual(NClass,Individual,ShortIndividual) :-
     replaceString(NClass,' ','_',Class),
     %write_ln(Class),
-    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO_POP_MERGED#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/1/PCSCOPRO2#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI)),
+    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI)),
     classAssertion(ClassIRI,Individual),
     shortType(Individual, ShortIndividual).
     %write(Value), nl.

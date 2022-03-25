@@ -616,6 +616,15 @@
         <Class IRI="#Data_di_scadenza"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ordine_di_acquisto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Richiesta_verifica_documenti"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Actualization"/>
     </Declaration>
     <Declaration>
@@ -4745,6 +4754,18 @@
     <SubClassOf>
         <Class IRI="#Data_di_scadenza"/>
         <Class IRI="https://w3id.org/italia/onto/TI/TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordine_di_acquisto"/>
+        <Class IRI="#Comunicazione"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
+        <Class IRI="#Comunicazione"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Richiesta_verifica_documenti"/>
+        <Class IRI="#Comunicazione"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Actualization"/>
@@ -9989,391 +10010,391 @@
         <NamedIndividual IRI="#O867469371E"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6940799088"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA69408044A7"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6940810999"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6940909B4B"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6940929BCC"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6941349666"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA694136104F"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6942276363"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA69429141E2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA69429217A7"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6942925AF3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6942926BC6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6942928D6C"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6942930F12"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA6942933190"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA76369713D6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7636980B41"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637002D68"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA76370060B9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637009332"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA763701367E"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637014751"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA76370168F7"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637021D16"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637023EBC"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA763702613A"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA76370282E0"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA763703262C"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA76370358A5"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637038B1E"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637041D97"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637042E6A"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7637049434"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA76370515DA"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA76370569F9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA764361704B"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7688013D04"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA77128469DC"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA771286163E"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7712870DA9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA77128751CD"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA77128816BF"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7712889D57"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA787873167F"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7878742F90"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7878748487"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA78787538A6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA78787630E9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7878768508"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA787878316A"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7878785310"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA78787874B6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA787879072F"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7878802118"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7921918D87"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA7996404953"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA802544678B"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8027915D05"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA80902930FD"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA809059388C"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA81446791BC"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8144768B2B"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8144793FCB"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8145665F64"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8145678A20"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8145690409"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA81457158A9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA81457250EC"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA81994532AB"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8199464BBC"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8199482A97"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA82233055F5"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8223309941"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA82233299C2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8223332C3B"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8276108C5D"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA82902377FD"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA82902388D0"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA82902399A3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8290240A76"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8295984E8E"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA83136977CB"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA83828155C6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA84384648C7"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8518451026"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8603719D83"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8613626D07"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8628847DCB"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8631093B41"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA8631103384"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA86311087A3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OA867469371E"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OAZ0B2BFB62C"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OAZ312B44EF9"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OAZ502B44E81"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OAZ682AEFF2E"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Ordine_di_acquisto"/>
         <NamedIndividual IRI="#OAZ842BFB79C"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -10409,235 +10430,235 @@
         <NamedIndividual IRI="#ProceduraRistretta"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA1002785"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA528757"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA528951"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA539697"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA585147"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA591809"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA650502"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA662745"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA681474"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA690538"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA693788"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA721717"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA721754"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA729050"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA742534"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA742566"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA749787"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA775361"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA776556"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA792815"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA798980"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA815389"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA903510"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA911505"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA956000"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA957416"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA967059"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA974856"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA978086"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B1002785"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B528757"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B528951"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B539697"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B585147"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B591809"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B650502"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B662745"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B681474"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B690538"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B693788"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B721717"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B721754"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B729050"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B742534"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B742566"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B749787"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B775361"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B776556"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B792815"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B798980"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B815389"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B903510"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B911505"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B956000"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B957416"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B967059"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B974856"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Comunicazione"/>
+        <Class IRI="#Richiesta_verifica_documenti"/>
         <NamedIndividual IRI="#VA-B978086"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -29320,6 +29341,16 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <Literal>Offerta n. OZ842BFB79C</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">Gli individui di questa classe sono gli ordini di acquisto che una unità organizzativa inoltra a un fornitore.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">Ordine di acquisto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ProceduraAperta</IRI>
         <Literal>Procedura aperta</Literal>
@@ -29478,6 +29509,26 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RA978086</IRI>
         <Literal>Richiesta di approvvigionamento n. RA978086</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Richiesta_di_approvvigionamento</IRI>
+        <Literal xml:lang="it">Gli individui di questa classe sono le richieste di approvvigionamento da parte di una unità organizzativa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Richiesta_di_approvvigionamento</IRI>
+        <Literal xml:lang="it">Richiesta di approvvigionamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Richiesta_verifica_documenti</IRI>
+        <Literal xml:lang="it">Gli individui di questa classe sono le richieste di verifica dei documenti (e.g. un bando di gara) che una unità organizzativa invia all&apos;ente competente (e.g. ANAC).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Richiesta_verifica_documenti</IRI>
+        <Literal xml:lang="it">Richiesta verifica documenti</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

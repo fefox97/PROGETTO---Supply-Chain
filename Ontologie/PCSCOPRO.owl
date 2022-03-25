@@ -610,10 +610,19 @@
         <Class IRI="http://dati.gov.it/onto/dcatapit#Organization"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="PCSCOPRO2:Comunicazione"/>
+        <Class IRI="#Comunicazione"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <Class IRI="#Data_di_scadenza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ordine_di_acquisto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Richiesta_verifica_documenti"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Actualization"/>
@@ -1435,28 +1444,28 @@
         <Class abbreviatedIRI="l0:Topic"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:ha_destinatario"/>
+        <ObjectProperty IRI="#ha_data_di_scadenza"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:ha_mittente"/>
+        <ObjectProperty IRI="#ha_destinatario"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:riguarda_bando_di_gara"/>
+        <ObjectProperty IRI="#ha_mittente"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:riguarda_lotto"/>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento"/>
+        <ObjectProperty IRI="#riguarda_lotto"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:verifica"/>
+        <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:è_verificato_da"/>
+        <ObjectProperty IRI="#verifica"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ha_data_di_scadenza"/>
+        <ObjectProperty IRI="#è_verificato_da"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#IsTargetOf"/>
@@ -1870,16 +1879,16 @@
         <ObjectProperty abbreviatedIRI="l0:precedes"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:codice_fiscale"/>
+        <DataProperty IRI="#codice_fiscale"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:codice_istat"/>
+        <DataProperty IRI="#codice_istat"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:oggetto_della_gara"/>
+        <DataProperty IRI="#oggetto_della_gara"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:provincia"/>
+        <DataProperty IRI="#provincia"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="https://w3id.org/italia/onto/MU/maxPercentage"/>
@@ -2047,7 +2056,7 @@
         <DataProperty abbreviatedIRI="l0:positionInSequence"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
+        <NamedIndividual IRI="#Anac"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
@@ -2300,12 +2309,24 @@
         </ObjectUnionOf>
     </EquivalentClasses>
     <SubClassOf>
-        <Class abbreviatedIRI="PCSCOPRO2:Comunicazione"/>
+        <Class IRI="#Comunicazione"/>
         <Class abbreviatedIRI="l0:EventOrSituation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <Class IRI="#Data_di_scadenza"/>
         <Class IRI="https://w3id.org/italia/onto/TI/TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ordine_di_acquisto"/>
+        <Class IRI="#Comunicazione"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Richiesta_di_approvvigionamento"/>
+        <Class IRI="#Comunicazione"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Richiesta_verifica_documenti"/>
+        <Class IRI="#Comunicazione"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Actualization"/>
@@ -4070,8 +4091,8 @@
     <SubClassOf>
         <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ha_data_di_scadenza"/>
-            <Class IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+            <ObjectProperty IRI="#ha_data_di_scadenza"/>
+            <Class IRI="#Data_di_scadenza"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -5931,10 +5952,10 @@
     </DisjointClasses>
     <ClassAssertion>
         <Class abbreviatedIRI="l0:Agente"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
+        <NamedIndividual IRI="#Anac"/>
     </ClassAssertion>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ha_data_di_scadenza"/>
+        <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <ObjectProperty IRI="https://w3id.org/italia/onto/TI/hasTemporalEntity"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -6082,8 +6103,8 @@
         <ObjectProperty abbreviatedIRI="l0:isMemberOf"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:verifica"/>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:è_verificato_da"/>
+        <ObjectProperty IRI="#verifica"/>
+        <ObjectProperty IRI="#è_verificato_da"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#IsTargetOf"/>
@@ -6354,32 +6375,32 @@
         <ObjectProperty IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#isSubProcessOf"/>
     </IrreflexiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:ha_destinatario"/>
-        <Class abbreviatedIRI="PCSCOPRO2:Comunicazione"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:ha_mittente"/>
-        <Class abbreviatedIRI="PCSCOPRO2:Comunicazione"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:riguarda_bando_di_gara"/>
-        <Class abbreviatedIRI="PCSCOPRO2:Comunicazione"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:riguarda_lotto"/>
-        <Class abbreviatedIRI="PCSCOPRO2:Comunicazione"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento"/>
-        <Class abbreviatedIRI="PCSCOPRO2:Comunicazione"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:verifica"/>
-        <Class abbreviatedIRI="l0:Agente"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ha_data_di_scadenza"/>
+        <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ha_destinatario"/>
+        <Class IRI="#Comunicazione"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ha_mittente"/>
+        <Class IRI="#Comunicazione"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <Class IRI="#Comunicazione"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#riguarda_lotto"/>
+        <Class IRI="#Comunicazione"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
+        <Class IRI="#Comunicazione"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#verifica"/>
+        <Class abbreviatedIRI="l0:Agente"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#IsTargetOf"/>
@@ -6968,7 +6989,11 @@
         <Class abbreviatedIRI="l0:Entity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:ha_destinatario"/>
+        <ObjectProperty IRI="#ha_data_di_scadenza"/>
+        <Class IRI="#Data_di_scadenza"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ha_destinatario"/>
         <ObjectUnionOf>
             <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
             <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Purchasing"/>
@@ -6976,7 +7001,7 @@
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:ha_mittente"/>
+        <ObjectProperty IRI="#ha_mittente"/>
         <ObjectUnionOf>
             <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
             <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Purchasing"/>
@@ -6984,24 +7009,20 @@
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:riguarda_bando_di_gara"/>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
         <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:riguarda_lotto"/>
+        <ObjectProperty IRI="#riguarda_lotto"/>
         <Class abbreviatedIRI="PublicContract:Lot"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento"/>
+        <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <Class abbreviatedIRI="PublicContract:ProcurementProject"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="PCSCOPRO2:verifica"/>
+        <ObjectProperty IRI="#verifica"/>
         <Class abbreviatedIRI="PublicContract:ProcurementDocument"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ha_data_di_scadenza"/>
-        <Class IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#IsTargetOf"/>
@@ -7646,22 +7667,22 @@
         <DataProperty IRI="https://w3id.org/italia/onto/TI/time"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:codice_fiscale"/>
+        <DataProperty IRI="#codice_fiscale"/>
         <ObjectUnionOf>
             <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
             <Class abbreviatedIRI="l0:Agente"/>
         </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:codice_istat"/>
+        <DataProperty IRI="#codice_istat"/>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:oggetto_della_gara"/>
+        <DataProperty IRI="#oggetto_della_gara"/>
         <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:provincia"/>
+        <DataProperty IRI="#provincia"/>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -7888,19 +7909,19 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:codice_fiscale"/>
+        <DataProperty IRI="#codice_fiscale"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:codice_istat"/>
+        <DataProperty IRI="#codice_istat"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:oggetto_della_gara"/>
+        <DataProperty IRI="#oggetto_della_gara"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="PCSCOPRO2:provincia"/>
+        <DataProperty IRI="#provincia"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -8599,109 +8620,139 @@
         <Literal xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/type) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:codice_fiscale</AbbreviatedIRI>
-        <Literal xml:lang="it">codice fiscale</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:codice_istat</AbbreviatedIRI>
-        <Literal xml:lang="it">Codice istat della stazione appaltante</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:codice_istat</AbbreviatedIRI>
-        <Literal xml:lang="it">codice istat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:ha_destinatario</AbbreviatedIRI>
-        <Literal xml:lang="it">Proprietà che lega una comunicazione al suo destinatario</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:ha_destinatario</AbbreviatedIRI>
-        <Literal xml:lang="it">ha destinatario</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:ha_mittente</AbbreviatedIRI>
-        <Literal xml:lang="it">Proprietà che lega una comunicazione al suo mittente</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:ha_mittente</AbbreviatedIRI>
-        <Literal xml:lang="it">ha mittente</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:oggetto_della_gara</AbbreviatedIRI>
-        <Literal xml:lang="it">Indica l&apos;oggetto del bando di gara</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:oggetto_della_gara</AbbreviatedIRI>
-        <Literal xml:lang="it">oggetto della gara</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:provincia</AbbreviatedIRI>
-        <Literal xml:lang="it">Indica la provincia in cui ha sede l&apos;organizzazione</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:riguarda_bando_di_gara</AbbreviatedIRI>
-        <Literal xml:lang="it">Proprietà che lega una comunicazione al bando di gara a cui fa riferimento</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:riguarda_bando_di_gara</AbbreviatedIRI>
-        <Literal xml:lang="it">riguarda bando di gara</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:riguarda_lotto</AbbreviatedIRI>
-        <Literal xml:lang="it">Proprietà che lega un ordine di acquisto al lotto di riferimento</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:riguarda_lotto</AbbreviatedIRI>
-        <Literal xml:lang="it">riguarda lotto</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento</AbbreviatedIRI>
-        <Literal xml:lang="it">Proprietà che lega una comunicazione al progetto di approvvigionamento a cui si riferisce</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento</AbbreviatedIRI>
-        <Literal xml:lang="it">si riferisce a progetto di approvvigionamento</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>PCSCOPRO2:è_verificato_da</AbbreviatedIRI>
-        <Literal xml:lang="it">è verificato da</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza</IRI>
+        <IRI>#Data_di_scadenza</IRI>
         <Literal xml:lang="it">Gli individui di questa classe rappresentano le date di scadenza di un bando.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza</IRI>
+        <IRI>#Data_di_scadenza</IRI>
         <Literal xml:lang="it">Data di scadenza</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ha_data_di_scadenza</IRI>
+        <IRI>#Ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">Gli individui di questa classe sono gli ordini di acquisto che una unità organizzativa inoltra a un fornitore.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">Ordine di acquisto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Richiesta_di_approvvigionamento</IRI>
+        <Literal xml:lang="it">Gli individui di questa classe sono le richieste di approvvigionamento da parte di una unità organizzativa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Richiesta_di_approvvigionamento</IRI>
+        <Literal xml:lang="it">Richiesta di approvvigionamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Richiesta_verifica_documenti</IRI>
+        <Literal xml:lang="it">Gli individui di questa classe sono le richieste di verifica dei documenti (e.g. un bando di gara) che una unità organizzativa invia all&apos;ente competente (e.g. ANAC).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Richiesta_verifica_documenti</IRI>
+        <Literal xml:lang="it">Richiesta verifica documenti</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#codice_fiscale</IRI>
+        <Literal xml:lang="it">codice fiscale</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#codice_istat</IRI>
+        <Literal xml:lang="it">Codice istat della stazione appaltante</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#codice_istat</IRI>
+        <Literal xml:lang="it">codice istat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ha_data_di_scadenza</IRI>
         <Literal xml:lang="it">Proprietà che lega un bando di gara alla sua data di scadenza.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ha_data_di_scadenza</IRI>
+        <IRI>#ha_data_di_scadenza</IRI>
         <Literal xml:lang="it">ha data di scadenza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ha_destinatario</IRI>
+        <Literal xml:lang="it">Proprietà che lega una comunicazione al suo destinatario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ha_destinatario</IRI>
+        <Literal xml:lang="it">ha destinatario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ha_mittente</IRI>
+        <Literal xml:lang="it">Proprietà che lega una comunicazione al suo mittente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ha_mittente</IRI>
+        <Literal xml:lang="it">ha mittente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#oggetto_della_gara</IRI>
+        <Literal xml:lang="it">Indica l&apos;oggetto del bando di gara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oggetto_della_gara</IRI>
+        <Literal xml:lang="it">oggetto della gara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#provincia</IRI>
+        <Literal xml:lang="it">Indica la provincia in cui ha sede l&apos;organizzazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#riguarda_bando_di_gara</IRI>
+        <Literal xml:lang="it">Proprietà che lega una comunicazione al bando di gara a cui fa riferimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#riguarda_bando_di_gara</IRI>
+        <Literal xml:lang="it">riguarda bando di gara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#riguarda_lotto</IRI>
+        <Literal xml:lang="it">Proprietà che lega un ordine di acquisto al lotto di riferimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#riguarda_lotto</IRI>
+        <Literal xml:lang="it">riguarda lotto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#si_riferisce_a_progetto_di_approvvigionamento</IRI>
+        <Literal xml:lang="it">Proprietà che lega una comunicazione al progetto di approvvigionamento a cui si riferisce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#si_riferisce_a_progetto_di_approvvigionamento</IRI>
+        <Literal xml:lang="it">si riferisce a progetto di approvvigionamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#è_verificato_da</IRI>
+        <Literal xml:lang="it">è verificato da</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

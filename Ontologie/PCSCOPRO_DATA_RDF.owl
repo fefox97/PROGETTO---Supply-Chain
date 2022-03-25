@@ -3522,6 +3522,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdfs:comment xml:lang="it">Gli individui di questa classe sono gli ordini di acquisto che una unità organizzativa inoltra a un fornitore.</rdfs:comment>
+        <rdfs:label xml:lang="it">Ordine di acquisto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdfs:comment xml:lang="it">Gli individui di questa classe sono le richieste di approvvigionamento da parte di una unità organizzativa.</rdfs:comment>
+        <rdfs:label xml:lang="it">Richiesta di approvvigionamento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdfs:comment xml:lang="it">Gli individui di questa classe sono le richieste di verifica dei documenti (e.g. un bando di gara) che una unità organizzativa invia all&apos;ente competente (e.g. ANAC).</rdfs:comment>
+        <rdfs:label xml:lang="it">Richiesta verifica documenti</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Actualization -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Actualization">
@@ -12561,7 +12591,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940799088 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940799088">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6940799088"/>
@@ -12573,7 +12603,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69408044A7 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69408044A7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#69408044A7"/>
@@ -12585,7 +12615,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940810999 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940810999">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6940810999"/>
@@ -12597,7 +12627,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940909B4B -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940909B4B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6940909B4B"/>
@@ -12609,7 +12639,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940929BCC -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940929BCC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00458450012"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6940929BCC"/>
@@ -12621,7 +12651,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6941349666 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6941349666">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6941349666"/>
@@ -12633,7 +12663,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA694136104F -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA694136104F">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#694136104F"/>
@@ -12645,7 +12675,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942276363 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942276363">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#10994940152"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6942276363"/>
@@ -12657,7 +12687,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69429141E2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69429141E2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01140030360"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#69429141E2"/>
@@ -12669,7 +12699,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69429217A7 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69429217A7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01140030360"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#69429217A7"/>
@@ -12681,7 +12711,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942925AF3 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942925AF3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07123400157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6942925AF3"/>
@@ -12693,7 +12723,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942926BC6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942926BC6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#10994940152"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6942926BC6"/>
@@ -12705,7 +12735,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942928D6C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942928D6C">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6942928D6C"/>
@@ -12717,7 +12747,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942930F12 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942930F12">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09238800156"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6942930F12"/>
@@ -12729,7 +12759,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942933190 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942933190">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07123400157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#6942933190"/>
@@ -12741,7 +12771,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76369713D6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76369713D6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02344710484"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76369713D6"/>
@@ -12753,7 +12783,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7636980B41 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7636980B41">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02344710484"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7636980B41"/>
@@ -12765,7 +12795,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637002D68 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637002D68">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03524050238"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637002D68"/>
@@ -12777,7 +12807,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370060B9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370060B9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76370060B9"/>
@@ -12789,7 +12819,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637009332 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637009332">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637009332"/>
@@ -12801,7 +12831,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763701367E -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763701367E">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#763701367E"/>
@@ -12813,7 +12843,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637014751 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637014751">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637014751"/>
@@ -12825,7 +12855,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370168F7 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370168F7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76370168F7"/>
@@ -12837,7 +12867,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637021D16 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637021D16">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637021D16"/>
@@ -12849,7 +12879,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637023EBC -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637023EBC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03524050238"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637023EBC"/>
@@ -12861,7 +12891,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763702613A -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763702613A">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#763702613A"/>
@@ -12873,7 +12903,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370282E0 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370282E0">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76370282E0"/>
@@ -12885,7 +12915,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763703262C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763703262C">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#763703262C"/>
@@ -12897,7 +12927,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370358A5 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370358A5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76370358A5"/>
@@ -12909,7 +12939,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637038B1E -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637038B1E">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637038B1E"/>
@@ -12921,7 +12951,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637041D97 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637041D97">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637041D97"/>
@@ -12933,7 +12963,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637042E6A -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637042E6A">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637042E6A"/>
@@ -12945,7 +12975,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637049434 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637049434">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7637049434"/>
@@ -12957,7 +12987,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370515DA -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370515DA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03524050238"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76370515DA"/>
@@ -12969,7 +12999,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370569F9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370569F9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76370569F9"/>
@@ -12981,7 +13011,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA764361704B -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA764361704B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00860580158"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#764361704B"/>
@@ -12993,7 +13023,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7688013D04 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7688013D04">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02372680187"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7688013D04"/>
@@ -13005,7 +13035,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128469DC -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128469DC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09674060158"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#77128469DC"/>
@@ -13017,7 +13047,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA771286163E -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA771286163E">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09674060158"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#771286163E"/>
@@ -13029,7 +13059,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7712870DA9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7712870DA9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7712870DA9"/>
@@ -13041,7 +13071,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128751CD -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128751CD">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#77128751CD"/>
@@ -13053,7 +13083,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128816BF -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128816BF">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#06459400963"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#77128816BF"/>
@@ -13065,7 +13095,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7712889D57 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7712889D57">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#90025280208"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7712889D57"/>
@@ -13077,7 +13107,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787873167F -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787873167F">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03016250718"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#787873167F"/>
@@ -13089,7 +13119,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878742F90 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878742F90">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03277950287"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7878742F90"/>
@@ -13101,7 +13131,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878748487 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878748487">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03237150234"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7878748487"/>
@@ -13113,7 +13143,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787538A6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787538A6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02173550282"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#78787538A6"/>
@@ -13125,7 +13155,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787630E9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787630E9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01409770631"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#78787630E9"/>
@@ -13137,7 +13167,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878768508 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878768508">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02173550282"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7878768508"/>
@@ -13149,7 +13179,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787878316A -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787878316A">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02506040753"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#787878316A"/>
@@ -13161,7 +13191,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878785310 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878785310">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11352961004"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7878785310"/>
@@ -13173,7 +13203,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787874B6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787874B6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11352961004"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#78787874B6"/>
@@ -13185,7 +13215,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787879072F -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787879072F">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00440180545"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#787879072F"/>
@@ -13197,7 +13227,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878802118 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878802118">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02173550282"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7878802118"/>
@@ -13209,7 +13239,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7921918D87 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7921918D87">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03552910873"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7921918D87"/>
@@ -13221,7 +13251,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7996404953 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7996404953">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7996404953"/>
@@ -13233,7 +13263,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA802544678B -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA802544678B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#06032681006"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3901420236"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#802544678B"/>
@@ -13245,7 +13275,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8027915D05 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8027915D05">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02144720790"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8027915D05"/>
@@ -13257,7 +13287,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA80902930FD -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA80902930FD">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03552910873"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#80902930FD"/>
@@ -13269,7 +13299,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA809059388C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA809059388C">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03552910873"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#809059388C"/>
@@ -13281,7 +13311,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81446791BC -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81446791BC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#81446791BC"/>
@@ -13293,7 +13323,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8144768B2B -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8144768B2B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8144768B2B"/>
@@ -13305,7 +13335,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8144793FCB -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8144793FCB">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8144793FCB"/>
@@ -13317,7 +13347,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145665F64 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145665F64">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8145665F64"/>
@@ -13329,7 +13359,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145678A20 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145678A20">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8145678A20"/>
@@ -13341,7 +13371,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145690409 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145690409">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8145690409"/>
@@ -13353,7 +13383,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81457158A9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81457158A9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#81457158A9"/>
@@ -13365,7 +13395,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81457250EC -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81457250EC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#81457250EC"/>
@@ -13377,7 +13407,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81994532AB -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81994532AB">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01542210222"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#81994532AB"/>
@@ -13389,7 +13419,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8199464BBC -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8199464BBC">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09331210154"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8199464BBC"/>
@@ -13401,7 +13431,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8199482A97 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8199482A97">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09331210154"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8199482A97"/>
@@ -13413,7 +13443,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82233055F5 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82233055F5">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02668590215"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#82233055F5"/>
@@ -13425,7 +13455,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8223309941 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8223309941">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02668590215"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8223309941"/>
@@ -13437,7 +13467,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82233299C2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82233299C2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00100190610"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#82233299C2"/>
@@ -13449,7 +13479,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8223332C3B -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8223332C3B">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00100190610"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8223332C3B"/>
@@ -13461,7 +13491,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8276108C5D -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8276108C5D">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02402671206"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8276108C5D"/>
@@ -13473,7 +13503,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902377FD -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902377FD">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01323030690"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#82902377FD"/>
@@ -13485,7 +13515,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902388D0 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902388D0">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01323030690"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#82902388D0"/>
@@ -13497,7 +13527,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902399A3 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902399A3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00860580158"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#82902399A3"/>
@@ -13509,7 +13539,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8290240A76 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8290240A76">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04303410726"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8290240A76"/>
@@ -13521,7 +13551,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8295984E8E -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8295984E8E">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01542580269"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8295984E8E"/>
@@ -13533,7 +13563,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA83136977CB -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA83136977CB">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02119100358"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#83136977CB"/>
@@ -13545,7 +13575,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA83828155C6 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA83828155C6">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08230471008"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#83828155C6"/>
@@ -13557,7 +13587,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA84384648C7 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA84384648C7">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01854770508"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#84384648C7"/>
@@ -13569,7 +13599,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8518451026 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8518451026">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08551090155"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8518451026"/>
@@ -13581,7 +13611,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8603719D83 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8603719D83">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08230471008"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8603719D83"/>
@@ -13593,7 +13623,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8613626D07 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8613626D07">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04127270157"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8613626D07"/>
@@ -13605,7 +13635,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8628847DCB -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8628847DCB">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09331210154"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8628847DCB"/>
@@ -13617,7 +13647,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8631093B41 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8631093B41">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08082461008"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11264670156"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1874240342"/>
@@ -13630,7 +13660,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8631103384 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8631103384">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1874240342"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8631103384"/>
@@ -13642,7 +13672,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA86311087A3 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA86311087A3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03071411205"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1874240342"/>
@@ -13655,7 +13685,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA867469371E -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA867469371E">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01260340482"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#867469371E"/>
@@ -13667,7 +13697,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ0B2BFB62C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ0B2BFB62C">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z0B2BFB62C"/>
@@ -13679,7 +13709,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ312B44EF9 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ312B44EF9">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04721290874"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z312B44EF9"/>
@@ -13691,7 +13721,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ502B44E81 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ502B44E81">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04721290874"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z502B44E81"/>
@@ -13703,7 +13733,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ682AEFF2E -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ682AEFF2E">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z682AEFF2E"/>
@@ -13715,7 +13745,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ842BFB79C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ842BFB79C">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_lotto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z842BFB79C"/>
@@ -13821,7 +13851,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA1002785 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA1002785">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1002785"/>
@@ -13833,7 +13863,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA528757 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA528757">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#528757"/>
@@ -13845,7 +13875,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA528951 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA528951">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#528951"/>
@@ -13857,7 +13887,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA539697 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA539697">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#539697"/>
@@ -13869,7 +13899,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA585147 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA585147">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#585147"/>
@@ -13881,7 +13911,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA591809 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA591809">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#591809"/>
@@ -13893,7 +13923,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA650502 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA650502">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#650502"/>
@@ -13905,7 +13935,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA662745 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA662745">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#662745"/>
@@ -13917,7 +13947,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA681474 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA681474">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3901420236"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3901420236"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#681474"/>
@@ -13929,7 +13959,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA690538 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA690538">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#690538"/>
@@ -13941,7 +13971,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA693788 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA693788">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#693788"/>
@@ -13953,7 +13983,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA721717 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA721717">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#721717"/>
@@ -13965,7 +13995,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA721754 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA721754">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#721754"/>
@@ -13977,7 +14007,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA729050 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA729050">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#729050"/>
@@ -13989,7 +14019,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA742534 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA742534">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#742534"/>
@@ -14001,7 +14031,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA742566 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA742566">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#742566"/>
@@ -14013,7 +14043,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA749787 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA749787">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#749787"/>
@@ -14025,7 +14055,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA775361 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA775361">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#775361"/>
@@ -14037,7 +14067,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA776556 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA776556">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#776556"/>
@@ -14049,7 +14079,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA792815 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA792815">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#792815"/>
@@ -14061,7 +14091,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA798980 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA798980">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#798980"/>
@@ -14073,7 +14103,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA815389 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA815389">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#815389"/>
@@ -14085,7 +14115,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA903510 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA903510">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#903510"/>
@@ -14097,7 +14127,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA911505 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA911505">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#911505"/>
@@ -14109,7 +14139,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA956000 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA956000">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#956000"/>
@@ -14121,7 +14151,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA957416 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA957416">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#957416"/>
@@ -14133,7 +14163,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA967059 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA967059">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#967059"/>
@@ -14145,7 +14175,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA974856 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA974856">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#974856"/>
@@ -14157,7 +14187,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA978086 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#RA978086">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_di_approvvigionamento"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1874240342"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1874240342"/>
         <PCSCOPRO2:si_riferisce_a_progetto_di_approvvigionamento rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#978086"/>
@@ -14169,7 +14199,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B1002785 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B1002785">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B1002785"/>
@@ -14181,7 +14211,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B528757 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B528757">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528757"/>
@@ -14193,7 +14223,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B528951 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B528951">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
@@ -14205,7 +14235,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B539697 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B539697">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B539697"/>
@@ -14217,7 +14247,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B585147 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B585147">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
@@ -14229,7 +14259,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B591809 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B591809">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B591809"/>
@@ -14241,7 +14271,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B650502 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B650502">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B650502"/>
@@ -14253,7 +14283,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B662745 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B662745">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B662745"/>
@@ -14265,7 +14295,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B681474 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B681474">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3901420236"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B681474"/>
@@ -14277,7 +14307,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B690538 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B690538">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
@@ -14289,7 +14319,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B693788 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B693788">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B693788"/>
@@ -14301,7 +14331,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B721717 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B721717">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721717"/>
@@ -14313,7 +14343,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B721754 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B721754">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721754"/>
@@ -14325,7 +14355,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B729050 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B729050">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B729050"/>
@@ -14337,7 +14367,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B742534 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B742534">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742534"/>
@@ -14349,7 +14379,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B742566 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B742566">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742566"/>
@@ -14361,7 +14391,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B749787 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B749787">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787"/>
@@ -14373,7 +14403,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B775361 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B775361">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B775361"/>
@@ -14385,7 +14415,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B776556 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B776556">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B776556"/>
@@ -14397,7 +14427,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B792815 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B792815">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815"/>
@@ -14409,7 +14439,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B798980 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B798980">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B798980"/>
@@ -14421,7 +14451,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B815389 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B815389">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B815389"/>
@@ -14433,7 +14463,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B903510 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B903510">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B903510"/>
@@ -14445,7 +14475,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B911505 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B911505">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B911505"/>
@@ -14457,7 +14487,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B956000 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B956000">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
@@ -14469,7 +14499,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B957416 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B957416">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B957416"/>
@@ -14481,7 +14511,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B967059 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B967059">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B967059"/>
@@ -14493,7 +14523,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B974856 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B974856">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B974856"/>
@@ -14505,7 +14535,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B978086 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#VA-B978086">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Comunicazione"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Richiesta_verifica_documenti"/>
         <PCSCOPRO2:ha_destinatario rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Anac"/>
         <PCSCOPRO2:ha_mittente rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1874240342"/>
         <PCSCOPRO2:riguarda_bando_di_gara rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B978086"/>
@@ -17740,13 +17770,13 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/coverage) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</rdfs:comment>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Coverage</rdfs:label>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
-        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/date) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/date) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:comment xml:lang="en">A point or period of time associated with an event in the lifecycle of the resource.</rdfs:comment>
         <terms:description xml:lang="en">Date may be used to express temporal information at any level of granularity.  Recommended practice is to express the date, date/time, or period of time according to ISO 8601-1 [[ISO 8601-1](https://www.iso.org/iso-8601-date-and-time-format.html)] or a published profile of the ISO standard, such as the W3C Note on Date and Time Formats [[W3CDTF](https://www.w3.org/TR/NOTE-datetime)] or the Extended Date/Time Format Specification [[EDTF](http://www.loc.gov/standards/datetime/)].  If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used. Date ranges may be specified using ISO 8601 period of time specification in which start and end dates are separated by a &apos;/&apos; (slash) character.  Either the start or end date may be missing.</terms:description>
         <rdfs:label xml:lang="en">Date</rdfs:label>
@@ -17760,8 +17790,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdfs:label xml:lang="en">Description</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/format">
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <terms:description xml:lang="en">Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [[MIME](https://www.iana.org/assignments/media-types/media-types.xhtml)].</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/format) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:label xml:lang="en">Format</rdfs:label>
         <rdfs:comment xml:lang="en">The file format, physical medium, or dimensions of the resource.</rdfs:comment>
@@ -17787,8 +17817,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/publisher) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Publisher</rdfs:label>
-        <terms:description xml:lang="en">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</terms:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <terms:description xml:lang="en">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</terms:description>
         <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/relation">
@@ -17809,8 +17839,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/source) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
-        <rdfs:comment xml:lang="en">A related resource from which the described resource is derived.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:comment xml:lang="en">A related resource from which the described resource is derived.</rdfs:comment>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <terms:description xml:lang="en">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</terms:description>
         <rdfs:label xml:lang="en">Source</rdfs:label>
@@ -17826,8 +17856,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/type">
         <rdfs:comment xml:lang="en">The nature or genre of the resource.</rdfs:comment>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/type) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label xml:lang="en">Type</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <terms:description xml:lang="en">Recommended practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [[DCMI-TYPE](http://dublincore.org/documents/dcmi-type-vocabulary/)]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
     </rdf:Description>
@@ -17835,8 +17865,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <rdfs:comment xml:lang="it">Fornitura di prodotti</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:label xml:lang="it">Fornitura di Prodotto</rdfs:label>
         <rdfs:comment xml:lang="en">The class that includes those interventions concerning the purchase of goods.</rdfs:comment>
+        <rdfs:label xml:lang="it">Fornitura di Prodotto</rdfs:label>
         <rdfs:label xml:lang="it">Fornitura di Bene</rdfs:label>
         <rdfs:label xml:lang="en">Good supply</rdfs:label>
         <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nell&apos;acquisto di beni.</rdfs:comment>
@@ -17855,8 +17885,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nella realizzazione di lavori pubblici.</rdfs:comment>
         <rdfs:comment xml:lang="en">The class that includes those interventions concerning the actualization of public works.</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:label xml:lang="en">Work supply</rdfs:label>
         <rdfs:label xml:lang="it">Fornitura di lavori</rdfs:label>
+        <rdfs:label xml:lang="en">Work supply</rdfs:label>
     </rdf:Description>
     
 
