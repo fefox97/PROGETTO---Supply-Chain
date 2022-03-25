@@ -1,8 +1,8 @@
-:- working_directory(D, '/Users/fefox/Library/Mobile Documents/com~apple~CloudDocs/Università Magistrale/KEBDI/PROGETTO - Supply Chain/Prolog/Sistema Esperto/').
+:- working_directory(D, '/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Sistema Esperto/').
 
-:- consult('/Users/fefox/Library/Mobile Documents/com~apple~CloudDocs/Università Magistrale/KEBDI/PROGETTO - Supply Chain/Prolog/Utility/thea-master/thea.pl').
-:- consult('/Users/fefox/Library/Mobile Documents/com~apple~CloudDocs/Università Magistrale/KEBDI/PROGETTO - Supply Chain/Prolog/Utility/regoleSupportoBPMNAggiustate.pl').
-:- consult('/Users/fefox/Library/Mobile Documents/com~apple~CloudDocs/Università Magistrale/KEBDI/PROGETTO - Supply Chain/Prolog/fatti.pl').
+:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/thea-master/thea.pl').
+:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/regoleSupportoBPMNAggiustate.pl').
+:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fatti.pl').
 
 %----------------------------------------------------------------------------------------------------
 % REGOLE GENERALI
