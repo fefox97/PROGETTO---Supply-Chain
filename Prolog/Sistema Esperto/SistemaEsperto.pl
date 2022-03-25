@@ -86,19 +86,19 @@ writePrecedenza(NodoA, NodoB, Percorso):-
 
 %verifica
 precedenza(NodoA, NodoB, Percorso) :-
-    percorso(NodoA, NodoB, [NodoA], PercorsoR),
+    percorso(NodoA, NodoB, IDNodoA, IDNodoB, [NodoA], [IDNodoA], PercorsoR, IDPercorsoR),
     reverse(PercorsoR, Percorso).   %inverto il percorso per ottenere l'ordine corretto
 
 %verifico se esiste un arco che collega direttamente due nodi
-percorso(NodoA, NodoB, NodoInt, [NodoB|NodoInt]) :-
+percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, [NodoB|Visitati], [IDNodoB|IDVisitati]) :-
     arco(source(NodoA,IDNodoA,_),target(NodoB,IDNodoB,_)).
 
-%se non esiste un arco che collega direttamente due nodi, verifico se esiste un arco intermedio
-percorso(NodoA, NodoB, Visitato, Percorso) :-
-    arco(source(NodoA,_,_),target(NodoC,_,_)),
-    NodoC \== NodoB,
-    \+member(NodoC, Visitato),
-    percorso(NodoC, NodoB, [NodoC|Visitato], Percorso).
+%se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
+percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPercorso) :-
+    arco(source(NodoA,IDNodoA,_),target(NodoC,IDNodoC,_)),
+    IDNodoC \== IDNodoB,
+    \+member(IDNodoC, IDVisitati),
+    percorso(NodoC, NodoB, IDNodoC, IDNodoB, [NodoC|Visitati], [IDNodoC|IDVisitati], Percorso, IDPercorso).
 
 %----------------------------------------------------------------------------------------------------
 
