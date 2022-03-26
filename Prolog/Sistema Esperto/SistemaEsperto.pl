@@ -34,27 +34,33 @@ replaceString(String, ToReplace, ReplaceWith, Result) :-
 %----------------------------------------------------------------------------------------------------
 
 %restituisce tutti gli individui di una classe
+
+%getIndividual(-IRIClasse, -Individuo, -ShortIndividuo)
+getIndividual(ClassIRI,Individual,ShortIndividual) :-
+    classAssertion(ClassIRI,Individual),
+    shortType(Individual, ShortIndividual).
+
 %getIndividual(+NomeClasse, -Individuo, -ShortIndividuo)
 getIndividual(NClass,Individual,ShortIndividual) :-
+    nonvar(NClass),     %mi accerto che NClass non sia una variabile, ma un termine ground
     replaceString(NClass,' ','_',Class),
-    %write_ln(Class),
     (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI)),
     classAssertion(ClassIRI,Individual),
     shortType(Individual, ShortIndividual).
-    %write(Value), nl.
 
 %----------------------------------------------------------------------------------------------------
 
 %restituisce gli individui se dati i nomi di PropertyAssertion, Domain e Range; 
 %restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range.
-%getIndividual(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
-getProperyAssertion(PropertyIRI, Domain, Range, IndividualD, IndividualR) :-
+%getProperyAssertion(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
+getProperyAssertion(PropertyIRI, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
     getIndividual(Domain, IndividualD, ShortIndividualD),
     getIndividual(Range, IndividualR, ShortIndividualR),
     propertyAssertion(PropertyIRI, IndividualD, IndividualR).
 
-%getIndividual(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
-getProperyAssertion(Property, Domain, Range, IndividualD, IndividualR) :-
+%getProperyAssertion(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
+getProperyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
+    nonvar(Property),   %mi accerto che Property non sia una variabile, ma un termine ground
     (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Property, PropertyIRI); atom_concat('https://w3id.org/italia/onto/PublicContract/', Property, PropertyIRI)),
     getIndividual(Domain, IndividualD, ShortIndividualD),
     getIndividual(Range, IndividualR, ShortIndividualR),
@@ -101,6 +107,10 @@ writePrecedenza(NodoA, NodoB):-
     precedenza(NodoA, NodoB, Percorso),
     writePath(Percorso).
 
+%controlloPrecedenza verifica solo se esiste almeno un percorso tra il NodeA e il NodoB
+controlloPrecedenza(NodoA, NodoB) :- 
+    precedenza(NodoA, NodoB, _), !.
+
 %verifica
 precedenza(NodoA, NodoB, Percorso) :-
     percorso(NodoA, NodoB, IDNodoA, IDNodoB, [NodoA], [IDNodoA], PercorsoR, IDPercorsoR),
@@ -120,11 +130,11 @@ percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPerco
 %----------------------------------------------------------------------------------------------------
 
 %REGOLA 1
-%Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approviggionamento da parte della Farmacia centrale.
+%Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
 regola1():-
-    precedenza(NameA, NameB, _),
-    getIndividual('Richiesta di approvvigionamento',_,ShortIndividualA),
-    annotatedElement(_,NameA,_,task,_,_,ShortIndividualA),
-    getIndividual('Ordine di acquisto',_,ShortIndividualB),
-    annotatedElement(_,NameB,_,sendTask,_,_,ShortIndividualB),
-    format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w",[ShortIndividualA,ShortIndividualB]).
+    getProperyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', Range, RichiestaApprovvigionamento, ShortRichiestaApprovvigionamento, BandoDiGara, ShortBandoDiGara),
+    getProperyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', Range, OrdineDiAcquisto, ShortOrdineDiAcquisto, BandoDiGara, ShortBandoDiGara),
+    annotatedElement(_,NameA,_,task,_,_,ShortRichiestaApprovvigionamento),
+    annotatedElement(_,NameB,_,sendTask,_,_,ShortOrdineDiAcquisto),
+    controlloPrecedenza(NameA, NameB),
+    format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w",[ShortRichiestaApprovvigionamento,ShortOrdineDiAcquisto]).
