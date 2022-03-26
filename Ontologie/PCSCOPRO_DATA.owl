@@ -14799,6 +14799,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6940799088"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA6940799088"/>
         <NamedIndividual IRI="#6940799088"/>
@@ -14812,6 +14817,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA69408044A7"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA69408044A7"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -14829,6 +14839,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6940810999"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA6940810999"/>
         <NamedIndividual IRI="#6940810999"/>
@@ -14842,6 +14857,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA6940909B4B"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6940909B4B"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -14859,6 +14879,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6940929BCC"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA6940929BCC"/>
         <NamedIndividual IRI="#6940929BCC"/>
@@ -14872,6 +14897,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA6941349666"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6941349666"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -14889,6 +14919,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA694136104F"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA694136104F"/>
         <NamedIndividual IRI="#694136104F"/>
@@ -14902,6 +14937,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA6942276363"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6942276363"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -14919,6 +14959,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA69429141E2"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA69429141E2"/>
         <NamedIndividual IRI="#69429141E2"/>
@@ -14932,6 +14977,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA69429217A7"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA69429217A7"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -14949,6 +14999,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6942925AF3"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA6942925AF3"/>
         <NamedIndividual IRI="#6942925AF3"/>
@@ -14962,6 +15017,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA6942926BC6"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6942926BC6"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -14979,6 +15039,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6942928D6C"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA6942928D6C"/>
         <NamedIndividual IRI="#6942928D6C"/>
@@ -14992,6 +15057,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA6942930F12"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6942930F12"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15009,6 +15079,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA6942933190"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA6942933190"/>
         <NamedIndividual IRI="#6942933190"/>
@@ -15022,6 +15097,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA76369713D6"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA76369713D6"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15039,6 +15119,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7636980B41"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7636980B41"/>
         <NamedIndividual IRI="#7636980B41"/>
@@ -15052,6 +15137,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7637002D68"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637002D68"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15069,6 +15159,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA76370060B9"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA76370060B9"/>
         <NamedIndividual IRI="#76370060B9"/>
@@ -15082,6 +15177,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7637009332"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637009332"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15099,6 +15199,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA763701367E"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA763701367E"/>
         <NamedIndividual IRI="#763701367E"/>
@@ -15112,6 +15217,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7637014751"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637014751"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15129,6 +15239,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA76370168F7"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA76370168F7"/>
         <NamedIndividual IRI="#76370168F7"/>
@@ -15142,6 +15257,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7637021D16"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637021D16"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15159,6 +15279,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637023EBC"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7637023EBC"/>
         <NamedIndividual IRI="#7637023EBC"/>
@@ -15172,6 +15297,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA763702613A"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA763702613A"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15189,6 +15319,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA76370282E0"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA76370282E0"/>
         <NamedIndividual IRI="#76370282E0"/>
@@ -15202,6 +15337,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA763703262C"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA763703262C"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15219,6 +15359,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA76370358A5"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA76370358A5"/>
         <NamedIndividual IRI="#76370358A5"/>
@@ -15232,6 +15377,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7637038B1E"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637038B1E"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15249,6 +15399,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637041D97"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7637041D97"/>
         <NamedIndividual IRI="#7637041D97"/>
@@ -15262,6 +15417,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7637042E6A"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637042E6A"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15279,6 +15439,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7637049434"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7637049434"/>
         <NamedIndividual IRI="#7637049434"/>
@@ -15292,6 +15457,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA76370515DA"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA76370515DA"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15309,6 +15479,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA76370569F9"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA76370569F9"/>
         <NamedIndividual IRI="#76370569F9"/>
@@ -15322,6 +15497,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA764361704B"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA764361704B"/>
+        <NamedIndividual IRI="#B528757"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15339,6 +15519,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7688013D04"/>
+        <NamedIndividual IRI="#B539697"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7688013D04"/>
         <NamedIndividual IRI="#7688013D04"/>
@@ -15352,6 +15537,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA77128469DC"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA77128469DC"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15369,6 +15559,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA771286163E"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA771286163E"/>
         <NamedIndividual IRI="#771286163E"/>
@@ -15382,6 +15577,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7712870DA9"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7712870DA9"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15399,6 +15599,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA77128751CD"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA77128751CD"/>
         <NamedIndividual IRI="#77128751CD"/>
@@ -15412,6 +15617,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA77128816BF"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA77128816BF"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15429,6 +15639,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7712889D57"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7712889D57"/>
         <NamedIndividual IRI="#7712889D57"/>
@@ -15442,6 +15657,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA787873167F"/>
         <NamedIndividual IRI="#2218910715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA787873167F"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15459,6 +15679,11 @@
         <NamedIndividual IRI="#2218910715"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7878742F90"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7878742F90"/>
         <NamedIndividual IRI="#7878742F90"/>
@@ -15472,6 +15697,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7878748487"/>
         <NamedIndividual IRI="#2218910715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7878748487"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15489,6 +15719,11 @@
         <NamedIndividual IRI="#2218910715"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA78787538A6"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA78787538A6"/>
         <NamedIndividual IRI="#78787538A6"/>
@@ -15502,6 +15737,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA78787630E9"/>
         <NamedIndividual IRI="#2218910715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA78787630E9"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15519,6 +15759,11 @@
         <NamedIndividual IRI="#2218910715"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7878768508"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7878768508"/>
         <NamedIndividual IRI="#7878768508"/>
@@ -15532,6 +15777,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA787878316A"/>
         <NamedIndividual IRI="#2218910715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA787878316A"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15549,6 +15799,11 @@
         <NamedIndividual IRI="#2218910715"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7878785310"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7878785310"/>
         <NamedIndividual IRI="#7878785310"/>
@@ -15562,6 +15817,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA78787874B6"/>
         <NamedIndividual IRI="#2218910715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA78787874B6"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15579,6 +15839,11 @@
         <NamedIndividual IRI="#2218910715"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA787879072F"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA787879072F"/>
         <NamedIndividual IRI="#787879072F"/>
@@ -15592,6 +15857,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7878802118"/>
         <NamedIndividual IRI="#2218910715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7878802118"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15609,6 +15879,11 @@
         <NamedIndividual IRI="#4721290874"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7921918D87"/>
+        <NamedIndividual IRI="#B591809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA7921918D87"/>
         <NamedIndividual IRI="#7921918D87"/>
@@ -15622,6 +15897,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA7996404953"/>
         <NamedIndividual IRI="#3051880833"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA7996404953"/>
+        <NamedIndividual IRI="#B721717"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15639,6 +15919,11 @@
         <NamedIndividual IRI="#3901420236"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA802544678B"/>
+        <NamedIndividual IRI="#B681474"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA802544678B"/>
         <NamedIndividual IRI="#802544678B"/>
@@ -15652,6 +15937,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8027915D05"/>
         <NamedIndividual IRI="#5841780827"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8027915D05"/>
+        <NamedIndividual IRI="#B650502"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15669,6 +15959,11 @@
         <NamedIndividual IRI="#4721290874"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA80902930FD"/>
+        <NamedIndividual IRI="#B662745"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA80902930FD"/>
         <NamedIndividual IRI="#80902930FD"/>
@@ -15682,6 +15977,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA809059388C"/>
         <NamedIndividual IRI="#4721290874"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA809059388C"/>
+        <NamedIndividual IRI="#B662745"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15699,6 +15999,11 @@
         <NamedIndividual IRI="#4733051009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA81446791BC"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA81446791BC"/>
         <NamedIndividual IRI="#81446791BC"/>
@@ -15712,6 +16017,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8144768B2B"/>
         <NamedIndividual IRI="#4733051009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8144768B2B"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15729,6 +16039,11 @@
         <NamedIndividual IRI="#4733051009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8144793FCB"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8144793FCB"/>
         <NamedIndividual IRI="#8144793FCB"/>
@@ -15742,6 +16057,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8145665F64"/>
         <NamedIndividual IRI="#4733051009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8145665F64"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15759,6 +16079,11 @@
         <NamedIndividual IRI="#4733051009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8145678A20"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8145678A20"/>
         <NamedIndividual IRI="#8145678A20"/>
@@ -15772,6 +16097,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8145690409"/>
         <NamedIndividual IRI="#4733051009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8145690409"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15789,6 +16119,11 @@
         <NamedIndividual IRI="#4733051009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA81457158A9"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA81457158A9"/>
         <NamedIndividual IRI="#81457158A9"/>
@@ -15802,6 +16137,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA81457250EC"/>
         <NamedIndividual IRI="#4733051009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA81457250EC"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15819,6 +16159,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA81994532AB"/>
+        <NamedIndividual IRI="#B729050"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA81994532AB"/>
         <NamedIndividual IRI="#81994532AB"/>
@@ -15832,6 +16177,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8199464BBC"/>
         <NamedIndividual IRI="#349040287"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8199464BBC"/>
+        <NamedIndividual IRI="#B729050"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15849,6 +16199,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8199482A97"/>
+        <NamedIndividual IRI="#B729050"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8199482A97"/>
         <NamedIndividual IRI="#8199482A97"/>
@@ -15862,6 +16217,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA82233055F5"/>
         <NamedIndividual IRI="#349040287"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA82233055F5"/>
+        <NamedIndividual IRI="#B749787"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15879,6 +16239,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8223309941"/>
+        <NamedIndividual IRI="#B749787"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8223309941"/>
         <NamedIndividual IRI="#8223309941"/>
@@ -15892,6 +16257,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA82233299C2"/>
         <NamedIndividual IRI="#349040287"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA82233299C2"/>
+        <NamedIndividual IRI="#B749787"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15909,6 +16279,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8223332C3B"/>
+        <NamedIndividual IRI="#B749787"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8223332C3B"/>
         <NamedIndividual IRI="#8223332C3B"/>
@@ -15922,6 +16297,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8276108C5D"/>
         <NamedIndividual IRI="#1310860505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8276108C5D"/>
+        <NamedIndividual IRI="#B775361"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15939,6 +16319,11 @@
         <NamedIndividual IRI="#5841780827"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA82902377FD"/>
+        <NamedIndividual IRI="#B792815"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA82902377FD"/>
         <NamedIndividual IRI="#82902377FD"/>
@@ -15952,6 +16337,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA82902388D0"/>
         <NamedIndividual IRI="#5841780827"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA82902388D0"/>
+        <NamedIndividual IRI="#B792815"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15969,6 +16359,11 @@
         <NamedIndividual IRI="#5841780827"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA82902399A3"/>
+        <NamedIndividual IRI="#B792815"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA82902399A3"/>
         <NamedIndividual IRI="#82902399A3"/>
@@ -15982,6 +16377,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8290240A76"/>
         <NamedIndividual IRI="#5841780827"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8290240A76"/>
+        <NamedIndividual IRI="#B792815"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -15999,6 +16399,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8295984E8E"/>
+        <NamedIndividual IRI="#B776556"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8295984E8E"/>
         <NamedIndividual IRI="#8295984E8E"/>
@@ -16012,6 +16417,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA83136977CB"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA83136977CB"/>
+        <NamedIndividual IRI="#B798980"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16029,6 +16439,11 @@
         <NamedIndividual IRI="#2432930416"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA83828155C6"/>
+        <NamedIndividual IRI="#B815389"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA83828155C6"/>
         <NamedIndividual IRI="#83828155C6"/>
@@ -16042,6 +16457,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA84384648C7"/>
         <NamedIndividual IRI="#1310860505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA84384648C7"/>
+        <NamedIndividual IRI="#B903510"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16059,6 +16479,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8518451026"/>
+        <NamedIndividual IRI="#B911505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8518451026"/>
         <NamedIndividual IRI="#8518451026"/>
@@ -16072,6 +16497,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8603719D83"/>
         <NamedIndividual IRI="#2432930416"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8603719D83"/>
+        <NamedIndividual IRI="#B967059"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16089,6 +16519,11 @@
         <NamedIndividual IRI="#4733051009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8613626D07"/>
+        <NamedIndividual IRI="#B957416"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8613626D07"/>
         <NamedIndividual IRI="#8613626D07"/>
@@ -16102,6 +16537,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8628847DCB"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8628847DCB"/>
+        <NamedIndividual IRI="#B974856"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16124,6 +16564,11 @@
         <NamedIndividual IRI="#1874240342"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8631093B41"/>
+        <NamedIndividual IRI="#B978086"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA8631093B41"/>
         <NamedIndividual IRI="#8631093B41"/>
@@ -16137,6 +16582,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA8631103384"/>
         <NamedIndividual IRI="#1874240342"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA8631103384"/>
+        <NamedIndividual IRI="#B978086"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16159,6 +16609,11 @@
         <NamedIndividual IRI="#1874240342"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA86311087A3"/>
+        <NamedIndividual IRI="#B978086"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OA86311087A3"/>
         <NamedIndividual IRI="#86311087A3"/>
@@ -16172,6 +16627,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OA867469371E"/>
         <NamedIndividual IRI="#4733051009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OA867469371E"/>
+        <NamedIndividual IRI="#B1002785"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16189,6 +16649,11 @@
         <NamedIndividual IRI="#3051880833"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OAZ0B2BFB62C"/>
+        <NamedIndividual IRI="#B742566"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OAZ0B2BFB62C"/>
         <NamedIndividual IRI="#Z0B2BFB62C"/>
@@ -16204,6 +16669,11 @@
         <NamedIndividual IRI="#4721290874"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OAZ312B44EF9"/>
+        <NamedIndividual IRI="#B693788"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OAZ312B44EF9"/>
         <NamedIndividual IRI="#Z312B44EF9"/>
@@ -16217,6 +16687,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OAZ502B44E81"/>
         <NamedIndividual IRI="#4721290874"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OAZ502B44E81"/>
+        <NamedIndividual IRI="#B693788"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16234,6 +16709,11 @@
         <NamedIndividual IRI="#3051880833"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OAZ682AEFF2E"/>
+        <NamedIndividual IRI="#B721754"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <NamedIndividual IRI="#OAZ682AEFF2E"/>
         <NamedIndividual IRI="#Z682AEFF2E"/>
@@ -16247,6 +16727,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#OAZ842BFB79C"/>
         <NamedIndividual IRI="#3051880833"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#OAZ842BFB79C"/>
+        <NamedIndividual IRI="#B742534"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#riguarda_lotto"/>
@@ -16312,6 +16797,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA1002785"/>
         <NamedIndividual IRI="#4733051009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA1002785"/>
+        <NamedIndividual IRI="#B1002785"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16329,6 +16819,11 @@
         <NamedIndividual IRI="#2268260904"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA528757"/>
+        <NamedIndividual IRI="#B528757"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA528757"/>
         <NamedIndividual IRI="#528757"/>
@@ -16342,6 +16837,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA528951"/>
         <NamedIndividual IRI="#2268260904"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA528951"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16359,6 +16859,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA539697"/>
+        <NamedIndividual IRI="#B539697"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA539697"/>
         <NamedIndividual IRI="#539697"/>
@@ -16372,6 +16877,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA585147"/>
         <NamedIndividual IRI="#2218910715"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA585147"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16389,6 +16899,11 @@
         <NamedIndividual IRI="#4721290874"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA591809"/>
+        <NamedIndividual IRI="#B591809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA591809"/>
         <NamedIndividual IRI="#591809"/>
@@ -16402,6 +16917,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA650502"/>
         <NamedIndividual IRI="#5841780827"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA650502"/>
+        <NamedIndividual IRI="#B650502"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16419,6 +16939,11 @@
         <NamedIndividual IRI="#4721290874"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA662745"/>
+        <NamedIndividual IRI="#B662745"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA662745"/>
         <NamedIndividual IRI="#662745"/>
@@ -16432,6 +16957,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA681474"/>
         <NamedIndividual IRI="#3901420236"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA681474"/>
+        <NamedIndividual IRI="#B681474"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16449,6 +16979,11 @@
         <NamedIndividual IRI="#4733051009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA690538"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA690538"/>
         <NamedIndividual IRI="#690538"/>
@@ -16462,6 +16997,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA693788"/>
         <NamedIndividual IRI="#4721290874"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA693788"/>
+        <NamedIndividual IRI="#B693788"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16479,6 +17019,11 @@
         <NamedIndividual IRI="#3051880833"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA721717"/>
+        <NamedIndividual IRI="#B721717"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA721717"/>
         <NamedIndividual IRI="#721717"/>
@@ -16492,6 +17037,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA721754"/>
         <NamedIndividual IRI="#3051880833"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA721754"/>
+        <NamedIndividual IRI="#B721754"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16509,6 +17059,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA729050"/>
+        <NamedIndividual IRI="#B729050"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA729050"/>
         <NamedIndividual IRI="#729050"/>
@@ -16522,6 +17077,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA742534"/>
         <NamedIndividual IRI="#3051880833"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA742534"/>
+        <NamedIndividual IRI="#B742534"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16539,6 +17099,11 @@
         <NamedIndividual IRI="#3051880833"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA742566"/>
+        <NamedIndividual IRI="#B742566"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA742566"/>
         <NamedIndividual IRI="#742566"/>
@@ -16552,6 +17117,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA749787"/>
         <NamedIndividual IRI="#349040287"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA749787"/>
+        <NamedIndividual IRI="#B749787"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16569,6 +17139,11 @@
         <NamedIndividual IRI="#1310860505"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA775361"/>
+        <NamedIndividual IRI="#B775361"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA775361"/>
         <NamedIndividual IRI="#775361"/>
@@ -16582,6 +17157,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA776556"/>
         <NamedIndividual IRI="#349040287"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA776556"/>
+        <NamedIndividual IRI="#B776556"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16599,6 +17179,11 @@
         <NamedIndividual IRI="#5841780827"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA792815"/>
+        <NamedIndividual IRI="#B792815"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA792815"/>
         <NamedIndividual IRI="#792815"/>
@@ -16612,6 +17197,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA798980"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA798980"/>
+        <NamedIndividual IRI="#B798980"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16629,6 +17219,11 @@
         <NamedIndividual IRI="#2432930416"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA815389"/>
+        <NamedIndividual IRI="#B815389"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA815389"/>
         <NamedIndividual IRI="#815389"/>
@@ -16642,6 +17237,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA903510"/>
         <NamedIndividual IRI="#1310860505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA903510"/>
+        <NamedIndividual IRI="#B903510"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16659,6 +17259,11 @@
         <NamedIndividual IRI="#349040287"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA911505"/>
+        <NamedIndividual IRI="#B911505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA911505"/>
         <NamedIndividual IRI="#911505"/>
@@ -16672,6 +17277,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA956000"/>
         <NamedIndividual IRI="#2241740360"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA956000"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16689,6 +17299,11 @@
         <NamedIndividual IRI="#4733051009"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA957416"/>
+        <NamedIndividual IRI="#B957416"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA957416"/>
         <NamedIndividual IRI="#957416"/>
@@ -16702,6 +17317,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA967059"/>
         <NamedIndividual IRI="#2432930416"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA967059"/>
+        <NamedIndividual IRI="#B967059"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -16719,6 +17339,11 @@
         <NamedIndividual IRI="#2241740360"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA974856"/>
+        <NamedIndividual IRI="#B974856"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <NamedIndividual IRI="#RA974856"/>
         <NamedIndividual IRI="#974856"/>
@@ -16732,6 +17357,11 @@
         <ObjectProperty IRI="#ha_mittente"/>
         <NamedIndividual IRI="#RA978086"/>
         <NamedIndividual IRI="#1874240342"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+        <NamedIndividual IRI="#RA978086"/>
+        <NamedIndividual IRI="#B978086"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
