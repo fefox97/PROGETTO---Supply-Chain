@@ -45,6 +45,23 @@ getIndividual(NClass,Individual,ShortIndividual) :-
 
 %----------------------------------------------------------------------------------------------------
 
+%restituisce gli individui se dati i nomi di PropertyAssertion, Domain e Range; 
+%restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range.
+%getIndividual(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
+getProperyAssertion(PropertyIRI, Domain, Range, IndividualD, IndividualR) :-
+    getIndividual(Domain, IndividualD, ShortIndividualD),
+    getIndividual(Range, IndividualR, ShortIndividualR),
+    propertyAssertion(PropertyIRI, IndividualD, IndividualR).
+
+%getIndividual(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
+getProperyAssertion(Property, Domain, Range, IndividualD, IndividualR) :-
+    (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Property, PropertyIRI); atom_concat('https://w3id.org/italia/onto/PublicContract/', Property, PropertyIRI)),
+    getIndividual(Domain, IndividualD, ShortIndividualD),
+    getIndividual(Range, IndividualR, ShortIndividualR),
+    propertyAssertion(PropertyIRI, IndividualD, IndividualR).
+
+%----------------------------------------------------------------------------------------------------
+
 %restituisce tutti gli elementi annotati
 annotatedElement(Type,Name,ID,ShortType,Class,Individual,ShortIndividual):- 
     (has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual));
