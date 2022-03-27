@@ -144,8 +144,8 @@ percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPerco
 regola1():-
     getProperyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara),
     getProperyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara),
-    annotatedElement(_,NameA,_,task,_,_,ShortIRichiestaApprovvigionamento),
-    annotatedElement(_,NameB,_,sendTask,_,_,ShortIOrdineDiAcquisto),
+    annotatedElement(_,'Invio richiesta approvvigionamento',_,_,_,_,ShortIRichiestaApprovvigionamento),
+    annotatedElement(_,'Ordine di acquisto',_,_,_,_,ShortIOrdineDiAcquisto),
     controlloPrecedenza(NameA, NameB),
     format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w",[ShortIRichiestaApprovvigionamento,ShortIOrdineDiAcquisto]).
 
@@ -159,9 +159,9 @@ regola2():-
     getProperyAssertion('hasCallForCompetition', 'Publication', _, IPubblicazione, ShortIPubblicazione, IBandoDiGara, ShortIBandoDiGara),
     getProperyAssertion('hasCallForCompetition', 'Lot', _, ILotto, ShortILotto, IBandoDiGara, ShortIBandoDiGara),
     getProperyAssertion('hasAwardNotice', 'Lot', _, ILotto, ShortILotto, IAvvisoEsitoDiProcedura, ShortIAvvisoEsitoDiProcedura),
-    annotatedElement(_,NameA,_,sendTask,_,_,ShortIRichiestaVerificaDocumenti),
-    annotatedElement(_,NameB,_,sendTask,_,_,ShortIPubblicazione),
-    annotatedElement(_,NameC,_,sendTask,_,_,ShortIAvvisoEsitoDiProcedura),
+    annotatedElement(_,'Invio documenti per verifiche',_,_,_,_,ShortIRichiestaVerificaDocumenti),
+    annotatedElement(_,'Gara di appalto',_,_,_,_,ShortIPubblicazione),
+    annotatedElement(_,'Proclamazione vincitore concorso',_,_,_,_,ShortIAvvisoEsitoDiProcedura),
     controlloPrecedenza(NameA, [NameB, NameC]),
-    format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w",[ShortIRichiestaVerificaDocumenti,ShortPubblicazione,ShortIAvvisoEsitoDiProcedura]).
+    format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w",[ShortIRichiestaVerificaDocumenti,ShortIPubblicazione,ShortIAvvisoEsitoDiProcedura]).
 
