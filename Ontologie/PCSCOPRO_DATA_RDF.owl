@@ -14676,6 +14676,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EZ0B2BFB62C"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742566"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#CB2BF1499"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#FZ0B2BFB62C"/>
         <PublicContract:CIG>Z0B2BFB62C</PublicContract:CIG>
@@ -14692,6 +14693,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EZ312B44EF9"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B693788"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C12B47212"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#FZ312B44EF9"/>
         <PublicContract:CIG>Z312B44EF9</PublicContract:CIG>
@@ -14708,6 +14710,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EZ502B44E81"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B693788"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C02B47212"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#FZ502B44E81"/>
         <PublicContract:CIG>Z502B44E81</PublicContract:CIG>
@@ -14724,6 +14727,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EZ682AEFF2E"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721754"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C82AE1499"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#FZ682AEFF2E"/>
         <PublicContract:CIG>Z682AEFF2E</PublicContract:CIG>
@@ -14740,6 +14744,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EZ842BFB79C"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742534"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42BF1499"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#FZ842BFB79C"/>
         <PublicContract:CIG>Z842BFB79C</PublicContract:CIG>
@@ -15247,6 +15252,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1002785">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B1002785"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#867469371E"/>
@@ -15943,6 +15949,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#528757">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528757"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#764361704B"/>
@@ -15956,6 +15963,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#528951">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2268260904"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#76369713D6"/>
@@ -15994,6 +16002,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#539697">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B539697"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7688013D04"/>
@@ -16019,6 +16028,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#585147">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2218910715"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#787873167F"/>
@@ -16042,6 +16052,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#591809">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B591809"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraNegoziata"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7921918D87"/>
@@ -16055,6 +16066,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#650502">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B650502"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8027915D05"/>
@@ -16068,6 +16080,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#662745">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B662745"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#80902930FD"/>
@@ -16082,6 +16095,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#681474">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B681474"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3901420236"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#802544678B"/>
@@ -16095,6 +16109,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#690538">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#81446791BC"/>
@@ -16115,6 +16130,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#693788">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B693788"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4721290874"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z312B44EF9"/>
@@ -16131,6 +16147,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6940799088"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C40792067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6940799088"/>
         <PublicContract:CIG>6940799088</PublicContract:CIG>
@@ -16147,6 +16164,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E69408044A7"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C40802067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F69408044A7"/>
         <PublicContract:CIG>69408044A7</PublicContract:CIG>
@@ -16163,6 +16181,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6940810999"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C40812067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6940810999"/>
         <PublicContract:CIG>6940810999</PublicContract:CIG>
@@ -16179,6 +16198,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6940909B4B"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C40902067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6940909B4B"/>
         <PublicContract:CIG>6940909B4B</PublicContract:CIG>
@@ -16195,6 +16215,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6940929BCC"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C40924584"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6940929BCC"/>
         <PublicContract:CIG>6940929BCC</PublicContract:CIG>
@@ -16211,6 +16232,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6941349666"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C41342067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6941349666"/>
         <PublicContract:CIG>6941349666</PublicContract:CIG>
@@ -16227,6 +16249,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E694136104F"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C41362067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F694136104F"/>
         <PublicContract:CIG>694136104F</PublicContract:CIG>
@@ -16243,6 +16266,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6942276363"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42279949"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6942276363"/>
         <PublicContract:CIG>6942276363</PublicContract:CIG>
@@ -16259,6 +16283,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E69429141E2"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42911400"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F69429141E2"/>
         <PublicContract:CIG>69429141E2</PublicContract:CIG>
@@ -16275,6 +16300,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E69429217A7"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42921400"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F69429217A7"/>
         <PublicContract:CIG>69429217A7</PublicContract:CIG>
@@ -16291,6 +16317,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6942925AF3"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42921234"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6942925AF3"/>
         <PublicContract:CIG>6942925AF3</PublicContract:CIG>
@@ -16307,6 +16334,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6942926BC6"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42929949"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6942926BC6"/>
         <PublicContract:CIG>6942926BC6</PublicContract:CIG>
@@ -16323,6 +16351,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6942928D6C"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42922067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6942928D6C"/>
         <PublicContract:CIG>6942928D6C</PublicContract:CIG>
@@ -16339,6 +16368,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6942930F12"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42932388"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6942930F12"/>
         <PublicContract:CIG>6942930F12</PublicContract:CIG>
@@ -16355,6 +16385,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E6942933190"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C42931234"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F6942933190"/>
         <PublicContract:CIG>6942933190</PublicContract:CIG>
@@ -16369,6 +16400,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#721717">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721717"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#7996404953"/>
@@ -16382,6 +16414,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#721754">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721754"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z682AEFF2E"/>
@@ -16395,6 +16428,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#729050">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B729050"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#81994532AB"/>
@@ -16410,6 +16444,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#742534">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742534"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z842BFB79C"/>
@@ -16423,6 +16458,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#742566">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742566"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3051880833"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Z0B2BFB62C"/>
@@ -16436,6 +16472,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#749787">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#82233055F5"/>
@@ -16454,6 +16491,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E76369713D6"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C36973447"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F76369713D6"/>
         <PublicContract:CIG>76369713D6</PublicContract:CIG>
@@ -16470,6 +16508,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7636980B41"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C36983447"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7636980B41"/>
         <PublicContract:CIG>7636980B41</PublicContract:CIG>
@@ -16486,6 +16525,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637002D68"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37005240"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637002D68"/>
         <PublicContract:CIG>7637002D68</PublicContract:CIG>
@@ -16502,6 +16542,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E76370060B9"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37000766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F76370060B9"/>
         <PublicContract:CIG>76370060B9</PublicContract:CIG>
@@ -16518,6 +16559,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637009332"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37004014"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637009332"/>
         <PublicContract:CIG>7637009332</PublicContract:CIG>
@@ -16534,6 +16576,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E763701367E"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37014014"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F763701367E"/>
         <PublicContract:CIG>763701367E</PublicContract:CIG>
@@ -16550,6 +16593,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637014751"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37014014"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637014751"/>
         <PublicContract:CIG>7637014751</PublicContract:CIG>
@@ -16566,6 +16610,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E76370168F7"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37010766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F76370168F7"/>
         <PublicContract:CIG>76370168F7</PublicContract:CIG>
@@ -16583,6 +16628,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637021D16"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37024014"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637021D16"/>
         <PublicContract:CIG>7637021D16</PublicContract:CIG>
@@ -16599,6 +16645,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637023EBC"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37025240"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637023EBC"/>
         <PublicContract:CIG>7637023EBC</PublicContract:CIG>
@@ -16615,6 +16662,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E763702613A"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37020766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F763702613A"/>
         <PublicContract:CIG>763702613A</PublicContract:CIG>
@@ -16631,6 +16679,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E76370282E0"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37020766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F76370282E0"/>
         <PublicContract:CIG>76370282E0</PublicContract:CIG>
@@ -16647,6 +16696,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E763703262C"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37030766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F763703262C"/>
         <PublicContract:CIG>763703262C</PublicContract:CIG>
@@ -16663,6 +16713,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E76370358A5"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37030766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F76370358A5"/>
         <PublicContract:CIG>76370358A5</PublicContract:CIG>
@@ -16679,6 +16730,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637038B1E"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37030766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637038B1E"/>
         <PublicContract:CIG>7637038B1E</PublicContract:CIG>
@@ -16695,6 +16747,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637041D97"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37040766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637041D97"/>
         <PublicContract:CIG>7637041D97</PublicContract:CIG>
@@ -16711,6 +16764,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637042E6A"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37044014"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637042E6A"/>
         <PublicContract:CIG>7637042E6A</PublicContract:CIG>
@@ -16727,6 +16781,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7637049434"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37040766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7637049434"/>
         <PublicContract:CIG>7637049434</PublicContract:CIG>
@@ -16743,6 +16798,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E76370515DA"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37055240"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F76370515DA"/>
         <PublicContract:CIG>76370515DA</PublicContract:CIG>
@@ -16759,6 +16815,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E76370569F9"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C37050766"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F76370569F9"/>
         <PublicContract:CIG>76370569F9</PublicContract:CIG>
@@ -16775,6 +16832,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E764361704B"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528757"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C43618605"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F764361704B"/>
         <PublicContract:CIG>764361704B</PublicContract:CIG>
@@ -16791,6 +16849,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OffertaEconomicamentePiùVantaggiosa"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7688013D04"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B539697"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C88013726"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7688013D04"/>
         <PublicContract:CIG>7688013D04</PublicContract:CIG>
@@ -16807,6 +16866,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E77128469DC"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C12846740"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F77128469DC"/>
         <PublicContract:CIG>77128469DC</PublicContract:CIG>
@@ -16823,6 +16883,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E771286163E"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C12866740"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F771286163E"/>
         <PublicContract:CIG>771286163E</PublicContract:CIG>
@@ -16839,6 +16900,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7712870DA9"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C12874014"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7712870DA9"/>
         <PublicContract:CIG>7712870DA9</PublicContract:CIG>
@@ -16855,6 +16917,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E77128751CD"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C12874014"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F77128751CD"/>
         <PublicContract:CIG>77128751CD</PublicContract:CIG>
@@ -16871,6 +16934,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E77128816BF"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C12884594"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F77128816BF"/>
         <PublicContract:CIG>77128816BF</PublicContract:CIG>
@@ -16887,6 +16951,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7712889D57"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C12880252"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7712889D57"/>
         <PublicContract:CIG>7712889D57</PublicContract:CIG>
@@ -16901,6 +16966,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#775361">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B775361"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8276108C5D"/>
@@ -16914,6 +16980,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#776556">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B776556"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8295984E8E"/>
@@ -16929,6 +16996,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E787873167F"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78730162"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F787873167F"/>
         <PublicContract:CIG>787873167F</PublicContract:CIG>
@@ -16945,6 +17013,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7878742F90"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78742779"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7878742F90"/>
         <PublicContract:CIG>7878742F90</PublicContract:CIG>
@@ -16961,6 +17030,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7878748487"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78742371"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7878748487"/>
         <PublicContract:CIG>7878748487</PublicContract:CIG>
@@ -16977,6 +17047,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E78787538A6"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78751735"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F78787538A6"/>
         <PublicContract:CIG>78787538A6</PublicContract:CIG>
@@ -16993,6 +17064,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E78787630E9"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78764097"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F78787630E9"/>
         <PublicContract:CIG>78787630E9</PublicContract:CIG>
@@ -17009,6 +17081,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7878768508"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78761735"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7878768508"/>
         <PublicContract:CIG>7878768508</PublicContract:CIG>
@@ -17025,6 +17098,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E787878316A"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78785060"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F787878316A"/>
         <PublicContract:CIG>787878316A</PublicContract:CIG>
@@ -17041,6 +17115,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7878785310"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78783529"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7878785310"/>
         <PublicContract:CIG>7878785310</PublicContract:CIG>
@@ -17057,6 +17132,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E78787874B6"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78783529"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F78787874B6"/>
         <PublicContract:CIG>78787874B6</PublicContract:CIG>
@@ -17073,6 +17149,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E787879072F"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78794401"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F787879072F"/>
         <PublicContract:CIG>787879072F</PublicContract:CIG>
@@ -17089,6 +17166,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7878802118"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C78801735"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7878802118"/>
         <PublicContract:CIG>7878802118</PublicContract:CIG>
@@ -17105,6 +17183,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7921918D87"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B591809"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C21915529"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7921918D87"/>
         <PublicContract:CIG>7921918D87</PublicContract:CIG>
@@ -17119,6 +17198,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#792815">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#5841780827"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#82902377FD"/>
@@ -17135,6 +17215,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#798980">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B798980"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#83136977CB"/>
@@ -17150,6 +17231,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E7996404953"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721717"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C96401499"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F7996404953"/>
         <PublicContract:CIG>7996404953</PublicContract:CIG>
@@ -17166,6 +17248,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E802544678B"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B681474"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C25440326"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F802544678B"/>
         <PublicContract:CIG>802544678B</PublicContract:CIG>
@@ -17182,6 +17265,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8027915D05"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B650502"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C27911447"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8027915D05"/>
         <PublicContract:CIG>8027915D05</PublicContract:CIG>
@@ -17198,6 +17282,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E80902930FD"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B662745"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C90295529"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F80902930FD"/>
         <PublicContract:CIG>80902930FD</PublicContract:CIG>
@@ -17214,6 +17299,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E809059388C"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B662745"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C90595529"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F809059388C"/>
         <PublicContract:CIG>809059388C</PublicContract:CIG>
@@ -17230,6 +17316,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E81446791BC"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C44678038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F81446791BC"/>
         <PublicContract:CIG>81446791BC</PublicContract:CIG>
@@ -17246,6 +17333,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8144768B2B"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C44768038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8144768B2B"/>
         <PublicContract:CIG>8144768B2B</PublicContract:CIG>
@@ -17262,6 +17350,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8144793FCB"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C44798038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8144793FCB"/>
         <PublicContract:CIG>8144793FCB</PublicContract:CIG>
@@ -17278,6 +17367,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8145665F64"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C45668038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8145665F64"/>
         <PublicContract:CIG>8145665F64</PublicContract:CIG>
@@ -17294,6 +17384,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8145678A20"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C45678038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8145678A20"/>
         <PublicContract:CIG>8145678A20</PublicContract:CIG>
@@ -17310,6 +17401,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8145690409"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C45698038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8145690409"/>
         <PublicContract:CIG>8145690409</PublicContract:CIG>
@@ -17326,6 +17418,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E81457158A9"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C45718038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F81457158A9"/>
         <PublicContract:CIG>81457158A9</PublicContract:CIG>
@@ -17342,6 +17435,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E81457250EC"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C45728038"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F81457250EC"/>
         <PublicContract:CIG>81457250EC</PublicContract:CIG>
@@ -17356,6 +17450,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#815389">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B815389"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#83828155C6"/>
@@ -17371,6 +17466,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E81994532AB"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B729050"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C99455422"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F81994532AB"/>
         <PublicContract:CIG>81994532AB</PublicContract:CIG>
@@ -17387,6 +17483,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8199464BBC"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B729050"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C99463312"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8199464BBC"/>
         <PublicContract:CIG>8199464BBC</PublicContract:CIG>
@@ -17403,6 +17500,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8199482A97"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B729050"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C99483312"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8199482A97"/>
         <PublicContract:CIG>8199482A97</PublicContract:CIG>
@@ -17419,6 +17517,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E82233055F5"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C23306685"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F82233055F5"/>
         <PublicContract:CIG>82233055F5</PublicContract:CIG>
@@ -17435,6 +17534,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8223309941"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C23306685"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8223309941"/>
         <PublicContract:CIG>8223309941</PublicContract:CIG>
@@ -17451,6 +17551,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E82233299C2"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C23321001"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F82233299C2"/>
         <PublicContract:CIG>82233299C2</PublicContract:CIG>
@@ -17467,6 +17568,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8223332C3B"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C23331001"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8223332C3B"/>
         <PublicContract:CIG>8223332C3B</PublicContract:CIG>
@@ -17483,6 +17585,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8276108C5D"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B775361"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C76104026"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8276108C5D"/>
         <PublicContract:CIG>8276108C5D</PublicContract:CIG>
@@ -17499,6 +17602,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E82902377FD"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C90233230"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F82902377FD"/>
         <PublicContract:CIG>82902377FD</PublicContract:CIG>
@@ -17515,6 +17619,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E82902388D0"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C90233230"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F82902388D0"/>
         <PublicContract:CIG>82902388D0</PublicContract:CIG>
@@ -17531,6 +17636,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E82902399A3"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C90238605"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F82902399A3"/>
         <PublicContract:CIG>82902399A3</PublicContract:CIG>
@@ -17547,6 +17653,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8290240A76"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C90243034"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8290240A76"/>
         <PublicContract:CIG>8290240A76</PublicContract:CIG>
@@ -17563,6 +17670,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8295984E8E"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B776556"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C95985425"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8295984E8E"/>
         <PublicContract:CIG>8295984E8E</PublicContract:CIG>
@@ -17579,6 +17687,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E83136977CB"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B798980"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C13691191"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F83136977CB"/>
         <PublicContract:CIG>83136977CB</PublicContract:CIG>
@@ -17595,6 +17704,7 @@ DIETE SPECIALI, COMPLETE POLIMERICHE SPECIFICHE PER PATOLOGIA PER SONDA</l0:desc
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E83828155C6"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B815389"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C82812304"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F83828155C6"/>
         <PublicContract:CIG>83828155C6</PublicContract:CIG>
@@ -17614,6 +17724,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E84384648C7"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B903510"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C38468547"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F84384648C7"/>
         <PublicContract:CIG>84384648C7</PublicContract:CIG>
@@ -17630,6 +17741,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8518451026"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B911505"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C18455510"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8518451026"/>
         <PublicContract:CIG>8518451026</PublicContract:CIG>
@@ -17646,6 +17758,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8603719D83"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B967059"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C03712304"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8603719D83"/>
         <PublicContract:CIG>8603719D83</PublicContract:CIG>
@@ -17662,6 +17775,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8613626D07"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B957416"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C13621272"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8613626D07"/>
         <PublicContract:CIG>8613626D07</PublicContract:CIG>
@@ -17678,6 +17792,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#PrezzoPiùBasso"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8628847DCB"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B974856"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C28843312"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8628847DCB"/>
         <PublicContract:CIG>8628847DCB</PublicContract:CIG>
@@ -17694,6 +17809,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8631093B41"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B978086"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C31090824"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C31092646"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8631093B41"/>
@@ -17711,6 +17827,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E8631103384"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B978086"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C31102067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F8631103384"/>
         <PublicContract:CIG>8631103384</PublicContract:CIG>
@@ -17727,6 +17844,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E86311087A3"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B978086"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C31100714"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C31102067"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F86311087A3"/>
@@ -17744,6 +17862,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Lot"/>
         <PublicContract:hasAwardCriterion rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#MigliorRapportoqualità/prezzo"/>
         <PublicContract:hasAwardNotice rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#E867469371E"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B1002785"/>
         <PublicContract:hasContract rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#C74692603"/>
         <PublicContract:hasPaymentCertificate rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#F867469371E"/>
         <PublicContract:CIG>867469371E</PublicContract:CIG>
@@ -17768,6 +17887,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#903510">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B903510"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1310860505"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#84384648C7"/>
@@ -17781,6 +17901,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#911505">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B911505"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#349040287"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8518451026"/>
@@ -17794,6 +17915,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#956000">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraRistretta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
@@ -17822,6 +17944,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#957416">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B957416"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#4733051009"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8613626D07"/>
@@ -17835,6 +17958,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#967059">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B967059"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2432930416"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8603719D83"/>
@@ -17848,6 +17972,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#974856">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B974856"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2241740360"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8628847DCB"/>
@@ -17861,6 +17986,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#978086">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Procedure"/>
+        <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B978086"/>
         <PublicContract:hasProcedureType rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ProceduraAperta"/>
         <PublicContract:hasProcuringEntity rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1874240342"/>
         <PublicContract:includesLot rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#8631093B41"/>
@@ -17896,13 +18022,13 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/coverage) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</rdfs:comment>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Coverage</rdfs:label>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/date) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">A point or period of time associated with an event in the lifecycle of the resource.</rdfs:comment>
         <terms:description xml:lang="en">Date may be used to express temporal information at any level of granularity.  Recommended practice is to express the date, date/time, or period of time according to ISO 8601-1 [[ISO 8601-1](https://www.iso.org/iso-8601-date-and-time-format.html)] or a published profile of the ISO standard, such as the W3C Note on Date and Time Formats [[W3CDTF](https://www.w3.org/TR/NOTE-datetime)] or the Extended Date/Time Format Specification [[EDTF](http://www.loc.gov/standards/datetime/)].  If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used. Date ranges may be specified using ISO 8601 period of time specification in which start and end dates are separated by a &apos;/&apos; (slash) character.  Either the start or end date may be missing.</terms:description>
         <rdfs:label xml:lang="en">Date</rdfs:label>
@@ -17943,8 +18069,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/publisher) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Publisher</rdfs:label>
-        <terms:description xml:lang="en">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</terms:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <terms:description xml:lang="en">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</terms:description>
         <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/relation">
@@ -17957,8 +18083,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/rights">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-        <terms:description xml:lang="en">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
+        <terms:description xml:lang="en">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</terms:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/rights) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:label xml:lang="en">Rights</rdfs:label>
         <rdfs:comment xml:lang="en">Information about rights held in and over the resource.</rdfs:comment>
@@ -17967,8 +18093,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/source) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">A related resource from which the described resource is derived.</rdfs:comment>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <terms:description xml:lang="en">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Source</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/subject">
@@ -17982,8 +18108,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/type">
         <rdfs:comment xml:lang="en">The nature or genre of the resource.</rdfs:comment>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/type) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label xml:lang="en">Type</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <terms:description xml:lang="en">Recommended practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [[DCMI-TYPE](http://dublincore.org/documents/dcmi-type-vocabulary/)]. To describe the file format, physical medium, or dimensions of the resource, use the Format element.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
     </rdf:Description>
@@ -17991,8 +18117,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <rdfs:comment xml:lang="it">Fornitura di prodotti</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:label xml:lang="it">Fornitura di Prodotto</rdfs:label>
         <rdfs:comment xml:lang="en">The class that includes those interventions concerning the purchase of goods.</rdfs:comment>
+        <rdfs:label xml:lang="it">Fornitura di Prodotto</rdfs:label>
         <rdfs:label xml:lang="it">Fornitura di Bene</rdfs:label>
         <rdfs:label xml:lang="en">Good supply</rdfs:label>
         <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nell&apos;acquisto di beni.</rdfs:comment>
@@ -18008,8 +18134,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/italia/onto/PublicContract/Work">
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nella realizzazione di lavori pubblici.</rdfs:comment>
         <rdfs:comment xml:lang="en">The class that includes those interventions concerning the actualization of public works.</rdfs:comment>
+        <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nella realizzazione di lavori pubblici.</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:label xml:lang="en">Work supply</rdfs:label>
         <rdfs:label xml:lang="it">Fornitura di lavori</rdfs:label>

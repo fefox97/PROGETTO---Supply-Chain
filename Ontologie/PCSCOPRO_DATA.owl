@@ -17814,6 +17814,11 @@
         <NamedIndividual IRI="#EZ0B2BFB62C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#Z0B2BFB62C"/>
+        <NamedIndividual IRI="#B742566"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#Z0B2BFB62C"/>
         <NamedIndividual IRI="#CB2BF1499"/>
@@ -17832,6 +17837,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#Z312B44EF9"/>
         <NamedIndividual IRI="#EZ312B44EF9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#Z312B44EF9"/>
+        <NamedIndividual IRI="#B693788"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -17854,6 +17864,11 @@
         <NamedIndividual IRI="#EZ502B44E81"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#Z502B44E81"/>
+        <NamedIndividual IRI="#B693788"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#Z502B44E81"/>
         <NamedIndividual IRI="#C02B47212"/>
@@ -17872,6 +17887,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#Z682AEFF2E"/>
         <NamedIndividual IRI="#EZ682AEFF2E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#Z682AEFF2E"/>
+        <NamedIndividual IRI="#B721754"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -17894,6 +17914,11 @@
         <NamedIndividual IRI="#EZ842BFB79C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#Z842BFB79C"/>
+        <NamedIndividual IRI="#B742534"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#Z842BFB79C"/>
         <NamedIndividual IRI="#C42BF1499"/>
@@ -17902,6 +17927,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#Z842BFB79C"/>
         <NamedIndividual IRI="#FZ842BFB79C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#1002785"/>
+        <NamedIndividual IRI="#B1002785"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18064,6 +18094,11 @@
         <NamedIndividual IRI="#B1002785"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#528757"/>
+        <NamedIndividual IRI="#B528757"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#528757"/>
         <NamedIndividual IRI="#ProceduraAperta"/>
@@ -18077,6 +18112,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#528757"/>
         <NamedIndividual IRI="#764361704B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#528951"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18219,6 +18259,11 @@
         <NamedIndividual IRI="#7712889D57"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#539697"/>
+        <NamedIndividual IRI="#B539697"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#539697"/>
         <NamedIndividual IRI="#ProceduraAperta"/>
@@ -18232,6 +18277,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#539697"/>
         <NamedIndividual IRI="#7688013D04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#585147"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18299,6 +18349,11 @@
         <NamedIndividual IRI="#7878802118"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#591809"/>
+        <NamedIndividual IRI="#B591809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#591809"/>
         <NamedIndividual IRI="#ProceduraNegoziata"/>
@@ -18314,6 +18369,11 @@
         <NamedIndividual IRI="#7921918D87"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#650502"/>
+        <NamedIndividual IRI="#B650502"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#650502"/>
         <NamedIndividual IRI="#ProceduraAperta"/>
@@ -18327,6 +18387,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#650502"/>
         <NamedIndividual IRI="#8027915D05"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#662745"/>
+        <NamedIndividual IRI="#B662745"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18349,6 +18414,11 @@
         <NamedIndividual IRI="#809059388C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#681474"/>
+        <NamedIndividual IRI="#B681474"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#681474"/>
         <NamedIndividual IRI="#ProceduraAperta"/>
@@ -18362,6 +18432,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#681474"/>
         <NamedIndividual IRI="#802544678B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#690538"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18414,6 +18489,11 @@
         <NamedIndividual IRI="#81457250EC"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#693788"/>
+        <NamedIndividual IRI="#B693788"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#693788"/>
         <NamedIndividual IRI="#ProceduraRistretta"/>
@@ -18444,6 +18524,11 @@
         <NamedIndividual IRI="#E6940799088"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6940799088"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#6940799088"/>
         <NamedIndividual IRI="#C40792067"/>
@@ -18462,6 +18547,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#69408044A7"/>
         <NamedIndividual IRI="#E69408044A7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#69408044A7"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18484,6 +18574,11 @@
         <NamedIndividual IRI="#E6940810999"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6940810999"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#6940810999"/>
         <NamedIndividual IRI="#C40812067"/>
@@ -18502,6 +18597,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6940909B4B"/>
         <NamedIndividual IRI="#E6940909B4B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6940909B4B"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18524,6 +18624,11 @@
         <NamedIndividual IRI="#E6940929BCC"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6940929BCC"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#6940929BCC"/>
         <NamedIndividual IRI="#C40924584"/>
@@ -18542,6 +18647,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6941349666"/>
         <NamedIndividual IRI="#E6941349666"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6941349666"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18564,6 +18674,11 @@
         <NamedIndividual IRI="#E694136104F"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#694136104F"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#694136104F"/>
         <NamedIndividual IRI="#C41362067"/>
@@ -18582,6 +18697,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6942276363"/>
         <NamedIndividual IRI="#E6942276363"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6942276363"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18604,6 +18724,11 @@
         <NamedIndividual IRI="#E69429141E2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#69429141E2"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#69429141E2"/>
         <NamedIndividual IRI="#C42911400"/>
@@ -18622,6 +18747,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#69429217A7"/>
         <NamedIndividual IRI="#E69429217A7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#69429217A7"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18644,6 +18774,11 @@
         <NamedIndividual IRI="#E6942925AF3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6942925AF3"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#6942925AF3"/>
         <NamedIndividual IRI="#C42921234"/>
@@ -18662,6 +18797,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6942926BC6"/>
         <NamedIndividual IRI="#E6942926BC6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6942926BC6"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18684,6 +18824,11 @@
         <NamedIndividual IRI="#E6942928D6C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6942928D6C"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#6942928D6C"/>
         <NamedIndividual IRI="#C42922067"/>
@@ -18702,6 +18847,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6942930F12"/>
         <NamedIndividual IRI="#E6942930F12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6942930F12"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18724,6 +18874,11 @@
         <NamedIndividual IRI="#E6942933190"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#6942933190"/>
+        <NamedIndividual IRI="#B956000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#6942933190"/>
         <NamedIndividual IRI="#C42931234"/>
@@ -18732,6 +18887,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#6942933190"/>
         <NamedIndividual IRI="#F6942933190"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#721717"/>
+        <NamedIndividual IRI="#B721717"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18749,6 +18909,11 @@
         <NamedIndividual IRI="#7996404953"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#721754"/>
+        <NamedIndividual IRI="#B721754"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#721754"/>
         <NamedIndividual IRI="#ProceduraRistretta"/>
@@ -18762,6 +18927,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#721754"/>
         <NamedIndividual IRI="#Z682AEFF2E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#729050"/>
+        <NamedIndividual IRI="#B729050"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18789,6 +18959,11 @@
         <NamedIndividual IRI="#8199482A97"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#742534"/>
+        <NamedIndividual IRI="#B742534"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#742534"/>
         <NamedIndividual IRI="#ProceduraRistretta"/>
@@ -18804,6 +18979,11 @@
         <NamedIndividual IRI="#Z842BFB79C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#742566"/>
+        <NamedIndividual IRI="#B742566"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#742566"/>
         <NamedIndividual IRI="#ProceduraRistretta"/>
@@ -18817,6 +18997,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#742566"/>
         <NamedIndividual IRI="#Z0B2BFB62C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#749787"/>
+        <NamedIndividual IRI="#B749787"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -18859,6 +19044,11 @@
         <NamedIndividual IRI="#E76369713D6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#76369713D6"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#76369713D6"/>
         <NamedIndividual IRI="#C36973447"/>
@@ -18877,6 +19067,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7636980B41"/>
         <NamedIndividual IRI="#E7636980B41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7636980B41"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18899,6 +19094,11 @@
         <NamedIndividual IRI="#E7637002D68"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637002D68"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7637002D68"/>
         <NamedIndividual IRI="#C37005240"/>
@@ -18917,6 +19117,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#76370060B9"/>
         <NamedIndividual IRI="#E76370060B9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#76370060B9"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18939,6 +19144,11 @@
         <NamedIndividual IRI="#E7637009332"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637009332"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7637009332"/>
         <NamedIndividual IRI="#C37004014"/>
@@ -18957,6 +19167,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#763701367E"/>
         <NamedIndividual IRI="#E763701367E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#763701367E"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -18979,6 +19194,11 @@
         <NamedIndividual IRI="#E7637014751"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637014751"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7637014751"/>
         <NamedIndividual IRI="#C37014014"/>
@@ -18997,6 +19217,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#76370168F7"/>
         <NamedIndividual IRI="#E76370168F7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#76370168F7"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19019,6 +19244,11 @@
         <NamedIndividual IRI="#E7637021D16"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637021D16"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7637021D16"/>
         <NamedIndividual IRI="#C37024014"/>
@@ -19037,6 +19267,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637023EBC"/>
         <NamedIndividual IRI="#E7637023EBC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637023EBC"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19059,6 +19294,11 @@
         <NamedIndividual IRI="#E763702613A"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#763702613A"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#763702613A"/>
         <NamedIndividual IRI="#C37020766"/>
@@ -19077,6 +19317,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#76370282E0"/>
         <NamedIndividual IRI="#E76370282E0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#76370282E0"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19099,6 +19344,11 @@
         <NamedIndividual IRI="#E763703262C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#763703262C"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#763703262C"/>
         <NamedIndividual IRI="#C37030766"/>
@@ -19117,6 +19367,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#76370358A5"/>
         <NamedIndividual IRI="#E76370358A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#76370358A5"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19139,6 +19394,11 @@
         <NamedIndividual IRI="#E7637038B1E"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637038B1E"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7637038B1E"/>
         <NamedIndividual IRI="#C37030766"/>
@@ -19157,6 +19417,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637041D97"/>
         <NamedIndividual IRI="#E7637041D97"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637041D97"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19179,6 +19444,11 @@
         <NamedIndividual IRI="#E7637042E6A"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637042E6A"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7637042E6A"/>
         <NamedIndividual IRI="#C37044014"/>
@@ -19197,6 +19467,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637049434"/>
         <NamedIndividual IRI="#E7637049434"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7637049434"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19219,6 +19494,11 @@
         <NamedIndividual IRI="#E76370515DA"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#76370515DA"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#76370515DA"/>
         <NamedIndividual IRI="#C37055240"/>
@@ -19237,6 +19517,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#76370569F9"/>
         <NamedIndividual IRI="#E76370569F9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#76370569F9"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19259,6 +19544,11 @@
         <NamedIndividual IRI="#E764361704B"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#764361704B"/>
+        <NamedIndividual IRI="#B528757"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#764361704B"/>
         <NamedIndividual IRI="#C43618605"/>
@@ -19277,6 +19567,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7688013D04"/>
         <NamedIndividual IRI="#E7688013D04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7688013D04"/>
+        <NamedIndividual IRI="#B539697"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19299,6 +19594,11 @@
         <NamedIndividual IRI="#E77128469DC"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#77128469DC"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#77128469DC"/>
         <NamedIndividual IRI="#C12846740"/>
@@ -19317,6 +19617,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#771286163E"/>
         <NamedIndividual IRI="#E771286163E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#771286163E"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19339,6 +19644,11 @@
         <NamedIndividual IRI="#E7712870DA9"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7712870DA9"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7712870DA9"/>
         <NamedIndividual IRI="#C12874014"/>
@@ -19357,6 +19667,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#77128751CD"/>
         <NamedIndividual IRI="#E77128751CD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#77128751CD"/>
+        <NamedIndividual IRI="#B528951"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19379,6 +19694,11 @@
         <NamedIndividual IRI="#E77128816BF"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#77128816BF"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#77128816BF"/>
         <NamedIndividual IRI="#C12884594"/>
@@ -19399,6 +19719,11 @@
         <NamedIndividual IRI="#E7712889D57"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7712889D57"/>
+        <NamedIndividual IRI="#B528951"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7712889D57"/>
         <NamedIndividual IRI="#C12880252"/>
@@ -19407,6 +19732,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7712889D57"/>
         <NamedIndividual IRI="#F7712889D57"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#775361"/>
+        <NamedIndividual IRI="#B775361"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -19422,6 +19752,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#775361"/>
         <NamedIndividual IRI="#8276108C5D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#776556"/>
+        <NamedIndividual IRI="#B776556"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -19449,6 +19784,11 @@
         <NamedIndividual IRI="#E787873167F"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#787873167F"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#787873167F"/>
         <NamedIndividual IRI="#C78730162"/>
@@ -19467,6 +19807,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7878742F90"/>
         <NamedIndividual IRI="#E7878742F90"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7878742F90"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19489,6 +19834,11 @@
         <NamedIndividual IRI="#E7878748487"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7878748487"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7878748487"/>
         <NamedIndividual IRI="#C78742371"/>
@@ -19507,6 +19857,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#78787538A6"/>
         <NamedIndividual IRI="#E78787538A6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#78787538A6"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19529,6 +19884,11 @@
         <NamedIndividual IRI="#E78787630E9"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#78787630E9"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#78787630E9"/>
         <NamedIndividual IRI="#C78764097"/>
@@ -19547,6 +19907,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7878768508"/>
         <NamedIndividual IRI="#E7878768508"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7878768508"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19569,6 +19934,11 @@
         <NamedIndividual IRI="#E787878316A"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#787878316A"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#787878316A"/>
         <NamedIndividual IRI="#C78785060"/>
@@ -19587,6 +19957,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7878785310"/>
         <NamedIndividual IRI="#E7878785310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7878785310"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19609,6 +19984,11 @@
         <NamedIndividual IRI="#E78787874B6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#78787874B6"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#78787874B6"/>
         <NamedIndividual IRI="#C78783529"/>
@@ -19627,6 +20007,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#787879072F"/>
         <NamedIndividual IRI="#E787879072F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#787879072F"/>
+        <NamedIndividual IRI="#B585147"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19649,6 +20034,11 @@
         <NamedIndividual IRI="#E7878802118"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7878802118"/>
+        <NamedIndividual IRI="#B585147"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7878802118"/>
         <NamedIndividual IRI="#C78801735"/>
@@ -19669,6 +20059,11 @@
         <NamedIndividual IRI="#E7921918D87"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7921918D87"/>
+        <NamedIndividual IRI="#B591809"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7921918D87"/>
         <NamedIndividual IRI="#C21915529"/>
@@ -19677,6 +20072,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7921918D87"/>
         <NamedIndividual IRI="#F7921918D87"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#792815"/>
+        <NamedIndividual IRI="#B792815"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -19709,6 +20109,11 @@
         <NamedIndividual IRI="#8290240A76"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#798980"/>
+        <NamedIndividual IRI="#B798980"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#798980"/>
         <NamedIndividual IRI="#ProceduraRistretta"/>
@@ -19734,6 +20139,11 @@
         <NamedIndividual IRI="#E7996404953"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#7996404953"/>
+        <NamedIndividual IRI="#B721717"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#7996404953"/>
         <NamedIndividual IRI="#C96401499"/>
@@ -19752,6 +20162,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#802544678B"/>
         <NamedIndividual IRI="#E802544678B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#802544678B"/>
+        <NamedIndividual IRI="#B681474"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19774,6 +20189,11 @@
         <NamedIndividual IRI="#E8027915D05"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8027915D05"/>
+        <NamedIndividual IRI="#B650502"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8027915D05"/>
         <NamedIndividual IRI="#C27911447"/>
@@ -19792,6 +20212,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#80902930FD"/>
         <NamedIndividual IRI="#E80902930FD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#80902930FD"/>
+        <NamedIndividual IRI="#B662745"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19814,6 +20239,11 @@
         <NamedIndividual IRI="#E809059388C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#809059388C"/>
+        <NamedIndividual IRI="#B662745"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#809059388C"/>
         <NamedIndividual IRI="#C90595529"/>
@@ -19832,6 +20262,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#81446791BC"/>
         <NamedIndividual IRI="#E81446791BC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#81446791BC"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19854,6 +20289,11 @@
         <NamedIndividual IRI="#E8144768B2B"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8144768B2B"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8144768B2B"/>
         <NamedIndividual IRI="#C44768038"/>
@@ -19872,6 +20312,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8144793FCB"/>
         <NamedIndividual IRI="#E8144793FCB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8144793FCB"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19894,6 +20339,11 @@
         <NamedIndividual IRI="#E8145665F64"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8145665F64"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8145665F64"/>
         <NamedIndividual IRI="#C45668038"/>
@@ -19912,6 +20362,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8145678A20"/>
         <NamedIndividual IRI="#E8145678A20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8145678A20"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19934,6 +20389,11 @@
         <NamedIndividual IRI="#E8145690409"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8145690409"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8145690409"/>
         <NamedIndividual IRI="#C45698038"/>
@@ -19952,6 +20412,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#81457158A9"/>
         <NamedIndividual IRI="#E81457158A9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#81457158A9"/>
+        <NamedIndividual IRI="#B690538"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -19974,6 +20439,11 @@
         <NamedIndividual IRI="#E81457250EC"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#81457250EC"/>
+        <NamedIndividual IRI="#B690538"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#81457250EC"/>
         <NamedIndividual IRI="#C45728038"/>
@@ -19982,6 +20452,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#81457250EC"/>
         <NamedIndividual IRI="#F81457250EC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#815389"/>
+        <NamedIndividual IRI="#B815389"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -20009,6 +20484,11 @@
         <NamedIndividual IRI="#E81994532AB"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#81994532AB"/>
+        <NamedIndividual IRI="#B729050"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#81994532AB"/>
         <NamedIndividual IRI="#C99455422"/>
@@ -20027,6 +20507,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8199464BBC"/>
         <NamedIndividual IRI="#E8199464BBC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8199464BBC"/>
+        <NamedIndividual IRI="#B729050"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20049,6 +20534,11 @@
         <NamedIndividual IRI="#E8199482A97"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8199482A97"/>
+        <NamedIndividual IRI="#B729050"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8199482A97"/>
         <NamedIndividual IRI="#C99483312"/>
@@ -20067,6 +20557,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#82233055F5"/>
         <NamedIndividual IRI="#E82233055F5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#82233055F5"/>
+        <NamedIndividual IRI="#B749787"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20089,6 +20584,11 @@
         <NamedIndividual IRI="#E8223309941"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8223309941"/>
+        <NamedIndividual IRI="#B749787"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8223309941"/>
         <NamedIndividual IRI="#C23306685"/>
@@ -20107,6 +20607,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#82233299C2"/>
         <NamedIndividual IRI="#E82233299C2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#82233299C2"/>
+        <NamedIndividual IRI="#B749787"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20129,6 +20634,11 @@
         <NamedIndividual IRI="#E8223332C3B"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8223332C3B"/>
+        <NamedIndividual IRI="#B749787"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8223332C3B"/>
         <NamedIndividual IRI="#C23331001"/>
@@ -20147,6 +20657,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8276108C5D"/>
         <NamedIndividual IRI="#E8276108C5D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8276108C5D"/>
+        <NamedIndividual IRI="#B775361"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20169,6 +20684,11 @@
         <NamedIndividual IRI="#E82902377FD"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#82902377FD"/>
+        <NamedIndividual IRI="#B792815"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#82902377FD"/>
         <NamedIndividual IRI="#C90233230"/>
@@ -20187,6 +20707,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#82902388D0"/>
         <NamedIndividual IRI="#E82902388D0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#82902388D0"/>
+        <NamedIndividual IRI="#B792815"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20209,6 +20734,11 @@
         <NamedIndividual IRI="#E82902399A3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#82902399A3"/>
+        <NamedIndividual IRI="#B792815"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#82902399A3"/>
         <NamedIndividual IRI="#C90238605"/>
@@ -20227,6 +20757,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8290240A76"/>
         <NamedIndividual IRI="#E8290240A76"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8290240A76"/>
+        <NamedIndividual IRI="#B792815"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20249,6 +20784,11 @@
         <NamedIndividual IRI="#E8295984E8E"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8295984E8E"/>
+        <NamedIndividual IRI="#B776556"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8295984E8E"/>
         <NamedIndividual IRI="#C95985425"/>
@@ -20267,6 +20807,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#83136977CB"/>
         <NamedIndividual IRI="#E83136977CB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#83136977CB"/>
+        <NamedIndividual IRI="#B798980"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20289,6 +20834,11 @@
         <NamedIndividual IRI="#E83828155C6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#83828155C6"/>
+        <NamedIndividual IRI="#B815389"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#83828155C6"/>
         <NamedIndividual IRI="#C82812304"/>
@@ -20307,6 +20857,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#84384648C7"/>
         <NamedIndividual IRI="#E84384648C7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#84384648C7"/>
+        <NamedIndividual IRI="#B903510"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20329,6 +20884,11 @@
         <NamedIndividual IRI="#E8518451026"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8518451026"/>
+        <NamedIndividual IRI="#B911505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8518451026"/>
         <NamedIndividual IRI="#C18455510"/>
@@ -20347,6 +20907,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8603719D83"/>
         <NamedIndividual IRI="#E8603719D83"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8603719D83"/>
+        <NamedIndividual IRI="#B967059"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20369,6 +20934,11 @@
         <NamedIndividual IRI="#E8613626D07"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8613626D07"/>
+        <NamedIndividual IRI="#B957416"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8613626D07"/>
         <NamedIndividual IRI="#C13621272"/>
@@ -20389,6 +20959,11 @@
         <NamedIndividual IRI="#E8628847DCB"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8628847DCB"/>
+        <NamedIndividual IRI="#B974856"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8628847DCB"/>
         <NamedIndividual IRI="#C28843312"/>
@@ -20407,6 +20982,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8631093B41"/>
         <NamedIndividual IRI="#E8631093B41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8631093B41"/>
+        <NamedIndividual IRI="#B978086"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20434,6 +21014,11 @@
         <NamedIndividual IRI="#E8631103384"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#8631103384"/>
+        <NamedIndividual IRI="#B978086"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#8631103384"/>
         <NamedIndividual IRI="#C31102067"/>
@@ -20452,6 +21037,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#86311087A3"/>
         <NamedIndividual IRI="#E86311087A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#86311087A3"/>
+        <NamedIndividual IRI="#B978086"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
@@ -20479,6 +21069,11 @@
         <NamedIndividual IRI="#E867469371E"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#867469371E"/>
+        <NamedIndividual IRI="#B1002785"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasContract"/>
         <NamedIndividual IRI="#867469371E"/>
         <NamedIndividual IRI="#C74692603"/>
@@ -20487,6 +21082,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#867469371E"/>
         <NamedIndividual IRI="#F867469371E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#903510"/>
+        <NamedIndividual IRI="#B903510"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -20504,6 +21104,11 @@
         <NamedIndividual IRI="#84384648C7"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#911505"/>
+        <NamedIndividual IRI="#B911505"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#911505"/>
         <NamedIndividual IRI="#ProceduraRistretta"/>
@@ -20517,6 +21122,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#911505"/>
         <NamedIndividual IRI="#8518451026"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#956000"/>
+        <NamedIndividual IRI="#B956000"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -20609,6 +21219,11 @@
         <NamedIndividual IRI="#6942933190"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#957416"/>
+        <NamedIndividual IRI="#B957416"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#957416"/>
         <NamedIndividual IRI="#ProceduraAperta"/>
@@ -20622,6 +21237,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#957416"/>
         <NamedIndividual IRI="#8613626D07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#967059"/>
+        <NamedIndividual IRI="#B967059"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
@@ -20639,6 +21259,11 @@
         <NamedIndividual IRI="#8603719D83"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#974856"/>
+        <NamedIndividual IRI="#B974856"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
         <NamedIndividual IRI="#974856"/>
         <NamedIndividual IRI="#ProceduraAperta"/>
@@ -20652,6 +21277,11 @@
         <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
         <NamedIndividual IRI="#974856"/>
         <NamedIndividual IRI="#8628847DCB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+        <NamedIndividual IRI="#978086"/>
+        <NamedIndividual IRI="#B978086"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasProcedureType"/>
