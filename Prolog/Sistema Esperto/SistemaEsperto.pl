@@ -142,8 +142,8 @@ percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPerco
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
 regola1():-
-    getProperyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', Range, RichiestaApprovvigionamento, ShortRichiestaApprovvigionamento, BandoDiGara, ShortBandoDiGara),
-    getProperyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', Range, OrdineDiAcquisto, ShortOrdineDiAcquisto, BandoDiGara, ShortBandoDiGara),
+    getProperyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, RichiestaApprovvigionamento, ShortRichiestaApprovvigionamento, BandoDiGara, ShortBandoDiGara),
+    getProperyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, OrdineDiAcquisto, ShortOrdineDiAcquisto, BandoDiGara, ShortBandoDiGara),
     annotatedElement(_,NameA,_,task,_,_,ShortRichiestaApprovvigionamento),
     annotatedElement(_,NameB,_,sendTask,_,_,ShortOrdineDiAcquisto),
     controlloPrecedenza(NameA, NameB),
@@ -152,5 +152,16 @@ regola1():-
 %----------------------------------------------------------------------------------------------------
 
 %REGOLA 2
-%Verificare che la proclamazione di un vincitore per una gara d'appalto sia preceduta, in ordine da: 
-%una verifica dei documenti per l'emanazione del bando e una emanazione della gara di appalto
+%Verificare che la proclamazione di un vincitore per una gara d'appalto (Avviso esito di procedura) sia preceduta, in ordine da: 
+%una verifica dei documenti per l'emanazione del bando (Richiesta verifica documenti bando) e una emanazione della gara di appalto (Pubblicazione)
+regola2():-
+    getProperyAssertion('riguarda_bando_di_gara', 'Richiesta verifica documenti', _, RichiestaVerificaDocumenti, ShortRichiestaVerificaDocumenti, BandoDiGara, ShortBandoDiGara),
+    getProperyAssertion('hasCallForCompetition', 'Publication', _, Pubblicazione, ShortPubblicazione, BandoDiGara, ShortBandoDiGara),
+    getProperyAssertion('hasCallForCompetition', 'Lot', _, Lotto, ShortLotto, BandoDiGara, ShortBandoDiGara),
+    getProperyAssertion('hasAwardNotice', 'Lot', _, Lotto, ShortLotto, AvvisoEsitoDiProcedura, ShortAvvisoEsitoDiProcedura),
+    annotatedElement(_,NameA,_,sendTask,_,_,ShortRichiestaVerificaDocumenti),
+    annotatedElement(_,NameB,_,sendTask,_,_,ShortPubblicazione),
+    annotatedElement(_,NameC,_,sendTask,_,_,ShortAvvisoEsitoDiProcedura),
+    controlloPrecedenza(NameA, [NameB, NameC]),
+    format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w",[ShortRichiestaVerificaDocumenti,ShortPubblicazione,ShortAvvisoEsitoDiProcedura]).
+
