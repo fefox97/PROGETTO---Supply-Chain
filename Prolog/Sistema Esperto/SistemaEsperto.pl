@@ -103,18 +103,28 @@ writePath([H|T]) :-
 %VERIFICA PRECEDENZA
 
 %stampa percorso
-writePrecedenza(NodoA, NodoB):-
-    precedenza(NodoA, NodoB, Percorso),
+writePrecedenza(NodoA, ListaNodi):-
+    precedenza(NodoA, ListaNodi, PercorsoF),
+    reverse(PercorsoF, Percorso),  %inverto il percorso per ottenere l'ordine corretto
     writePath(Percorso).
 
-%controlloPrecedenza verifica solo se esiste almeno un percorso tra il NodeA e il NodoB
-controlloPrecedenza(NodoA, NodoB) :- 
-    precedenza(NodoA, NodoB, _), !.
+%controlloPrecedenza verifica solo se esiste almeno un percorso tra il NodoA e il NodoB
+controlloPrecedenza(NodoIniziale, ListaNodi) :- 
+    precedenza(NodoIniziale, ListaNodi, _), !.
 
 %verifica
-precedenza(NodoA, NodoB, Percorso) :-
-    percorso(NodoA, NodoB, IDNodoA, IDNodoB, [NodoA], [IDNodoA], PercorsoR, IDPercorsoR),
-    reverse(PercorsoR, Percorso).   %inverto il percorso per ottenere l'ordine corretto
+precedenza(NodoIniziale, NodoFinale, Percorso) :-
+    percorso(NodoIniziale, NodoFinale, IDNodoIniziale, IDNodoFinale, [NodoIniziale], [IDNodoIniziale], PercorsoR, IDPercorsoR),
+    reverse(PercorsoR, Percorso).
+
+precedenza(NodoIniziale, [NodoIntermedio|[]], Percorso) :-
+    percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso, IDPercorsoR).
+
+precedenza(NodoIniziale, [NodoIntermedio|NodiIntermedi], Percorso) :-
+    percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso1, IDPercorso1),
+    precedenza(NodoIntermedio, NodiIntermedi, Percorso2),
+    append(Percorso3, [_], Percorso2), %rimuovo l'ultimo elemento dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
+    append([Percorso3,Percorso1],Percorso).
 
 %verifico se esiste un arco che collega direttamente due nodi
 percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, [NodoB|Visitati], [IDNodoB|IDVisitati]) :-
@@ -138,3 +148,9 @@ regola1():-
     annotatedElement(_,NameB,_,sendTask,_,_,ShortOrdineDiAcquisto),
     controlloPrecedenza(NameA, NameB),
     format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w",[ShortRichiestaApprovvigionamento,ShortOrdineDiAcquisto]).
+
+%----------------------------------------------------------------------------------------------------
+
+%REGOLA 2
+%Verificare che la proclamazione di un vincitore per una gara d'appalto sia preceduta, in ordine da: 
+%una verifica dei documenti per l'emanazione del bando e una emanazione della gara di appalto
