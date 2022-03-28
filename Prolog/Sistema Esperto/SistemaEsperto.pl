@@ -44,7 +44,7 @@ getIndividual(ClassIRI,Individual,ShortIndividual) :-
 getIndividual(NClass,Individual,ShortIndividual) :-
     nonvar(NClass),     %mi accerto che NClass non sia una variabile, ma un termine ground
     replaceString(NClass,' ','_',Class),
-    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI)),
+    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Class, ClassIRI)),
     classAssertion(ClassIRI,Individual),
     shortType(Individual, ShortIndividual).
 
@@ -61,7 +61,7 @@ getProperyAssertion(PropertyIRI, Domain, Range, IndividualD, ShortIndividualD, I
 %getProperyAssertion(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
 getProperyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
     nonvar(Property),   %mi accerto che Property non sia una variabile, ma un termine ground
-    (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Property, PropertyIRI); atom_concat('https://w3id.org/italia/onto/PublicContract/', Property, PropertyIRI)),
+    (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Property, PropertyIRI); atom_concat('https://w3id.org/italia/onto/PublicContract/', Property, PropertyIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Property, PropertyIRI)),
     getIndividual(Domain, IndividualD, ShortIndividualD),
     getIndividual(Range, IndividualR, ShortIndividualR),
     propertyAssertion(PropertyIRI, IndividualD, IndividualR).
@@ -144,9 +144,9 @@ percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPerco
 regola1():-
     getProperyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara),
     getProperyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara),
-    annotatedElement(_,'Invio richiesta approvvigionamento',_,_,_,_,ShortIRichiestaApprovvigionamento),
-    annotatedElement(_,'Ordine di acquisto',_,_,_,_,ShortIOrdineDiAcquisto),
-    controlloPrecedenza(NameA, NameB),
+    annotatedElement(_,NodoA,_,_,_,_,ShortIRichiestaApprovvigionamento),
+    annotatedElement(_,NodoB,_,_,_,_,ShortIOrdineDiAcquisto),
+    controlloPrecedenza(NodoA, NodoB),
     format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w",[ShortIRichiestaApprovvigionamento,ShortIOrdineDiAcquisto]).
 
 %----------------------------------------------------------------------------------------------------
@@ -159,9 +159,19 @@ regola2():-
     getProperyAssertion('hasCallForCompetition', 'Publication', _, IPubblicazione, ShortIPubblicazione, IBandoDiGara, ShortIBandoDiGara),
     getProperyAssertion('hasCallForCompetition', 'Lot', _, ILotto, ShortILotto, IBandoDiGara, ShortIBandoDiGara),
     getProperyAssertion('hasAwardNotice', 'Lot', _, ILotto, ShortILotto, IAvvisoEsitoDiProcedura, ShortIAvvisoEsitoDiProcedura),
-    annotatedElement(_,'Invio documenti per verifiche',_,_,_,_,ShortIRichiestaVerificaDocumenti),
-    annotatedElement(_,'Gara di appalto',_,_,_,_,ShortIPubblicazione),
-    annotatedElement(_,'Proclamazione vincitore concorso',_,_,_,_,ShortIAvvisoEsitoDiProcedura),
-    controlloPrecedenza(NameA, [NameB, NameC]),
+    annotatedElement(_,NodoA,_,_,_,_,ShortIRichiestaVerificaDocumenti),
+    annotatedElement(_,NodoB,_,_,_,_,ShortIPubblicazione),
+    annotatedElement(_,NodoC,_,_,_,_,ShortIAvvisoEsitoDiProcedura),
+    controlloPrecedenza(NodoA, [NodoB, NodoC]),
     format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w",[ShortIRichiestaVerificaDocumenti,ShortIPubblicazione,ShortIAvvisoEsitoDiProcedura]).
 
+%REGOLA 3
+%Verificare che l'emissione di un Certificato di Pagamento avvenga solo ed esclusivamente in seguito all'evasione dell'ordine.
+regola3(NodoA,NodoB,IDA,IDB):-
+    getProperyAssertion('riguarda_ordine_di_acquisto', 'Deliver_Stocked_Product', _, ISpedizioneOrdine, ShortISpedizioneOrdine, IOrdineDiAcquisto, ShortIOrdineDiAcquisto),
+    getProperyAssertion('riguarda_lotto', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, ILotto, ShortILotto),
+    getProperyAssertion('hasPaymentCertificate', 'Lot', _, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento),
+    annotatedElement(_,NodoA,IDA,_,_,_,ShortISpedizioneOrdine),
+    annotatedElement(_,NodoB,IDB,_,_,_,ShortICertificatoDiPagamento),
+    controlloPrecedenza(NodoA, NodoB),
+    format("L'evasione dell'ordine ~w precede l'emissione del certificato di pagamento ~w",[ShortISpedizioneOrdine,ShortICertificatoDiPagamento]).
