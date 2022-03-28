@@ -673,6 +673,14 @@
     
 
 
+    <!-- http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-mm.owl#Flow_0ni8l9k -->
+
+    <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-mm.owl#Flow_0ni8l9k">
+        <MM_Ontology:has_structuralElement rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_0ni8l9k"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-mm.owl#Flow_0nj0ch8 -->
 
     <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-mm.owl#Flow_0nj0ch8">

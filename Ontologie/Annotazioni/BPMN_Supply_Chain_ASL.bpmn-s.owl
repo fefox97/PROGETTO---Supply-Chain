@@ -789,6 +789,7 @@
         <BPMN2_Ontology:has_messageFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_04depjk"/>
         <BPMN2_Ontology:has_messageFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_0ck04ot"/>
         <BPMN2_Ontology:has_messageFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_0g3syea"/>
+        <BPMN2_Ontology:has_messageFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_0ni8l9k"/>
         <BPMN2_Ontology:has_messageFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_10ssk8d"/>
         <BPMN2_Ontology:has_messageFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_1i9bw8c"/>
         <BPMN2_Ontology:has_messageFlow rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_1k9mwe1"/>
@@ -1249,6 +1250,17 @@
         <BPMN2_Ontology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#ID">Flow_0lu30vb</BPMN2_Ontology:id>
         <BPMN2_Ontology:has_targetRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Event_0y7thdq"/>
         <BPMN2_Ontology:has_sourceRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Gateway_1vdgxsr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_0ni8l9k -->
+
+    <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Flow_0ni8l9k">
+        <rdf:type rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#messageFlow"/>
+        <BPMN2_Ontology:id rdf:datatype="http://www.w3.org/2001/XMLSchema#ID">Flow_0ni8l9k</BPMN2_Ontology:id>
+        <BPMN2_Ontology:has_sourceRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Activity_0adpghn"/>
+        <BPMN2_Ontology:has_targetRef rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Event_0y7thdq"/>
     </owl:NamedIndividual>
     
 

@@ -12,6 +12,7 @@
     <bpmn:messageFlow id="Flow_0ck04ot" sourceRef="Activity_0s4fm1e" targetRef="Event_0ule46a" />
     <bpmn:messageFlow id="Flow_04depjk" sourceRef="Activity_1w4mq26" targetRef="Event_17amx6x" />
     <bpmn:messageFlow id="Flow_1uqvei9" sourceRef="Activity_0dvu06o" targetRef="Event_07vtkib" />
+    <bpmn:messageFlow id="Flow_0ni8l9k" sourceRef="Activity_0adpghn" targetRef="Event_0y7thdq" />
   </bpmn:collaboration>
   <bpmn:process id="Process_1ucbdtc" isExecutable="false">
     <bpmn:laneSet id="LaneSet_08fbahc">
@@ -605,7 +606,7 @@
       <bpmndi:BPMNShape id="Event_1umepnc_di" bpmnElement="Event_0y7thdq">
         <dc:Bounds x="2622" y="882" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="2599" y="925" width="83" height="14" />
+          <dc:Bounds x="2598" y="858" width="83" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1wdpxle_di" bpmnElement="Activity_1w4mq26">
@@ -864,6 +865,12 @@
       <bpmndi:BPMNEdge id="Flow_1uqvei9_di" bpmnElement="Flow_1uqvei9">
         <di:waypoint x="3160" y="940" />
         <di:waypoint x="3160" y="1662" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ni8l9k_di" bpmnElement="Flow_0ni8l9k">
+        <di:waypoint x="3030" y="1640" />
+        <di:waypoint x="3030" y="1279" />
+        <di:waypoint x="2640" y="1279" />
+        <di:waypoint x="2640" y="918" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
