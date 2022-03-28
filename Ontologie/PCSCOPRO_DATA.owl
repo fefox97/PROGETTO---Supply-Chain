@@ -1459,6 +1459,9 @@
         <ObjectProperty IRI="#riguarda_lotto"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
     </Declaration>
     <Declaration>
@@ -2689,6 +2692,297 @@
         <NamedIndividual IRI="#E867469371E"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#EO6940799088"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO69408044A7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6940810999"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6940909B4B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6940929BCC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6941349666"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO694136104F"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6942276363"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO69429141E2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO69429217A7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6942925AF3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6942926BC6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6942928D6C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6942930F12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO6942933190"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO76369713D6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7636980B41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637002D68"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO76370060B9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637009332"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO763701367E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637014751"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO76370168F7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637021D16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637023EBC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO763702613A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO76370282E0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO763703262C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO76370358A5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637038B1E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637041D97"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637042E6A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7637049434"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO76370515DA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO76370569F9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO764361704B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7688013D04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO77128469DC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO771286163E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7712870DA9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO77128751CD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO77128816BF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7712889D57"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO787873167F"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7878742F90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7878748487"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO78787538A6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO78787630E9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7878768508"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO787878316A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7878785310"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO78787874B6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO787879072F"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7878802118"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7921918D87"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO7996404953"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO802544678B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8027915D05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO80902930FD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO809059388C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO81446791BC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8144768B2B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8144793FCB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8145665F64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8145678A20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8145690409"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO81457158A9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO81457250EC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO81994532AB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8199464BBC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8199482A97"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO82233055F5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8223309941"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO82233299C2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8223332C3B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8276108C5D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO82902377FD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO82902388D0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO82902399A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8290240A76"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8295984E8E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO83136977CB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO83828155C6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO84384648C7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8518451026"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8603719D83"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8613626D07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8628847DCB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8631093B41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO8631103384"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO86311087A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EO867469371E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EOZ0B2BFB62C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EOZ312B44EF9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EOZ502B44E81"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EOZ682AEFF2E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EOZ842BFB79C"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#EZ0B2BFB62C"/>
     </Declaration>
     <Declaration>
@@ -3577,6 +3871,12 @@
         <NamedIndividual IRI="#OZ842BFB79C"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrezzoPiùBasso"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ProceduraAperta"/>
     </Declaration>
     <Declaration>
@@ -3773,6 +4073,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Z842BFB79C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ordine_acquisto"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#00076670595"/>
@@ -4489,6 +4792,9 @@
         <NamedIndividual IRI="#978086"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
     </Declaration>
     <Declaration>
@@ -4643,15 +4949,6 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:time"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Business_Process"/>
@@ -9234,6 +9531,394 @@
         <NamedIndividual IRI="#E867469371E"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6940799088"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO69408044A7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6940810999"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6940909B4B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6940929BCC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6941349666"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO694136104F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6942276363"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO69429141E2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO69429217A7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6942925AF3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6942926BC6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6942928D6C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6942930F12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO6942933190"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO76369713D6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7636980B41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637002D68"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO76370060B9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637009332"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO763701367E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637014751"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO76370168F7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637021D16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637023EBC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO763702613A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO76370282E0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO763703262C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO76370358A5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637038B1E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637041D97"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637042E6A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7637049434"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO76370515DA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO76370569F9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO764361704B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7688013D04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO77128469DC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO771286163E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7712870DA9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO77128751CD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO77128816BF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7712889D57"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO787873167F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7878742F90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7878748487"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO78787538A6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO78787630E9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7878768508"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO787878316A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7878785310"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO78787874B6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO787879072F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7878802118"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7921918D87"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO7996404953"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO802544678B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8027915D05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO80902930FD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO809059388C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO81446791BC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8144768B2B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8144793FCB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8145665F64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8145678A20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8145690409"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO81457158A9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO81457250EC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO81994532AB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8199464BBC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8199482A97"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO82233055F5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8223309941"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO82233299C2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8223332C3B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8276108C5D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO82902377FD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO82902388D0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO82902399A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8290240A76"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8295984E8E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO83136977CB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO83828155C6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO84384648C7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8518451026"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8603719D83"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8613626D07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8628847DCB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8631093B41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO8631103384"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO86311087A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EO867469371E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EOZ0B2BFB62C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EOZ312B44EF9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EOZ502B44E81"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EOZ682AEFF2E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <NamedIndividual IRI="#EOZ842BFB79C"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:AwardNotice"/>
         <NamedIndividual IRI="#EZ0B2BFB62C"/>
     </ClassAssertion>
@@ -13807,6 +14492,491 @@
         <ObjectProperty abbreviatedIRI="PublicContract:winner"/>
         <NamedIndividual IRI="#E867469371E"/>
         <NamedIndividual IRI="#01260340482"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6940799088"/>
+        <NamedIndividual IRI="#OA6940799088"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO69408044A7"/>
+        <NamedIndividual IRI="#OA69408044A7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6940810999"/>
+        <NamedIndividual IRI="#OA6940810999"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6940909B4B"/>
+        <NamedIndividual IRI="#OA6940909B4B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6940929BCC"/>
+        <NamedIndividual IRI="#OA6940929BCC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6941349666"/>
+        <NamedIndividual IRI="#OA6941349666"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO694136104F"/>
+        <NamedIndividual IRI="#OA694136104F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6942276363"/>
+        <NamedIndividual IRI="#OA6942276363"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO69429141E2"/>
+        <NamedIndividual IRI="#OA69429141E2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO69429217A7"/>
+        <NamedIndividual IRI="#OA69429217A7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6942925AF3"/>
+        <NamedIndividual IRI="#OA6942925AF3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6942926BC6"/>
+        <NamedIndividual IRI="#OA6942926BC6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6942928D6C"/>
+        <NamedIndividual IRI="#OA6942928D6C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6942930F12"/>
+        <NamedIndividual IRI="#OA6942930F12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO6942933190"/>
+        <NamedIndividual IRI="#OA6942933190"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO76369713D6"/>
+        <NamedIndividual IRI="#OA76369713D6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7636980B41"/>
+        <NamedIndividual IRI="#OA7636980B41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637002D68"/>
+        <NamedIndividual IRI="#OA7637002D68"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO76370060B9"/>
+        <NamedIndividual IRI="#OA76370060B9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637009332"/>
+        <NamedIndividual IRI="#OA7637009332"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO763701367E"/>
+        <NamedIndividual IRI="#OA763701367E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637014751"/>
+        <NamedIndividual IRI="#OA7637014751"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO76370168F7"/>
+        <NamedIndividual IRI="#OA76370168F7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637021D16"/>
+        <NamedIndividual IRI="#OA7637021D16"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637023EBC"/>
+        <NamedIndividual IRI="#OA7637023EBC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO763702613A"/>
+        <NamedIndividual IRI="#OA763702613A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO76370282E0"/>
+        <NamedIndividual IRI="#OA76370282E0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO763703262C"/>
+        <NamedIndividual IRI="#OA763703262C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO76370358A5"/>
+        <NamedIndividual IRI="#OA76370358A5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637038B1E"/>
+        <NamedIndividual IRI="#OA7637038B1E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637041D97"/>
+        <NamedIndividual IRI="#OA7637041D97"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637042E6A"/>
+        <NamedIndividual IRI="#OA7637042E6A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7637049434"/>
+        <NamedIndividual IRI="#OA7637049434"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO76370515DA"/>
+        <NamedIndividual IRI="#OA76370515DA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO76370569F9"/>
+        <NamedIndividual IRI="#OA76370569F9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO764361704B"/>
+        <NamedIndividual IRI="#OA764361704B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7688013D04"/>
+        <NamedIndividual IRI="#OA7688013D04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO77128469DC"/>
+        <NamedIndividual IRI="#OA77128469DC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO771286163E"/>
+        <NamedIndividual IRI="#OA771286163E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7712870DA9"/>
+        <NamedIndividual IRI="#OA7712870DA9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO77128751CD"/>
+        <NamedIndividual IRI="#OA77128751CD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO77128816BF"/>
+        <NamedIndividual IRI="#OA77128816BF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7712889D57"/>
+        <NamedIndividual IRI="#OA7712889D57"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO787873167F"/>
+        <NamedIndividual IRI="#OA787873167F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7878742F90"/>
+        <NamedIndividual IRI="#OA7878742F90"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7878748487"/>
+        <NamedIndividual IRI="#OA7878748487"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO78787538A6"/>
+        <NamedIndividual IRI="#OA78787538A6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO78787630E9"/>
+        <NamedIndividual IRI="#OA78787630E9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7878768508"/>
+        <NamedIndividual IRI="#OA7878768508"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO787878316A"/>
+        <NamedIndividual IRI="#OA787878316A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7878785310"/>
+        <NamedIndividual IRI="#OA7878785310"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO78787874B6"/>
+        <NamedIndividual IRI="#OA78787874B6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO787879072F"/>
+        <NamedIndividual IRI="#OA787879072F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7878802118"/>
+        <NamedIndividual IRI="#OA7878802118"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7921918D87"/>
+        <NamedIndividual IRI="#OA7921918D87"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO7996404953"/>
+        <NamedIndividual IRI="#OA7996404953"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO802544678B"/>
+        <NamedIndividual IRI="#OA802544678B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8027915D05"/>
+        <NamedIndividual IRI="#OA8027915D05"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO80902930FD"/>
+        <NamedIndividual IRI="#OA80902930FD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO809059388C"/>
+        <NamedIndividual IRI="#OA809059388C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO81446791BC"/>
+        <NamedIndividual IRI="#OA81446791BC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8144768B2B"/>
+        <NamedIndividual IRI="#OA8144768B2B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8144793FCB"/>
+        <NamedIndividual IRI="#OA8144793FCB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8145665F64"/>
+        <NamedIndividual IRI="#OA8145665F64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8145678A20"/>
+        <NamedIndividual IRI="#OA8145678A20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8145690409"/>
+        <NamedIndividual IRI="#OA8145690409"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO81457158A9"/>
+        <NamedIndividual IRI="#OA81457158A9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO81457250EC"/>
+        <NamedIndividual IRI="#OA81457250EC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO81994532AB"/>
+        <NamedIndividual IRI="#OA81994532AB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8199464BBC"/>
+        <NamedIndividual IRI="#OA8199464BBC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8199482A97"/>
+        <NamedIndividual IRI="#OA8199482A97"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO82233055F5"/>
+        <NamedIndividual IRI="#OA82233055F5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8223309941"/>
+        <NamedIndividual IRI="#OA8223309941"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO82233299C2"/>
+        <NamedIndividual IRI="#OA82233299C2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8223332C3B"/>
+        <NamedIndividual IRI="#OA8223332C3B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8276108C5D"/>
+        <NamedIndividual IRI="#OA8276108C5D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO82902377FD"/>
+        <NamedIndividual IRI="#OA82902377FD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO82902388D0"/>
+        <NamedIndividual IRI="#OA82902388D0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO82902399A3"/>
+        <NamedIndividual IRI="#OA82902399A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8290240A76"/>
+        <NamedIndividual IRI="#OA8290240A76"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8295984E8E"/>
+        <NamedIndividual IRI="#OA8295984E8E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO83136977CB"/>
+        <NamedIndividual IRI="#OA83136977CB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO83828155C6"/>
+        <NamedIndividual IRI="#OA83828155C6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO84384648C7"/>
+        <NamedIndividual IRI="#OA84384648C7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8518451026"/>
+        <NamedIndividual IRI="#OA8518451026"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8603719D83"/>
+        <NamedIndividual IRI="#OA8603719D83"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8613626D07"/>
+        <NamedIndividual IRI="#OA8613626D07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8628847DCB"/>
+        <NamedIndividual IRI="#OA8628847DCB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8631093B41"/>
+        <NamedIndividual IRI="#OA8631093B41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO8631103384"/>
+        <NamedIndividual IRI="#OA8631103384"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO86311087A3"/>
+        <NamedIndividual IRI="#OA86311087A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EO867469371E"/>
+        <NamedIndividual IRI="#OA867469371E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EOZ0B2BFB62C"/>
+        <NamedIndividual IRI="#OAZ0B2BFB62C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EOZ312B44EF9"/>
+        <NamedIndividual IRI="#OAZ312B44EF9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EOZ502B44E81"/>
+        <NamedIndividual IRI="#OAZ502B44E81"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EOZ682AEFF2E"/>
+        <NamedIndividual IRI="#OAZ682AEFF2E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <NamedIndividual IRI="#EOZ842BFB79C"/>
+        <NamedIndividual IRI="#OAZ842BFB79C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:selectedTender"/>
@@ -25836,6 +27006,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <Class IRI="#Comunicazione"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <Class IRI="#Comunicazione"/>
     </ObjectPropertyDomain>
@@ -26456,6 +27630,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <Class abbreviatedIRI="PublicContract:Lot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <Class IRI="#Ordine_di_acquisto"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -29122,6 +30300,491 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6940799088</IRI>
+        <Literal>Spedizione ordine n. EO6940799088</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO69408044A7</IRI>
+        <Literal>Spedizione ordine n. EO69408044A7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6940810999</IRI>
+        <Literal>Spedizione ordine n. EO6940810999</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6940909B4B</IRI>
+        <Literal>Spedizione ordine n. EO6940909B4B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6940929BCC</IRI>
+        <Literal>Spedizione ordine n. EO6940929BCC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6941349666</IRI>
+        <Literal>Spedizione ordine n. EO6941349666</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO694136104F</IRI>
+        <Literal>Spedizione ordine n. EO694136104F</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6942276363</IRI>
+        <Literal>Spedizione ordine n. EO6942276363</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO69429141E2</IRI>
+        <Literal>Spedizione ordine n. EO69429141E2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO69429217A7</IRI>
+        <Literal>Spedizione ordine n. EO69429217A7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6942925AF3</IRI>
+        <Literal>Spedizione ordine n. EO6942925AF3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6942926BC6</IRI>
+        <Literal>Spedizione ordine n. EO6942926BC6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6942928D6C</IRI>
+        <Literal>Spedizione ordine n. EO6942928D6C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6942930F12</IRI>
+        <Literal>Spedizione ordine n. EO6942930F12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO6942933190</IRI>
+        <Literal>Spedizione ordine n. EO6942933190</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO76369713D6</IRI>
+        <Literal>Spedizione ordine n. EO76369713D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7636980B41</IRI>
+        <Literal>Spedizione ordine n. EO7636980B41</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637002D68</IRI>
+        <Literal>Spedizione ordine n. EO7637002D68</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO76370060B9</IRI>
+        <Literal>Spedizione ordine n. EO76370060B9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637009332</IRI>
+        <Literal>Spedizione ordine n. EO7637009332</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO763701367E</IRI>
+        <Literal>Spedizione ordine n. EO763701367E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637014751</IRI>
+        <Literal>Spedizione ordine n. EO7637014751</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO76370168F7</IRI>
+        <Literal>Spedizione ordine n. EO76370168F7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637021D16</IRI>
+        <Literal>Spedizione ordine n. EO7637021D16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637023EBC</IRI>
+        <Literal>Spedizione ordine n. EO7637023EBC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO763702613A</IRI>
+        <Literal>Spedizione ordine n. EO763702613A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO76370282E0</IRI>
+        <Literal>Spedizione ordine n. EO76370282E0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO763703262C</IRI>
+        <Literal>Spedizione ordine n. EO763703262C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO76370358A5</IRI>
+        <Literal>Spedizione ordine n. EO76370358A5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637038B1E</IRI>
+        <Literal>Spedizione ordine n. EO7637038B1E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637041D97</IRI>
+        <Literal>Spedizione ordine n. EO7637041D97</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637042E6A</IRI>
+        <Literal>Spedizione ordine n. EO7637042E6A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7637049434</IRI>
+        <Literal>Spedizione ordine n. EO7637049434</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO76370515DA</IRI>
+        <Literal>Spedizione ordine n. EO76370515DA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO76370569F9</IRI>
+        <Literal>Spedizione ordine n. EO76370569F9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO764361704B</IRI>
+        <Literal>Spedizione ordine n. EO764361704B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7688013D04</IRI>
+        <Literal>Spedizione ordine n. EO7688013D04</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO77128469DC</IRI>
+        <Literal>Spedizione ordine n. EO77128469DC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO771286163E</IRI>
+        <Literal>Spedizione ordine n. EO771286163E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7712870DA9</IRI>
+        <Literal>Spedizione ordine n. EO7712870DA9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO77128751CD</IRI>
+        <Literal>Spedizione ordine n. EO77128751CD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO77128816BF</IRI>
+        <Literal>Spedizione ordine n. EO77128816BF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7712889D57</IRI>
+        <Literal>Spedizione ordine n. EO7712889D57</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO787873167F</IRI>
+        <Literal>Spedizione ordine n. EO787873167F</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7878742F90</IRI>
+        <Literal>Spedizione ordine n. EO7878742F90</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7878748487</IRI>
+        <Literal>Spedizione ordine n. EO7878748487</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO78787538A6</IRI>
+        <Literal>Spedizione ordine n. EO78787538A6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO78787630E9</IRI>
+        <Literal>Spedizione ordine n. EO78787630E9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7878768508</IRI>
+        <Literal>Spedizione ordine n. EO7878768508</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO787878316A</IRI>
+        <Literal>Spedizione ordine n. EO787878316A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7878785310</IRI>
+        <Literal>Spedizione ordine n. EO7878785310</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO78787874B6</IRI>
+        <Literal>Spedizione ordine n. EO78787874B6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO787879072F</IRI>
+        <Literal>Spedizione ordine n. EO787879072F</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7878802118</IRI>
+        <Literal>Spedizione ordine n. EO7878802118</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7921918D87</IRI>
+        <Literal>Spedizione ordine n. EO7921918D87</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO7996404953</IRI>
+        <Literal>Spedizione ordine n. EO7996404953</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO802544678B</IRI>
+        <Literal>Spedizione ordine n. EO802544678B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8027915D05</IRI>
+        <Literal>Spedizione ordine n. EO8027915D05</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO80902930FD</IRI>
+        <Literal>Spedizione ordine n. EO80902930FD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO809059388C</IRI>
+        <Literal>Spedizione ordine n. EO809059388C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO81446791BC</IRI>
+        <Literal>Spedizione ordine n. EO81446791BC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8144768B2B</IRI>
+        <Literal>Spedizione ordine n. EO8144768B2B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8144793FCB</IRI>
+        <Literal>Spedizione ordine n. EO8144793FCB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8145665F64</IRI>
+        <Literal>Spedizione ordine n. EO8145665F64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8145678A20</IRI>
+        <Literal>Spedizione ordine n. EO8145678A20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8145690409</IRI>
+        <Literal>Spedizione ordine n. EO8145690409</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO81457158A9</IRI>
+        <Literal>Spedizione ordine n. EO81457158A9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO81457250EC</IRI>
+        <Literal>Spedizione ordine n. EO81457250EC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO81994532AB</IRI>
+        <Literal>Spedizione ordine n. EO81994532AB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8199464BBC</IRI>
+        <Literal>Spedizione ordine n. EO8199464BBC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8199482A97</IRI>
+        <Literal>Spedizione ordine n. EO8199482A97</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO82233055F5</IRI>
+        <Literal>Spedizione ordine n. EO82233055F5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8223309941</IRI>
+        <Literal>Spedizione ordine n. EO8223309941</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO82233299C2</IRI>
+        <Literal>Spedizione ordine n. EO82233299C2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8223332C3B</IRI>
+        <Literal>Spedizione ordine n. EO8223332C3B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8276108C5D</IRI>
+        <Literal>Spedizione ordine n. EO8276108C5D</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO82902377FD</IRI>
+        <Literal>Spedizione ordine n. EO82902377FD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO82902388D0</IRI>
+        <Literal>Spedizione ordine n. EO82902388D0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO82902399A3</IRI>
+        <Literal>Spedizione ordine n. EO82902399A3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8290240A76</IRI>
+        <Literal>Spedizione ordine n. EO8290240A76</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8295984E8E</IRI>
+        <Literal>Spedizione ordine n. EO8295984E8E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO83136977CB</IRI>
+        <Literal>Spedizione ordine n. EO83136977CB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO83828155C6</IRI>
+        <Literal>Spedizione ordine n. EO83828155C6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO84384648C7</IRI>
+        <Literal>Spedizione ordine n. EO84384648C7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8518451026</IRI>
+        <Literal>Spedizione ordine n. EO8518451026</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8603719D83</IRI>
+        <Literal>Spedizione ordine n. EO8603719D83</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8613626D07</IRI>
+        <Literal>Spedizione ordine n. EO8613626D07</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8628847DCB</IRI>
+        <Literal>Spedizione ordine n. EO8628847DCB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8631093B41</IRI>
+        <Literal>Spedizione ordine n. EO8631093B41</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO8631103384</IRI>
+        <Literal>Spedizione ordine n. EO8631103384</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO86311087A3</IRI>
+        <Literal>Spedizione ordine n. EO86311087A3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EO867469371E</IRI>
+        <Literal>Spedizione ordine n. EO867469371E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EOZ0B2BFB62C</IRI>
+        <Literal>Spedizione ordine n. EOZ0B2BFB62C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EOZ312B44EF9</IRI>
+        <Literal>Spedizione ordine n. EOZ312B44EF9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EOZ502B44E81</IRI>
+        <Literal>Spedizione ordine n. EOZ502B44E81</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EOZ682AEFF2E</IRI>
+        <Literal>Spedizione ordine n. EOZ682AEFF2E</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EOZ842BFB79C</IRI>
+        <Literal>Spedizione ordine n. EOZ842BFB79C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#EZ0B2BFB62C</IRI>
         <Literal>Esito procedura n. EZ0B2BFB62C</Literal>
     </AnnotationAssertion>
@@ -31039,6 +32702,16 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#riguarda_lotto</IRI>
         <Literal xml:lang="it">riguarda lotto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#riguarda_ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">Proprietà che lega la spedizione di un bene al relativo ordine di acquisto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#riguarda_ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">riguarda ordine di acquisto</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

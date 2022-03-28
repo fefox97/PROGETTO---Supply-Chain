@@ -335,6 +335,9 @@
     <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-mm.owl#Activity_1xpl0p1">
         <MM_Ontology:has_structuralElement rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/BPMN_Supply_Chain_ASL.bpmn-s.owl#Activity_1xpl0p1"/>
         <MM_Ontology:activity_is_a_kind_of rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#Deliver_Stocked_Product"/>
+        <MM_Ontology:has_domainLink rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO81994532AB"/>
+        <MM_Ontology:has_domainLink rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO8199464BBC"/>
+        <MM_Ontology:has_domainLink rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO8199482A97"/>
         <MM_Ontology:has_performerLink rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#PCSCOPRO#01542210222"/>
         <MM_Ontology:has_performerLink rdf:resource="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#PCSCOPRO#09331210154"/>
     </owl:NamedIndividual>
@@ -1296,6 +1299,24 @@
     <!-- http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#E8199482A97 -->
 
     <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#E8199482A97"/>
+    
+
+
+    <!-- http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO81994532AB -->
+
+    <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO81994532AB"/>
+    
+
+
+    <!-- http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO8199464BBC -->
+
+    <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO8199464BBC"/>
+    
+
+
+    <!-- http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO8199482A97 -->
+
+    <owl:NamedIndividual rdf:about="http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Supply%20Chain/Files%20OWL/PCSCOPRO_DATA.owl#EO8199482A97"/>
     
 
 

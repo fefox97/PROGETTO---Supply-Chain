@@ -611,6 +611,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#riguarda_ordine_di_acquisto -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#riguarda_ordine_di_acquisto">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Ordine_di_acquisto"/>
+        <rdfs:comment xml:lang="it">Proprietà che lega la spedizione di un bene al relativo ordine di acquisto.</rdfs:comment>
+        <rdfs:label xml:lang="it">riguarda ordine di acquisto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#si_riferisce_a_progetto_di_approvvigionamento -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#si_riferisce_a_progetto_di_approvvigionamento">
@@ -10539,6 +10550,976 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940799088 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940799088">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940799088"/>
+        <rdfs:label>Spedizione ordine n. EO6940799088</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO69408044A7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO69408044A7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69408044A7"/>
+        <rdfs:label>Spedizione ordine n. EO69408044A7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940810999 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940810999">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940810999"/>
+        <rdfs:label>Spedizione ordine n. EO6940810999</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940909B4B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940909B4B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940909B4B"/>
+        <rdfs:label>Spedizione ordine n. EO6940909B4B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940929BCC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6940929BCC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6940929BCC"/>
+        <rdfs:label>Spedizione ordine n. EO6940929BCC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6941349666 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6941349666">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6941349666"/>
+        <rdfs:label>Spedizione ordine n. EO6941349666</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO694136104F -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO694136104F">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA694136104F"/>
+        <rdfs:label>Spedizione ordine n. EO694136104F</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942276363 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942276363">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942276363"/>
+        <rdfs:label>Spedizione ordine n. EO6942276363</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO69429141E2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO69429141E2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69429141E2"/>
+        <rdfs:label>Spedizione ordine n. EO69429141E2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO69429217A7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO69429217A7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA69429217A7"/>
+        <rdfs:label>Spedizione ordine n. EO69429217A7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942925AF3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942925AF3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942925AF3"/>
+        <rdfs:label>Spedizione ordine n. EO6942925AF3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942926BC6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942926BC6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942926BC6"/>
+        <rdfs:label>Spedizione ordine n. EO6942926BC6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942928D6C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942928D6C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942928D6C"/>
+        <rdfs:label>Spedizione ordine n. EO6942928D6C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942930F12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942930F12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942930F12"/>
+        <rdfs:label>Spedizione ordine n. EO6942930F12</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942933190 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO6942933190">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA6942933190"/>
+        <rdfs:label>Spedizione ordine n. EO6942933190</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76369713D6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76369713D6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76369713D6"/>
+        <rdfs:label>Spedizione ordine n. EO76369713D6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7636980B41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7636980B41">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7636980B41"/>
+        <rdfs:label>Spedizione ordine n. EO7636980B41</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637002D68 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637002D68">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637002D68"/>
+        <rdfs:label>Spedizione ordine n. EO7637002D68</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370060B9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370060B9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370060B9"/>
+        <rdfs:label>Spedizione ordine n. EO76370060B9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637009332 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637009332">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637009332"/>
+        <rdfs:label>Spedizione ordine n. EO7637009332</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO763701367E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO763701367E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763701367E"/>
+        <rdfs:label>Spedizione ordine n. EO763701367E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637014751 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637014751">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637014751"/>
+        <rdfs:label>Spedizione ordine n. EO7637014751</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370168F7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370168F7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370168F7"/>
+        <rdfs:label>Spedizione ordine n. EO76370168F7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637021D16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637021D16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637021D16"/>
+        <rdfs:label>Spedizione ordine n. EO7637021D16</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637023EBC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637023EBC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637023EBC"/>
+        <rdfs:label>Spedizione ordine n. EO7637023EBC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO763702613A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO763702613A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763702613A"/>
+        <rdfs:label>Spedizione ordine n. EO763702613A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370282E0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370282E0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370282E0"/>
+        <rdfs:label>Spedizione ordine n. EO76370282E0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO763703262C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO763703262C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA763703262C"/>
+        <rdfs:label>Spedizione ordine n. EO763703262C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370358A5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370358A5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370358A5"/>
+        <rdfs:label>Spedizione ordine n. EO76370358A5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637038B1E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637038B1E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637038B1E"/>
+        <rdfs:label>Spedizione ordine n. EO7637038B1E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637041D97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637041D97">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637041D97"/>
+        <rdfs:label>Spedizione ordine n. EO7637041D97</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637042E6A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637042E6A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637042E6A"/>
+        <rdfs:label>Spedizione ordine n. EO7637042E6A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637049434 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7637049434">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7637049434"/>
+        <rdfs:label>Spedizione ordine n. EO7637049434</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370515DA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370515DA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370515DA"/>
+        <rdfs:label>Spedizione ordine n. EO76370515DA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370569F9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO76370569F9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA76370569F9"/>
+        <rdfs:label>Spedizione ordine n. EO76370569F9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO764361704B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO764361704B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA764361704B"/>
+        <rdfs:label>Spedizione ordine n. EO764361704B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7688013D04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7688013D04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7688013D04"/>
+        <rdfs:label>Spedizione ordine n. EO7688013D04</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO77128469DC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO77128469DC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128469DC"/>
+        <rdfs:label>Spedizione ordine n. EO77128469DC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO771286163E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO771286163E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA771286163E"/>
+        <rdfs:label>Spedizione ordine n. EO771286163E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7712870DA9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7712870DA9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7712870DA9"/>
+        <rdfs:label>Spedizione ordine n. EO7712870DA9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO77128751CD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO77128751CD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128751CD"/>
+        <rdfs:label>Spedizione ordine n. EO77128751CD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO77128816BF -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO77128816BF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA77128816BF"/>
+        <rdfs:label>Spedizione ordine n. EO77128816BF</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7712889D57 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7712889D57">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7712889D57"/>
+        <rdfs:label>Spedizione ordine n. EO7712889D57</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO787873167F -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO787873167F">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787873167F"/>
+        <rdfs:label>Spedizione ordine n. EO787873167F</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878742F90 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878742F90">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878742F90"/>
+        <rdfs:label>Spedizione ordine n. EO7878742F90</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878748487 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878748487">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878748487"/>
+        <rdfs:label>Spedizione ordine n. EO7878748487</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO78787538A6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO78787538A6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787538A6"/>
+        <rdfs:label>Spedizione ordine n. EO78787538A6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO78787630E9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO78787630E9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787630E9"/>
+        <rdfs:label>Spedizione ordine n. EO78787630E9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878768508 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878768508">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878768508"/>
+        <rdfs:label>Spedizione ordine n. EO7878768508</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO787878316A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO787878316A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787878316A"/>
+        <rdfs:label>Spedizione ordine n. EO787878316A</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878785310 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878785310">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878785310"/>
+        <rdfs:label>Spedizione ordine n. EO7878785310</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO78787874B6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO78787874B6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA78787874B6"/>
+        <rdfs:label>Spedizione ordine n. EO78787874B6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO787879072F -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO787879072F">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA787879072F"/>
+        <rdfs:label>Spedizione ordine n. EO787879072F</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878802118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7878802118">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7878802118"/>
+        <rdfs:label>Spedizione ordine n. EO7878802118</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7921918D87 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7921918D87">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7921918D87"/>
+        <rdfs:label>Spedizione ordine n. EO7921918D87</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7996404953 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO7996404953">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA7996404953"/>
+        <rdfs:label>Spedizione ordine n. EO7996404953</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO802544678B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO802544678B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA802544678B"/>
+        <rdfs:label>Spedizione ordine n. EO802544678B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8027915D05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8027915D05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8027915D05"/>
+        <rdfs:label>Spedizione ordine n. EO8027915D05</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO80902930FD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO80902930FD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA80902930FD"/>
+        <rdfs:label>Spedizione ordine n. EO80902930FD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO809059388C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO809059388C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA809059388C"/>
+        <rdfs:label>Spedizione ordine n. EO809059388C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81446791BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81446791BC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81446791BC"/>
+        <rdfs:label>Spedizione ordine n. EO81446791BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8144768B2B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8144768B2B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8144768B2B"/>
+        <rdfs:label>Spedizione ordine n. EO8144768B2B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8144793FCB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8144793FCB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8144793FCB"/>
+        <rdfs:label>Spedizione ordine n. EO8144793FCB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8145665F64 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8145665F64">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145665F64"/>
+        <rdfs:label>Spedizione ordine n. EO8145665F64</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8145678A20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8145678A20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145678A20"/>
+        <rdfs:label>Spedizione ordine n. EO8145678A20</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8145690409 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8145690409">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8145690409"/>
+        <rdfs:label>Spedizione ordine n. EO8145690409</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81457158A9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81457158A9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81457158A9"/>
+        <rdfs:label>Spedizione ordine n. EO81457158A9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81457250EC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81457250EC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81457250EC"/>
+        <rdfs:label>Spedizione ordine n. EO81457250EC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81994532AB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO81994532AB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA81994532AB"/>
+        <rdfs:label>Spedizione ordine n. EO81994532AB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8199464BBC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8199464BBC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8199464BBC"/>
+        <rdfs:label>Spedizione ordine n. EO8199464BBC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8199482A97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8199482A97">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8199482A97"/>
+        <rdfs:label>Spedizione ordine n. EO8199482A97</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82233055F5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82233055F5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82233055F5"/>
+        <rdfs:label>Spedizione ordine n. EO82233055F5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8223309941 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8223309941">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8223309941"/>
+        <rdfs:label>Spedizione ordine n. EO8223309941</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82233299C2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82233299C2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82233299C2"/>
+        <rdfs:label>Spedizione ordine n. EO82233299C2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8223332C3B -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8223332C3B">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8223332C3B"/>
+        <rdfs:label>Spedizione ordine n. EO8223332C3B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8276108C5D -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8276108C5D">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8276108C5D"/>
+        <rdfs:label>Spedizione ordine n. EO8276108C5D</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82902377FD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82902377FD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902377FD"/>
+        <rdfs:label>Spedizione ordine n. EO82902377FD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82902388D0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82902388D0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902388D0"/>
+        <rdfs:label>Spedizione ordine n. EO82902388D0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82902399A3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO82902399A3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA82902399A3"/>
+        <rdfs:label>Spedizione ordine n. EO82902399A3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8290240A76 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8290240A76">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8290240A76"/>
+        <rdfs:label>Spedizione ordine n. EO8290240A76</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8295984E8E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8295984E8E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8295984E8E"/>
+        <rdfs:label>Spedizione ordine n. EO8295984E8E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO83136977CB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO83136977CB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA83136977CB"/>
+        <rdfs:label>Spedizione ordine n. EO83136977CB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO83828155C6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO83828155C6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA83828155C6"/>
+        <rdfs:label>Spedizione ordine n. EO83828155C6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO84384648C7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO84384648C7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA84384648C7"/>
+        <rdfs:label>Spedizione ordine n. EO84384648C7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8518451026 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8518451026">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8518451026"/>
+        <rdfs:label>Spedizione ordine n. EO8518451026</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8603719D83 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8603719D83">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8603719D83"/>
+        <rdfs:label>Spedizione ordine n. EO8603719D83</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8613626D07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8613626D07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8613626D07"/>
+        <rdfs:label>Spedizione ordine n. EO8613626D07</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8628847DCB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8628847DCB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8628847DCB"/>
+        <rdfs:label>Spedizione ordine n. EO8628847DCB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8631093B41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8631093B41">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8631093B41"/>
+        <rdfs:label>Spedizione ordine n. EO8631093B41</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8631103384 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO8631103384">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA8631103384"/>
+        <rdfs:label>Spedizione ordine n. EO8631103384</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO86311087A3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO86311087A3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA86311087A3"/>
+        <rdfs:label>Spedizione ordine n. EO86311087A3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO867469371E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EO867469371E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OA867469371E"/>
+        <rdfs:label>Spedizione ordine n. EO867469371E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ0B2BFB62C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ0B2BFB62C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ0B2BFB62C"/>
+        <rdfs:label>Spedizione ordine n. EOZ0B2BFB62C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ312B44EF9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ312B44EF9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ312B44EF9"/>
+        <rdfs:label>Spedizione ordine n. EOZ312B44EF9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ502B44E81 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ502B44E81">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ502B44E81"/>
+        <rdfs:label>Spedizione ordine n. EOZ502B44E81</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ682AEFF2E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ682AEFF2E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ682AEFF2E"/>
+        <rdfs:label>Spedizione ordine n. EOZ682AEFF2E</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ842BFB79C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EOZ842BFB79C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+        <PCSCOPRO2:riguarda_ordine_di_acquisto rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OAZ842BFB79C"/>
+        <rdfs:label>Spedizione ordine n. EOZ842BFB79C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EZ0B2BFB62C -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#EZ0B2BFB62C">
@@ -14755,6 +15736,12 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ordine_acquisto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ordine_acquisto"/>
+    
+
+
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595">
@@ -18022,13 +19009,13 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/coverage) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</rdfs:comment>
-        <rdfs:label xml:lang="en">Coverage</rdfs:label>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
+        <rdfs:label xml:lang="en">Coverage</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
-        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/date) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/date) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:comment xml:lang="en">A point or period of time associated with an event in the lifecycle of the resource.</rdfs:comment>
         <terms:description xml:lang="en">Date may be used to express temporal information at any level of granularity.  Recommended practice is to express the date, date/time, or period of time according to ISO 8601-1 [[ISO 8601-1](https://www.iso.org/iso-8601-date-and-time-format.html)] or a published profile of the ISO standard, such as the W3C Note on Date and Time Formats [[W3CDTF](https://www.w3.org/TR/NOTE-datetime)] or the Extended Date/Time Format Specification [[EDTF](http://www.loc.gov/standards/datetime/)].  If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used. Date ranges may be specified using ISO 8601 period of time specification in which start and end dates are separated by a &apos;/&apos; (slash) character.  Either the start or end date may be missing.</terms:description>
         <rdfs:label xml:lang="en">Date</rdfs:label>
@@ -18042,16 +19029,16 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdfs:label xml:lang="en">Description</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/format">
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <terms:description xml:lang="en">Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [[MIME](https://www.iana.org/assignments/media-types/media-types.xhtml)].</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/format) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:label xml:lang="en">Format</rdfs:label>
         <rdfs:comment xml:lang="en">The file format, physical medium, or dimensions of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/identifier">
-        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/identifier) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/identifier) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <terms:description xml:lang="en">Recommended practice is to identify the resource by means of a string conforming to an identification system.</terms:description>
         <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
@@ -18083,8 +19070,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/rights">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <terms:description xml:lang="en">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/rights) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:label xml:lang="en">Rights</rdfs:label>
         <rdfs:comment xml:lang="en">Information about rights held in and over the resource.</rdfs:comment>
@@ -18134,11 +19121,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/italia/onto/PublicContract/Work">
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:comment xml:lang="en">The class that includes those interventions concerning the actualization of public works.</rdfs:comment>
         <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nella realizzazione di lavori pubblici.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The class that includes those interventions concerning the actualization of public works.</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:label xml:lang="en">Work supply</rdfs:label>
         <rdfs:label xml:lang="it">Fornitura di lavori</rdfs:label>
+        <rdfs:label xml:lang="en">Work supply</rdfs:label>
     </rdf:Description>
     
 

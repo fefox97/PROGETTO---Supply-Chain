@@ -1459,6 +1459,9 @@
         <ObjectProperty IRI="#riguarda_lotto"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
     </Declaration>
     <Declaration>
@@ -6395,6 +6398,10 @@
         <Class IRI="#Comunicazione"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Deliver_Stocked_Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
         <Class IRI="#Comunicazione"/>
     </ObjectPropertyDomain>
@@ -7015,6 +7022,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#riguarda_lotto"/>
         <Class abbreviatedIRI="PublicContract:Lot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#riguarda_ordine_di_acquisto"/>
+        <Class IRI="#Ordine_di_acquisto"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#si_riferisce_a_progetto_di_approvvigionamento"/>
@@ -8738,6 +8749,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#riguarda_lotto</IRI>
         <Literal xml:lang="it">riguarda lotto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#riguarda_ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">Proprietà che lega la spedizione di un bene al relativo ordine di acquisto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#riguarda_ordine_di_acquisto</IRI>
+        <Literal xml:lang="it">riguarda ordine di acquisto</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
