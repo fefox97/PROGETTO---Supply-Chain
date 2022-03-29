@@ -44,7 +44,7 @@ getIndividual(ClassIRI,Individual,ShortIndividual) :-
 getIndividual(NClass,Individual,ShortIndividual) :-
     nonvar(NClass),     %mi accerto che NClass non sia una variabile, ma un termine ground
     replaceString(NClass,' ','_',Class),
-    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Class, ClassIRI)),
+    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Class, ClassIRI)),
     classAssertion(ClassIRI,Individual),
     shortType(Individual, ShortIndividual).
 
@@ -141,7 +141,7 @@ percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPerco
 
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
-regola1():-
+regola1(NodoA, NodoB):-
     getProperyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara),
     getProperyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara),
     annotatedElement(_,NodoA,_,_,_,_,ShortIRichiestaApprovvigionamento),
@@ -167,7 +167,7 @@ regola2():-
 
 %REGOLA 3
 %Verificare che l'emissione di un Certificato di Pagamento avvenga solo ed esclusivamente in seguito all'evasione dell'ordine.
-regola3(NodoA,NodoB,IDA,IDB):-
+regola3():-
     getProperyAssertion('riguarda_ordine_di_acquisto', 'Deliver_Stocked_Product', _, ISpedizioneOrdine, ShortISpedizioneOrdine, IOrdineDiAcquisto, ShortIOrdineDiAcquisto),
     getProperyAssertion('riguarda_lotto', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, ILotto, ShortILotto),
     getProperyAssertion('hasPaymentCertificate', 'Lot', _, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento),
