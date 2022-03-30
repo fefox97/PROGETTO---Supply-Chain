@@ -112,7 +112,8 @@ writePrecedenza(NodoA, ListaNodi):-
 controlloPrecedenza(NodoIniziale, ListaNodi) :- 
     precedenza(NodoIniziale, ListaNodi, _), !.
 
-%verifica
+%verifica precedenza tra due nodi
+%questo serve per evitare di dover inserire precedenza(NodoIniziale, [NodoFinale], Percorso), quando ci sono solo due nodi interessati
 precedenza(NodoIniziale, NodoFinale, Percorso) :-
     percorso(NodoIniziale, NodoFinale, IDNodoIniziale, IDNodoFinale, [NodoIniziale], [IDNodoIniziale], PercorsoR, IDPercorsoR),
     reverse(PercorsoR, Percorso).
@@ -136,6 +137,25 @@ percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPerco
     IDNodoC \== IDNodoB,
     \+member(IDNodoC, IDVisitati),
     percorso(NodoC, NodoB, IDNodoC, IDNodoB, [NodoC|Visitati], [IDNodoC|IDVisitati], Percorso, IDPercorso).
+
+%....................................................................................................
+
+%STRUTTURA A FUNTORI
+
+precedenzaF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), Percorso) :-
+    percorsoF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), [nodoA(NomeA,IDNodoA,ShortTypeA)], PercorsoR),
+    reverse(PercorsoR, Percorso).
+
+%verifico se esiste un arco che collega direttamente due nodi
+percorsoF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), Visitati, [nodoB(NomeB,IDNodoB,ShortTypeB)|Visitati]) :-
+    arco(source(NomeA,IDNodoA,ShortTypeA),target(NomeB,IDNodoB,ShortTypeB)).
+
+%se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
+percorsoF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), Visitati, Percorso) :-
+    arco(source(NomeA,IDNodoA,ShortTypeA),target(NomeC,IDNodoC,ShortTypeC)),
+    IDNodoC \== IDNodoB,
+    \+member(nodoA(NomeC,IDNodoC,ShortTypeC), Visitati),
+    percorsoF(nodoA(NomeC,IDNodoC,ShortTypeC), nodoB(NomeB,IDNodoB,ShortTypeB), [nodoA(NomeC,IDNodoC,ShortTypeC)|Visitati], Percorso).
 
 %----------------------------------------------------------------------------------------------------
 
