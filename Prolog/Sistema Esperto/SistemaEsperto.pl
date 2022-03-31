@@ -12,82 +12,112 @@
 % replaceAllOccurrences(+List, +ToReplace, +ReplaceWith, -NewList)
 
 %se viene sostituito un elemento di una lista vuota con un altro elemento, il risultato è una lista vuota
-replaceAllOccurences([],_,_,[]).
+replaceAllOccurences([], _, _, []).
 
 %se l'elemento da sostituire è in testa alla lista, allora il risultato è la lista con l'elemento di testa sostituito
-replaceAllOccurences([ToReplace|Tail1],ToReplace,ReplaceWith,[ReplaceWith|Tail2]) :-
-    replaceAllOccurences(Tail1,ToReplace,ReplaceWith,Tail2).
+replaceAllOccurences([ToReplace|Tail1], ToReplace, ReplaceWith, [ReplaceWith|Tail2]) :-
+    replaceAllOccurences(Tail1, ToReplace, ReplaceWith, Tail2).
 
 %se l'elemento da sostituire non è in testa alla lista, allora il risultato è la coda della lista
-replaceAllOccurences([Head|Tail3],ToReplace,ReplaceWith,[Head|Tail2]) :-
-  ToReplace \== Head,
-  replaceAllOccurences(Tail3,ToReplace,ReplaceWith,Tail2).
+replaceAllOccurences([Head|Tail3], ToReplace, ReplaceWith, [Head|Tail2]) :-
+  ToReplace \== Head, 
+  replaceAllOccurences(Tail3, ToReplace, ReplaceWith, Tail2).
 %----------------------------------------------------------------------------------------------------
 
 %sostituzione di un carattere (anche con più occorrenze) all'interno di una stringa
 %replaceString(+String, +ToReplace, +ReplaceWith, -NewString)
 replaceString(String, ToReplace, ReplaceWith, Result) :-
-    string_chars(String,X),
-    replaceAllOccurences(X, ToReplace, ReplaceWith, Y),
-    string_chars(Result,Y).
+    string_chars(String, X), 
+    replaceAllOccurences(X, ToReplace, ReplaceWith, Y), 
+    string_chars(Result, Y).
 
 %----------------------------------------------------------------------------------------------------
 
 %restituisce tutti gli individui di una classe
 
 %getIndividual(-IRIClasse, -Individuo, -ShortIndividuo)
-getIndividual(ClassIRI,Individual,ShortIndividual) :-
-    classAssertion(ClassIRI,Individual),
+getIndividual(ClassIRI, Individual, ShortIndividual) :-
+    classAssertion(ClassIRI, Individual), 
     shortType(Individual, ShortIndividual).
 
 %getIndividual(+NomeClasse, -Individuo, -ShortIndividuo)
-getIndividual(NClass,Individual,ShortIndividual) :-
-    nonvar(NClass),     %mi accerto che NClass non sia una variabile, ma un termine ground
-    replaceString(NClass,' ','_',Class),
-    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Class, ClassIRI)),
-    classAssertion(ClassIRI,Individual),
+getIndividual(NClass, Individual, ShortIndividual) :-
+    nonvar(NClass),    %mi accerto che NClass non sia una variabile, ma un termine ground
+    replaceString(NClass, ' ', '_', Class), 
+    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Class, ClassIRI)), 
+    classAssertion(ClassIRI, Individual), 
     shortType(Individual, ShortIndividual).
 
 %----------------------------------------------------------------------------------------------------
 
 %restituisce gli individui se dati i nomi di PropertyAssertion, Domain e Range; 
 %restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range.
-%getProperyAssertion(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
-getProperyAssertion(PropertyIRI, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
-    getIndividual(Domain, IndividualD, ShortIndividualD),
-    getIndividual(Range, IndividualR, ShortIndividualR),
+%getPropertyAssertion(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
+getPropertyAssertion(PropertyIRI, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
+    getIndividual(Domain, IndividualD, ShortIndividualD), 
+    getIndividual(Range, IndividualR, ShortIndividualR), 
     propertyAssertion(PropertyIRI, IndividualD, IndividualR).
 
-%getProperyAssertion(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
-getProperyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
-    nonvar(Property),   %mi accerto che Property non sia una variabile, ma un termine ground
-    (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Property, PropertyIRI); atom_concat('https://w3id.org/italia/onto/PublicContract/', Property, PropertyIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Property, PropertyIRI)),
-    getIndividual(Domain, IndividualD, ShortIndividualD),
-    getIndividual(Range, IndividualR, ShortIndividualR),
+%getPropertyAssertion(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
+getPropertyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
+    nonvar(Property),  %mi accerto che Property non sia una variabile, ma un termine ground
+    (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Property, PropertyIRI); atom_concat('https://w3id.org/italia/onto/PublicContract/', Property, PropertyIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Property, PropertyIRI)), 
+    getIndividual(Domain, IndividualD, ShortIndividualD), 
+    getIndividual(Range, IndividualR, ShortIndividualR), 
     propertyAssertion(PropertyIRI, IndividualD, IndividualR).
+
+%....................................................................................................
+
+getLegami(property(PropertyIRI, Domain, Range), [], Legami) :-
+    getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami), 
+    shortType(Domain, SDomain), 
+    shortType(Range, SRange).
+
+getLegami(property(PropertyIRI, Domain, Range), [IntRange|IntProperties], Legami) :-
+    getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami1), 
+    shortType(Domain, SDomain), 
+    shortType(Range, SRange), 
+    getLegami(property(PropertyIRI, Domain, IntRange), IntProperties, Legami2), 
+    append(Legami3, [_], Legami2), 
+    append([Legami3, Legami1], Legami).
+
+getLegame(property(PropertyIRI, Domain, Range), Controllati, [property(PropertyIRI, SDomain, SRange)|Controllati]) :-
+    propertyDomain(PropertyIRI, Domain), 
+    propertyRange(PropertyIRI, Range), 
+    shortType(Domain, SDomain), 
+    shortType(Range, SRange).
+
+getLegame(property(PropertyIRI, Domain, Range), Controllati, Legami) :-
+    propertyDomain(PropertyIRI, Domain), 
+    propertyRange(PropertyIRI, IntRange), 
+    IntRange \== Range, 
+    shortType(IntDomain, SDomain), 
+    shortType(Range, SRange), 
+    \+member(property(PropertyIRI, SDomain, SRange), Controllati), 
+    getLegame(property(PropertyIRI, Domain, IntRange), [property(PropertyIRI, SDomain, SRange)|Controllati], Legami).
 
 %----------------------------------------------------------------------------------------------------
 
 %restituisce tutti gli elementi annotati
-annotatedElement(Type,Name,ID,ShortType,Class,Individual,ShortIndividual):- 
-    (has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual));
-    activityKindOf(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual));
-    activityManagesData(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual));
-    activityHasPerformer(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual))),
-    shortType(Individual,ShortIndividual).
+annotatedElement(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual, ShortIndividual)):- 
+    (has_DomainLink(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual));
+    activityKindOf(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual));
+    activityManagesData(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual));
+    activityHasPerformer(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual))), 
+    shortType(Individual, ShortIndividual).
 
 %----------------------------------------------------------------------------------------------------
 
 %raggruppa task, gateway ed event
-nodo(Name,ID,ShortType) :-
-    task(Name,ID,ShortType);
-    gateway(Name,ID,ShortType);
-    event(Name,ID,ShortType).
+nodo(Name, ID, ShortType) :-
+    task(Name, ID, ShortType);
+    gateway(Name, ID, ShortType);
+    event(Name, ID, ShortType).
 
 %raggruppa i sequence flow e i message flow
-arco(source(SName,SID,SType),target(TName,TID,TType)) :-
-    sequenceFlow(source(SName,SID,SType),target(TName,TID,TType));
-    messageFlow(source(SName,SID,SType),target(TName,TID,TType)).
+arco(source(SName, SID, SType), target(TName, TID, TType)) :-
+    sequenceFlow(source(SName, SID, SType), target(TName, TID, TType));
+    messageFlow(source(SName, SID, SType), target(TName, TID, TType)).
 
 %----------------------------------------------------------------------------------------------------
 
@@ -95,7 +125,7 @@ arco(source(SName,SID,SType),target(TName,TID,TType)) :-
 writePath([]).
 
 writePath([H|T]) :-
-    format("-> ~w ",H),
+    format("-> ~w ", H), 
     writePath(T).
 
 %----------------------------------------------------------------------------------------------------
@@ -104,8 +134,8 @@ writePath([H|T]) :-
 
 %stampa percorso
 writePrecedenza(NodoA, ListaNodi):-
-    precedenza(NodoA, ListaNodi, PercorsoF),
-    reverse(PercorsoF, Percorso),  %inverto il percorso per ottenere l'ordine corretto
+    precedenza(NodoA, ListaNodi, PercorsoF), 
+    reverse(PercorsoF, Percorso), %inverto il percorso per ottenere l'ordine corretto
     writePath(Percorso).
 
 %controlloPrecedenza verifica solo se esiste almeno un percorso tra il NodoA e il NodoB
@@ -115,59 +145,79 @@ controlloPrecedenza(NodoIniziale, ListaNodi) :-
 %verifica precedenza tra due nodi
 %questo serve per evitare di dover inserire precedenza(NodoIniziale, [NodoFinale], Percorso), quando ci sono solo due nodi interessati
 precedenza(NodoIniziale, NodoFinale, Percorso) :-
-    percorso(NodoIniziale, NodoFinale, IDNodoIniziale, IDNodoFinale, [NodoIniziale], [IDNodoIniziale], PercorsoR, IDPercorsoR),
+    percorso(NodoIniziale, NodoFinale, IDNodoIniziale, IDNodoFinale, [NodoIniziale], [IDNodoIniziale], PercorsoR, IDPercorsoR), 
     reverse(PercorsoR, Percorso).
 
 precedenza(NodoIniziale, [NodoIntermedio|[]], Percorso) :-
     percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso, IDPercorsoR).
 
 precedenza(NodoIniziale, [NodoIntermedio|NodiIntermedi], Percorso) :-
-    percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso1, IDPercorso1),
-    precedenza(NodoIntermedio, NodiIntermedi, Percorso2),
+    percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso1, IDPercorso1), 
+    precedenza(NodoIntermedio, NodiIntermedi, Percorso2), 
     append(Percorso3, [_], Percorso2), %rimuovo l'ultimo elemento dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
-    append([Percorso3,Percorso1],Percorso).
+    append([Percorso3, Percorso1], Percorso).
 
 %verifico se esiste un arco che collega direttamente due nodi
 percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, [NodoB|Visitati], [IDNodoB|IDVisitati]) :-
-    arco(source(NodoA,IDNodoA,_),target(NodoB,IDNodoB,_)).
+    arco(source(NodoA, IDNodoA, _), target(NodoB, IDNodoB, _)).
 
 %se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
 percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPercorso) :-
-    arco(source(NodoA,IDNodoA,_),target(NodoC,IDNodoC,_)),
-    IDNodoC \== IDNodoB,
-    \+member(IDNodoC, IDVisitati),
+    arco(source(NodoA, IDNodoA, _), target(NodoC, IDNodoC, _)), 
+    IDNodoC \== IDNodoB, 
+    \+member(IDNodoC, IDVisitati), 
     percorso(NodoC, NodoB, IDNodoC, IDNodoB, [NodoC|Visitati], [IDNodoC|IDVisitati], Percorso, IDPercorso).
 
 %....................................................................................................
 
 %STRUTTURA A FUNTORI
 
-precedenzaF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), Percorso) :-
-    percorsoF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), [nodoA(NomeA,IDNodoA,ShortTypeA)], PercorsoR),
+%stampa percorso
+writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi):-
+    precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso), 
+    reverse(Percorso, PercorsoR), %inverto il percorso per ottenere l'ordine corretto
+    writePath(PercorsoR).
+
+controlloPrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :- 
+    precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, _), !.
+
+%verifica precedenza tra due nodi
+%questo serve per evitare di dover inserire precedenza(NodoIniziale, [NodoFinale], Percorso), quando ci sono solo due nodi interessati
+precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Percorso) :-
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoR), 
     reverse(PercorsoR, Percorso).
 
+precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|[]], Percorso) :-
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso).
+
+precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|NodiIntermedi], Percorso) :-
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso1),
+    precedenzaF(nodo(NomeF, IDNodoF, ShortTypeF), NodiIntermedi, Percorso2), 
+    append(Percorso3, [_], Percorso2), %rimuovo l'ultimo elemento dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
+    append([Percorso3, Percorso1], Percorso).
+
 %verifico se esiste un arco che collega direttamente due nodi
-percorsoF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), Visitati, [nodoB(NomeB,IDNodoB,ShortTypeB)|Visitati]) :-
-    arco(source(NomeA,IDNodoA,ShortTypeA),target(NomeB,IDNodoB,ShortTypeB)).
+percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, [nodo(NomeF, IDNodoF, ShortTypeF)|Visitati]) :-
+    arco(source(NomeI, IDNodoI, ShortTypeI), target(NomeF, IDNodoF, ShortTypeF)).
 
 %se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
-percorsoF(nodoA(NomeA,IDNodoA,ShortTypeA), nodoB(NomeB,IDNodoB,ShortTypeB), Visitati, Percorso) :-
-    arco(source(NomeA,IDNodoA,ShortTypeA),target(NomeC,IDNodoC,ShortTypeC)),
-    IDNodoC \== IDNodoB,
-    \+member(nodoA(NomeC,IDNodoC,ShortTypeC), Visitati),
-    percorsoF(nodoA(NomeC,IDNodoC,ShortTypeC), nodoB(NomeB,IDNodoB,ShortTypeB), [nodoA(NomeC,IDNodoC,ShortTypeC)|Visitati], Percorso).
+percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, Percorso) :-
+    arco(source(NomeI, IDNodoI, ShortTypeI), target(NomeInt, IDNodoInt, ShortTypeInt)), 
+    IDNodoInt \== IDNodoF, 
+    \+member(nodo(NomeInt, IDNodoInt, ShortTypeInt), Visitati),
+    percorsoF(nodo(NomeInt, IDNodoInt, ShortTypeInt), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeInt, IDNodoInt, ShortTypeInt)|Visitati], Percorso).
 
 %----------------------------------------------------------------------------------------------------
 
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
 regola1(NodoA, NodoB):-
-    getProperyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara),
-    getProperyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara),
-    annotatedElement(_,NodoA,_,_,_,_,ShortIRichiestaApprovvigionamento),
-    annotatedElement(_,NodoB,_,_,_,_,ShortIOrdineDiAcquisto),
-    controlloPrecedenza(NodoA, NodoB),
-    format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w",[ShortIRichiestaApprovvigionamento,ShortIOrdineDiAcquisto]).
+    getPropertyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
+    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
+    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), ontologyElement(ClassB, IndividualB, ShortIOrdineDiAcquisto)), 
+    controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)), 
+    format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w", [ShortIRichiestaApprovvigionamento, ShortIOrdineDiAcquisto]).
 
 %----------------------------------------------------------------------------------------------------
 
@@ -175,23 +225,23 @@ regola1(NodoA, NodoB):-
 %Verificare che la proclamazione di un vincitore per una gara d'appalto (Avviso esito di procedura) sia preceduta, in ordine da: 
 %una verifica dei documenti per l'emanazione del bando (Richiesta verifica documenti bando) e una emanazione della gara di appalto (Pubblicazione)
 regola2():-
-    getProperyAssertion('riguarda_bando_di_gara', 'Richiesta verifica documenti', _, IRichiestaVerificaDocumenti, ShortIRichiestaVerificaDocumenti, IBandoDiGara, ShortIBandoDiGara),
-    getProperyAssertion('hasCallForCompetition', 'Publication', _, IPubblicazione, ShortIPubblicazione, IBandoDiGara, ShortIBandoDiGara),
-    getProperyAssertion('hasCallForCompetition', 'Lot', _, ILotto, ShortILotto, IBandoDiGara, ShortIBandoDiGara),
-    getProperyAssertion('hasAwardNotice', 'Lot', _, ILotto, ShortILotto, IAvvisoEsitoDiProcedura, ShortIAvvisoEsitoDiProcedura),
-    annotatedElement(_,NodoA,_,_,_,_,ShortIRichiestaVerificaDocumenti),
-    annotatedElement(_,NodoB,_,_,_,_,ShortIPubblicazione),
-    annotatedElement(_,NodoC,_,_,_,_,ShortIAvvisoEsitoDiProcedura),
-    controlloPrecedenza(NodoA, [NodoB, NodoC]),
-    format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w",[ShortIRichiestaVerificaDocumenti,ShortIPubblicazione,ShortIAvvisoEsitoDiProcedura]).
+    getPropertyAssertion('riguarda_bando_di_gara', 'Richiesta verifica documenti', _, IRichiestaVerificaDocumenti, ShortIRichiestaVerificaDocumenti, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion('hasCallForCompetition', 'Publication', _, IPubblicazione, ShortIPubblicazione, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion('hasCallForCompetition', 'Lot', _, ILotto, ShortILotto, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion('hasAwardNotice', 'Lot', _, ILotto, ShortILotto, IAvvisoEsitoDiProcedura, ShortIAvvisoEsitoDiProcedura), 
+    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), ontologyElement(ClassA, IndividualA, ShortIRichiestaVerificaDocumenti)), 
+    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), ontologyElement(ClassB, IndividualB, ShortIPubblicazione)), 
+    annotatedElement(bpmnElement(TypeC, NodoC, IDC, ShortTypeC), ontologyElement(ClassC, IndividualC, ShortIAvvisoEsitoDiProcedura)), 
+    controlloPrecedenzaF(nodo(NodoA, _, _), [nodo(NodoB, _, _), nodo(NodoC, _, _)]),
+    format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w", [ShortIRichiestaVerificaDocumenti, ShortIPubblicazione, ShortIAvvisoEsitoDiProcedura]).
 
 %REGOLA 3
 %Verificare che l'emissione di un Certificato di Pagamento avvenga solo ed esclusivamente in seguito all'evasione dell'ordine.
 regola3():-
-    getProperyAssertion('riguarda_ordine_di_acquisto', 'Deliver_Stocked_Product', _, ISpedizioneOrdine, ShortISpedizioneOrdine, IOrdineDiAcquisto, ShortIOrdineDiAcquisto),
-    getProperyAssertion('riguarda_lotto', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, ILotto, ShortILotto),
-    getProperyAssertion('hasPaymentCertificate', 'Lot', _, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento),
-    annotatedElement(_,NodoA,IDA,_,_,_,ShortISpedizioneOrdine),
-    annotatedElement(_,NodoB,IDB,_,_,_,ShortICertificatoDiPagamento),
-    controlloPrecedenza(NodoA, NodoB),
-    format("L'evasione dell'ordine ~w precede l'emissione del certificato di pagamento ~w",[ShortISpedizioneOrdine,ShortICertificatoDiPagamento]).
+    getPropertyAssertion('riguarda_ordine_di_acquisto', 'Deliver_Stocked_Product', _, ISpedizioneOrdine, ShortISpedizioneOrdine, IOrdineDiAcquisto, ShortIOrdineDiAcquisto), 
+    getPropertyAssertion('riguarda_lotto', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, ILotto, ShortILotto), 
+    getPropertyAssertion('hasPaymentCertificate', 'Lot', _, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento), 
+    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), ontologyElement(ClassA, IndividualA, ShortISpedizioneOrdine)), 
+    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), ontologyElement(ClassB, IndividualB, ShortICertificatoDiPagamento)), 
+    controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
+    format("L'evasione dell'ordine ~w precede l'emissione del certificato di pagamento ~w", [ShortISpedizioneOrdine, ShortICertificatoDiPagamento]).
