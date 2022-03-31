@@ -132,45 +132,45 @@ writePath([H|T]) :-
 
 %VERIFICA PRECEDENZA
 
-%stampa percorso
-writePrecedenza(NodoA, ListaNodi):-
-    precedenza(NodoA, ListaNodi, PercorsoF), 
-    reverse(PercorsoF, Percorso), %inverto il percorso per ottenere l'ordine corretto
-    writePath(Percorso).
+% %stampa percorso
+% writePrecedenza(NodoA, ListaNodi):-
+%     precedenza(NodoA, ListaNodi, PercorsoF), 
+%     reverse(PercorsoF, Percorso), %inverto il percorso per ottenere l'ordine corretto
+%     writePath(Percorso).
 
-%controlloPrecedenza verifica solo se esiste almeno un percorso tra il NodoA e il NodoB
-controlloPrecedenza(NodoIniziale, ListaNodi) :- 
-    precedenza(NodoIniziale, ListaNodi, _), !.
+% %controlloPrecedenza verifica solo se esiste almeno un percorso tra il NodoA e il NodoB
+% controlloPrecedenza(NodoIniziale, ListaNodi) :- 
+%     precedenza(NodoIniziale, ListaNodi, _), !.
 
-%verifica precedenza tra due nodi
-%questo serve per evitare di dover inserire precedenza(NodoIniziale, [NodoFinale], Percorso), quando ci sono solo due nodi interessati
-precedenza(NodoIniziale, NodoFinale, Percorso) :-
-    percorso(NodoIniziale, NodoFinale, IDNodoIniziale, IDNodoFinale, [NodoIniziale], [IDNodoIniziale], PercorsoR, IDPercorsoR), 
-    reverse(PercorsoR, Percorso).
+% %verifica precedenza tra due nodi
+% %questo serve per evitare di dover inserire precedenza(NodoIniziale, [NodoFinale], Percorso), quando ci sono solo due nodi interessati
+% precedenza(NodoIniziale, NodoFinale, Percorso) :-
+%     percorso(NodoIniziale, NodoFinale, IDNodoIniziale, IDNodoFinale, [NodoIniziale], [IDNodoIniziale], PercorsoR, IDPercorsoR), 
+%     reverse(PercorsoR, Percorso).
 
-precedenza(NodoIniziale, [NodoIntermedio|[]], Percorso) :-
-    percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso, IDPercorsoR).
+% precedenza(NodoIniziale, [NodoIntermedio|[]], Percorso) :-
+%     percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso, IDPercorsoR).
 
-precedenza(NodoIniziale, [NodoIntermedio|NodiIntermedi], Percorso) :-
-    percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso1, IDPercorso1), 
-    precedenza(NodoIntermedio, NodiIntermedi, Percorso2), 
-    append(Percorso3, [_], Percorso2), %rimuovo l'ultimo elemento dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
-    append([Percorso3, Percorso1], Percorso).
+% precedenza(NodoIniziale, [NodoIntermedio|NodiIntermedi], Percorso) :-
+%     percorso(NodoIniziale, NodoIntermedio, IDNodoIniziale, IDNodoIntermedo, [NodoIniziale], [IDNodoIniziale], Percorso1, IDPercorso1), 
+%     precedenza(NodoIntermedio, NodiIntermedi, Percorso2), 
+%     append(Percorso3, [_], Percorso2), %rimuovo l'ultimo elemento dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
+%     append([Percorso3, Percorso1], Percorso).
 
-%verifico se esiste un arco che collega direttamente due nodi
-percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, [NodoB|Visitati], [IDNodoB|IDVisitati]) :-
-    arco(source(NodoA, IDNodoA, _), target(NodoB, IDNodoB, _)).
+% %verifico se esiste un arco che collega direttamente due nodi
+% percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, [NodoB|Visitati], [IDNodoB|IDVisitati]) :-
+%     arco(source(NodoA, IDNodoA, _), target(NodoB, IDNodoB, _)).
 
-%se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
-percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPercorso) :-
-    arco(source(NodoA, IDNodoA, _), target(NodoC, IDNodoC, _)), 
-    IDNodoC \== IDNodoB, 
-    \+member(IDNodoC, IDVisitati), 
-    percorso(NodoC, NodoB, IDNodoC, IDNodoB, [NodoC|Visitati], [IDNodoC|IDVisitati], Percorso, IDPercorso).
+% %se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
+% percorso(NodoA, NodoB, IDNodoA, IDNodoB, Visitati, IDVisitati, Percorso, IDPercorso) :-
+%     arco(source(NodoA, IDNodoA, _), target(NodoC, IDNodoC, _)), 
+%     IDNodoC \== IDNodoB, 
+%     \+member(IDNodoC, IDVisitati), 
+%     percorso(NodoC, NodoB, IDNodoC, IDNodoB, [NodoC|Visitati], [IDNodoC|IDVisitati], Percorso, IDPercorso).
 
 %....................................................................................................
 
-%STRUTTURA A FUNTORI
+%VERIFICA PRECEDENZA CON STRUTTURE A FUNTORI
 
 %stampa percorso
 writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi):-
@@ -184,8 +184,7 @@ controlloPrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :-
 %verifica precedenza tra due nodi
 %questo serve per evitare di dover inserire precedenza(NodoIniziale, [NodoFinale], Percorso), quando ci sono solo due nodi interessati
 precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Percorso) :-
-    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoR), 
-    reverse(PercorsoR, Percorso).
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso). 
 
 precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|[]], Percorso) :-
     percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso).
