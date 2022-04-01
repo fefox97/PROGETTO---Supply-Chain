@@ -1,18 +1,19 @@
-has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual)):-
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_domainLink',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), classAssertion(CClass,Individual), shortType(CClass,Class);
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_domainLink',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,Individual), Class='Not defined'.
+%mi aspetto che ogni elemento annotato faccia parte dell'ontologia, per cui mi aspetto che esista la classe associata all'individuo annotato, non ho bisogno di individui "anonimi"
+has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual)):-
+    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_domainLink',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), shortType(Individual, ShortIndividual), getIndividual(Class, CIndividual, ShortIndividual).%;
+    %propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_domainLink',CID,CIndividual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,CIndividual), Class='Not defined'.
 
-activityKindOf(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual)):-
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_is_a_kind_of',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), classAssertion(CClass,Individual), shortType(CClass,Class);
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_is_a_kind_of',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,Individual), Class='Not defined'.
+activityKindOf(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual)):-
+    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_is_a_kind_of',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), shortType(Individual, ShortIndividual), getIndividual(Class, CIndividual, ShortIndividual).%;
+    %propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_is_a_kind_of',CID,CIndividual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,CIndividual), Class='Not defined'.
 
-activityHasPerformer(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual)):-
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_performerLink',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), classAssertion(CClass,Individual), shortType(CClass,Class);
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_performerLink',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,Individual), Class='Not defined'.
+activityHasPerformer(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual)):-
+    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_performerLink',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), shortType(Individual, ShortIndividual), getIndividual(Class, CIndividual, ShortIndividual).%;
+    %propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_performerLink',CID,CIndividual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,CIndividual), Class='Not defined'.
 
-activityManagesData(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,Individual)):-
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_manages_data',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), classAssertion(CClass,Individual), shortType(CClass,Class);
-    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_manages_data',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,Individual), Class='Not defined'.
+activityManagesData(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual)):-
+    propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_manages_data',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), shortType(Individual, ShortIndividual), getIndividual(Class, CIndividual, ShortIndividual).%;
+    %propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_manages_data',CID,CIndividual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), \+classAssertion(_,CIndividual), Class='Not defined'.
 
 task(Name,ID,ShortType):-
     genericElement('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#task',Name,ID,ShortType);

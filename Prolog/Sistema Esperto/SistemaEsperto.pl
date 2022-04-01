@@ -4,11 +4,11 @@
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/regoleSupportoBPMNAggiustate.pl').
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fatti.pl').
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 % REGOLE GENERALI
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 % replaceAllOccurrences(+List, +ToReplace, +ReplaceWith, -NewList)
 
 %se viene sostituito un elemento di una lista vuota con un altro elemento, il risultato è una lista vuota
@@ -22,7 +22,7 @@ replaceAllOccurences([ToReplace|Tail1], ToReplace, ReplaceWith, [ReplaceWith|Tai
 replaceAllOccurences([Head|Tail3], ToReplace, ReplaceWith, [Head|Tail2]) :-
   ToReplace \== Head, 
   replaceAllOccurences(Tail3, ToReplace, ReplaceWith, Tail2).
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %sostituzione di un carattere (anche con più occorrenze) all'interno di una stringa
 %replaceString(+String, +ToReplace, +ReplaceWith, -NewString)
@@ -31,7 +31,7 @@ replaceString(String, ToReplace, ReplaceWith, Result) :-
     replaceAllOccurences(X, ToReplace, ReplaceWith, Y), 
     string_chars(Result, Y).
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %restituisce tutti gli individui di una classe
 
@@ -48,7 +48,7 @@ getIndividual(NClass, Individual, ShortIndividual) :-
     classAssertion(ClassIRI, Individual), 
     shortType(Individual, ShortIndividual).
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %restituisce gli individui se dati i nomi di PropertyAssertion, Domain e Range; 
 %restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range.
@@ -66,47 +66,53 @@ getPropertyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, Ind
     getIndividual(Range, IndividualR, ShortIndividualR), 
     propertyAssertion(PropertyIRI, IndividualD, IndividualR).
 
-%....................................................................................................
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-getLegami(property(PropertyIRI, Domain, Range), [], Legami) :-
-    getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami), 
-    shortType(Domain, SDomain), 
-    shortType(Range, SRange).
+%CODICE INUTILE 
+%perché alcuni individui hanno objectProperties della SuperClass e non della Classe
 
-getLegami(property(PropertyIRI, Domain, Range), [IntRange|IntProperties], Legami) :-
-    getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami1), 
-    shortType(Domain, SDomain), 
-    shortType(Range, SRange), 
-    getLegami(property(PropertyIRI, Domain, IntRange), IntProperties, Legami2), 
-    append(Legami3, [_], Legami2), 
-    append([Legami3, Legami1], Legami).
+% getLegami(property(PropertyIRI, Domain, Range), [], Legami) :-
+%     getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami), 
+%     shortType(Domain, SDomain), 
+%     shortType(Range, SRange).
 
-getLegame(property(PropertyIRI, Domain, Range), Controllati, [property(PropertyIRI, SDomain, SRange)|Controllati]) :-
-    propertyDomain(PropertyIRI, Domain), 
-    propertyRange(PropertyIRI, Range), 
-    shortType(Domain, SDomain), 
-    shortType(Range, SRange).
+% getLegami(property(PropertyIRI, Domain, Range), [IntRange|IntProperties], Legami) :-
+%     getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami1), 
+%     shortType(Domain, SDomain), 
+%     shortType(Range, SRange), 
+%     getLegami(property(PropertyIRI, Domain, IntRange), IntProperties, Legami2), 
+%     append(Legami3, [_], Legami2), 
+%     append([Legami3, Legami1], Legami).
 
-getLegame(property(PropertyIRI, Domain, Range), Controllati, Legami) :-
-    propertyDomain(PropertyIRI, Domain), 
-    propertyRange(PropertyIRI, IntRange), 
-    IntRange \== Range, 
-    shortType(IntDomain, SDomain), 
-    shortType(Range, SRange), 
-    \+member(property(PropertyIRI, SDomain, SRange), Controllati), 
-    getLegame(property(PropertyIRI, Domain, IntRange), [property(PropertyIRI, SDomain, SRange)|Controllati], Legami).
+% getLegame(property(PropertyIRI, Domain, Range), Controllati, [property(PropertyIRI, SDomain, SRange)|Controllati]) :-
+%     propertyDomain(PropertyIRI, Domain), 
+%     propertyRange(PropertyIRI, Range), 
+%     shortType(Domain, SDomain), 
+%     shortType(Range, SRange).
 
-%----------------------------------------------------------------------------------------------------
+% getLegame(property(PropertyIRI, Domain, Range), Controllati, Legami) :-
+%     propertyDomain(PropertyIRI, Domain), 
+%     propertyRange(PropertyIRI, IntRange), 
+%     IntRange \== Range, 
+%     shortType(IntDomain, SDomain), 
+%     shortType(Range, SRange), 
+%     \+member(property(PropertyIRI, SDomain, SRange), Controllati), 
+%     getLegame(property(PropertyIRI, Domain, IntRange), [property(PropertyIRI, SDomain, SRange)|Controllati], Legami).
 
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 %restituisce tutti gli elementi annotati
-annotatedElement(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual, ShortIndividual)):- 
-    (has_DomainLink(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual));
-    activityKindOf(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual));
-    activityManagesData(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual));
-    activityHasPerformer(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual))), 
+annotatedElement(bpmnElement(Type, Name, ID, ShortType), AnnotationType, ontologyElement(Class, Individual, ShortIndividual)):- 
+    (has_DomainLink(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'has_DomainLink';
+    activityKindOf(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityKindOf';
+    activityManagesData(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityManagesData';
+    activityHasPerformer(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityHasPerformer'), 
     shortType(Individual, ShortIndividual).
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %raggruppa task, gateway ed event
 nodo(Name, ID, ShortType) :-
@@ -119,7 +125,7 @@ arco(source(SName, SID, SType), target(TName, TID, TType)) :-
     sequenceFlow(source(SName, SID, SType), target(TName, TID, TType));
     messageFlow(source(SName, SID, SType), target(TName, TID, TType)).
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %stampa di una lista di nodi
 writePath([]).
@@ -128,7 +134,7 @@ writePath([H|T]) :-
     format("-> ~w ", H), 
     writePath(T).
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %VERIFICA PRECEDENZA
 
@@ -206,19 +212,19 @@ percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Vi
     \+member(nodo(NomeInt, IDNodoInt, ShortTypeInt), Visitati),
     percorsoF(nodo(NomeInt, IDNodoInt, ShortTypeInt), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeInt, IDNodoInt, ShortTypeInt)|Visitati], Percorso).
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
 regola1(NodoA, NodoB):-
     getPropertyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara), 
     getPropertyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
-    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
-    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), ontologyElement(ClassB, IndividualB, ShortIOrdineDiAcquisto)), 
+    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
+    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIOrdineDiAcquisto)),
     controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)), 
     format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w", [ShortIRichiestaApprovvigionamento, ShortIOrdineDiAcquisto]).
 
-%----------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %REGOLA 2
 %Verificare che la proclamazione di un vincitore per una gara d'appalto (Avviso esito di procedura) sia preceduta, in ordine da: 
@@ -228,9 +234,9 @@ regola2():-
     getPropertyAssertion('hasCallForCompetition', 'Publication', _, IPubblicazione, ShortIPubblicazione, IBandoDiGara, ShortIBandoDiGara), 
     getPropertyAssertion('hasCallForCompetition', 'Lot', _, ILotto, ShortILotto, IBandoDiGara, ShortIBandoDiGara), 
     getPropertyAssertion('hasAwardNotice', 'Lot', _, ILotto, ShortILotto, IAvvisoEsitoDiProcedura, ShortIAvvisoEsitoDiProcedura), 
-    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), ontologyElement(ClassA, IndividualA, ShortIRichiestaVerificaDocumenti)), 
-    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), ontologyElement(ClassB, IndividualB, ShortIPubblicazione)), 
-    annotatedElement(bpmnElement(TypeC, NodoC, IDC, ShortTypeC), ontologyElement(ClassC, IndividualC, ShortIAvvisoEsitoDiProcedura)), 
+    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaVerificaDocumenti)), 
+    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIPubblicazione)), 
+    annotatedElement(bpmnElement(TypeC, NodoC, IDC, ShortTypeC), _, ontologyElement(ClassC, IndividualC, ShortIAvvisoEsitoDiProcedura)), 
     controlloPrecedenzaF(nodo(NodoA, _, _), [nodo(NodoB, _, _), nodo(NodoC, _, _)]),
     format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w", [ShortIRichiestaVerificaDocumenti, ShortIPubblicazione, ShortIAvvisoEsitoDiProcedura]).
 
@@ -240,7 +246,9 @@ regola3():-
     getPropertyAssertion('riguarda_ordine_di_acquisto', 'Deliver_Stocked_Product', _, ISpedizioneOrdine, ShortISpedizioneOrdine, IOrdineDiAcquisto, ShortIOrdineDiAcquisto), 
     getPropertyAssertion('riguarda_lotto', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, ILotto, ShortILotto), 
     getPropertyAssertion('hasPaymentCertificate', 'Lot', _, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento), 
-    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), ontologyElement(ClassA, IndividualA, ShortISpedizioneOrdine)), 
-    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), ontologyElement(ClassB, IndividualB, ShortICertificatoDiPagamento)), 
+    annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortISpedizioneOrdine)), 
+    annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortICertificatoDiPagamento)), 
     controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
     format("L'evasione dell'ordine ~w precede l'emissione del certificato di pagamento ~w", [ShortISpedizioneOrdine, ShortICertificatoDiPagamento]).
+
+:- tty_clear.
