@@ -1,3 +1,5 @@
+%:- module(regoleSupportoBPMNAggiustate,[]).
+
 %mi aspetto che ogni elemento annotato faccia parte dell'ontologia, per cui mi aspetto che esista la classe associata all'individuo annotato, non ho bisogno di individui "anonimi"
 has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual)):-
     propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_domainLink',CID,Individual),shortType(CID,ID),genericElement(Type,Name,ID,ShortType), shortType(Individual, ShortIndividual), getIndividual(Class, CIndividual, ShortIndividual).%;
