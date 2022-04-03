@@ -213,7 +213,9 @@ percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Vi
 percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, Percorso) :-
     arco(source(NomeI, IDNodoI, ShortTypeI), flow(FlowType, Flow), target(NomeInt, IDNodoInt, ShortTypeInt)), 
     IDNodoInt \== IDNodoF, 
-    \+member(nodo(NomeInt, IDNodoInt, ShortTypeInt), Visitati),
+    %\+member(nodo(NomeInt, IDNodoInt, ShortTypeInt), Visitati),
+    occurrences_of_term(nodo(NomeInt, IDNodoInt, ShortTypeInt), Visitati, Count),
+    Count < 2,
     append(Visitati, [flow(FlowType, Flow), nodo(NomeInt, IDNodoInt, ShortTypeInt)], VisitatiInt),
     percorsoF(nodo(NomeInt, IDNodoInt, ShortTypeInt), nodo(NomeF, IDNodoF, ShortTypeF), VisitatiInt, Percorso).
 
