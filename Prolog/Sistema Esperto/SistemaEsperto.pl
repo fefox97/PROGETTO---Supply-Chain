@@ -179,11 +179,6 @@ writePath([H|T]) :-
 
 %VERIFICA PRECEDENZA CON STRUTTURE A FUNTORI
 
-%restituisce il funtore percorso
-getPercorso(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, PercorsoF) :-
-    precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso),
-    PercorsoF =.. [percorso|Percorso].  %uso l'univ per generare un funtore percorso(nodo(),flow(),nodo(),...).
-
 %stampa percorso
 writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :-
     precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso),
@@ -194,21 +189,25 @@ controlloPrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :-
 
 %verifica precedenza tra due nodi
 %questo serve per evitare di dover inserire precedenza(NodoIniziale, [NodoFinale], Percorso), quando ci sono solo due nodi interessati
-precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Percorso) :-
-    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso). 
+precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), PercorsoF) :-
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoF). 
 
-precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|[]], Percorso) :-
-    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso).
+precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|[]], PercorsoF) :-
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoF).
 
-precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|NodiIntermedi], Percorso) :-
-    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso1),
-    precedenzaF(nodo(NomeF, IDNodoF, ShortTypeF), NodiIntermedi, [Nodo|Percorso2]), %rimuovo il primo nodo dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
-    append([Percorso1,Percorso2], Percorso).
+precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|NodiIntermedi], PercorsoF) :-
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoF1),
+    precedenzaF(nodo(NomeF, IDNodoF, ShortTypeF), NodiIntermedi, PercorsoF2),
+    PercorsoF1 =.. [percorso|Percorso1],    %ritrasformo il funtore PercorsoF1 in una lista
+    PercorsoF2 =.. [percorso|[NodoIniziale|Percorso2]],     %ritrasformo il funtore PercorsoF2 in una lista e rimuovo il primo nodo dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
+    append([Percorso1,Percorso2], Percorso),    %accodo i due percorsi
+    PercorsoF =.. [percorso|Percorso].  %ritrasformo la lista in un funtore
 
 %verifico se esiste un arco che collega direttamente due nodi
-percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, Percorso) :-
+percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, PercorsoF) :-
     arco(source(NomeI, IDNodoI, ShortTypeI), flow(FlowType, Flow), target(NomeF, IDNodoF, ShortTypeF)),
-    append(Visitati, [flow(FlowType, Flow), nodo(NomeF, IDNodoF, ShortTypeF)], Percorso).
+    append(Visitati, [flow(FlowType, Flow), nodo(NomeF, IDNodoF, ShortTypeF)], Percorso),
+    PercorsoF =.. [percorso|Percorso].  %uso l'univ per generare un funtore percorso(nodo(),flow(),nodo(),...).
 
 %se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
 percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, Percorso) :-
@@ -264,6 +263,6 @@ regola3():-
 %REGOLA 4
 %Verifica che esista un percorso, e stampa tutti quelli che riesci a trovare, tra il task "Verifica dei documenti del bando" e "Stoccaggio nel magazzino generale".
 regola4(Percorsi) :-
-    findall(Percorso, getPercorso(nodo('Verifica dei documenti del bando', _, _), nodo('Stoccaggio nel magazzino generale', _, _), Percorso), Percorsi).
+    findall(Percorso, precedenzaF(nodo('Verifica dei documenti del bando', _, _), nodo('Stoccaggio nel magazzino generale', _, _), Percorso), Percorsi).
 
 :- tty_clear.
