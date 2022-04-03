@@ -179,10 +179,14 @@ writePath([H|T]) :-
 
 %VERIFICA PRECEDENZA CON STRUTTURE A FUNTORI
 
-%stampa percorso
-writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, PercorsoF):-
+%restituisce il funtore percorso
+getPercorso(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, PercorsoF) :-
     precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso),
-    PercorsoF =.. [percorso|Percorso],  %uso l'univ per generare un funtore percorso(nodo(),flow(),nodo(),...)
+    PercorsoF =.. [percorso|Percorso].  %uso l'univ per generare un funtore percorso(nodo(),flow(),nodo(),...).
+
+%stampa percorso
+writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :-
+    precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso),
     writePath(Percorso).
 
 controlloPrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :- 
@@ -242,6 +246,8 @@ regola2():-
     controlloPrecedenzaF(nodo(NodoA, _, _), [nodo(NodoB, _, _), nodo(NodoC, _, _)]),
     format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w", [ShortIRichiestaVerificaDocumenti, ShortIPubblicazione, ShortIAvvisoEsitoDiProcedura]).
 
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 %REGOLA 3
 %Verificare che l'emissione di un Certificato di Pagamento avvenga solo ed esclusivamente in seguito all'evasione dell'ordine.
 regola3():-
@@ -252,5 +258,12 @@ regola3():-
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortICertificatoDiPagamento)), 
     controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
     format("L'evasione dell'ordine ~w precede l'emissione del certificato di pagamento ~w", [ShortISpedizioneOrdine, ShortICertificatoDiPagamento]).
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%REGOLA 4
+%Verifica che esista un percorso, e stampa tutti quelli che riesci a trovare, tra il task "Verifica dei documenti del bando" e "Stoccaggio nel magazzino generale".
+regola4(Percorsi) :-
+    findall(Percorso, getPercorso(nodo('Verifica dei documenti del bando', _, _), nodo('Stoccaggio nel magazzino generale', _, _), Percorso), Percorsi).
 
 :- tty_clear.
