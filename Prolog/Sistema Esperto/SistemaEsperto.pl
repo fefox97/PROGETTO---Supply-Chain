@@ -180,8 +180,9 @@ writePath([H|T]) :-
 %VERIFICA PRECEDENZA CON STRUTTURE A FUNTORI
 
 %stampa percorso
-writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi):-
-    precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso), 
+writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, PercorsoF):-
+    precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso),
+    PercorsoF =.. [percorso|Percorso],  %uso l'univ per generare un funtore percorso(nodo(),flow(),nodo(),...)
     writePath(Percorso).
 
 controlloPrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :- 
