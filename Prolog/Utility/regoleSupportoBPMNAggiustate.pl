@@ -25,11 +25,11 @@ gateway(Name,ID,ShortType):-
     genericElement('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#gateway',Name,ID,ShortType);
     descendantOf(GenericType,'http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#gateway'),genericElement(GenericType,Name,ID,ShortType).
 
-messageFlow(source(SName,SID,SType),target(TName,TID,TType)):-
+messageFlow(source(SName,SID,SType), flow('MessageFlow', Flow), target(TName,TID,TType)):-
     classAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#messageFlow',Flow),
     propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#has_targetRef',Flow,Target), classAssertion(LTType,Target),shortType(Target,TID),genericElement(LTType,TName,TID,TType),propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#has_sourceRef',Flow,Source), classAssertion(LSType,Source),shortType(Source,SID),genericElement(LSType,SName,SID,SType).
 
-sequenceFlow(source(SName,SID,SType),target(TName,TID,TType)):-
+sequenceFlow(source(SName,SID,SType), flow('SequenceFlow', Flow), target(TName,TID,TType)):-
     classAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#sequenceFlow',Flow),
     propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#has_targetRef',Flow,Target), classAssertion(LTType,Target),shortType(Target,TID),genericElement(LTType,TName,TID,TType),propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/BPMN2_Ontology.owl#has_sourceRef',Flow,Source), classAssertion(LSType,Source),shortType(Source,SID),genericElement(LSType,SName,SID,SType).
 

@@ -121,9 +121,10 @@ nodo(Name, ID, ShortType) :-
     event(Name, ID, ShortType).
 
 %raggruppa i sequence flow e i message flow
-arco(source(SName, SID, SType), target(TName, TID, TType)) :-
-    sequenceFlow(source(SName, SID, SType), target(TName, TID, TType));
-    messageFlow(source(SName, SID, SType), target(TName, TID, TType)).
+arco(source(SName, SID, SType), flow(FlowType, SFlow), target(TName, TID, TType)) :-
+    (sequenceFlow(source(SName, SID, SType), flow(FlowType, Flow), target(TName, TID, TType));
+    messageFlow(source(SName, SID, SType), flow(FlowType, Flow), target(TName, TID, TType))),
+    shortType(Flow, SFlow).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -181,8 +182,7 @@ writePath([H|T]) :-
 %stampa percorso
 writePrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi):-
     precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso), 
-    reverse(Percorso, PercorsoR), %inverto il percorso per ottenere l'ordine corretto
-    writePath(PercorsoR).
+    writePath(Percorso).
 
 controlloPrecedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi) :- 
     precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, _), !.
@@ -197,20 +197,21 @@ precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|
 
 precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|NodiIntermedi], Percorso) :-
     percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], Percorso1),
-    precedenzaF(nodo(NomeF, IDNodoF, ShortTypeF), NodiIntermedi, Percorso2), 
-    append(Percorso3, [_], Percorso2), %rimuovo l'ultimo elemento dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
-    append([Percorso3, Percorso1], Percorso).
+    precedenzaF(nodo(NomeF, IDNodoF, ShortTypeF), NodiIntermedi, [Nodo|Percorso2]), %rimuovo il primo nodo dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
+    append([Percorso1,Percorso2], Percorso).
 
 %verifico se esiste un arco che collega direttamente due nodi
-percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, [nodo(NomeF, IDNodoF, ShortTypeF)|Visitati]) :-
-    arco(source(NomeI, IDNodoI, ShortTypeI), target(NomeF, IDNodoF, ShortTypeF)).
+percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, Percorso) :-
+    arco(source(NomeI, IDNodoI, ShortTypeI), flow(FlowType, Flow), target(NomeF, IDNodoF, ShortTypeF)),
+    append(Visitati, [flow(FlowType, Flow), nodo(NomeF, IDNodoF, ShortTypeF)], Percorso).
 
 %se non esiste un arco che collega direttamente due nodi, verifico se esiste un nodo intermedio
 percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Visitati, Percorso) :-
-    arco(source(NomeI, IDNodoI, ShortTypeI), target(NomeInt, IDNodoInt, ShortTypeInt)), 
+    arco(source(NomeI, IDNodoI, ShortTypeI), flow(FlowType, Flow), target(NomeInt, IDNodoInt, ShortTypeInt)), 
     IDNodoInt \== IDNodoF, 
     \+member(nodo(NomeInt, IDNodoInt, ShortTypeInt), Visitati),
-    percorsoF(nodo(NomeInt, IDNodoInt, ShortTypeInt), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeInt, IDNodoInt, ShortTypeInt)|Visitati], Percorso).
+    append(Visitati, [flow(FlowType, Flow), nodo(NomeInt, IDNodoInt, ShortTypeInt)], VisitatiInt),
+    percorsoF(nodo(NomeInt, IDNodoInt, ShortTypeInt), nodo(NomeF, IDNodoF, ShortTypeF), VisitatiInt, Percorso).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
