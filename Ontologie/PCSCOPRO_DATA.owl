@@ -21,6 +21,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="pcscopro" IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#"/>
     <Prefix name="PCSCOPRO2" IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#"/>
     <Prefix name="PublicContract" IRI="https://w3id.org/italia/onto/PublicContract/"/>
     <Annotation>
@@ -4075,9 +4076,6 @@
         <NamedIndividual IRI="#Z842BFB79C"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ordine_acquisto"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#00076670595"/>
     </Declaration>
     <Declaration>
@@ -4162,12 +4160,6 @@
         <NamedIndividual IRI="#03552910873"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#04_01_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#04_11_2018"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#04127270157"/>
     </Declaration>
     <Declaration>
@@ -4183,28 +4175,10 @@
         <NamedIndividual IRI="#06459400963"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#07_03_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#07_03_2021"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#07_04_2021"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#07_07_2020"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#07123400157"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#07149930583"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#08_01_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#08_04_2020"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#08082461008"/>
@@ -4225,16 +4199,10 @@
         <NamedIndividual IRI="#09674060158"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#10_06_2019"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#1002785"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#10994940152"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#11_03_2019"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#11206730159"/>
@@ -4249,12 +4217,6 @@
         <NamedIndividual IRI="#1310860505"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#14_01_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#14_10_2020"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#1586271"/>
     </Declaration>
     <Declaration>
@@ -4264,25 +4226,10 @@
         <NamedIndividual IRI="#1619091"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#17_02_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#17_03_2021"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#1755441"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1775427"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#18_01_2021"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#18_03_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#18_11_2020"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#1874240342"/>
@@ -4294,7 +4241,94 @@
         <NamedIndividual IRI="#1988235"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#20_01_2021"/>
+        <NamedIndividual IRI="#2018-11-04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2019-03-11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2019-06-10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2019-12-30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-01-04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-01-08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-01-14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-01-28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-02-17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-02-23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-03-07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-03-18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-03-29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-04-08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-07-07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-07-27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-09-28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-09-30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-10-14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-10-28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2020-11-18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-01-18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-01-20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-02-27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-03-07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-03-17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-04-07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-07-31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-08-25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021-11-22"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2044422"/>
@@ -4315,9 +4349,6 @@
         <NamedIndividual IRI="#2187150"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#22_11_2021"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#2218910715"/>
     </Declaration>
     <Declaration>
@@ -4334,9 +4365,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2268260904"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#23_02_2020"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2326083"/>
@@ -4357,37 +4385,16 @@
         <NamedIndividual IRI="#2446167"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#25_08_2021"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#27_02_2021"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#27_07_2020"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#2710530"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2734515"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#28_01_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#28_09_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#28_10_2020"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#2868000"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2872248"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#29_03_2020"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#2901177"/>
@@ -4399,19 +4406,10 @@
         <NamedIndividual IRI="#2934258"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#30_09_2020"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#30_12_2019"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#3008355"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#3051880833"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#31_07_2021"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#349040287"/>
@@ -4841,6 +4839,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="skos:note"/>
@@ -11479,14 +11480,6 @@
         <NamedIndividual IRI="#03552910873"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#04_01_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#04_11_2018"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="l0:Agente"/>
         <NamedIndividual IRI="#04127270157"/>
     </ClassAssertion>
@@ -11507,36 +11500,12 @@
         <NamedIndividual IRI="#06459400963"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#07_03_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#07_03_2021"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#07_04_2021"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#07_07_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="l0:Agente"/>
         <NamedIndividual IRI="#07123400157"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="l0:Agente"/>
         <NamedIndividual IRI="#07149930583"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#08_01_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#08_04_2020"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="l0:Agente"/>
@@ -11563,20 +11532,12 @@
         <NamedIndividual IRI="#09674060158"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#10_06_2019"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Procedure"/>
         <NamedIndividual IRI="#1002785"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="l0:Agente"/>
         <NamedIndividual IRI="#10994940152"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#11_03_2019"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="l0:Agente"/>
@@ -11595,14 +11556,6 @@
         <NamedIndividual IRI="#1310860505"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#14_01_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#14_10_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
         <NamedIndividual IRI="#1586271"/>
     </ClassAssertion>
@@ -11615,32 +11568,12 @@
         <NamedIndividual IRI="#1619091"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#17_02_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#17_03_2021"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
         <NamedIndividual IRI="#1755441"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
         <NamedIndividual IRI="#1775427"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#18_01_2021"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#18_03_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#18_11_2020"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
@@ -11656,7 +11589,123 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#20_01_2021"/>
+        <NamedIndividual IRI="#2018-11-04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2019-03-11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2019-06-10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2019-12-30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-01-04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-01-08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-01-14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-01-28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-02-17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-02-23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-03-07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-03-18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-03-29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-04-08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-07-07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-07-27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-09-28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-09-30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-10-14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-10-28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2020-11-18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-01-18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-01-20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-02-27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-03-07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-03-17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-04-07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-07-31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-08-25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_di_scadenza"/>
+        <NamedIndividual IRI="#2021-11-22"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
@@ -11683,10 +11732,6 @@
         <NamedIndividual IRI="#2187150"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#22_11_2021"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
         <NamedIndividual IRI="#2218910715"/>
     </ClassAssertion>
@@ -11709,10 +11754,6 @@
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
         <NamedIndividual IRI="#2268260904"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#23_02_2020"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
@@ -11739,18 +11780,6 @@
         <NamedIndividual IRI="#2446167"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#25_08_2021"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#27_02_2021"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#27_07_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
         <NamedIndividual IRI="#2710530"/>
     </ClassAssertion>
@@ -11759,28 +11788,12 @@
         <NamedIndividual IRI="#2734515"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#28_01_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#28_09_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#28_10_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
         <NamedIndividual IRI="#2868000"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
         <NamedIndividual IRI="#2872248"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#29_03_2020"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
@@ -11795,24 +11808,12 @@
         <NamedIndividual IRI="#2934258"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#30_09_2020"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#30_12_2019"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Publication"/>
         <NamedIndividual IRI="#3008355"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
         <NamedIndividual IRI="#3051880833"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Data_di_scadenza"/>
-        <NamedIndividual IRI="#31_07_2021"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Organizational_Unit"/>
@@ -12466,162 +12467,162 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B1002785"/>
-        <NamedIndividual IRI="#31_07_2021"/>
+        <NamedIndividual IRI="#2021-07-31"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B528757"/>
-        <NamedIndividual IRI="#11_03_2019"/>
+        <NamedIndividual IRI="#2019-03-11"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B528951"/>
-        <NamedIndividual IRI="#10_06_2019"/>
+        <NamedIndividual IRI="#2019-06-10"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B539697"/>
-        <NamedIndividual IRI="#04_11_2018"/>
+        <NamedIndividual IRI="#2018-11-04"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B585147"/>
-        <NamedIndividual IRI="#23_02_2020"/>
+        <NamedIndividual IRI="#2020-02-23"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B591809"/>
-        <NamedIndividual IRI="#18_03_2020"/>
+        <NamedIndividual IRI="#2020-03-18"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B650502"/>
-        <NamedIndividual IRI="#08_01_2020"/>
+        <NamedIndividual IRI="#2020-01-08"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B662745"/>
-        <NamedIndividual IRI="#04_01_2020"/>
+        <NamedIndividual IRI="#2020-01-04"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B681474"/>
-        <NamedIndividual IRI="#14_01_2020"/>
+        <NamedIndividual IRI="#2020-01-14"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B690538"/>
-        <NamedIndividual IRI="#07_03_2020"/>
+        <NamedIndividual IRI="#2020-03-07"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B693788"/>
-        <NamedIndividual IRI="#17_02_2020"/>
+        <NamedIndividual IRI="#2020-02-17"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B721717"/>
-        <NamedIndividual IRI="#30_12_2019"/>
+        <NamedIndividual IRI="#2019-12-30"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B721754"/>
-        <NamedIndividual IRI="#30_12_2019"/>
+        <NamedIndividual IRI="#2019-12-30"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B729050"/>
-        <NamedIndividual IRI="#28_10_2020"/>
+        <NamedIndividual IRI="#2020-10-28"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B742534"/>
-        <NamedIndividual IRI="#28_01_2020"/>
+        <NamedIndividual IRI="#2020-01-28"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B742566"/>
-        <NamedIndividual IRI="#28_01_2020"/>
+        <NamedIndividual IRI="#2020-01-28"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B749787"/>
-        <NamedIndividual IRI="#07_07_2020"/>
+        <NamedIndividual IRI="#2020-07-07"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B775361"/>
-        <NamedIndividual IRI="#08_04_2020"/>
+        <NamedIndividual IRI="#2020-03-29"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B775361"/>
-        <NamedIndividual IRI="#29_03_2020"/>
+        <NamedIndividual IRI="#2020-04-08"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B776556"/>
-        <NamedIndividual IRI="#30_09_2020"/>
+        <NamedIndividual IRI="#2020-09-30"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B792815"/>
-        <NamedIndividual IRI="#14_10_2020"/>
+        <NamedIndividual IRI="#2020-10-14"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B798980"/>
-        <NamedIndividual IRI="#07_03_2021"/>
+        <NamedIndividual IRI="#2021-03-07"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B815389"/>
-        <NamedIndividual IRI="#18_01_2021"/>
+        <NamedIndividual IRI="#2021-01-18"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B903510"/>
-        <NamedIndividual IRI="#28_09_2020"/>
+        <NamedIndividual IRI="#2020-09-28"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B911505"/>
-        <NamedIndividual IRI="#07_04_2021"/>
+        <NamedIndividual IRI="#2021-04-07"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B956000"/>
-        <NamedIndividual IRI="#18_11_2020"/>
+        <NamedIndividual IRI="#2020-07-27"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B956000"/>
-        <NamedIndividual IRI="#22_11_2021"/>
+        <NamedIndividual IRI="#2020-11-18"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B956000"/>
-        <NamedIndividual IRI="#27_07_2020"/>
+        <NamedIndividual IRI="#2021-11-22"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B957416"/>
-        <NamedIndividual IRI="#17_03_2021"/>
+        <NamedIndividual IRI="#2021-03-17"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B967059"/>
-        <NamedIndividual IRI="#20_01_2021"/>
+        <NamedIndividual IRI="#2021-01-20"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B974856"/>
-        <NamedIndividual IRI="#27_02_2021"/>
+        <NamedIndividual IRI="#2021-02-27"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#ha_data_di_scadenza"/>
         <NamedIndividual IRI="#B978086"/>
-        <NamedIndividual IRI="#25_08_2021"/>
+        <NamedIndividual IRI="#2021-08-25"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:refersToTender"/>
@@ -22491,7 +22492,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B1002785"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">02/05/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-05-02</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22506,7 +22507,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B528757"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">11/12/2018 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-12-11</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22521,7 +22522,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B528951"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">12/03/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-03-12</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22536,7 +22537,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B539697"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/08/2018 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-08-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22551,7 +22552,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B585147"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">25/11/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-11-25</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22566,7 +22567,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B591809"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">19/12/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-19</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22581,7 +22582,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B650502"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22596,7 +22597,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B662745"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22611,7 +22612,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B681474"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">16/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-16</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22626,7 +22627,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B690538"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">08/12/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-08</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22641,7 +22642,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B693788"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">19/11/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-11-19</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22656,7 +22657,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B721717"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-01</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22671,7 +22672,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B721754"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-01</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22686,7 +22687,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B729050"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/07/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22701,7 +22702,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B742534"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22716,7 +22717,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B742566"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22731,7 +22732,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B749787"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">08/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-08</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22746,12 +22747,12 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B775361"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">09/01/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B775361"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/12/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-09</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22766,7 +22767,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B776556"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">02/07/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-02</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22781,7 +22782,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B792815"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">16/07/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-16</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22796,7 +22797,7 @@
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B798980"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">07/12/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22814,7 +22815,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B815389"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">20/10/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-20</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22829,7 +22830,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B903510"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/06/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-06-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22844,7 +22845,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B911505"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">07/01/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-01-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22859,17 +22860,17 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B956000"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">20/08/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B956000"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/08/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-08-20</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B956000"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">28/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-08-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22884,7 +22885,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B957416"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">17/12/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-17</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22899,7 +22900,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B967059"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/10/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22914,7 +22915,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B974856"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">29/11/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-29</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#oggetto_della_gara"/>
@@ -22929,7 +22930,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#B978086"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">27/05/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-05-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -22939,7 +22940,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6940799088"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -22949,7 +22950,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E69408044A7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -22959,7 +22960,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6940810999"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -22969,7 +22970,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6940909B4B"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -22979,7 +22980,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6940929BCC"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -22989,7 +22990,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6941349666"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -22999,7 +23000,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E694136104F"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23009,7 +23010,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6942276363"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23019,7 +23020,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E69429141E2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23029,7 +23030,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E69429217A7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23039,7 +23040,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6942925AF3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23049,7 +23050,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6942926BC6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23059,7 +23060,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6942928D6C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23069,7 +23070,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6942930F12"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-12-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23079,7 +23080,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E6942933190"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">26/08/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-08-26</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23089,7 +23090,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E76369713D6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23099,7 +23100,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7636980B41"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23109,7 +23110,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637002D68"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23119,7 +23120,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E76370060B9"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23129,7 +23130,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637009332"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23139,7 +23140,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E763701367E"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23149,7 +23150,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637014751"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23159,7 +23160,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E76370168F7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23169,7 +23170,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637021D16"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23179,7 +23180,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637023EBC"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23189,7 +23190,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E763702613A"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23199,7 +23200,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E76370282E0"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23209,7 +23210,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E763703262C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23219,7 +23220,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E76370358A5"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23229,7 +23230,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637038B1E"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23239,7 +23240,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637041D97"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23249,7 +23250,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637042E6A"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23259,7 +23260,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7637049434"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23269,7 +23270,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E76370515DA"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23279,7 +23280,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E76370569F9"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23289,7 +23290,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E764361704B"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/04/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-04-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23299,7 +23300,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7688013D04"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">04/12/2018 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-12-04</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23309,7 +23310,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E77128469DC"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23319,7 +23320,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E771286163E"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23329,7 +23330,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7712870DA9"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23339,7 +23340,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E77128751CD"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23349,7 +23350,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E77128816BF"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23359,7 +23360,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7712889D57"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-07-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23369,7 +23370,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E787873167F"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23379,7 +23380,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7878742F90"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23389,7 +23390,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7878748487"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23399,7 +23400,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E78787538A6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23409,7 +23410,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E78787630E9"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23419,7 +23420,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7878768508"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23429,7 +23430,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E787878316A"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23439,7 +23440,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7878785310"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23449,7 +23450,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E78787874B6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23459,7 +23460,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E787879072F"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23469,7 +23470,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7878802118"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23479,7 +23480,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7921918D87"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">17/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-17</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23489,7 +23490,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E7996404953"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">29/01/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-29</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23499,7 +23500,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E802544678B"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">13/02/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-13</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23509,7 +23510,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8027915D05"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">07/02/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23519,7 +23520,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E80902930FD"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">03/02/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-03</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23529,7 +23530,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E809059388C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">03/02/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-03</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23539,7 +23540,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E81446791BC"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23549,7 +23550,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8144768B2B"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23559,7 +23560,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8144793FCB"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23569,7 +23570,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8145665F64"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23579,7 +23580,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8145678A20"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23589,7 +23590,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8145690409"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23599,7 +23600,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E81457158A9"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23609,7 +23610,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E81457250EC"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23619,7 +23620,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E81994532AB"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">27/11/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23629,7 +23630,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8199464BBC"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">27/11/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23639,7 +23640,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8199482A97"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">27/11/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23649,7 +23650,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E82233055F5"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-08-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23659,7 +23660,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8223309941"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-08-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23669,7 +23670,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E82233299C2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-08-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23679,7 +23680,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8223332C3B"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-08-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23689,12 +23690,12 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8276108C5D"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">08/05/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8276108C5D"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">28/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-05-08</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23704,7 +23705,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E82902377FD"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-13</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23714,7 +23715,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E82902388D0"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-13</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23724,7 +23725,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E82902399A3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-13</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23734,7 +23735,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8290240A76"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-13</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23744,7 +23745,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8295984E8E"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/10/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23754,7 +23755,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E83136977CB"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/04/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-04-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23764,7 +23765,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E83828155C6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">17/02/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-02-17</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23774,7 +23775,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E84384648C7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">28/10/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23784,7 +23785,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8518451026"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">07/05/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-05-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23794,7 +23795,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8603719D83"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">19/02/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-02-19</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23804,7 +23805,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8613626D07"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">16/04/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-04-16</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23814,7 +23815,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8628847DCB"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">29/03/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-03-29</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23824,7 +23825,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8631093B41"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/09/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-09-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23834,7 +23835,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E8631103384"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/09/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-09-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23844,7 +23845,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E86311087A3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/09/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-09-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23854,7 +23855,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#E867469371E"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/08/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-08-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23864,7 +23865,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#EZ0B2BFB62C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">27/02/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23874,7 +23875,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#EZ312B44EF9"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">18/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23884,7 +23885,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#EZ502B44E81"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">18/03/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23894,7 +23895,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#EZ682AEFF2E"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">29/01/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-29</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:agreedAmount"/>
@@ -23904,7 +23905,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:outcomeDate"/>
         <NamedIndividual IRI="#EZ842BFB79C"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">27/02/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:paymentAmount"/>
@@ -24714,27 +24715,27 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#1586271"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">11/12/2018 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-12-11</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#1586853"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">12/03/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-03-12</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#1619091"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/08/2018 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-08-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#1755441"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">25/11/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-11-25</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#1775427"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">19/12/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-19</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#codice_fiscale"/>
@@ -24754,42 +24755,42 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#1951506"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">10/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#1988235"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">06/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-06</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2044422"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">16/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-16</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2071614"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">08/12/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-08</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2081364"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">19/11/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-11-19</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2165151"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-01</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2165262"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-01</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2187150"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/07/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#codice_fiscale"/>
@@ -24809,12 +24810,12 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2227602"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2227698"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-10-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#codice_fiscale"/>
@@ -24834,7 +24835,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2249361"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">08/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-08</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#codice_fiscale"/>
@@ -24854,27 +24855,27 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2326083"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">09/01/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2326083"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/12/2019 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-09</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2329668"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">02/07/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-02</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2378445"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">16/07/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-16</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2396940"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">07/12/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#codice_fiscale"/>
@@ -24894,57 +24895,57 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2446167"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">20/10/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-20</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2710530"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">30/06/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-06-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2734515"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">07/01/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-01-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2868000"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">20/08/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2868000"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">24/08/2021 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-08-20</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2868000"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">28/04/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-08-24</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2872248"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">17/12/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-12-17</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2901177"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">22/10/2020 1.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2924568"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">29/11/2020 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-29</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#2934258"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">27/05/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-05-27</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:publicationDate"/>
         <NamedIndividual IRI="#3008355"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">02/05/2021 2.00.00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-05-02</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#codice_fiscale"/>
@@ -28778,6 +28779,125 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <DataProperty abbreviatedIRI="l0:positionInSequence"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regola1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Richiesta_di_approvvigionamento"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+                <Variable IRI="#x"/>
+                <Variable IRI="#y"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Comunicazione"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regola2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
+                <Variable IRI="#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:Procedure"/>
+                <Variable IRI="#y"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
+                <Variable IRI="#y"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Richiesta_verifica_documenti"/>
+                <Variable IRI="#z"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#riguarda_bando_di_gara"/>
+                <Variable IRI="#z"/>
+                <Variable IRI="#x"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regola3</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:Lot"/>
+                <Variable IRI="#lotto"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="PublicContract:totalAmount"/>
+                <Variable IRI="#lotto"/>
+                <Variable IRI="#importo"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#importo"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000000000</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:Procedure"/>
+                <Variable IRI="#proceduraDiAffidamento"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
+                <Variable IRI="#proceduraDiAffidamento"/>
+                <Variable IRI="#lotto"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:DirectAdministration"/>
+                <Variable IRI="#proceduraDiAffidamento"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
         <AbbreviatedIRI>dc:</AbbreviatedIRI>
@@ -32875,16 +32995,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#04_01_2020</IRI>
-        <Literal>Data di scadenza 04_01_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#04_11_2018</IRI>
-        <Literal>Data di scadenza 04_11_2018</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#04127270157</IRI>
         <Literal>SOL SPA</Literal>
     </AnnotationAssertion>
@@ -32910,26 +33020,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#07_03_2020</IRI>
-        <Literal>Data di scadenza 07_03_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#07_03_2021</IRI>
-        <Literal>Data di scadenza 07_03_2021</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#07_04_2021</IRI>
-        <Literal>Data di scadenza 07_04_2021</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#07_07_2020</IRI>
-        <Literal>Data di scadenza 07_07_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#07123400157</IRI>
         <Literal>COOK ITALIA SRL</Literal>
     </AnnotationAssertion>
@@ -32937,16 +33027,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#07149930583</IRI>
         <Literal>Engie Servizi S.p.A.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#08_01_2020</IRI>
-        <Literal>Data di scadenza 08_01_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#08_04_2020</IRI>
-        <Literal>Data di scadenza 08_04_2020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -32985,11 +33065,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#10_06_2019</IRI>
-        <Literal>Data di scadenza 10_06_2019</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#1002785</IRI>
         <Literal>Procedura di affidamento n. 1002785</Literal>
     </AnnotationAssertion>
@@ -32997,11 +33072,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#10994940152</IRI>
         <Literal>OLYMPUS ITALIA SRL SOCIETA&apos; UNIPERSONALE</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#11_03_2019</IRI>
-        <Literal>Data di scadenza 11_03_2019</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -33025,16 +33095,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#14_01_2020</IRI>
-        <Literal>Data di scadenza 14_01_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#14_10_2020</IRI>
-        <Literal>Data di scadenza 14_10_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#1586271</IRI>
         <Literal>Pubblicazione bando n. 1586271</Literal>
     </AnnotationAssertion>
@@ -33050,16 +33110,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#17_02_2020</IRI>
-        <Literal>Data di scadenza 17_02_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#17_03_2021</IRI>
-        <Literal>Data di scadenza 17_03_2021</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#1755441</IRI>
         <Literal>Pubblicazione bando n. 1755441</Literal>
     </AnnotationAssertion>
@@ -33067,21 +33117,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#1775427</IRI>
         <Literal>Pubblicazione bando n. 1775427</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#18_01_2021</IRI>
-        <Literal>Data di scadenza 18_01_2021</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#18_03_2020</IRI>
-        <Literal>Data di scadenza 18_03_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#18_11_2020</IRI>
-        <Literal>Data di scadenza 18_11_2020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -33100,8 +33135,153 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#20_01_2021</IRI>
-        <Literal>Data di scadenza 20_01_2021</Literal>
+        <IRI>#2018-11-04</IRI>
+        <Literal>Data di scadenza 2018-11-04</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2019-03-11</IRI>
+        <Literal>Data di scadenza 2019-03-11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2019-06-10</IRI>
+        <Literal>Data di scadenza 2019-06-10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2019-12-30</IRI>
+        <Literal>Data di scadenza 2019-12-30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-01-04</IRI>
+        <Literal>Data di scadenza 2020-01-04</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-01-08</IRI>
+        <Literal>Data di scadenza 2020-01-08</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-01-14</IRI>
+        <Literal>Data di scadenza 2020-01-14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-01-28</IRI>
+        <Literal>Data di scadenza 2020-01-28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-02-17</IRI>
+        <Literal>Data di scadenza 2020-02-17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-02-23</IRI>
+        <Literal>Data di scadenza 2020-02-23</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-03-07</IRI>
+        <Literal>Data di scadenza 2020-03-07</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-03-18</IRI>
+        <Literal>Data di scadenza 2020-03-18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-03-29</IRI>
+        <Literal>Data di scadenza 2020-03-29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-04-08</IRI>
+        <Literal>Data di scadenza 2020-04-08</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-07-07</IRI>
+        <Literal>Data di scadenza 2020-07-07</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-07-27</IRI>
+        <Literal>Data di scadenza 2020-07-27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-09-28</IRI>
+        <Literal>Data di scadenza 2020-09-28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-09-30</IRI>
+        <Literal>Data di scadenza 2020-09-30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-10-14</IRI>
+        <Literal>Data di scadenza 2020-10-14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-10-28</IRI>
+        <Literal>Data di scadenza 2020-10-28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2020-11-18</IRI>
+        <Literal>Data di scadenza 2020-11-18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-01-18</IRI>
+        <Literal>Data di scadenza 2021-01-18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-01-20</IRI>
+        <Literal>Data di scadenza 2021-01-20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-02-27</IRI>
+        <Literal>Data di scadenza 2021-02-27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-03-07</IRI>
+        <Literal>Data di scadenza 2021-03-07</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-03-17</IRI>
+        <Literal>Data di scadenza 2021-03-17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-04-07</IRI>
+        <Literal>Data di scadenza 2021-04-07</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-07-31</IRI>
+        <Literal>Data di scadenza 2021-07-31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-08-25</IRI>
+        <Literal>Data di scadenza 2021-08-25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2021-11-22</IRI>
+        <Literal>Data di scadenza 2021-11-22</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -33135,11 +33315,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#22_11_2021</IRI>
-        <Literal>Data di scadenza 22_11_2021</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#2218910715</IRI>
         <Literal>Azienda Ospedaliero Universitaria Ospedali Riuniti di Foggia</Literal>
     </AnnotationAssertion>
@@ -33167,11 +33342,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#2268260904</IRI>
         <Literal>Aou Sassari - Azienda Ospedaliera Universitaria di Sassari</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#23_02_2020</IRI>
-        <Literal>Data di scadenza 23_02_2020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -33205,21 +33375,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#25_08_2021</IRI>
-        <Literal>Data di scadenza 25_08_2021</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#27_02_2021</IRI>
-        <Literal>Data di scadenza 27_02_2021</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#27_07_2020</IRI>
-        <Literal>Data di scadenza 27_07_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#2710530</IRI>
         <Literal>Pubblicazione bando n. 2710530</Literal>
     </AnnotationAssertion>
@@ -33230,21 +33385,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#28_01_2020</IRI>
-        <Literal>Data di scadenza 28_01_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#28_09_2020</IRI>
-        <Literal>Data di scadenza 28_09_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#28_10_2020</IRI>
-        <Literal>Data di scadenza 28_10_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#2868000</IRI>
         <Literal>Pubblicazione bando n. 2868000</Literal>
     </AnnotationAssertion>
@@ -33252,11 +33392,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#2872248</IRI>
         <Literal>Pubblicazione bando n. 2872248</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#29_03_2020</IRI>
-        <Literal>Data di scadenza 29_03_2020</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -33275,16 +33410,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#30_09_2020</IRI>
-        <Literal>Data di scadenza 30_09_2020</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#30_12_2019</IRI>
-        <Literal>Data di scadenza 30_12_2019</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#3008355</IRI>
         <Literal>Pubblicazione bando n. 3008355</Literal>
     </AnnotationAssertion>
@@ -33292,11 +33417,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#3051880833</IRI>
         <Literal>Azienda Ospedaliera Papardo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#31_07_2021</IRI>
-        <Literal>Data di scadenza 31_07_2021</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

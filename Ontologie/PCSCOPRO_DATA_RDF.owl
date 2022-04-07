@@ -7980,10 +7980,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B1002785">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#31_07_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-07-31"/>
         <PCSCOPRO2:oggetto_della_gara>Indizione di una gara telematica a procedura aperta per la fornitura di un Sistema macchina reattivi per esecuzione Elettroforesi e Immunofissazione su siero e urine per le necessità  di mesi 24 del Laboratorio di Patologia clinica dell&apos;Azienda Ospedaliera San Camillo-Forlanini</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.16E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">02/05/2021 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-02</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B1002785</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7993,10 +7993,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528757">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11_03_2019"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-03-11"/>
         <PCSCOPRO2:oggetto_della_gara>Affidamento della fornitura biennale, di materiale in tnt, teli ed indumenti CND T02, per le esigenze delle Strutture dell&apos;Azienda Ospedaliera Universitaria di Sassari</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.16239999E11</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">11/12/2018 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-11</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B528757</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8006,10 +8006,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#10_06_2019"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-06-10"/>
         <PCSCOPRO2:oggetto_della_gara>Procedura aperta sopra soglia comunitaria, ai sensi dell&apos;art. 60 del d. lgs. n. 50/2016, per l&apos;affidamento della fornitura triennale - suddivisa in 29 lotti - di formule per nutrizione enterale, supplementi nutrizionali orali ed integratori dietetici per le esigenze delle UU.OO. dell&apos;Azienda Ospedaliero Universitaria di Sassari. importo a base di gara nel triennio soggetto a ribasso</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7220004E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">12/03/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B528951</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8019,10 +8019,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B539697">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04_11_2018"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2018-11-04"/>
         <PCSCOPRO2:oggetto_della_gara>ID 18A162 - Fornitura e posa in opera di armadi contenenti attrezzature e d.p.i. antincendio per i fabbisogni dell&apos;Azienda Ospedaliera di Padova.</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5935017E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/08/2018 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-06</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B539697</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8032,10 +8032,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#23_02_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-23"/>
         <PCSCOPRO2:oggetto_della_gara>Accordo Quadro per la fornitura di dispositivi medici per Anestesia e Rianimazione dell&apos;AOU &apos;Ospedali Riuniti di Foggia&apos;</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7386116E11</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">25/11/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-25</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B585147</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8045,10 +8045,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B591809">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_03_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-18"/>
         <PCSCOPRO2:oggetto_della_gara>GARA TELEMATICA TRAMITE MERCATO ELETTRONICO DELLA P.A. PER LA FORNITURA DI STRUMENTARIO CHIRURGICO PER l&apos;U.O.C.  DI OSTETRICIA, GINECOLOGIA E PRONTO SOCCORSO DEL NUOVO OSPEDALE SAN MARCO (RDO N.2313003).</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4999997E9</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19/12/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-19</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B591809</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8058,10 +8058,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B650502">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08_01_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-08"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura quinquennale di stampati per le Unità  Operative dell&apos;Azienda Ospedaliera Ospedali Riuniti Villa Sofia  Cervello    per 60 mesi-  importo presunto complessivo quinquennale a base dasta di  270.000,00  al netto di Iva</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.70000005E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-10</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B650502</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8071,10 +8071,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B662745">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04_01_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-04"/>
         <PCSCOPRO2:oggetto_della_gara>Gara telematica tramite Mercato Elettronico della P.A. per la fornitura, suddivisa in due lotti, di strumentario chirurgico per lU.O.C. di Ortopedia del nuovo Ospedale San Marco (RDO 2439156).</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2000001E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-06</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B662745</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8084,10 +8084,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B681474">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#14_01_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-14"/>
         <PCSCOPRO2:oggetto_della_gara>GARA N. 545/2019 - PROCEDURA TELEMATICA SU PIATTAFORMA SINTEL AI SENSI DELLART. 36, COMMA 2, LETTERA B, DEL D. LGS. 50/2016 e S.M.I. PER LACQUISTO DI UNA COLONNA VIDEO COMPRENSIVA DI MATERIALE DI CONSUMO PER UN TRIENNIO E DELLA GARANZIA FULL RISK DI ANNI UNO PER LUOC AREA SANITARIA CHIRURGIA SENOLOGICA  BT  LOTTO UNICO CIG 802544678B - RICHIESTA DI OFFERTA.</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.20900004E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">16/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-16</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B681474</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8097,10 +8097,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_03_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-07"/>
         <PCSCOPRO2:oggetto_della_gara>Indizione di una gara a procedura aperta per la fornitura di un Sistema analitico macchina reattivi e Reattivi per indagini in Citofluorimetria per le necessità  triennali del SIMT e del CRTL dell&apos;Azienda Ospedaliera San Camillo-Forlanini.</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.34999998E11</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">08/12/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-08</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B690538</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8110,10 +8110,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B693788">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#17_02_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-17"/>
         <PCSCOPRO2:oggetto_della_gara>Gara telematica tramite Mercato Elettronico della P.A. per la fornitura di diagnostici per Ematologia P.O.G. Rodolico di questAzienda Ospedaliera (RDO 2485017).</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5E7</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19/11/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-19</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B693788</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8123,10 +8123,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721717">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#30_12_2019"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-12-30"/>
         <PCSCOPRO2:oggetto_della_gara>Affidamento fornitura batterie per UPS di cui è dotata l&apos;Azienda Ospedaliera Papardo di Messina</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.04999997E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-01</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B721717</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8136,10 +8136,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721754">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#30_12_2019"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-12-30"/>
         <PCSCOPRO2:oggetto_della_gara>Presa atto intervento di sigillatura infissi presso varie UU.OO. dell&apos;Azienda Ospedaliera Papardo</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.00100198E9</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-01</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B721754</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8149,10 +8149,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B729050">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_10_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-28"/>
         <PCSCOPRO2:oggetto_della_gara>ID 18P058 - Sistemi a pressione negativa per il trattamento avanzato di ferite acute e croniche complesse per l&apos;Azienda Ospedale - Università  Padova per il periodo di 24 mesi + opzione di rinnovo per ulteriori 24 mesi</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1983086E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/07/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B729050</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8162,10 +8162,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742534">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_01_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-28"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura e posa in opera impianto di intercettazione VV.F. gas medicinali in dotazione allù.O. di Chirurgia Vascolare dell&apos;Azienda Ospedaliera Papardo di Messina</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8105498E8</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B742534</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8175,10 +8175,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742566">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_01_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-28"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura e sostituzione motori fan-coil e termostati presso i Corpi A,B,C,D dell&apos;Azienda Ospedaliera Papardo di Messina</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.06916992E8</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B742566</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8188,10 +8188,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_07_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-07-07"/>
         <PCSCOPRO2:oggetto_della_gara>ID 17P024 - Procedura aperta, ai sensi dell&apos;articolo 60 del D.Lgs. n. 50/2016, per l&apos;affidamento della fornitura di &quot;Materiale di consumo per odontoiatria e ortodonzia&quot; per l&apos;Azienda Ospedale - Università  Padova per il periodo di 36 mesi + opzione di rinnovo per ulteriori 24 mesi</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6075283E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">08/04/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-08</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B749787</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8201,12 +8201,12 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B775361">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08_04_2020"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#29_03_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-29"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-04-08"/>
         <PCSCOPRO2:oggetto_della_gara>Nuovi posti Terapia Intensiva COVID19  300 posti letto Cisanello ospedali bolla</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.19979766E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">09/01/2020 2.00.00</PublicContract:publicationDate>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/12/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-30</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-09</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B775361</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8216,10 +8216,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B776556">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#30_09_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-30"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura di Sistemi per compressione pneumatica intermittente fornite in noleggio e relativo materiale di consumo per i fabbisogni dell&apos;Azienda Ospedale - Università  Padova - ID 19P081</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.74025E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">02/07/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-02</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B776556</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8229,10 +8229,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#14_10_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-14"/>
         <PCSCOPRO2:oggetto_della_gara>fornitura di pannolini, traverse e rulli per lettini per le Unità  Operative dell&apos;Azienda Ospedaliera Ospedali Riuniti Villa Sofia  Cervello</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.115E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">16/07/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-16</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B792815</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8242,10 +8242,10 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B798980">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_03_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-07"/>
         <PCSCOPRO2:oggetto_della_gara>SATER fornitura di portatili per radioscopia</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.13900001E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">07/12/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-07</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B798980</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8255,13 +8255,13 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B815389">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_01_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-01-18"/>
         <PCSCOPRO2:oggetto_della_gara>GARA EUROPEA A PROCEDURA APERTA, IN MODALITA  TELEMATICA, A LOTTO UNICO,
 PER LA FORNITURA DI SISTEMI INFUSIONALI ORGANIZZATI E INFORMATIZZATI (E
 RELATIVO MATERIALE DI CONSUMO) NECESSARI AL POTENZIAMENTO DELLA RETE
 OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7250001E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20/10/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-20</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B815389</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8271,10 +8271,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B903510">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_09_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-28"/>
         <PCSCOPRO2:oggetto_della_gara>Impianto di climatizzazione Ed 21 Piano I- Revamping imp climatizzazione ed estrazione aria ambiente loc degenze e filtri sanitari 1^ e 2^ piano PO S Chiara Fase 2 COVID 19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4984151E9</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/06/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B903510</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8284,10 +8284,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B911505">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_04_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-04-07"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura di supporti meccanografici, cartucce, toner e drum originali per fotocopiatori e stampanti occorrenti alle varie unità  operative dell&apos;Azienda Ospedale-Università  Padova</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.95E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">07/01/2021 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-07</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B911505</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8297,14 +8297,14 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_11_2020"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#22_11_2021"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#27_07_2020"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-07-27"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-11-18"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-11-22"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura, in unione di acquisto tra le aziende sanitarie dell&apos;area vasta emilia nord, di dispositivi endoscopia digestiva</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.54639283E12</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20/08/2020 1.00.00</PublicContract:publicationDate>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/08/2021 1.00.00</PublicContract:publicationDate>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">28/04/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-28</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-20</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-24</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B956000</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8314,10 +8314,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B957416">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#17_03_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-17"/>
         <PCSCOPRO2:oggetto_della_gara>Indizione di una gara telematica a procedura aperta per la fornitura di Medicinale Ossido nitrico comprensivo di sistemi per la sua somministrazione, per le esigenze biennali dell&apos;Azienda Ospedaliera San Camillo - Forlanini</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.33999995E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17/12/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-17</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B957416</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8327,10 +8327,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B967059">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#20_01_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-01-20"/>
         <PCSCOPRO2:oggetto_della_gara>Procedura negoziata ex art. 63 D.Lgs. 50/2016 per fornitura urgente di sistemi infusionali e informatizzati con relativo materiale di consumo necessario al potenziamento della rete ospedaliera.</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3567999E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/10/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-22</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B967059</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8340,10 +8340,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B974856">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#27_02_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-02-27"/>
         <PCSCOPRO2:oggetto_della_gara>SATER - Fornitura Impianti protesici anca da revisione PolarCup e PolarStem (contratto aperto alle aziende sanitarie dell&apos;area vasta emilia nord)</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.13900001E10</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">29/11/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B974856</rdfs:label>
     </owl:NamedIndividual>
     
@@ -8353,10 +8353,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B978086">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
-        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#25_08_2021"/>
+        <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-08-25"/>
         <PCSCOPRO2:oggetto_della_gara>Procedura Aperta affidamento fornitura di sistemi di navigazione e mappaggio elettroanatomico per lo studio e trattamento avanzato delle aritmie cardiache per le Aziende Sanitarie all&apos;Area Vasta Emilia Nord e l&apos;Azienda USL di Bologna</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.05558847E12</PublicContract:procedureTotalAmount>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27/05/2021 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-27</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B978086</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9358,7 +9358,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6940799088"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.76900004E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6940799088</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9371,7 +9371,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O69408044A7"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2272E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E69408044A7</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9384,7 +9384,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6940810999"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.4499999E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-18</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6940810999</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9397,7 +9397,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6940909B4B"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.97999995E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-18</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6940909B4B</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9410,7 +9410,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6940929BCC"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00458450012"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.256E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-18</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6940929BCC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9423,7 +9423,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6941349666"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4999997E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-18</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6941349666</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9436,7 +9436,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O694136104F"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.08999997E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">18/12/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-18</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E694136104F</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9449,7 +9449,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6942276363"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#10994940152"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.1820001E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6942276363</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9462,7 +9462,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O69429141E2"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01140030360"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.206E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E69429141E2</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9475,7 +9475,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O69429217A7"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01140030360"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.71000003E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E69429217A7</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9488,7 +9488,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6942925AF3"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07123400157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4599999E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6942925AF3</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9501,7 +9501,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6942926BC6"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#10994940152"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.26000005E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6942926BC6</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9514,7 +9514,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6942928D6C"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.69999995E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6942928D6C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9527,7 +9527,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6942930F12"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09238800156"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3000003E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/12/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-22</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6942930F12</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9540,7 +9540,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O6942933190"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07123400157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">26/08/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-26</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E6942933190</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9553,7 +9553,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O76369713D6"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02344710484"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.76E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E76369713D6</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9566,7 +9566,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7636980B41"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02344710484"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7636980B41</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9579,7 +9579,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637002D68"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03524050238"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637002D68</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9592,7 +9592,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O76370060B9"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.52E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E76370060B9</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9605,7 +9605,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637009332"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.15000013E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637009332</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9618,7 +9618,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O763701367E"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E763701367E</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9631,7 +9631,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637014751"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.875E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637014751</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9644,7 +9644,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O76370168F7"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E76370168F7</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9657,7 +9657,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637021D16"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.7E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637021D16</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9670,7 +9670,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637023EBC"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03524050238"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.7500001E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637023EBC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9683,7 +9683,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O763702613A"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.512E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E763702613A</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9696,7 +9696,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O76370282E0"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.512E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E76370282E0</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9709,7 +9709,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O763703262C"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.47500006E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E763703262C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9722,7 +9722,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O76370358A5"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E76370358A5</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9735,7 +9735,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637038B1E"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0E7</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637038B1E</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9748,7 +9748,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637041D97"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637041D97</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9761,7 +9761,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637042E6A"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637042E6A</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9774,7 +9774,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7637049434"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.25E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7637049434</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9787,7 +9787,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O76370515DA"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03524050238"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.17E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E76370515DA</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9800,7 +9800,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O76370569F9"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E76370569F9</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9813,7 +9813,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O764361704B"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00860580158"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.22000005E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/04/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-04-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E764361704B</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9826,7 +9826,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7688013D04"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02372680187"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5935017E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">04/12/2018 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-04</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7688013D04</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9839,7 +9839,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O77128469DC"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09674060158"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E77128469DC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9852,7 +9852,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O771286163E"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09674060158"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.32199987E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E771286163E</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9865,7 +9865,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7712870DA9"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.7999999E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7712870DA9</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9878,7 +9878,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O77128751CD"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02401440157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E77128751CD</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9891,7 +9891,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O77128816BF"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#06459400963"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E77128816BF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9904,7 +9904,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7712889D57"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#90025280208"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.3E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/07/2019 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-07-10</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7712889D57</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9917,7 +9917,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O787873167F"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03016250718"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7496998E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E787873167F</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9930,7 +9930,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7878742F90"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03277950287"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.312E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7878742F90</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9943,7 +9943,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7878748487"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03237150234"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7039198E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7878748487</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9956,7 +9956,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O78787538A6"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02173550282"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.89059994E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E78787538A6</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9969,7 +9969,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O78787630E9"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01409770631"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.96427401E11</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E78787630E9</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9982,7 +9982,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7878768508"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02173550282"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0725002E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7878768508</rdfs:label>
     </owl:NamedIndividual>
     
@@ -9995,7 +9995,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O787878316A"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02506040753"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.66014003E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E787878316A</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10008,7 +10008,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7878785310"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11352961004"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.54863596E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7878785310</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10021,7 +10021,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O78787874B6"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11352961004"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.69100006E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E78787874B6</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10034,7 +10034,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O787879072F"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00440180545"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.3691996E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E787879072F</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10047,7 +10047,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7878802118"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02173550282"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6856003E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7878802118</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10060,7 +10060,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7921918D87"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03552910873"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4999997E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-17</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7921918D87</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10073,7 +10073,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O7996404953"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.04999997E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">29/01/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-29</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E7996404953</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10086,7 +10086,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O802544678B"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#06032681006"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.20900004E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">13/02/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-13</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E802544678B</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10099,7 +10099,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8027915D05"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02144720790"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.70000005E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">07/02/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-07</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8027915D05</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10112,7 +10112,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O80902930FD"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03552910873"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03/02/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-03</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E80902930FD</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10125,7 +10125,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O809059388C"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03552910873"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.69999995E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">03/02/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-03</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E809059388C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10138,7 +10138,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O81446791BC"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.9256002E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E81446791BC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10151,7 +10151,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8144768B2B"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.9350001E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8144768B2B</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10164,7 +10164,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8144793FCB"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.065E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8144793FCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10177,7 +10177,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8145665F64"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8145665F64</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10190,7 +10190,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8145678A20"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5E7</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8145678A20</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10203,7 +10203,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8145690409"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4E7</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8145690409</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10216,7 +10216,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O81457158A9"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E81457158A9</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10229,7 +10229,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O81457250EC"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00803890151"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.23E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E81457250EC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10242,7 +10242,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O81994532AB"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01542210222"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.64957235E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27/11/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-27</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E81994532AB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10255,7 +10255,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8199464BBC"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09331210154"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.04E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27/11/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-27</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8199464BBC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10268,7 +10268,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8199482A97"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09331210154"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27/11/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-27</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8199482A97</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10281,7 +10281,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O82233055F5"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02668590215"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.4230958E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E82233055F5</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10294,7 +10294,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8223309941"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02668590215"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.39389379E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8223309941</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10307,7 +10307,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O82233299C2"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00100190610"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.8530499E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E82233299C2</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10320,7 +10320,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8223332C3B"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00100190610"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.82704E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/08/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8223332C3B</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10333,8 +10333,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8276108C5D"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02402671206"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.19979766E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">08/05/2020 2.00.00</PublicContract:outcomeDate>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">28/04/2020 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-28</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-05-08</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8276108C5D</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10347,7 +10347,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O82902377FD"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01323030690"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.44999987E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-13</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E82902377FD</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10360,7 +10360,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O82902388D0"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01323030690"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.63500001E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-13</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E82902388D0</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10373,7 +10373,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O82902399A3"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00860580158"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.11499991E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-13</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E82902399A3</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10386,7 +10386,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8290240A76"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04303410726"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.02000005E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">13/11/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-13</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8290240A76</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10399,7 +10399,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8295984E8E"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01542580269"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.74025E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/10/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-30</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8295984E8E</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10412,7 +10412,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O83136977CB"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#02119100358"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.13900001E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/04/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-06</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E83136977CB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10425,7 +10425,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O83828155C6"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08230471008"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7250001E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17/02/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-17</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E83828155C6</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10438,7 +10438,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O84384648C7"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01854770508"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4984151E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">28/10/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-28</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E84384648C7</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10451,7 +10451,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8518451026"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08551090155"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.95E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">07/05/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-07</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8518451026</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10464,7 +10464,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8603719D83"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08230471008"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3567999E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19/02/2021 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-19</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8603719D83</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10477,7 +10477,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8613626D07"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04127270157"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.33999995E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">16/04/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-16</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8613626D07</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10490,7 +10490,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8628847DCB"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#09331210154"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.13900001E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">29/03/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-29</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8628847DCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10504,7 +10504,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08082461008"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11264670156"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.21569509E12</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/09/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8631093B41</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10517,7 +10517,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O8631103384"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.07912507E11</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/09/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E8631103384</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10531,7 +10531,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#03071411205"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11206730159"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.31981009E11</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/09/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-24</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E86311087A3</rdfs:label>
     </owl:NamedIndividual>
     
@@ -10544,7 +10544,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#O867469371E"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#01260340482"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.16E10</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/08/2021 2.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-30</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. E867469371E</rdfs:label>
     </owl:NamedIndividual>
     
@@ -11527,7 +11527,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OZ0B2BFB62C"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.06916992E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27/02/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-27</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. EZ0B2BFB62C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -11540,7 +11540,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OZ312B44EF9"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04721290874"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5E7</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">18/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-18</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. EZ312B44EF9</rdfs:label>
     </owl:NamedIndividual>
     
@@ -11553,7 +11553,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OZ502B44E81"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04721290874"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0E7</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">18/03/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-18</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. EZ502B44E81</rdfs:label>
     </owl:NamedIndividual>
     
@@ -11566,7 +11566,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OZ682AEFF2E"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.00100198E9</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">29/01/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-29</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. EZ682AEFF2E</rdfs:label>
     </owl:NamedIndividual>
     
@@ -11579,7 +11579,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PublicContract:selectedTender rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#OZ842BFB79C"/>
         <PublicContract:winner rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07149930583"/>
         <PublicContract:agreedAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8105498E8</PublicContract:agreedAmount>
-        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27/02/2020 1.00.00</PublicContract:outcomeDate>
+        <PublicContract:outcomeDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-27</PublicContract:outcomeDate>
         <rdfs:label>Esito procedura n. EZ842BFB79C</rdfs:label>
     </owl:NamedIndividual>
     
@@ -15736,12 +15736,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ordine_acquisto -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#ordine_acquisto"/>
-    
-
-
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#00076670595">
@@ -16023,24 +16017,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04_01_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04_01_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 04_01_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04_11_2018 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04_11_2018">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 04_11_2018</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04127270157 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#04127270157">
@@ -16091,42 +16067,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_03_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_03_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 07_03_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_03_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_03_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 07_03_2021</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_04_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_04_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 07_04_2021</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_07_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07_07_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 07_07_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07123400157 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#07123400157">
@@ -16143,24 +16083,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Agente"/>
         <PCSCOPRO2:codice_fiscale>07149930583</PCSCOPRO2:codice_fiscale>
         <rdfs:label>Engie Servizi S.p.A.</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08_01_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08_01_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 08_01_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08_04_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#08_04_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 08_04_2020</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16226,15 +16148,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#10_06_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#10_06_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 10_06_2019</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1002785 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1002785">
@@ -16255,15 +16168,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/l0/Agente"/>
         <PCSCOPRO2:codice_fiscale>10994940152</PCSCOPRO2:codice_fiscale>
         <rdfs:label>OLYMPUS ITALIA SRL SOCIETA&apos; UNIPERSONALE</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11_03_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#11_03_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 11_03_2019</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16310,30 +16214,12 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#14_01_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#14_01_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 14_01_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#14_10_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#14_10_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 14_10_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1586271 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1586271">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528757"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">11/12/2018 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-11</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 1586271</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16344,7 +16230,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1586853">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B528951"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">12/03/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 1586853</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16355,26 +16241,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1619091">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B539697"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/08/2018 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-06</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 1619091</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#17_02_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#17_02_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 17_02_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#17_03_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#17_03_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 17_03_2021</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16384,7 +16252,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1755441">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B585147"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">25/11/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-25</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 1755441</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16395,35 +16263,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1775427">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B591809"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19/12/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-19</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 1775427</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_01_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_01_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 18_01_2021</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_03_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_03_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 18_03_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_11_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#18_11_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 18_11_2020</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16445,7 +16286,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1951506">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B650502"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-10</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 1951506</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16456,17 +16297,278 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#1988235">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B662745"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-06</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 1988235</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#20_01_2021 -->
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2018-11-04 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#20_01_2021">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2018-11-04">
         <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 20_01_2021</rdfs:label>
+        <rdfs:label>Data di scadenza 2018-11-04</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-03-11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-03-11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2019-03-11</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-06-10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-06-10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2019-06-10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-12-30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-12-30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2019-12-30</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-01-04</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-01-08</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-01-14</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-01-28</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-02-17</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-02-23</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-03-07</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-03-18</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-29 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-29">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-03-29</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-04-08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-04-08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-04-08</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-07-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-07-07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-07-07</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-07-27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-07-27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-07-27</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-09-28</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-30 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-30">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-09-30</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-10-14</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-28 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-28">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-10-28</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-11-18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-11-18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2020-11-18</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-01-18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-01-18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-01-18</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-01-20 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-01-20">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-01-20</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-02-27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-02-27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-02-27</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-03-07</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-17 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-17">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-03-17</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-04-07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-04-07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-04-07</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-07-31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-07-31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-07-31</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-08-25 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-08-25">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-08-25</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-11-22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-11-22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
+        <rdfs:label>Data di scadenza 2021-11-22</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16476,7 +16578,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2044422">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B681474"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">16/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-16</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2044422</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16487,7 +16589,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2071614">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B690538"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">08/12/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-08</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2071614</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16498,7 +16600,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2081364">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B693788"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">19/11/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-19</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2081364</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16509,7 +16611,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2165151">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721717"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-01</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2165151</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16520,7 +16622,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2165262">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B721754"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">01/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-01</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2165262</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16531,17 +16633,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2187150">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B729050"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/07/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-30</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2187150</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#22_11_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#22_11_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 22_11_2021</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16563,7 +16656,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2227602">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742534"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-30</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2227602</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16574,7 +16667,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2227698">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B742566"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/10/2019 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-30</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2227698</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16597,7 +16690,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2249361">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B749787"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">08/04/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-08</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2249361</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16615,22 +16708,13 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     
 
 
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#23_02_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#23_02_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 23_02_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2326083 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2326083">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B775361"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">09/01/2020 2.00.00</PublicContract:publicationDate>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/12/2019 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-30</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-09</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2326083</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16641,7 +16725,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2329668">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B776556"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">02/07/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-02</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2329668</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16652,7 +16736,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2378445">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B792815"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">16/07/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-16</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2378445</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16663,7 +16747,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2396940">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B798980"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">07/12/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-07</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2396940</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16686,35 +16770,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2446167">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B815389"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20/10/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-20</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2446167</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#25_08_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#25_08_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 25_08_2021</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#27_02_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#27_02_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 27_02_2021</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#27_07_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#27_07_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 27_07_2020</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16724,7 +16781,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2710530">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B903510"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">30/06/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-30</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2710530</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16735,35 +16792,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2734515">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B911505"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">07/01/2021 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-07</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2734515</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_01_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_01_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 28_01_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_09_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_09_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 28_09_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_10_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#28_10_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 28_10_2020</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16773,9 +16803,9 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2868000">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B956000"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">20/08/2020 1.00.00</PublicContract:publicationDate>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">24/08/2021 1.00.00</PublicContract:publicationDate>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">28/04/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-28</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-20</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-24</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2868000</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16786,17 +16816,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2872248">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B957416"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">17/12/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-17</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2872248</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#29_03_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#29_03_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 29_03_2020</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16806,7 +16827,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2901177">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B967059"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">22/10/2020 1.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-22</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2901177</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16817,7 +16838,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2924568">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B974856"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">29/11/2020 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2924568</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16828,26 +16849,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2934258">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B978086"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">27/05/2021 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-27</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 2934258</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#30_09_2020 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#30_09_2020">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 30_09_2020</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#30_12_2019 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#30_12_2019">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 30_12_2019</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -16857,7 +16860,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#3008355">
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/Publication"/>
         <PublicContract:hasCallForCompetition rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#B1002785"/>
-        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">02/05/2021 2.00.00</PublicContract:publicationDate>
+        <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-02</PublicContract:publicationDate>
         <rdfs:label>Pubblicazione bando n. 3008355</rdfs:label>
     </owl:NamedIndividual>
     
@@ -16871,15 +16874,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PCSCOPRO2:codice_istat>19083048</PCSCOPRO2:codice_istat>
         <PCSCOPRO2:provincia>ME</PCSCOPRO2:provincia>
         <rdfs:label>Azienda Ospedaliera Papardo</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#31_07_2021 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#31_07_2021">
-        <rdf:type rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#Data_di_scadenza"/>
-        <rdfs:label>Data di scadenza 31_07_2021</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -19009,8 +19003,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/coverage) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</rdfs:comment>
-        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Coverage</rdfs:label>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/date">
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
@@ -19029,16 +19023,16 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdfs:label xml:lang="en">Description</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/format">
-        <terms:description xml:lang="en">Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [[MIME](https://www.iana.org/assignments/media-types/media-types.xhtml)].</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
+        <terms:description xml:lang="en">Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [[MIME](https://www.iana.org/assignments/media-types/media-types.xhtml)].</terms:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/format) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:label xml:lang="en">Format</rdfs:label>
         <rdfs:comment xml:lang="en">The file format, physical medium, or dimensions of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/identifier">
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/identifier) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <terms:description xml:lang="en">Recommended practice is to identify the resource by means of a string conforming to an identification system.</terms:description>
         <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
@@ -19056,8 +19050,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/publisher) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Publisher</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <terms:description xml:lang="en">Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">An entity responsible for making the resource available.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/relation">
@@ -19072,8 +19066,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <terms:description xml:lang="en">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
-        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/rights) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:label xml:lang="en">Rights</rdfs:label>
+        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/rights) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:comment xml:lang="en">Information about rights held in and over the resource.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
@@ -19104,8 +19098,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <rdfs:comment xml:lang="it">Fornitura di prodotti</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:comment xml:lang="en">The class that includes those interventions concerning the purchase of goods.</rdfs:comment>
         <rdfs:label xml:lang="it">Fornitura di Prodotto</rdfs:label>
+        <rdfs:comment xml:lang="en">The class that includes those interventions concerning the purchase of goods.</rdfs:comment>
         <rdfs:label xml:lang="it">Fornitura di Bene</rdfs:label>
         <rdfs:label xml:lang="en">Good supply</rdfs:label>
         <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nell&apos;acquisto di beni.</rdfs:comment>
@@ -19121,8 +19115,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/italia/onto/PublicContract/Work">
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nella realizzazione di lavori pubblici.</rdfs:comment>
         <rdfs:comment xml:lang="en">The class that includes those interventions concerning the actualization of public works.</rdfs:comment>
+        <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nella realizzazione di lavori pubblici.</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:label xml:lang="it">Fornitura di lavori</rdfs:label>
         <rdfs:label xml:lang="en">Work supply</rdfs:label>
