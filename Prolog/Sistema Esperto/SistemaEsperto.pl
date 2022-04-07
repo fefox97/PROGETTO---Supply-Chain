@@ -20,8 +20,8 @@ replaceAllOccurences([ToReplace|Tail1], ToReplace, ReplaceWith, [ReplaceWith|Tai
 
 %se l'elemento da sostituire non è in testa alla lista, allora il risultato è la coda della lista
 replaceAllOccurences([Head|Tail3], ToReplace, ReplaceWith, [Head|Tail2]) :-
-  ToReplace \== Head, 
-  replaceAllOccurences(Tail3, ToReplace, ReplaceWith, Tail2).
+    ToReplace \== Head, 
+    replaceAllOccurences(Tail3, ToReplace, ReplaceWith, Tail2).
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %sostituzione di un carattere (anche con più occorrenze) all'interno di una stringa

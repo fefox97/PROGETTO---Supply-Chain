@@ -21,7 +21,6 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
-    <Prefix name="pcscopro" IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#"/>
     <Prefix name="PCSCOPRO2" IRI="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#"/>
     <Prefix name="PublicContract" IRI="https://w3id.org/italia/onto/PublicContract/"/>
     <Annotation>
@@ -3872,12 +3871,6 @@
         <NamedIndividual IRI="#OZ842BFB79C"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#ProceduraAperta"/>
     </Declaration>
     <Declaration>
@@ -4790,9 +4783,6 @@
         <NamedIndividual IRI="#978086"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
     </Declaration>
     <Declaration>
@@ -4839,9 +4829,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:title"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="skos:note"/>
@@ -4950,6 +4937,15 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrezzoPiùBasso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Business_Process"/>
@@ -22485,6 +22481,11 @@
         <Literal>Indizione di una gara telematica a procedura aperta per la fornitura di un Sistema macchina reattivi per esecuzione Elettroforesi e Immunofissazione su siero e urine per le necessità  di mesi 24 del Laboratorio di Patologia clinica dell&apos;Azienda Ospedaliera San Camillo-Forlanini</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B1002785"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-07-31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B1002785"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.16E10</Literal>
@@ -22498,6 +22499,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B528757"/>
         <Literal>Affidamento della fornitura biennale, di materiale in tnt, teli ed indumenti CND T02, per le esigenze delle Strutture dell&apos;Azienda Ospedaliera Universitaria di Sassari</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B528757"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-03-11</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22515,6 +22521,11 @@
         <Literal>Procedura aperta sopra soglia comunitaria, ai sensi dell&apos;art. 60 del d. lgs. n. 50/2016, per l&apos;affidamento della fornitura triennale - suddivisa in 29 lotti - di formule per nutrizione enterale, supplementi nutrizionali orali ed integratori dietetici per le esigenze delle UU.OO. dell&apos;Azienda Ospedaliero Universitaria di Sassari. importo a base di gara nel triennio soggetto a ribasso</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B528951"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-06-10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B528951"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">7.7220004E10</Literal>
@@ -22528,6 +22539,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B539697"/>
         <Literal>ID 18A162 - Fornitura e posa in opera di armadi contenenti attrezzature e d.p.i. antincendio per i fabbisogni dell&apos;Azienda Ospedaliera di Padova.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B539697"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2018-11-04</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22545,6 +22561,11 @@
         <Literal>Accordo Quadro per la fornitura di dispositivi medici per Anestesia e Rianimazione dell&apos;AOU &apos;Ospedali Riuniti di Foggia&apos;</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B585147"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B585147"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">9.7386116E11</Literal>
@@ -22558,6 +22579,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B591809"/>
         <Literal>GARA TELEMATICA TRAMITE MERCATO ELETTRONICO DELLA P.A. PER LA FORNITURA DI STRUMENTARIO CHIRURGICO PER l&apos;U.O.C.  DI OSTETRICIA, GINECOLOGIA E PRONTO SOCCORSO DEL NUOVO OSPEDALE SAN MARCO (RDO N.2313003).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B591809"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-18</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22575,6 +22601,11 @@
         <Literal>Fornitura quinquennale di stampati per le Unità  Operative dell&apos;Azienda Ospedaliera Ospedali Riuniti Villa Sofia  Cervello    per 60 mesi-  importo presunto complessivo quinquennale a base dasta di  270.000,00  al netto di Iva</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B650502"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-08</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B650502"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.70000005E10</Literal>
@@ -22588,6 +22619,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B662745"/>
         <Literal>Gara telematica tramite Mercato Elettronico della P.A. per la fornitura, suddivisa in due lotti, di strumentario chirurgico per lU.O.C. di Ortopedia del nuovo Ospedale San Marco (RDO 2439156).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B662745"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-04</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22605,6 +22641,11 @@
         <Literal>GARA N. 545/2019 - PROCEDURA TELEMATICA SU PIATTAFORMA SINTEL AI SENSI DELLART. 36, COMMA 2, LETTERA B, DEL D. LGS. 50/2016 e S.M.I. PER LACQUISTO DI UNA COLONNA VIDEO COMPRENSIVA DI MATERIALE DI CONSUMO PER UN TRIENNIO E DELLA GARANZIA FULL RISK DI ANNI UNO PER LUOC AREA SANITARIA CHIRURGIA SENOLOGICA  BT  LOTTO UNICO CIG 802544678B - RICHIESTA DI OFFERTA.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B681474"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B681474"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.20900004E10</Literal>
@@ -22618,6 +22659,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B690538"/>
         <Literal>Indizione di una gara a procedura aperta per la fornitura di un Sistema analitico macchina reattivi e Reattivi per indagini in Citofluorimetria per le necessità  triennali del SIMT e del CRTL dell&apos;Azienda Ospedaliera San Camillo-Forlanini.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B690538"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22635,6 +22681,11 @@
         <Literal>Gara telematica tramite Mercato Elettronico della P.A. per la fornitura di diagnostici per Ematologia P.O.G. Rodolico di questAzienda Ospedaliera (RDO 2485017).</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B693788"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-02-17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B693788"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.5E7</Literal>
@@ -22648,6 +22699,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B721717"/>
         <Literal>Affidamento fornitura batterie per UPS di cui è dotata l&apos;Azienda Ospedaliera Papardo di Messina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B721717"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-30</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22665,6 +22721,11 @@
         <Literal>Presa atto intervento di sigillatura infissi presso varie UU.OO. dell&apos;Azienda Ospedaliera Papardo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B721754"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-12-30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B721754"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.00100198E9</Literal>
@@ -22678,6 +22739,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B729050"/>
         <Literal>ID 18P058 - Sistemi a pressione negativa per il trattamento avanzato di ferite acute e croniche complesse per l&apos;Azienda Ospedale - Università  Padova per il periodo di 24 mesi + opzione di rinnovo per ulteriori 24 mesi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B729050"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22695,6 +22761,11 @@
         <Literal>Fornitura e posa in opera impianto di intercettazione VV.F. gas medicinali in dotazione allù.O. di Chirurgia Vascolare dell&apos;Azienda Ospedaliera Papardo di Messina</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B742534"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B742534"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">8.8105498E8</Literal>
@@ -22708,6 +22779,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B742566"/>
         <Literal>Fornitura e sostituzione motori fan-coil e termostati presso i Corpi A,B,C,D dell&apos;Azienda Ospedaliera Papardo di Messina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B742566"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-01-28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22725,6 +22801,11 @@
         <Literal>ID 17P024 - Procedura aperta, ai sensi dell&apos;articolo 60 del D.Lgs. n. 50/2016, per l&apos;affidamento della fornitura di &quot;Materiale di consumo per odontoiatria e ortodonzia&quot; per l&apos;Azienda Ospedale - Università  Padova per il periodo di 36 mesi + opzione di rinnovo per ulteriori 24 mesi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B749787"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-07</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B749787"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6.6075283E10</Literal>
@@ -22738,6 +22819,16 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B775361"/>
         <Literal>Nuovi posti Terapia Intensiva COVID19  300 posti letto Cisanello ospedali bolla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B775361"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-03-29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B775361"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-04-08</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22760,6 +22851,11 @@
         <Literal>Fornitura di Sistemi per compressione pneumatica intermittente fornite in noleggio e relativo materiale di consumo per i fabbisogni dell&apos;Azienda Ospedale - Università  Padova - ID 19P081</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B776556"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-09-30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B776556"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.74025E10</Literal>
@@ -22775,6 +22871,11 @@
         <Literal>fornitura di pannolini, traverse e rulli per lettini per le Unità  Operative dell&apos;Azienda Ospedaliera Ospedali Riuniti Villa Sofia  Cervello</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B792815"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-10-14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B792815"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.115E10</Literal>
@@ -22788,6 +22889,11 @@
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B798980"/>
         <Literal>SATER fornitura di portatili per radioscopia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B798980"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-03-07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22808,6 +22914,11 @@ RELATIVO MATERIALE DI CONSUMO) NECESSARI AL POTENZIAMENTO DELLA RETE
 OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B815389"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-01-18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B815389"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">9.7250001E10</Literal>
@@ -22821,6 +22932,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B903510"/>
         <Literal>Impianto di climatizzazione Ed 21 Piano I- Revamping imp climatizzazione ed estrazione aria ambiente loc degenze e filtri sanitari 1^ e 2^ piano PO S Chiara Fase 2 COVID 19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B903510"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-09-28</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22838,6 +22954,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <Literal>Fornitura di supporti meccanografici, cartucce, toner e drum originali per fotocopiatori e stampanti occorrenti alle varie unità  operative dell&apos;Azienda Ospedale-Università  Padova</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B911505"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-04-07</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B911505"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">8.95E10</Literal>
@@ -22851,6 +22972,21 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B956000"/>
         <Literal>Fornitura, in unione di acquisto tra le aziende sanitarie dell&apos;area vasta emilia nord, di dispositivi endoscopia digestiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B956000"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-07-27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B956000"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B956000"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-11-22</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22878,6 +23014,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <Literal>Indizione di una gara telematica a procedura aperta per la fornitura di Medicinale Ossido nitrico comprensivo di sistemi per la sua somministrazione, per le esigenze biennali dell&apos;Azienda Ospedaliera San Camillo - Forlanini</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B957416"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-03-17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B957416"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.33999995E10</Literal>
@@ -22891,6 +23032,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B967059"/>
         <Literal>Procedura negoziata ex art. 63 D.Lgs. 50/2016 per fornitura urgente di sistemi infusionali e informatizzati con relativo materiale di consumo necessario al potenziamento della rete ospedaliera.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B967059"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-01-20</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -22908,6 +23054,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <Literal>SATER - Fornitura Impianti protesici anca da revisione PolarCup e PolarStem (contratto aperto alle aziende sanitarie dell&apos;area vasta emilia nord)</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B974856"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-02-27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
         <NamedIndividual IRI="#B974856"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.13900001E10</Literal>
@@ -22921,6 +23072,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <DataProperty IRI="#oggetto_della_gara"/>
         <NamedIndividual IRI="#B978086"/>
         <Literal>Procedura Aperta affidamento fornitura di sistemi di navigazione e mappaggio elettroanatomico per lo studio e trattamento avanzato delle aritmie cardiache per le Aziende Sanitarie all&apos;Area Vasta Emilia Nord e l&apos;Azienda USL di Bologna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="PublicContract:expireDate"/>
+        <NamedIndividual IRI="#B978086"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2021-08-25</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI="PublicContract:procedureTotalAmount"/>
@@ -28779,125 +28935,6 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <DataProperty abbreviatedIRI="l0:positionInSequence"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal>Regola1</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#Richiesta_di_approvvigionamento"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#riguarda_bando_di_gara"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </ObjectPropertyAtom>
-            <ClassAtom>
-                <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
-                <Variable IRI="#y"/>
-            </ClassAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#Comunicazione"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal>Regola2</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class abbreviatedIRI="PublicContract:CallForCompetition"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <ClassAtom>
-                <Class abbreviatedIRI="PublicContract:Procedure"/>
-                <Variable IRI="#y"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty abbreviatedIRI="PublicContract:hasCallForCompetition"/>
-                <Variable IRI="#y"/>
-                <Variable IRI="#x"/>
-            </ObjectPropertyAtom>
-            <ClassAtom>
-                <Class IRI="#Richiesta_verifica_documenti"/>
-                <Variable IRI="#z"/>
-            </ClassAtom>
-        </Body>
-        <Head>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#riguarda_bando_di_gara"/>
-                <Variable IRI="#z"/>
-                <Variable IRI="#x"/>
-            </ObjectPropertyAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal>Regola3</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class abbreviatedIRI="PublicContract:Lot"/>
-                <Variable IRI="#lotto"/>
-            </ClassAtom>
-            <DataPropertyAtom>
-                <DataProperty abbreviatedIRI="PublicContract:totalAmount"/>
-                <Variable IRI="#lotto"/>
-                <Variable IRI="#importo"/>
-            </DataPropertyAtom>
-            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
-                <Variable IRI="#importo"/>
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000000000</Literal>
-            </BuiltInAtom>
-            <ClassAtom>
-                <Class abbreviatedIRI="PublicContract:Procedure"/>
-                <Variable IRI="#proceduraDiAffidamento"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
-                <Variable IRI="#proceduraDiAffidamento"/>
-                <Variable IRI="#lotto"/>
-            </ObjectPropertyAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class abbreviatedIRI="PublicContract:DirectAdministration"/>
-                <Variable IRI="#proceduraDiAffidamento"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
         <AbbreviatedIRI>dc:</AbbreviatedIRI>

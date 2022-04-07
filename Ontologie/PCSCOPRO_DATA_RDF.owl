@@ -7982,6 +7982,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-07-31"/>
         <PCSCOPRO2:oggetto_della_gara>Indizione di una gara telematica a procedura aperta per la fornitura di un Sistema macchina reattivi per esecuzione Elettroforesi e Immunofissazione su siero e urine per le necessità  di mesi 24 del Laboratorio di Patologia clinica dell&apos;Azienda Ospedaliera San Camillo-Forlanini</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-07-31</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.16E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-02</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B1002785</rdfs:label>
@@ -7995,6 +7996,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-03-11"/>
         <PCSCOPRO2:oggetto_della_gara>Affidamento della fornitura biennale, di materiale in tnt, teli ed indumenti CND T02, per le esigenze delle Strutture dell&apos;Azienda Ospedaliera Universitaria di Sassari</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-11</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.16239999E11</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-12-11</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B528757</rdfs:label>
@@ -8008,6 +8010,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-06-10"/>
         <PCSCOPRO2:oggetto_della_gara>Procedura aperta sopra soglia comunitaria, ai sensi dell&apos;art. 60 del d. lgs. n. 50/2016, per l&apos;affidamento della fornitura triennale - suddivisa in 29 lotti - di formule per nutrizione enterale, supplementi nutrizionali orali ed integratori dietetici per le esigenze delle UU.OO. dell&apos;Azienda Ospedaliero Universitaria di Sassari. importo a base di gara nel triennio soggetto a ribasso</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-06-10</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.7220004E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-12</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B528951</rdfs:label>
@@ -8021,6 +8024,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2018-11-04"/>
         <PCSCOPRO2:oggetto_della_gara>ID 18A162 - Fornitura e posa in opera di armadi contenenti attrezzature e d.p.i. antincendio per i fabbisogni dell&apos;Azienda Ospedaliera di Padova.</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-04</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5935017E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-06</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B539697</rdfs:label>
@@ -8034,6 +8038,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-23"/>
         <PCSCOPRO2:oggetto_della_gara>Accordo Quadro per la fornitura di dispositivi medici per Anestesia e Rianimazione dell&apos;AOU &apos;Ospedali Riuniti di Foggia&apos;</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-23</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7386116E11</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-25</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B585147</rdfs:label>
@@ -8047,6 +8052,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-18"/>
         <PCSCOPRO2:oggetto_della_gara>GARA TELEMATICA TRAMITE MERCATO ELETTRONICO DELLA P.A. PER LA FORNITURA DI STRUMENTARIO CHIRURGICO PER l&apos;U.O.C.  DI OSTETRICIA, GINECOLOGIA E PRONTO SOCCORSO DEL NUOVO OSPEDALE SAN MARCO (RDO N.2313003).</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-18</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4999997E9</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-19</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B591809</rdfs:label>
@@ -8060,6 +8066,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-08"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura quinquennale di stampati per le Unità  Operative dell&apos;Azienda Ospedaliera Ospedali Riuniti Villa Sofia  Cervello    per 60 mesi-  importo presunto complessivo quinquennale a base dasta di  270.000,00  al netto di Iva</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-08</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.70000005E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-10</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B650502</rdfs:label>
@@ -8073,6 +8080,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-04"/>
         <PCSCOPRO2:oggetto_della_gara>Gara telematica tramite Mercato Elettronico della P.A. per la fornitura, suddivisa in due lotti, di strumentario chirurgico per lU.O.C. di Ortopedia del nuovo Ospedale San Marco (RDO 2439156).</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-04</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.2000001E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-06</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B662745</rdfs:label>
@@ -8086,6 +8094,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-14"/>
         <PCSCOPRO2:oggetto_della_gara>GARA N. 545/2019 - PROCEDURA TELEMATICA SU PIATTAFORMA SINTEL AI SENSI DELLART. 36, COMMA 2, LETTERA B, DEL D. LGS. 50/2016 e S.M.I. PER LACQUISTO DI UNA COLONNA VIDEO COMPRENSIVA DI MATERIALE DI CONSUMO PER UN TRIENNIO E DELLA GARANZIA FULL RISK DI ANNI UNO PER LUOC AREA SANITARIA CHIRURGIA SENOLOGICA  BT  LOTTO UNICO CIG 802544678B - RICHIESTA DI OFFERTA.</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-14</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.20900004E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-16</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B681474</rdfs:label>
@@ -8099,6 +8108,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-07"/>
         <PCSCOPRO2:oggetto_della_gara>Indizione di una gara a procedura aperta per la fornitura di un Sistema analitico macchina reattivi e Reattivi per indagini in Citofluorimetria per le necessità  triennali del SIMT e del CRTL dell&apos;Azienda Ospedaliera San Camillo-Forlanini.</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-07</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.34999998E11</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-08</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B690538</rdfs:label>
@@ -8112,6 +8122,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-02-17"/>
         <PCSCOPRO2:oggetto_della_gara>Gara telematica tramite Mercato Elettronico della P.A. per la fornitura di diagnostici per Ematologia P.O.G. Rodolico di questAzienda Ospedaliera (RDO 2485017).</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-02-17</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5E7</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-11-19</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B693788</rdfs:label>
@@ -8125,6 +8136,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-12-30"/>
         <PCSCOPRO2:oggetto_della_gara>Affidamento fornitura batterie per UPS di cui è dotata l&apos;Azienda Ospedaliera Papardo di Messina</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-30</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.04999997E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-01</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B721717</rdfs:label>
@@ -8138,6 +8150,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2019-12-30"/>
         <PCSCOPRO2:oggetto_della_gara>Presa atto intervento di sigillatura infissi presso varie UU.OO. dell&apos;Azienda Ospedaliera Papardo</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-30</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.00100198E9</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-01</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B721754</rdfs:label>
@@ -8151,6 +8164,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-28"/>
         <PCSCOPRO2:oggetto_della_gara>ID 18P058 - Sistemi a pressione negativa per il trattamento avanzato di ferite acute e croniche complesse per l&apos;Azienda Ospedale - Università  Padova per il periodo di 24 mesi + opzione di rinnovo per ulteriori 24 mesi</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-28</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1983086E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B729050</rdfs:label>
@@ -8164,6 +8178,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-28"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura e posa in opera impianto di intercettazione VV.F. gas medicinali in dotazione allù.O. di Chirurgia Vascolare dell&apos;Azienda Ospedaliera Papardo di Messina</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-28</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.8105498E8</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B742534</rdfs:label>
@@ -8177,6 +8192,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-01-28"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura e sostituzione motori fan-coil e termostati presso i Corpi A,B,C,D dell&apos;Azienda Ospedaliera Papardo di Messina</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-28</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.06916992E8</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B742566</rdfs:label>
@@ -8190,6 +8206,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-07-07"/>
         <PCSCOPRO2:oggetto_della_gara>ID 17P024 - Procedura aperta, ai sensi dell&apos;articolo 60 del D.Lgs. n. 50/2016, per l&apos;affidamento della fornitura di &quot;Materiale di consumo per odontoiatria e ortodonzia&quot; per l&apos;Azienda Ospedale - Università  Padova per il periodo di 36 mesi + opzione di rinnovo per ulteriori 24 mesi</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-07</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6075283E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-08</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B749787</rdfs:label>
@@ -8204,6 +8221,8 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-03-29"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-04-08"/>
         <PCSCOPRO2:oggetto_della_gara>Nuovi posti Terapia Intensiva COVID19  300 posti letto Cisanello ospedali bolla</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-03-29</PublicContract:expireDate>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-08</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.19979766E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-12-30</PublicContract:publicationDate>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-09</PublicContract:publicationDate>
@@ -8218,6 +8237,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-30"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura di Sistemi per compressione pneumatica intermittente fornite in noleggio e relativo materiale di consumo per i fabbisogni dell&apos;Azienda Ospedale - Università  Padova - ID 19P081</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-30</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.74025E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-02</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B776556</rdfs:label>
@@ -8231,6 +8251,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-10-14"/>
         <PCSCOPRO2:oggetto_della_gara>fornitura di pannolini, traverse e rulli per lettini per le Unità  Operative dell&apos;Azienda Ospedaliera Ospedali Riuniti Villa Sofia  Cervello</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-14</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.115E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-16</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B792815</rdfs:label>
@@ -8244,6 +8265,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-07"/>
         <PCSCOPRO2:oggetto_della_gara>SATER fornitura di portatili per radioscopia</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-07</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.13900001E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-07</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B798980</rdfs:label>
@@ -8260,6 +8282,7 @@ GLi oggetti si possono contrapporre agli eventi, che invece scorrono nel tempo, 
 PER LA FORNITURA DI SISTEMI INFUSIONALI ORGANIZZATI E INFORMATIZZATI (E
 RELATIVO MATERIALE DI CONSUMO) NECESSARI AL POTENZIAMENTO DELLA RETE
 OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-18</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.7250001E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-20</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B815389</rdfs:label>
@@ -8273,6 +8296,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-09-28"/>
         <PCSCOPRO2:oggetto_della_gara>Impianto di climatizzazione Ed 21 Piano I- Revamping imp climatizzazione ed estrazione aria ambiente loc degenze e filtri sanitari 1^ e 2^ piano PO S Chiara Fase 2 COVID 19</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-09-28</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4984151E9</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-30</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B903510</rdfs:label>
@@ -8286,6 +8310,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-04-07"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura di supporti meccanografici, cartucce, toner e drum originali per fotocopiatori e stampanti occorrenti alle varie unità  operative dell&apos;Azienda Ospedale-Università  Padova</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-07</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.95E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-07</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B911505</rdfs:label>
@@ -8301,6 +8326,9 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2020-11-18"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-11-22"/>
         <PCSCOPRO2:oggetto_della_gara>Fornitura, in unione di acquisto tra le aziende sanitarie dell&apos;area vasta emilia nord, di dispositivi endoscopia digestiva</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-27</PublicContract:expireDate>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-18</PublicContract:expireDate>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-11-22</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.54639283E12</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-28</PublicContract:publicationDate>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-08-20</PublicContract:publicationDate>
@@ -8316,6 +8344,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-03-17"/>
         <PCSCOPRO2:oggetto_della_gara>Indizione di una gara telematica a procedura aperta per la fornitura di Medicinale Ossido nitrico comprensivo di sistemi per la sua somministrazione, per le esigenze biennali dell&apos;Azienda Ospedaliera San Camillo - Forlanini</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-17</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.33999995E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-12-17</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B957416</rdfs:label>
@@ -8329,6 +8358,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-01-20"/>
         <PCSCOPRO2:oggetto_della_gara>Procedura negoziata ex art. 63 D.Lgs. 50/2016 per fornitura urgente di sistemi infusionali e informatizzati con relativo materiale di consumo necessario al potenziamento della rete ospedaliera.</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-01-20</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.3567999E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-22</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B967059</rdfs:label>
@@ -8342,6 +8372,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-02-27"/>
         <PCSCOPRO2:oggetto_della_gara>SATER - Fornitura Impianti protesici anca da revisione PolarCup e PolarStem (contratto aperto alle aziende sanitarie dell&apos;area vasta emilia nord)</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-27</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.13900001E10</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-11-29</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B974856</rdfs:label>
@@ -8355,6 +8386,7 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</PCSCOPRO2:oggetto_della_gara>
         <rdf:type rdf:resource="https://w3id.org/italia/onto/PublicContract/CallForCompetition"/>
         <PCSCOPRO2:ha_data_di_scadenza rdf:resource="http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#2021-08-25"/>
         <PCSCOPRO2:oggetto_della_gara>Procedura Aperta affidamento fornitura di sistemi di navigazione e mappaggio elettroanatomico per lo studio e trattamento avanzato delle aritmie cardiache per le Aziende Sanitarie all&apos;Area Vasta Emilia Nord e l&apos;Azienda USL di Bologna</PCSCOPRO2:oggetto_della_gara>
+        <PublicContract:expireDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-25</PublicContract:expireDate>
         <PublicContract:procedureTotalAmount rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.05558847E12</PublicContract:procedureTotalAmount>
         <PublicContract:publicationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-27</PublicContract:publicationDate>
         <rdfs:label>Bando di gara n. B978086</rdfs:label>
@@ -19031,10 +19063,10 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/identifier">
-        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/identifier) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-        <terms:description xml:lang="en">Recommended practice is to identify the resource by means of a string conforming to an identification system.</terms:description>
+        <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/identifier) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:comment xml:lang="en">An unambiguous reference to the resource within a given context.</rdfs:comment>
+        <terms:description xml:lang="en">Recommended practice is to identify the resource by means of a string conforming to an identification system.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
         <rdfs:label xml:lang="en">Identifier</rdfs:label>
     </rdf:Description>
@@ -19064,18 +19096,18 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/rights">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
-        <terms:description xml:lang="en">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</terms:description>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
+        <terms:description xml:lang="en">Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.</terms:description>
         <rdfs:label xml:lang="en">Rights</rdfs:label>
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/rights) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
         <rdfs:comment xml:lang="en">Information about rights held in and over the resource.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
         <skos:note xml:lang="en">A [second property](/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/source) with the same name as this property has been declared in the [dcterms: namespace](http://purl.org/dc/terms/).  See the Introduction to the document [DCMI Metadata Terms](/specifications/dublin-core/dcmi-terms/) for an explanation.</skos:note>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:comment xml:lang="en">A related resource from which the described resource is derived.</rdfs:comment>
-        <terms:description xml:lang="en">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</terms:description>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-07-02</terms:issued>
+        <terms:description xml:lang="en">The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.</terms:description>
         <rdfs:label xml:lang="en">Source</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/subject">
@@ -19098,8 +19130,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
         <rdfs:comment xml:lang="it">Fornitura di prodotti</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
-        <rdfs:label xml:lang="it">Fornitura di Prodotto</rdfs:label>
         <rdfs:comment xml:lang="en">The class that includes those interventions concerning the purchase of goods.</rdfs:comment>
+        <rdfs:label xml:lang="it">Fornitura di Prodotto</rdfs:label>
         <rdfs:label xml:lang="it">Fornitura di Bene</rdfs:label>
         <rdfs:label xml:lang="en">Good supply</rdfs:label>
         <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nell&apos;acquisto di beni.</rdfs:comment>
@@ -19115,8 +19147,8 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</l0:description>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/italia/onto/PublicContract/Work">
         <owl:versionInfo xml:lang="it">stabile</owl:versionInfo>
-        <rdfs:comment xml:lang="en">The class that includes those interventions concerning the actualization of public works.</rdfs:comment>
         <rdfs:comment xml:lang="it">La classe che comprende gli interventi che consistono nella realizzazione di lavori pubblici.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The class that includes those interventions concerning the actualization of public works.</rdfs:comment>
         <owl:versionInfo xml:lang="en">stable</owl:versionInfo>
         <rdfs:label xml:lang="it">Fornitura di lavori</rdfs:label>
         <rdfs:label xml:lang="en">Work supply</rdfs:label>
