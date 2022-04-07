@@ -33,6 +33,29 @@ replaceString(String, ToReplace, ReplaceWith, Result) :-
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+%raggruppa task, gateway ed event
+nodo(Name, ID, ShortType) :-
+    task(Name, ID, ShortType);
+    gateway(Name, ID, ShortType);
+    event(Name, ID, ShortType).
+
+%raggruppa i sequence flow e i message flow
+arco(source(SName, SID, SType), flow(FlowType, SFlow), target(TName, TID, TType)) :-
+    (sequenceFlow(source(SName, SID, SType), flow(FlowType, Flow), target(TName, TID, TType));
+    messageFlow(source(SName, SID, SType), flow(FlowType, Flow), target(TName, TID, TType))),
+    shortType(Flow, SFlow).
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%stampa di una lista di nodi
+writePath([]).
+
+writePath([H|T]) :-
+    format("-> ~w ", H), 
+    writePath(T).
+
+%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 %restituisce tutti gli individui di una classe
 
 %getIndividual(-IRIClasse, -Individuo, -ShortIndividuo)
@@ -100,10 +123,6 @@ getPropertyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, Ind
 %     getLegame(property(PropertyIRI, Domain, IntRange), [property(PropertyIRI, SDomain, SRange)|Controllati], Legami).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 %restituisce tutti gli elementi annotati
 annotatedElement(bpmnElement(Type, Name, ID, ShortType), AnnotationType, ontologyElement(Class, Individual, ShortIndividual)):- 
     (has_DomainLink(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'has_DomainLink';
@@ -111,29 +130,6 @@ annotatedElement(bpmnElement(Type, Name, ID, ShortType), AnnotationType, ontolog
     activityManagesData(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityManagesData';
     activityHasPerformer(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityHasPerformer'), 
     shortType(Individual, ShortIndividual).
-
-%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-%raggruppa task, gateway ed event
-nodo(Name, ID, ShortType) :-
-    task(Name, ID, ShortType);
-    gateway(Name, ID, ShortType);
-    event(Name, ID, ShortType).
-
-%raggruppa i sequence flow e i message flow
-arco(source(SName, SID, SType), flow(FlowType, SFlow), target(TName, TID, TType)) :-
-    (sequenceFlow(source(SName, SID, SType), flow(FlowType, Flow), target(TName, TID, TType));
-    messageFlow(source(SName, SID, SType), flow(FlowType, Flow), target(TName, TID, TType))),
-    shortType(Flow, SFlow).
-
-%-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-%stampa di una lista di nodi
-writePath([]).
-
-writePath([H|T]) :-
-    format("-> ~w ", H), 
-    writePath(T).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
