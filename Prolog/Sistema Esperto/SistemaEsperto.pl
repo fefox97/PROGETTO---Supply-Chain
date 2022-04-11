@@ -219,7 +219,7 @@ percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Vi
 
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
-regola1(NodoA, NodoB):-
+regola1():-
     getPropertyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara), 
     getPropertyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
@@ -260,7 +260,8 @@ regola3():-
 
 %REGOLA 4
 %Verifica che esista un percorso, e stampa tutti quelli che riesci a trovare, tra il task "Verifica dei documenti del bando" e "Stoccaggio nel magazzino generale".
-regola4(Percorsi) :-
-    findall(Percorso, precedenzaF(nodo('Verifica dei documenti del bando', _, _), nodo('Stoccaggio nel magazzino generale', _, _), Percorso), Percorsi).
+%percorsi(nodo('Verifica dei documenti del bando', _, _), nodo('Stoccaggio nel magazzino generale', _, _), Percorsi)
+percorsi(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorsi) :-
+    findall(Percorso, precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), ListaNodi, Percorso), Percorsi).
 
 :- tty_clear.
