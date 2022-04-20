@@ -25,6 +25,10 @@
     <Prefix name="PublicContract" IRI="https://w3id.org/italia/onto/PublicContract/"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal xml:lang="en">Alicia C. Böhm</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
         <Literal xml:lang="en">Gabriela P. Henning</Literal>
     </Annotation>
     <Annotation>
@@ -37,11 +41,11 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
-        <Literal xml:lang="en">Alicia C. Böhm</Literal>
+        <Literal xml:lang="it">Felice Moretta</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <Literal xml:lang="en">SCOPRO</Literal>
+        <Literal xml:lang="it">PCSCOPRO</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:accrualPeriodicity"/>
@@ -49,63 +53,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="it">Questa è l&apos;ontologia che fornisce il livello fondazionale allo stack ontologico di OntoPiA. Il nome L0 sta per Level-0 ontology poiché essa fornisce le fondamenta concettuali elementari all&apos;intero stack. Questa ontologia è  ispirata da DOLCE zero (http://www.ontologydesignpatterns.org/ont/d0.owl)</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="it">Questa è l&apos;ontologia per la modellazione di valori e unità di misura</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="it">Questo il profilo applicativo italiano dell&apos;ontologia dei ruoli. Esso per rappresentare ruoli di persone, organizazzioni in determinati contesti. L&apos;ontologia consente di rappresentare anche ruoli che evolvono nel tempo</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="it">Questo il profilo applicativo italiano dell&apos;ontologia sui contratti pubblici</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="it">Questo il profilo applicativo italiano dell&apos;ontologia sul tempo. Esso definisce concetti quali Intervallo di Tempo, istante temporale, evento indicizzato nel tempo</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="en">This is the Italian application profile of the public contract ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="en">This is the Italian application profile of the roles ontology. It can be used to model roles of people or organizations in specific context. The ontology allows one to also represent roles that evolve over time.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="en">This is the Italian application profile of the time ontology. It includes such concepts as time interval, time, time indexed event, etc.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="en">This is the ontology for modeling values and measurement units</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:description"/>
-        <Literal xml:lang="en">This ontology provides the foundational level of the ontological stack of OntoPiA. The name L0 stands for Level-0 ontology as it provides the basic conceptual foundations to the whole stack. This ontology is inspired from DOLCE 0 (http://www.ontologydesignpatterns.org/ont/d0.owl)</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:identifier"/>
-        <Literal>https://w3id.org/italia/onto/MU</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:issued"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2017-09-25</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:issued"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2017-09-29</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:issued"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2017-11-13</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:issued"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2017-11-21</Literal>
+        <Literal xml:lang="it">Questo il profilo applicativo italiano dell&apos;ontologia sui contratti pubblici e sulle supply chain</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:issued"/>
@@ -125,183 +73,15 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2019-04-23</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:modified"/>
-        <Literal>2020-04-16</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:modified"/>
-        <Literal>2020-06-15</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:modified"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2020-11-06</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="it">Ontologia Valori e Unità di Misura - Profilo applicativo italiano</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2022-3-01</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:title"/>
         <Literal xml:lang="it">Ontologia dei Contratti Pubblici - Profilo applicativo italiano</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="it">Ontologia dei Ruoli - Profilo applicativo italiano</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="it">Ontologia del Tempo - Profilo applicativo italiano</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="it">Ontologia fondazionale di OntoPiA - Livello 0</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="en">Public Contracts ontology - Italian application profile</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="en">Role ontology - Italian application profile</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="en">Time ontology - Italian application profile</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="en">Top level ontology L0 - Level-0</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="terms:title"/>
-        <Literal xml:lang="en">Value and Measurement Unit Ontology - Italian Application Profile</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="it">Questa è l&apos;ontologia che fornisce il livello fondazionale allo stack ontologico di OntoPiA. Il nome L0 sta per Level-0 ontology poiché essa fornisce le fondamenta concettuali elementari all&apos;intero stack. Questa ontologia è  ispirata da DOLCE zero (http://www.ontologydesignpatterns.org/ont/d0.owl)</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="it">Questa è l&apos;ontologia dei contratti pubblici italiani.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="it">Questa è l&apos;ontologia del profilo applicativo dei ruoli (di persone, organizzazioni)</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="it">Questa è l&apos;ontologia del profilo applicativo del tempo.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="it">Questa è l&apos;ontologia per la modellazione di valori e unità di misura</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This is the ontology for modeling values and measurement units</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This is the ontology of the Italian application profile for time</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This is the ontology of the Italian public contracts.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This is the ontology of the time Italian profile</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This is the ontology used to represent roles</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">This is the top level ontology of OntoPiA</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="en">Italian Role ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="en">Italian Time ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="en">Italian public contracts ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="it">Ontologia Valori e Unità di Misura</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="it">Ontologia dei Ruoli</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="it">Ontologia dei contratti pubblici italiani</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="it">Ontologia del Tempo</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="it">Ontologia fondazionale di OntoPiA - Livello 0</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="en">Top level ontology L0 - Level-0</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="en">Value and Measurement Unit Ontology</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en">Version 0.3 - Modified on April 23 2019 - Refactoring l0:Event in l0:EventOrSituation.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en">Version 0.4 - Modified on June 15 2020 - introduced MeasureType concept which is connected to Value and expressed in some MeasurementUnit.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en">Version 0.4- Modified on 23 April 2019 - Refactoring l0:Event in l0:EventOrSituation</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en">Version 0.8 - 16 April 2020 - added property positionInSequence; 06 April 2020 - fixed typos for rdfs:comments of two object properties</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="en">Version 0.8 - Modified on 06 November 2020 - Revision of the range of some object properties in linea with their inverse properties.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="it">Version 0.8- 16 Aprile 2020 - aggiunta la proprietà posizione in sequenza; 06 Aprile 2020 - correzione nell&apos;uso di rdfs:label in due object property</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="it">Versione 0.3 - Modificata il 23 Aprile 2019 -  Rifattorizzazione di l0:Event in l0:EventOrSituation.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="it">Versione 0.4 - modificata il 15 Giugno 2020 - Inserito il concetto di MeasureType che è connesso con il Valore ed espresso in una qualche unità di misura. I valoei del nuovo concetto possono essere lunghezza, altezza, profondità, ecc, ovvero il tipo di misura espressa poi con un valore e un&apos;unità di misura. SI noti che non è obbligatorio specificarla ma se la si include deve essere associata a un valore ed espresa in un qualche unità di misura.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="it">Versione 0.4- Modificata il 23 Aprile 2019 - rifattorizzazione di l0:Event in l0:EventOrSituation</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal xml:lang="it">Versione 0.8 - Modificata il 06 Novembre 2020 - Revisione dei range di alcune proprietà (object property) per allinearle alle rispettive proprietà inverse.</Literal>
+        <Literal xml:lang="it">Ontologia dei contratti pubblici italiani e delle Supply Chain</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
@@ -329,43 +109,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">Oggetto</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
         <Literal xml:lang="it">Procedura di realizzazione</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">Unità di misura</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">anno</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">giorno</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">intervallo temporale</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal>istante temporale</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">mese</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">ruolo</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcat:keyword"/>
-        <Literal xml:lang="it">tempo</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dcat:theme"/>
@@ -380,36 +124,12 @@
         <IRI>http://publications.europa.eu/resource/authority/data-theme/TECH</IRI>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="prov:wasDerivedFrom"/>
-        <IRI>https://w3id.org/italia/onto/MU/0.2</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="prov:wasDerivedFrom"/>
-        <IRI>https://w3id.org/italia/onto/l0/0.7</IRI>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="prov:wasInfluencedBy"/>
         <IRI>http://www.ontologydesignpatterns.org/ont/d0.owl</IRI>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:acronym"/>
-        <Literal>MU-AP_IT</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:acronym"/>
         <Literal>PC-AP_IT</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:acronym"/>
-        <Literal>RO-AP_IT</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:acronym"/>
-        <Literal>TI-AP_IT</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:acronym"/>
-        <Literal>l0-AP_IT</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:hasFormalityLevel"/>
@@ -493,79 +213,19 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:last"/>
-        <IRI>https://w3id.org/italia/onto/MU/0.3</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:last"/>
         <IRI>https://w3id.org/italia/onto/PublicContract/0.4</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:last"/>
-        <IRI>https://w3id.org/italia/onto/RO/</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:last"/>
-        <IRI>https://w3id.org/italia/onto/TI/</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:last"/>
-        <IRI>https://w3id.org/italia/onto/l0/0.8</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:officialURI"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/MU</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:officialURI"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/PublicContract</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:officialURI"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/RO</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:officialURI"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/TI</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:officialURI"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/italia/onto/l0</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:prefix"/>
-        <Literal>l0</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:prefix"/>
-        <Literal>muapit</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:prefix"/>
         <Literal>pcapit</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:prefix"/>
-        <Literal>roapit</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:prefix"/>
-        <Literal>tiapit</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:prev"/>
-        <IRI>https://w3id.org/italia/onto/MU/0.1</IRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:status"/>
-        <Literal>catalogued</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:status"/>
         <Literal>final draft</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:status"/>
-        <Literal>published</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:target"/>
@@ -594,14 +254,6 @@
     <Annotation>
         <AnnotationProperty abbreviatedIRI="ADMS:type"/>
         <AbbreviatedIRI>ADMS:DomainOntology</AbbreviatedIRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:type"/>
-        <AbbreviatedIRI>ADMS:ServiceOntology</AbbreviatedIRI>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="ADMS:type"/>
-        <AbbreviatedIRI>ADMS:UpperLevelOntology</AbbreviatedIRI>
     </Annotation>
     <Declaration>
         <Class IRI="http://dati.gov.it/onto/dcatapit#Agent"/>
@@ -3871,6 +3523,12 @@
         <NamedIndividual IRI="#OZ842BFB79C"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrezzoPiùBasso"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ProceduraAperta"/>
     </Declaration>
     <Declaration>
@@ -4783,6 +4441,9 @@
         <NamedIndividual IRI="#978086"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
     </Declaration>
     <Declaration>
@@ -4829,6 +4490,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="terms:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="skos:note"/>
@@ -4937,15 +4601,6 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="xsd:time"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#Business_Process"/>
@@ -11100,6 +10755,14 @@
         <NamedIndividual IRI="#OZ842BFB79C"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class abbreviatedIRI="PublicContract:AwardCriterion"/>
+        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="PublicContract:AwardCriterion"/>
+        <NamedIndividual IRI="#PrezzoPiùBasso"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:ProcedureType"/>
         <NamedIndividual IRI="#ProceduraAperta"/>
     </ClassAssertion>
@@ -12314,6 +11977,10 @@
     <ClassAssertion>
         <Class abbreviatedIRI="PublicContract:Procedure"/>
         <NamedIndividual IRI="#978086"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="PublicContract:AwardCriterion"/>
+        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#verifica"/>
@@ -18971,11 +18638,6 @@
         <NamedIndividual IRI="#B978086"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#Z0B2BFB62C"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#Z0B2BFB62C"/>
         <NamedIndividual IRI="#EZ0B2BFB62C"/>
@@ -18994,11 +18656,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#Z0B2BFB62C"/>
         <NamedIndividual IRI="#FZ0B2BFB62C"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#Z312B44EF9"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19021,11 +18678,6 @@
         <NamedIndividual IRI="#FZ312B44EF9"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#Z502B44E81"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#Z502B44E81"/>
         <NamedIndividual IRI="#EZ502B44E81"/>
@@ -19046,11 +18698,6 @@
         <NamedIndividual IRI="#FZ502B44E81"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#Z682AEFF2E"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#Z682AEFF2E"/>
         <NamedIndividual IRI="#EZ682AEFF2E"/>
@@ -19069,11 +18716,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#Z682AEFF2E"/>
         <NamedIndividual IRI="#FZ682AEFF2E"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#Z842BFB79C"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19681,11 +19323,6 @@
         <NamedIndividual IRI="#Z502B44E81"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6940799088"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6940799088"/>
         <NamedIndividual IRI="#E6940799088"/>
@@ -19704,11 +19341,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#6940799088"/>
         <NamedIndividual IRI="#F6940799088"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#69408044A7"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19731,11 +19363,6 @@
         <NamedIndividual IRI="#F69408044A7"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6940810999"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6940810999"/>
         <NamedIndividual IRI="#E6940810999"/>
@@ -19754,11 +19381,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#6940810999"/>
         <NamedIndividual IRI="#F6940810999"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6940909B4B"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19781,11 +19403,6 @@
         <NamedIndividual IRI="#F6940909B4B"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6940929BCC"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6940929BCC"/>
         <NamedIndividual IRI="#E6940929BCC"/>
@@ -19804,11 +19421,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#6940929BCC"/>
         <NamedIndividual IRI="#F6940929BCC"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6941349666"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19831,11 +19443,6 @@
         <NamedIndividual IRI="#F6941349666"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#694136104F"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#694136104F"/>
         <NamedIndividual IRI="#E694136104F"/>
@@ -19854,11 +19461,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#694136104F"/>
         <NamedIndividual IRI="#F694136104F"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6942276363"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19881,11 +19483,6 @@
         <NamedIndividual IRI="#F6942276363"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#69429141E2"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#69429141E2"/>
         <NamedIndividual IRI="#E69429141E2"/>
@@ -19904,11 +19501,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#69429141E2"/>
         <NamedIndividual IRI="#F69429141E2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#69429217A7"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19931,11 +19523,6 @@
         <NamedIndividual IRI="#F69429217A7"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6942925AF3"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6942925AF3"/>
         <NamedIndividual IRI="#E6942925AF3"/>
@@ -19954,11 +19541,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#6942925AF3"/>
         <NamedIndividual IRI="#F6942925AF3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6942926BC6"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -19981,11 +19563,6 @@
         <NamedIndividual IRI="#F6942926BC6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6942928D6C"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6942928D6C"/>
         <NamedIndividual IRI="#E6942928D6C"/>
@@ -20006,11 +19583,6 @@
         <NamedIndividual IRI="#F6942928D6C"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6942930F12"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#6942930F12"/>
         <NamedIndividual IRI="#E6942930F12"/>
@@ -20029,11 +19601,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#6942930F12"/>
         <NamedIndividual IRI="#F6942930F12"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#6942933190"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20201,11 +19768,6 @@
         <NamedIndividual IRI="#8223332C3B"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#76369713D6"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#76369713D6"/>
         <NamedIndividual IRI="#E76369713D6"/>
@@ -20224,11 +19786,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#76369713D6"/>
         <NamedIndividual IRI="#F76369713D6"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7636980B41"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20251,11 +19808,6 @@
         <NamedIndividual IRI="#F7636980B41"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637002D68"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637002D68"/>
         <NamedIndividual IRI="#E7637002D68"/>
@@ -20274,11 +19826,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7637002D68"/>
         <NamedIndividual IRI="#F7637002D68"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#76370060B9"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20301,11 +19848,6 @@
         <NamedIndividual IRI="#F76370060B9"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637009332"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637009332"/>
         <NamedIndividual IRI="#E7637009332"/>
@@ -20324,11 +19866,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7637009332"/>
         <NamedIndividual IRI="#F7637009332"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#763701367E"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20351,11 +19888,6 @@
         <NamedIndividual IRI="#F763701367E"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637014751"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637014751"/>
         <NamedIndividual IRI="#E7637014751"/>
@@ -20374,11 +19906,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7637014751"/>
         <NamedIndividual IRI="#F7637014751"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#76370168F7"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20401,11 +19928,6 @@
         <NamedIndividual IRI="#F76370168F7"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637021D16"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637021D16"/>
         <NamedIndividual IRI="#E7637021D16"/>
@@ -20424,11 +19946,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7637021D16"/>
         <NamedIndividual IRI="#F7637021D16"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637023EBC"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20451,11 +19968,6 @@
         <NamedIndividual IRI="#F7637023EBC"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#763702613A"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#763702613A"/>
         <NamedIndividual IRI="#E763702613A"/>
@@ -20474,11 +19986,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#763702613A"/>
         <NamedIndividual IRI="#F763702613A"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#76370282E0"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20501,11 +20008,6 @@
         <NamedIndividual IRI="#F76370282E0"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#763703262C"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#763703262C"/>
         <NamedIndividual IRI="#E763703262C"/>
@@ -20524,11 +20026,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#763703262C"/>
         <NamedIndividual IRI="#F763703262C"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#76370358A5"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20551,11 +20048,6 @@
         <NamedIndividual IRI="#F76370358A5"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637038B1E"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637038B1E"/>
         <NamedIndividual IRI="#E7637038B1E"/>
@@ -20574,11 +20066,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7637038B1E"/>
         <NamedIndividual IRI="#F7637038B1E"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637041D97"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20601,11 +20088,6 @@
         <NamedIndividual IRI="#F7637041D97"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637042E6A"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7637042E6A"/>
         <NamedIndividual IRI="#E7637042E6A"/>
@@ -20624,11 +20106,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7637042E6A"/>
         <NamedIndividual IRI="#F7637042E6A"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7637049434"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20651,11 +20128,6 @@
         <NamedIndividual IRI="#F7637049434"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#76370515DA"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#76370515DA"/>
         <NamedIndividual IRI="#E76370515DA"/>
@@ -20674,11 +20146,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#76370515DA"/>
         <NamedIndividual IRI="#F76370515DA"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#76370569F9"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20701,11 +20168,6 @@
         <NamedIndividual IRI="#F76370569F9"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#764361704B"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#764361704B"/>
         <NamedIndividual IRI="#E764361704B"/>
@@ -20724,11 +20186,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#764361704B"/>
         <NamedIndividual IRI="#F764361704B"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7688013D04"/>
-        <NamedIndividual IRI="#OffertaEconomicamentePiùVantaggiosa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20751,11 +20208,6 @@
         <NamedIndividual IRI="#F7688013D04"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#77128469DC"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#77128469DC"/>
         <NamedIndividual IRI="#E77128469DC"/>
@@ -20774,11 +20226,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#77128469DC"/>
         <NamedIndividual IRI="#F77128469DC"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#771286163E"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20801,11 +20248,6 @@
         <NamedIndividual IRI="#F771286163E"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7712870DA9"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7712870DA9"/>
         <NamedIndividual IRI="#E7712870DA9"/>
@@ -20824,11 +20266,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7712870DA9"/>
         <NamedIndividual IRI="#F7712870DA9"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#77128751CD"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20851,11 +20288,6 @@
         <NamedIndividual IRI="#F77128751CD"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#77128816BF"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#77128816BF"/>
         <NamedIndividual IRI="#E77128816BF"/>
@@ -20874,11 +20306,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#77128816BF"/>
         <NamedIndividual IRI="#F77128816BF"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7712889D57"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20941,11 +20368,6 @@
         <NamedIndividual IRI="#8295984E8E"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#787873167F"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#787873167F"/>
         <NamedIndividual IRI="#E787873167F"/>
@@ -20964,11 +20386,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#787873167F"/>
         <NamedIndividual IRI="#F787873167F"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7878742F90"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -20991,11 +20408,6 @@
         <NamedIndividual IRI="#F7878742F90"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7878748487"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7878748487"/>
         <NamedIndividual IRI="#E7878748487"/>
@@ -21014,11 +20426,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7878748487"/>
         <NamedIndividual IRI="#F7878748487"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#78787538A6"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21041,11 +20448,6 @@
         <NamedIndividual IRI="#F78787538A6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#78787630E9"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#78787630E9"/>
         <NamedIndividual IRI="#E78787630E9"/>
@@ -21064,11 +20466,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#78787630E9"/>
         <NamedIndividual IRI="#F78787630E9"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7878768508"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21091,11 +20488,6 @@
         <NamedIndividual IRI="#F7878768508"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#787878316A"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#787878316A"/>
         <NamedIndividual IRI="#E787878316A"/>
@@ -21114,11 +20506,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#787878316A"/>
         <NamedIndividual IRI="#F787878316A"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7878785310"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21141,11 +20528,6 @@
         <NamedIndividual IRI="#F7878785310"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#78787874B6"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#78787874B6"/>
         <NamedIndividual IRI="#E78787874B6"/>
@@ -21164,11 +20546,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#78787874B6"/>
         <NamedIndividual IRI="#F78787874B6"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#787879072F"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21191,11 +20568,6 @@
         <NamedIndividual IRI="#F787879072F"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7878802118"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7878802118"/>
         <NamedIndividual IRI="#E7878802118"/>
@@ -21214,11 +20586,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7878802118"/>
         <NamedIndividual IRI="#F7878802118"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7921918D87"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21296,11 +20663,6 @@
         <NamedIndividual IRI="#83136977CB"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#7996404953"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#7996404953"/>
         <NamedIndividual IRI="#E7996404953"/>
@@ -21319,11 +20681,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#7996404953"/>
         <NamedIndividual IRI="#F7996404953"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#802544678B"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21346,11 +20703,6 @@
         <NamedIndividual IRI="#F802544678B"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8027915D05"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8027915D05"/>
         <NamedIndividual IRI="#E8027915D05"/>
@@ -21369,11 +20721,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8027915D05"/>
         <NamedIndividual IRI="#F8027915D05"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#80902930FD"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21396,11 +20743,6 @@
         <NamedIndividual IRI="#F80902930FD"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#809059388C"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#809059388C"/>
         <NamedIndividual IRI="#E809059388C"/>
@@ -21419,11 +20761,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#809059388C"/>
         <NamedIndividual IRI="#F809059388C"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#81446791BC"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21446,11 +20783,6 @@
         <NamedIndividual IRI="#F81446791BC"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8144768B2B"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8144768B2B"/>
         <NamedIndividual IRI="#E8144768B2B"/>
@@ -21469,11 +20801,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8144768B2B"/>
         <NamedIndividual IRI="#F8144768B2B"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8144793FCB"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21496,11 +20823,6 @@
         <NamedIndividual IRI="#F8144793FCB"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8145665F64"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8145665F64"/>
         <NamedIndividual IRI="#E8145665F64"/>
@@ -21519,11 +20841,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8145665F64"/>
         <NamedIndividual IRI="#F8145665F64"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8145678A20"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21546,11 +20863,6 @@
         <NamedIndividual IRI="#F8145678A20"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8145690409"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8145690409"/>
         <NamedIndividual IRI="#E8145690409"/>
@@ -21571,11 +20883,6 @@
         <NamedIndividual IRI="#F8145690409"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#81457158A9"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#81457158A9"/>
         <NamedIndividual IRI="#E81457158A9"/>
@@ -21594,11 +20901,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#81457158A9"/>
         <NamedIndividual IRI="#F81457158A9"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#81457250EC"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21641,11 +20943,6 @@
         <NamedIndividual IRI="#83828155C6"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#81994532AB"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#81994532AB"/>
         <NamedIndividual IRI="#E81994532AB"/>
@@ -21664,11 +20961,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#81994532AB"/>
         <NamedIndividual IRI="#F81994532AB"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8199464BBC"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21691,11 +20983,6 @@
         <NamedIndividual IRI="#F8199464BBC"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8199482A97"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8199482A97"/>
         <NamedIndividual IRI="#E8199482A97"/>
@@ -21714,11 +21001,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8199482A97"/>
         <NamedIndividual IRI="#F8199482A97"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#82233055F5"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21741,11 +21023,6 @@
         <NamedIndividual IRI="#F82233055F5"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8223309941"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8223309941"/>
         <NamedIndividual IRI="#E8223309941"/>
@@ -21764,11 +21041,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8223309941"/>
         <NamedIndividual IRI="#F8223309941"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#82233299C2"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21791,11 +21063,6 @@
         <NamedIndividual IRI="#F82233299C2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8223332C3B"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8223332C3B"/>
         <NamedIndividual IRI="#E8223332C3B"/>
@@ -21814,11 +21081,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8223332C3B"/>
         <NamedIndividual IRI="#F8223332C3B"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8276108C5D"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21841,11 +21103,6 @@
         <NamedIndividual IRI="#F8276108C5D"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#82902377FD"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#82902377FD"/>
         <NamedIndividual IRI="#E82902377FD"/>
@@ -21864,11 +21121,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#82902377FD"/>
         <NamedIndividual IRI="#F82902377FD"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#82902388D0"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21891,11 +21143,6 @@
         <NamedIndividual IRI="#F82902388D0"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#82902399A3"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#82902399A3"/>
         <NamedIndividual IRI="#E82902399A3"/>
@@ -21914,11 +21161,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#82902399A3"/>
         <NamedIndividual IRI="#F82902399A3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8290240A76"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21941,11 +21183,6 @@
         <NamedIndividual IRI="#F8290240A76"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8295984E8E"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8295984E8E"/>
         <NamedIndividual IRI="#E8295984E8E"/>
@@ -21964,11 +21201,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8295984E8E"/>
         <NamedIndividual IRI="#F8295984E8E"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#83136977CB"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -21991,11 +21223,6 @@
         <NamedIndividual IRI="#F83136977CB"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#83828155C6"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#83828155C6"/>
         <NamedIndividual IRI="#E83828155C6"/>
@@ -22014,11 +21241,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#83828155C6"/>
         <NamedIndividual IRI="#F83828155C6"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#84384648C7"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -22041,11 +21263,6 @@
         <NamedIndividual IRI="#F84384648C7"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8518451026"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8518451026"/>
         <NamedIndividual IRI="#E8518451026"/>
@@ -22064,11 +21281,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8518451026"/>
         <NamedIndividual IRI="#F8518451026"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8603719D83"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -22091,11 +21303,6 @@
         <NamedIndividual IRI="#F8603719D83"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8613626D07"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8613626D07"/>
         <NamedIndividual IRI="#E8613626D07"/>
@@ -22116,11 +21323,6 @@
         <NamedIndividual IRI="#F8613626D07"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8628847DCB"/>
-        <NamedIndividual IRI="#PrezzoPiùBasso"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8628847DCB"/>
         <NamedIndividual IRI="#E8628847DCB"/>
@@ -22139,11 +21341,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8628847DCB"/>
         <NamedIndividual IRI="#F8628847DCB"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8631093B41"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -22171,11 +21368,6 @@
         <NamedIndividual IRI="#F8631093B41"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#8631103384"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
         <NamedIndividual IRI="#8631103384"/>
         <NamedIndividual IRI="#E8631103384"/>
@@ -22194,11 +21386,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#8631103384"/>
         <NamedIndividual IRI="#F8631103384"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#86311087A3"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -22224,11 +21411,6 @@
         <ObjectProperty abbreviatedIRI="PublicContract:hasPaymentCertificate"/>
         <NamedIndividual IRI="#86311087A3"/>
         <NamedIndividual IRI="#F86311087A3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty abbreviatedIRI="PublicContract:hasAwardCriterion"/>
-        <NamedIndividual IRI="#867469371E"/>
-        <NamedIndividual IRI="#MigliorRapportoqualità/prezzo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty abbreviatedIRI="PublicContract:hasAwardNotice"/>
@@ -28935,6 +28117,50 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <DataProperty abbreviatedIRI="l0:positionInSequence"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Regola1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:Lot"/>
+                <Variable IRI="#lotto"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty abbreviatedIRI="PublicContract:totalAmount"/>
+                <Variable IRI="#lotto"/>
+                <Variable IRI="#importo"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="#importo"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40000</Literal>
+            </BuiltInAtom>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:Procedure"/>
+                <Variable IRI="#proceduraDiAffidamento"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty abbreviatedIRI="PublicContract:includesLot"/>
+                <Variable IRI="#proceduraDiAffidamento"/>
+                <Variable IRI="#lotto"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class abbreviatedIRI="PublicContract:DirectAdministration"/>
+                <Variable IRI="#proceduraDiAffidamento"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="terms:modified"/>
         <AbbreviatedIRI>dc:</AbbreviatedIRI>
@@ -32421,6 +31647,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <Literal>Offerta n. OZ842BFB79C</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OffertaEconomicamentePiùVantaggiosa</IRI>
+        <Literal>Offerta economicamente più vantaggiosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Ordine_di_acquisto</IRI>
         <Literal xml:lang="it">Gli individui di questa classe sono gli ordini di acquisto che una unità organizzativa inoltra a un fornitore.</Literal>
@@ -32429,6 +31660,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Ordine_di_acquisto</IRI>
         <Literal xml:lang="it">Ordine di acquisto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrezzoPiùBasso</IRI>
+        <Literal>Prezzo più basso</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -34084,6 +33320,11 @@ OSPEDALIERA PER SUPPORTO NUOVE EMERGENZE COVID-19</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#978086</IRI>
         <Literal>Procedura di affidamento n. 978086</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MigliorRapportoqualità/prezzo</IRI>
+        <Literal>Miglior rapporto qualità/prezzo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
