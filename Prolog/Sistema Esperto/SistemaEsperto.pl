@@ -225,7 +225,7 @@ regola1():-
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIOrdineDiAcquisto)),
     controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)), 
-    format("La richiesta di approvvigionamento ~w precede l'ordine di acquisto ~w", [ShortIRichiestaApprovvigionamento, ShortIOrdineDiAcquisto]).
+    format("La richiesta di approvvigionamento ~w annotata con il nodo '~w' precede l'ordine di acquisto ~w annotato con il nodo '~w'", [ShortIRichiestaApprovvigionamento, NodoA, ShortIOrdineDiAcquisto, NodoB]).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
