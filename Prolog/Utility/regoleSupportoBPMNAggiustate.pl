@@ -21,7 +21,9 @@ activityKindOf(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndivi
     getIndividual(Class, CIndividual, ShortIndividual);
     propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_is_a_kind_of',CID,Class),
     shortType(CID,ID),
-    genericElement(Type,Name,ID,ShortType).
+    genericElement(Type,Name,ID,ShortType),
+    CIndividual = "Not defined",
+    ShortIndividual = "Not defined".
 
 activityHasPerformer(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)):-
     propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_performerLink',CID,Individual),
