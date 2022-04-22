@@ -9,7 +9,7 @@
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-% replaceAllOccurrences(+List, +ToReplace, +ReplaceWith, -NewList)
+%replaceAllOccurrences(+List, +ToReplace, +ReplaceWith, -NewList)
 
 %se viene sostituito un elemento di una lista vuota con un altro elemento, il risultato è una lista vuota
 replaceAllOccurences([], _, _, []).
@@ -18,15 +18,16 @@ replaceAllOccurences([], _, _, []).
 replaceAllOccurences([ToReplace|Tail1], ToReplace, ReplaceWith, [ReplaceWith|Tail2]) :-
     replaceAllOccurences(Tail1, ToReplace, ReplaceWith, Tail2).
 
-%se l'elemento da sostituire non è in testa alla lista, allora il risultato è la coda della lista
+%se l'elemento da sostituire non è in testa alla lista, allora effettua la sostituzione sulla coda
 replaceAllOccurences([Head|Tail3], ToReplace, ReplaceWith, [Head|Tail2]) :-
     ToReplace \== Head, 
     replaceAllOccurences(Tail3, ToReplace, ReplaceWith, Tail2).
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %sostituzione di un carattere (anche con più occorrenze) all'interno di una stringa
-%replaceString(+String, +ToReplace, +ReplaceWith, -NewString)
-replaceString(String, ToReplace, ReplaceWith, Result) :-
+
+%replaceSubString(+String, +ToReplace, +ReplaceWith, -NewString)
+replaceSubString(String, ToReplace, ReplaceWith, Result) :-
     string_chars(String, X), 
     replaceAllOccurences(X, ToReplace, ReplaceWith, Y), 
     string_chars(Result, Y).
@@ -66,7 +67,7 @@ getIndividual(ClassIRI, Individual, ShortIndividual) :-
 %getIndividual(+NomeClasse, -Individuo, -ShortIndividuo)
 getIndividual(NClass, Individual, ShortIndividual) :-
     nonvar(NClass),    %mi accerto che NClass non sia una variabile, ma un termine ground
-    replaceString(NClass, ' ', '_', Class), 
+    replaceSubString(NClass, ' ', '_', Class), 
     (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Class, ClassIRI)), 
     classAssertion(ClassIRI, Individual), 
     shortType(Individual, ShortIndividual).
@@ -74,7 +75,8 @@ getIndividual(NClass, Individual, ShortIndividual) :-
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %restituisce gli individui se dati i nomi di PropertyAssertion, Domain e Range; 
-%restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range.
+%restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range;
+%restituisce gli individui, Domain e Range se dato il nome o l'IRI della PropertyAssertion.
 %getPropertyAssertion(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
 getPropertyAssertion(PropertyIRI, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
     getIndividual(Domain, IndividualD, ShortIndividualD), 
