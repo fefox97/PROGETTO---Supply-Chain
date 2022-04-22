@@ -126,12 +126,11 @@ getPropertyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, Ind
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 %restituisce tutti gli elementi annotati
-annotatedElement(bpmnElement(Type, Name, ID, ShortType), AnnotationType, ontologyElement(Class, Individual, ShortIndividual)):- 
-    (has_DomainLink(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'has_DomainLink';
-    activityKindOf(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityKindOf';
-    activityManagesData(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityManagesData';
-    activityHasPerformer(bpmnElement(Type, Name, ID, ShortType), ontologyElement(Class, Individual)), AnnotationType = 'activityHasPerformer'), 
-    shortType(Individual, ShortIndividual).
+annotatedElement(bpmnElement(Type, Name, ID, ShortType), AnnotationType, ontologyElement(Class,CIndividual,ShortIndividual)):- 
+    has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)), AnnotationType = 'has_DomainLink';
+    activityKindOf(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)), AnnotationType = 'activityKindOf';
+    activityManagesData(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)), AnnotationType = 'activityManagesData';
+    activityHasPerformer(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)), AnnotationType = 'activityHasPerformer'.
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
