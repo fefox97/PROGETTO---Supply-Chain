@@ -1,4 +1,4 @@
-%:- module(sistemaEsperto, [regola2/0, precedenzaF/3]).
+%:- module(sistemaEsperto, [percorsoF/4, precedenzaF/3]).
 :- working_directory(D, '/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Sistema Esperto/').
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/thea-master/thea.pl').
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/regoleSupportoBPMNAggiustate.pl').
