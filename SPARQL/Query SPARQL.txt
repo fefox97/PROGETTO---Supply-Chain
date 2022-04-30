@@ -1,0 +1,130 @@
+#1 Mostra tutte le fatture relative a lotti il cui importo totale è minore di 70M
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT ?Lotto ?Fattura ?ImportoTotale
+
+	WHERE {
+		?Lotto rdf:type pc:Lot.
+		?Lotto pc:hasPaymentCertificate ?Fattura.
+		?Lotto pc:currentTotalAmount ?ImportoTotale.
+		FILTER(?ImportoTotale < 70000000)
+	}
+
+#2 Mostra i lotti i cui bandi di gara hanno scadenza precedente il 2020, limita il numero di risultati a 10
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT ?Lotto ?BandoDiGara ?DataDiScadenza
+
+	WHERE {
+		?Lotto rdf:type pc:Lot.
+		?Lotto pc:hasCallForCompetition ?BandoDiGara.
+		?BandoDiGara pc:expireDate ?DataDiScadenza.
+		FILTER(?DataDiScadenza <= "2020-01-01"^^xsd:date)
+	}
+	LIMIT 10
+
+#3	Trova Dominio e Range relativi alla ObjectProperty ha_destinatario
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT ?Dominio ?Range
+	WHERE {	
+		pcscopro:ha_destinatario rdfs:domain ?Dominio;
+                      			     rdfs:range ?Range .
+	}
+
+#4 Trova tutti gli individui delle classi Dominio e Range della ObjectProperty tenderer (offerente), limita il numero di risultati a 20
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT ?IndividuoDominio ?IndividuoRange
+	WHERE {	
+		pc:tenderer rdfs:domain ?Dominio;
+                      			rdfs:range ?Range.
+		?IndividuoDominio rdf:type ?Dominio.
+		?IndividuoRange rdf:type ?Range.
+	}
+	LIMIT 20
+
+#5	Trova Dominio e Range della DataProperty codice_fiscale
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT ?Dominio ?Range
+	WHERE {	
+		pcscopro:codice_fiscale rdfs:domain ?Dominio;
+                      			rdfs:range ?Range.
+	}
+
+#6 Trova tutti gli individui delle classi Dominio e Range della DataProperty currentTotalAmount (importo totale)
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT ?IndividuoDominio ?ImportoTotale
+	WHERE {	
+		pc:currentTotalAmount rdfs:domain ?Dominio.
+		?IndividuoDominio rdf:type ?Dominio.
+		?IndividuoDominio pc:currentTotalAmount ?ImportoTotale
+	}
+	LIMIT 10
+
+#7 Trova tutti gli individui delle classi Dominio e Range della DataProperty currentTotalAmount (importo totale) e mostra OPZIONALMENTE (cioè se presenti) gli individui di questa DataProperty
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT ?IndividuoDominio ?ImportoTotale
+	WHERE {	
+		pc:currentTotalAmount rdfs:domain ?Dominio.
+		?IndividuoDominio rdf:type ?Dominio.
+		OPTIONAL{
+			?IndividuoDominio pc:currentTotalAmount ?ImportoTotale
+		}
+	}
+	LIMIT 12
+
+#8 Mostra tutte le classi e i relativi commenti in lingua italiana e inglese
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX pcscopro: <http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#>
+PREFIX pc: <https://w3id.org/italia/onto/PublicContract/>
+
+SELECT DISTINCT ?Classe ?CommentoIt ?CommentoEn
+	WHERE {	
+		{?Classe rdfs:comment ?CommentoIt.
+		FILTER(lang(?CommentoIt) = 'it').}
+		?Classe rdfs:comment ?CommentoEn.
+		FILTER(lang(?CommentoEn) = 'en').	
+	}
+	LIMIT 10
