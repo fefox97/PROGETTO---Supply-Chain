@@ -2,8 +2,8 @@
 :- working_directory(D, '/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Sistema Esperto/').
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/thea-master/thea.pl').
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/regoleSupportoBPMNAggiustate.pl').
-%:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fatti.pl').
-:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fattiControprova.pl').
+:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fatti.pl').
+%:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fattiControprova.pl').
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 % REGOLE GENERALI
@@ -244,8 +244,10 @@ regola2():-
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaVerificaDocumenti)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIPubblicazione)), 
     annotatedElement(bpmnElement(TypeC, NodoC, IDC, ShortTypeC), _, ontologyElement(ClassC, IndividualC, ShortIAvvisoEsitoDiProcedura)), 
-    controlloPrecedenzaF(nodo(NodoA, _, _), [nodo(NodoB, _, _), nodo(NodoC, _, _)]),
-    format("La verifica dei documenti per l'emanazione del bando ~w precede l'emanazione della gara di appalto ~w, che a sua volta precede la proclamazione del vincitore ~w", [ShortIRichiestaVerificaDocumenti, ShortIPubblicazione, ShortIAvvisoEsitoDiProcedura]).
+    (controlloPrecedenzaF(nodo(NodoA, _, _), [nodo(NodoB, _, _), nodo(NodoC, _, _)]),
+    format("La verifica dei documenti per l'emanazione del bando ~w, annotato con il nodo '~w', precede l'emanazione della gara di appalto ~w, annotata con il nodo '~w', che a sua volta precede la proclamazione del vincitore ~w, annotato con il nodo '~w'", [ShortIRichiestaVerificaDocumenti, NodoA, ShortIPubblicazione, NodoB, ShortIAvvisoEsitoDiProcedura, NodoC]);
+    \+controlloPrecedenzaF(nodo(NodoA, _, _), [nodo(NodoB, _, _), nodo(NodoC, _, _)]),
+    format("La verifica dei documenti per l'emanazione del bando ~w, annotato con il nodo '~w', NON precede l'emanazione della gara di appalto ~w, annotata con il nodo '~w', che a sua volta NON precede la proclamazione del vincitore ~w, annotato con il nodo '~w'", [ShortIRichiestaVerificaDocumenti, NodoA, ShortIPubblicazione, NodoB, ShortIAvvisoEsitoDiProcedura, NodoC])).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -257,8 +259,10 @@ regola3():-
     getPropertyAssertion('hasPaymentCertificate', 'Lot', _, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento), 
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortISpedizioneOrdine)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortICertificatoDiPagamento)), 
-    controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
-    format("L'evasione dell'ordine ~w precede l'emissione del certificato di pagamento ~w", [ShortISpedizioneOrdine, ShortICertificatoDiPagamento]).
+    (controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
+    format("L'evasione dell'ordine ~w, annotata con il nodo '~w', precede l'emissione del certificato di pagamento ~w, annotata con il nodo '~w'", [ShortISpedizioneOrdine, NodoA, ShortICertificatoDiPagamento, NodoB]);
+    \+controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
+    format("L'evasione dell'ordine ~w, annotata con il nodo '~w', NON precede l'emissione del certificato di pagamento ~w, annotata con il nodo '~w'", [ShortISpedizioneOrdine, NodoA, ShortICertificatoDiPagamento, NodoB])).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
