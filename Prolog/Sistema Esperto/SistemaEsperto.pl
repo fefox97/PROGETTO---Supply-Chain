@@ -2,7 +2,8 @@
 :- working_directory(D, '/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Sistema Esperto/').
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/thea-master/thea.pl').
 :- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/Utility/regoleSupportoBPMNAggiustate.pl').
-:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fatti.pl').
+%:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fatti.pl').
+:- consult('/Users/fefox/Desktop/PROGETTO - Supply Chain/Prolog/fattiControprova.pl').
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 % REGOLE GENERALI
@@ -225,8 +226,10 @@ regola1():-
     getPropertyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIOrdineDiAcquisto)),
-    controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)), 
-    format("La richiesta di approvvigionamento ~w annotata con il nodo '~w' precede l'ordine di acquisto ~w annotato con il nodo '~w'", [ShortIRichiestaApprovvigionamento, NodoA, ShortIOrdineDiAcquisto, NodoB]).
+    (controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
+    format("La richiesta di approvvigionamento ~w annotata con il nodo '~w' precede l'ordine di acquisto ~w annotato con il nodo '~w'", [ShortIRichiestaApprovvigionamento, NodoA, ShortIOrdineDiAcquisto, NodoB]);
+    \+controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
+    format("La richiesta di approvvigionamento ~w annotata con il nodo '~w' NON precede l'ordine di acquisto ~w annotato con il nodo '~w'", [ShortIRichiestaApprovvigionamento, NodoA, ShortIOrdineDiAcquisto, NodoB])).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
