@@ -61,16 +61,18 @@ writePath([H|T]) :-
 %restituisce tutti gli individui di una classe
 
 %getIndividual(-IRIClasse, -Individuo, -ShortIndividuo)
-getIndividual(ClassIRI, Individual, ShortIndividual) :-
-    classAssertion(ClassIRI, Individual), 
-    shortType(Individual, ShortIndividual).
+% getIndividual(ClassIRI, Individual, ShortIndividual) :-
+%     classAssertion(ClassIRI, Individual), 
+%     shortType(Individual, ShortIndividual).
 
 %getIndividual(+NomeClasse, -Individuo, -ShortIndividuo)
-getIndividual(NClass, Individual, ShortIndividual) :-
-    nonvar(NClass),    %mi accerto che NClass non sia una variabile, ma un termine ground
-    replaceSubString(NClass, ' ', '_', Class), 
-    (atom_concat('https://w3id.org/italia/onto/PublicContract/', Class, ClassIRI); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Class, ClassIRI); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', Class, ClassIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Class, ClassIRI)), 
-    classAssertion(ClassIRI, Individual), 
+getIndividual(Class, ShortClass, Individual, ShortIndividual) :-
+    nonvar(ShortClass),    %mi accerto che NClass non sia una variabile, ma un termine ground
+    replaceSubString(ShortClass, ' ', '_', NClass), 
+    (atom_concat('https://w3id.org/italia/onto/PublicContract/', NClass, Class); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', NClass, Class); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', NClass, Class); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', NClass, Class)), 
+    classAssertion(Class, Individual), 
+    shortType(Individual, ShortIndividual); !,
+    classAssertion(Class, Individual), 
     shortType(Individual, ShortIndividual).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -79,18 +81,21 @@ getIndividual(NClass, Individual, ShortIndividual) :-
 %restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range;
 %restituisce gli individui, Domain e Range se dato il nome o l'IRI della PropertyAssertion.
 %getPropertyAssertion(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
-getPropertyAssertion(PropertyIRI, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
-    getIndividual(Domain, IndividualD, ShortIndividualD), 
-    getIndividual(Range, IndividualR, ShortIndividualR), 
-    propertyAssertion(PropertyIRI, IndividualD, IndividualR).
+% getPropertyAssertion(PropertyIRI, Domain, ShortDomain, Range, ShortRange, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
+%     getIndividual(Domain, ShortDomain, IndividualD, ShortIndividualD), 
+%     getIndividual(Range, ShortRange, IndividualR, ShortIndividualR), 
+%     propertyAssertion(PropertyIRI, IndividualD, IndividualR).
 
 %getPropertyAssertion(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
-getPropertyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
-    nonvar(Property),  %mi accerto che Property non sia una variabile, ma un termine ground
-    (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', Property, PropertyIRI); atom_concat('https://w3id.org/italia/onto/PublicContract/', Property, PropertyIRI); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', Property, PropertyIRI)), 
-    getIndividual(Domain, IndividualD, ShortIndividualD), 
-    getIndividual(Range, IndividualR, ShortIndividualR), 
-    propertyAssertion(PropertyIRI, IndividualD, IndividualR).
+getPropertyAssertion(Property, ShortProperty, Domain, ShortDomain, Range, ShortRange, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
+    nonvar(ShortProperty),  %mi accerto che Property non sia una variabile, ma un termine ground
+    (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', ShortProperty, Property); atom_concat('https://w3id.org/italia/onto/PublicContract/', ShortProperty, Property); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', ShortProperty, Property)), 
+    getIndividual(Domain, ShortDomain, IndividualD, ShortIndividualD), 
+    getIndividual(Range, ShortRange, IndividualR, ShortIndividualR), 
+    propertyAssertion(Property, IndividualD, IndividualR); !,
+    getIndividual(Domain, ShortDomain, IndividualD, ShortIndividualD), 
+    getIndividual(Range, ShortRange, IndividualR, ShortIndividualR), 
+    propertyAssertion(Property, IndividualD, IndividualR).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -218,12 +223,12 @@ percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Vi
     percorsoF(nodo(NomeInt, IDNodoInt, ShortTypeInt), nodo(NomeF, IDNodoF, ShortTypeF), VisitatiInt, Percorso).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+%getPropertyAssertion(Property, ShortProperty, Domain, ShortDomain, Range, ShortRange, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
 regola1():-
-    getPropertyAssertion('riguarda_bando_di_gara', 'Richiesta di approvvigionamento', _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara), 
-    getPropertyAssertion('riguarda_bando_di_gara', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion(_, 'riguarda_bando_di_gara', _, 'Richiesta di approvvigionamento', _, _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion(_, 'riguarda_bando_di_gara', _, 'Ordine di acquisto', _, _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIOrdineDiAcquisto)),
     (controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),

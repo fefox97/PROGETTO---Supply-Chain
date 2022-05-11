@@ -6,7 +6,7 @@ has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndivi
     shortType(CID,ID),
     genericElement(Type,Name,ID,ShortType),
     shortType(Individual, ShortIndividual),
-    getIndividual(Class, CIndividual, ShortIndividual).%;
+    getIndividual(Class, _, CIndividual, ShortIndividual).%;
     % propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_domainLink',CID,CIndividual),
     % shortType(CID,ID),
     % genericElement(Type,Name,ID,ShortType), 
@@ -18,7 +18,7 @@ activityKindOf(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndivi
     shortType(CID,ID),
     genericElement(Type,Name,ID,ShortType), 
     shortType(Individual, ShortIndividual), 
-    getIndividual(Class, CIndividual, ShortIndividual);
+    getIndividual(Class, _, CIndividual, ShortIndividual);
     propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_is_a_kind_of',CID,Class),
     shortType(CID,ID),
     genericElement(Type,Name,ID,ShortType),
@@ -30,7 +30,7 @@ activityHasPerformer(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,C
     shortType(CID,ID),
     genericElement(Type,Name,ID,ShortType),
     shortType(Individual, ShortIndividual),
-    getIndividual(Class, CIndividual, ShortIndividual).%;
+    getIndividual(Class, _, CIndividual, ShortIndividual).%;
     % propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#has_performerLink',CID,CIndividual),
     % shortType(CID,ID),
     % genericElement(Type,Name,ID,ShortType),
@@ -42,7 +42,7 @@ activityManagesData(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CI
     shortType(CID,ID),
     genericElement(Type,Name,ID,ShortType),
     shortType(Individual, ShortIndividual),
-    getIndividual(Class, CIndividual, ShortIndividual).%;
+    getIndividual(Class, _, CIndividual, ShortIndividual).%;
     % propertyAssertion('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/MM_Ontology.owl#activity_manages_data',CID,CIndividual),
     % shortType(CID,ID),
     % genericElement(Type,Name,ID,ShortType),
