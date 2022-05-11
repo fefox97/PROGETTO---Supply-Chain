@@ -1,0 +1,1 @@
+Questa cartella contiene tutti i file Prolog utili alla realizzazione sistema esperto.

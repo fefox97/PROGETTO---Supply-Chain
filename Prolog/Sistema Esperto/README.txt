@@ -1,0 +1,6 @@
+- load.pl serve a convertire l'ontologia annotata in fatti Prolog.
+- load.pl serve a convertire l'ontologia annotata con la controprova in fatti Prolog.
+- output_callgraph.pl serve a creare il callgraph delle regole in  sistemaEsperto.pl e in regoleDiSupportoAggiustate.pl
+- SistemaEsperto.pl contiene le regole del sistema esperto.
+- trovaPercorso.pl contiene l'algoritmo di di base per la ricerca di un percorso in un grafo orientato.
+- ReplaceString.pl contiene le regole per la sostituzione di una sotto-stringa in una stringa.

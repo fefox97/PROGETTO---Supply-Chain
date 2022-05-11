@@ -97,33 +97,33 @@ getPropertyAssertion(Property, Domain, Range, IndividualD, ShortIndividualD, Ind
 %CODICE INUTILE 
 %perché alcuni individui hanno objectProperties della SuperClass e non della Classe
 
-% getLegami(property(PropertyIRI, Domain, Range), [], Legami) :-
-%     getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami), 
-%     shortType(Domain, SDomain), 
-%     shortType(Range, SRange).
+getLegami(property(PropertyIRI, Domain, Range), [], Legami) :-
+    getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami), 
+    shortType(Domain, SDomain), 
+    shortType(Range, SRange).
 
-% getLegami(property(PropertyIRI, Domain, Range), [IntRange|IntProperties], Legami) :-
-%     getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami1), 
-%     shortType(Domain, SDomain), 
-%     shortType(Range, SRange), 
-%     getLegami(property(PropertyIRI, Domain, IntRange), IntProperties, Legami2), 
-%     append(Legami3, [_], Legami2), 
-%     append([Legami3, Legami1], Legami).
+getLegami(property(PropertyIRI, Domain, Range), [IntRange|IntProperties], Legami) :-
+    getLegame(property(PropertyIRI, Domain, Range), [property(PropertyIRI, SDomain, SRange)], Legami1), 
+    shortType(Domain, SDomain), 
+    shortType(Range, SRange), 
+    getLegami(property(PropertyIRI, Domain, IntRange), IntProperties, Legami2), 
+    append(Legami3, [_], Legami2), 
+    append([Legami3, Legami1], Legami).
 
-% getLegame(property(PropertyIRI, Domain, Range), Controllati, [property(PropertyIRI, SDomain, SRange)|Controllati]) :-
-%     propertyDomain(PropertyIRI, Domain), 
-%     propertyRange(PropertyIRI, Range), 
-%     shortType(Domain, SDomain), 
-%     shortType(Range, SRange).
+getLegame(property(PropertyIRI, Domain, Range), Controllati, [property(PropertyIRI, SDomain, SRange)|Controllati]) :-
+    propertyDomain(PropertyIRI, Domain), 
+    propertyRange(PropertyIRI, Range), 
+    shortType(Domain, SDomain), 
+    shortType(Range, SRange).
 
-% getLegame(property(PropertyIRI, Domain, Range), Controllati, Legami) :-
-%     propertyDomain(PropertyIRI, Domain), 
-%     propertyRange(PropertyIRI, IntRange), 
-%     IntRange \== Range, 
-%     shortType(IntDomain, SDomain), 
-%     shortType(Range, SRange), 
-%     \+member(property(PropertyIRI, SDomain, SRange), Controllati), 
-%     getLegame(property(PropertyIRI, Domain, IntRange), [property(PropertyIRI, SDomain, SRange)|Controllati], Legami).
+getLegame(property(PropertyIRI, Domain, Range), Controllati, Legami) :-
+    propertyDomain(PropertyIRI, Domain), 
+    propertyRange(PropertyIRI, IntRange), 
+    IntRange \== Range, 
+    shortType(IntDomain, SDomain), 
+    shortType(Range, SRange), 
+    \+member(property(PropertyIRI, SDomain, SRange), Controllati), 
+    getLegame(property(PropertyIRI, Domain, IntRange), [property(PropertyIRI, SDomain, SRange)|Controllati], Legami).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 %restituisce tutti gli elementi annotati

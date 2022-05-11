@@ -1,0 +1,1 @@
+In questa cartella sono presenti i file BPMN, uno dei quali contiene il fix del flow che parte da Scadenza Bando, perché in quello originale l'annotatore non rileva il percorso.
