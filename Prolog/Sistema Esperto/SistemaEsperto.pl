@@ -60,19 +60,15 @@ writePath([H|T]) :-
 
 %restituisce tutti gli individui di una classe
 
-%getIndividual(-IRIClasse, -Individuo, -ShortIndividuo)
-% getIndividual(ClassIRI, Individual, ShortIndividual) :-
-%     classAssertion(ClassIRI, Individual), 
-%     shortType(Individual, ShortIndividual).
-
-%getIndividual(+NomeClasse, -Individuo, -ShortIndividuo)
+%getIndividual(-ClassIRI, -ShortClass -Individual, -ShortIndividual)
 getIndividual(Class, ShortClass, Individual, ShortIndividual) :-
     nonvar(ShortClass),    %mi accerto che NClass non sia una variabile, ma un termine ground
     replaceSubString(ShortClass, ' ', '_', NClass), 
     (atom_concat('https://w3id.org/italia/onto/PublicContract/', NClass, Class); atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', NClass, Class); atom_concat('http://193.206.100.151/annotatorFiles/AnnotatoreSemanticoClient/CartelleUtenti/Directory_felice.moretta/Acquisto_beni_ASL/Files%20OWL/PCSCOPRO_DATA.owl#', NClass, Class); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', NClass, Class)), 
     classAssertion(Class, Individual), 
-    shortType(Individual, ShortIndividual); !,
-    classAssertion(Class, Individual), 
+    shortType(Individual, ShortIndividual);
+    classAssertion(Class, Individual),
+    ShortClass = 'Not defined', % qui non posso usare lo shortType perché su alcune Classi non funziona
     shortType(Individual, ShortIndividual).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -80,22 +76,18 @@ getIndividual(Class, ShortClass, Individual, ShortIndividual) :-
 %restituisce gli individui se dati i nomi di PropertyAssertion, Domain e Range; 
 %restituisce gli individui e l'IRI della PropertyAssertion se dati solo i nomi di Domain e Range;
 %restituisce gli individui, Domain e Range se dato il nome o l'IRI della PropertyAssertion.
-%getPropertyAssertion(-IRIProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
-% getPropertyAssertion(PropertyIRI, Domain, ShortDomain, Range, ShortRange, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
-%     getIndividual(Domain, ShortDomain, IndividualD, ShortIndividualD), 
-%     getIndividual(Range, ShortRange, IndividualR, ShortIndividualR), 
-%     propertyAssertion(PropertyIRI, IndividualD, IndividualR).
 
-%getPropertyAssertion(+NomeProprietà, +Dominio, +Range, -IndividualDomain, -IndividualRange)
+%getPropertyAssertion(-PropertyIRI, -ShortProperty, -DomainIRI, -ShortDomain, -RangeIRI, -ShortRange, -IndividualDomain, -ShortIndividualDomain, -IndividualRange, -ShortIndividualRange)
 getPropertyAssertion(Property, ShortProperty, Domain, ShortDomain, Range, ShortRange, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
     nonvar(ShortProperty),  %mi accerto che Property non sia una variabile, ma un termine ground
     (atom_concat('http://www.semanticweb.org/fefox/ontologies/2022/2/PCSCOPRO#', ShortProperty, Property); atom_concat('https://w3id.org/italia/onto/PublicContract/', ShortProperty, Property); atom_concat('http://www.semanticweb.org/indonto/ontologies/2014/0/SCOPRO#', ShortProperty, Property)), 
     getIndividual(Domain, ShortDomain, IndividualD, ShortIndividualD), 
     getIndividual(Range, ShortRange, IndividualR, ShortIndividualR), 
-    propertyAssertion(Property, IndividualD, IndividualR); !,
+    propertyAssertion(Property, IndividualD, IndividualR);
     getIndividual(Domain, ShortDomain, IndividualD, ShortIndividualD), 
     getIndividual(Range, ShortRange, IndividualR, ShortIndividualR), 
-    propertyAssertion(Property, IndividualD, IndividualR).
+    propertyAssertion(Property, IndividualD, IndividualR),
+    ShortProperty = 'Not defined'.  % qui non posso usare lo shortType perché su alcune propertyAssertion non funziona
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -223,12 +215,12 @@ percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), Vi
     percorsoF(nodo(NomeInt, IDNodoInt, ShortTypeInt), nodo(NomeF, IDNodoF, ShortTypeF), VisitatiInt, Percorso).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-%getPropertyAssertion(Property, ShortProperty, Domain, ShortDomain, Range, ShortRange, IndividualD, ShortIndividualD, IndividualR, ShortIndividualR) :-
+
 %REGOLA 1
 %Verificare che un ordine di acquisto sia sempre preceduto da una richiesta di approvvigionamento da parte della Farmacia centrale.
 regola1():-
-    getPropertyAssertion(_, 'riguarda_bando_di_gara', _, 'Richiesta di approvvigionamento', _, _, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara), 
-    getPropertyAssertion(_, 'riguarda_bando_di_gara', _, 'Ordine di acquisto', _, _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion(_, 'riguarda_bando_di_gara', DomainA, 'Richiesta di approvvigionamento', RangeA, ShortRangeA, IRichiestaApprovvigionamento, ShortIRichiestaApprovvigionamento, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion(_, 'riguarda_bando_di_gara', DomainB, 'Ordine di acquisto', RangeB, ShortRangeB, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, IBandoDiGara, ShortIBandoDiGara), 
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaApprovvigionamento)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIOrdineDiAcquisto)),
     (controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
@@ -242,10 +234,10 @@ regola1():-
 %Verificare che la proclamazione di un vincitore per una gara d'appalto (Avviso esito di procedura) sia preceduta, in ordine da: 
 %una verifica dei documenti per l'emanazione del bando (Richiesta verifica documenti bando) e una emanazione della gara di appalto (Pubblicazione)
 regola2():-
-    getPropertyAssertion('riguarda_bando_di_gara', 'Richiesta verifica documenti', _, IRichiestaVerificaDocumenti, ShortIRichiestaVerificaDocumenti, IBandoDiGara, ShortIBandoDiGara), 
-    getPropertyAssertion('hasCallForCompetition', 'Publication', _, IPubblicazione, ShortIPubblicazione, IBandoDiGara, ShortIBandoDiGara), 
-    getPropertyAssertion('hasCallForCompetition', 'Lot', _, ILotto, ShortILotto, IBandoDiGara, ShortIBandoDiGara), 
-    getPropertyAssertion('hasAwardNotice', 'Lot', _, ILotto, ShortILotto, IAvvisoEsitoDiProcedura, ShortIAvvisoEsitoDiProcedura), 
+    getPropertyAssertion(_, 'riguarda_bando_di_gara', DomainA, 'Richiesta verifica documenti', RangeA, ShortRangeA, IRichiestaVerificaDocumenti, ShortIRichiestaVerificaDocumenti, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion(_, 'hasCallForCompetition', DomainB, 'Publication', RangeB, ShortRangeB, IPubblicazione, ShortIPubblicazione, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion(_, 'hasCallForCompetition', DomainC, 'Lot', RangeC, ShortRangeC, ILotto, ShortILotto, IBandoDiGara, ShortIBandoDiGara), 
+    getPropertyAssertion(_, 'hasAwardNotice', DoaminD, 'Lot', RangeD, ShortRangeD, ILotto, ShortILotto, IAvvisoEsitoDiProcedura, ShortIAvvisoEsitoDiProcedura), 
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortIRichiestaVerificaDocumenti)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortIPubblicazione)), 
     annotatedElement(bpmnElement(TypeC, NodoC, IDC, ShortTypeC), _, ontologyElement(ClassC, IndividualC, ShortIAvvisoEsitoDiProcedura)), 
@@ -259,9 +251,9 @@ regola2():-
 %REGOLA 3
 %Verificare che l'emissione di un Certificato di Pagamento avvenga solo ed esclusivamente in seguito all'evasione dell'ordine.
 regola3():-
-    getPropertyAssertion('riguarda_ordine_di_acquisto', 'Deliver_Stocked_Product', _, ISpedizioneOrdine, ShortISpedizioneOrdine, IOrdineDiAcquisto, ShortIOrdineDiAcquisto), 
-    getPropertyAssertion('riguarda_lotto', 'Ordine di acquisto', _, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, ILotto, ShortILotto), 
-    getPropertyAssertion('hasPaymentCertificate', 'Lot', _, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento), 
+    getPropertyAssertion(_, 'riguarda_ordine_di_acquisto', DomainA, 'Deliver_Stocked_Product', RangeA, ShortRangeA, ISpedizioneOrdine, ShortISpedizioneOrdine, IOrdineDiAcquisto, ShortIOrdineDiAcquisto), 
+    getPropertyAssertion(_, 'riguarda_lotto', DomainB, 'Ordine di acquisto', RangeB, ShortRangeB, IOrdineDiAcquisto, ShortIOrdineDiAcquisto, ILotto, ShortILotto), 
+    getPropertyAssertion(_, 'hasPaymentCertificate', DomainC, 'Lot', RangeC, ShortRangeC, ILotto, ShortILotto, ICertificatoDiPagamento, ShortICertificatoDiPagamento), 
     annotatedElement(bpmnElement(TypeA, NodoA, IDA, ShortTypeA), _, ontologyElement(ClassA, IndividualA, ShortISpedizioneOrdine)), 
     annotatedElement(bpmnElement(TypeB, NodoB, IDB, ShortTypeB), _, ontologyElement(ClassB, IndividualB, ShortICertificatoDiPagamento)), 
     (controlloPrecedenzaF(nodo(NodoA, _, _), nodo(NodoB, _, _)),
