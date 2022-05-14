@@ -123,8 +123,9 @@ getLegame(property(PropertyIRI, Domain, Range), Controllati, Legami) :-
     getLegame(property(PropertyIRI, Domain, IntRange), [property(PropertyIRI, SDomain, SRange)|Controllati], Legami).
 
 %-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 %restituisce tutti gli elementi annotati
-annotatedElement(bpmnElement(Type, Name, ID, ShortType), AnnotationType, ontologyElement(Class,CIndividual,ShortIndividual)):- 
+annotatedElement(bpmnElement(Type, Name, ID, ShortType), AnnotationType, ontologyElement(Class,CIndividual,ShortIndividual)):-
     has_DomainLink(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)), AnnotationType = 'has_DomainLink';
     activityKindOf(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)), AnnotationType = 'activityKindOf';
     activityManagesData(bpmnElement(Type,Name,ID,ShortType),ontologyElement(Class,CIndividual,ShortIndividual)), AnnotationType = 'activityManagesData';
@@ -190,12 +191,12 @@ precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), 
 precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|[]], PercorsoF) :-
     percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoF).
 
-precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeF, IDNodoF, ShortTypeF)|NodiIntermedi], PercorsoF) :-
-    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeF, IDNodoF, ShortTypeF), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoF1),
-    precedenzaF(nodo(NomeF, IDNodoF, ShortTypeF), NodiIntermedi, PercorsoF2),
+precedenzaF(nodo(NomeI, IDNodoI, ShortTypeI), [nodo(NomeInt, IDNodoInt, ShortTypeInt)|NodiIntermedi], PercorsoF) :-
+    percorsoF(nodo(NomeI, IDNodoI, ShortTypeI), nodo(NomeInt, IDNodoInt, ShortTypeInt), [nodo(NomeI, IDNodoI, ShortTypeI)], PercorsoF1),
+    precedenzaF(nodo(NomeInt, IDNodoInt, ShortTypeInt), NodiIntermedi, PercorsoF2),
     PercorsoF1 =.. [percorso|Percorso1],    %ritrasformo il funtore PercorsoF1 in una lista
     PercorsoF2 =.. [percorso|[NodoIniziale|Percorso2]],     %ritrasformo il funtore PercorsoF2 in una lista e rimuovo il primo nodo dal Percorso2, altrimenti risulterebbe ripetuto 2 volte
-    append([Percorso1,Percorso2], Percorso),    %accodo i due percorsi
+    append([Percorso1,Percorso2], Percorso), % accodo i due percorsi
     PercorsoF =.. [percorso|Percorso].  %ritrasformo la lista in un funtore
 
 %verifico se esiste un arco che collega direttamente due nodi
