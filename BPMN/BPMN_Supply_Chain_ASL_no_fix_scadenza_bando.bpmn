@@ -215,7 +215,7 @@
     <bpmn:sequenceFlow id="Flow_1cs1z0f" sourceRef="Activity_1nxzpvb" targetRef="Activity_0jg8821" />
     <bpmn:sequenceFlow id="Flow_0hjg23m" sourceRef="Activity_0jg8821" targetRef="Activity_0kvx2ft" />
     <bpmn:sequenceFlow id="Flow_0cs68kj" sourceRef="Activity_0kvx2ft" targetRef="Event_1niiny9" />
-    <bpmn:sequenceFlow id="Flow_1fm9xd9" sourceRef="Gateway_04sc4j5" targetRef="Activity_0xtdhdc" />
+    <bpmn:sequenceFlow id="Flow_1fm9xd9" name="No" sourceRef="Gateway_04sc4j5" targetRef="Activity_0xtdhdc" />
     <bpmn:sequenceFlow id="Flow_1tagt18" sourceRef="Activity_0xtdhdc" targetRef="Activity_0sj138u" />
     <bpmn:sequenceFlow id="Flow_1gv74gm" sourceRef="Activity_0sj138u" targetRef="Activity_0lfhabc" />
     <bpmn:sequenceFlow id="Flow_0s3o43a" sourceRef="Activity_0lfhabc" targetRef="Gateway_1cbuqzc" />
@@ -449,6 +449,9 @@
       <bpmndi:BPMNEdge id="Flow_1fm9xd9_di" bpmnElement="Flow_1fm9xd9">
         <di:waypoint x="1000" y="515" />
         <di:waypoint x="1000" y="570" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1008" y="540" width="15" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0cs68kj_di" bpmnElement="Flow_0cs68kj">
         <di:waypoint x="2230" y="210" />
