@@ -1,0 +1,132 @@
+digraph callgraph
+{
+	overlap=false;
+	spline=true;
+	contentrate=true;
+	node [shape=box,fontname="Times", margin=.2];
+	edge [arrowhead=vee];
+	ranksep=1.5;
+	subgraph cluster_sistemaEsperto
+{	
+	label=<<B>module(sistemaEsperto)</B>>;
+	labeljust="c";
+	fontname="Times Bold";
+	weight="bold";
+	"regola1/0";
+	"regola2/0";
+	"regola3/0";
+	"percorsoF/4" [fontname="Times Bold",style="bold"];
+	"precedenzaF/3" [fontname="Times Bold",style="bold"];
+	"getLegame/3";
+	"percorsi/3";
+	"getLegami/3";
+	"controlloPrecedenzaF/2";
+	"getIndividual/4";
+	"replaceSubString/4";
+	"arco/3";
+	"nodo/3";
+	"getPropertyAssertion/10";
+	"annotatedElement/3";
+	"writePath/1";
+	"writePrecedenzaF/2";
+	"propertyRange/2";
+	"propertyDomain/2";
+	"replaceAllOccurences/4";
+}
+;
+	subgraph cluster_regoleSupportoBPMNAggiustate
+{
+	label=<<B>module(regoleSupportoBPMNAggiustate)</B>>;
+	labeljust="c";
+	fontname="Times Bold";
+	"task/3";
+	"event/3";
+	"messageFlow/3";
+	"sequenceFlow/3";
+	"descendantOf/2";
+	"gateway/3";
+	"activityManagesData/2";
+	"genericElement/4";
+	"activityKindOf/2";
+	"activityHasPerformer/2";
+	"has_DomainLink/2";
+	"shortType/2";
+	"propertyAssertion/3";
+	"subClassOf/2";
+	"classAssertion/2";
+}
+;
+
+	"regola1/0" -> "getPropertyAssertion/10";
+	"regola1/0" -> "annotatedElement/3";
+	"regola1/0" -> "controlloPrecedenzaF/2";
+	"getLegame/3" -> "propertyDomain/2";
+	"getLegame/3" -> "propertyRange/2";
+	"getLegame/3" -> "shortType/2";
+	"percorsi/3" -> "precedenzaF/3";
+	"getLegami/3" -> "getLegame/3";
+	"getLegami/3" -> "shortType/2";
+	"controlloPrecedenzaF/2" -> "precedenzaF/3";
+	"getIndividual/4" -> "replaceSubString/4";
+	"getIndividual/4" -> "classAssertion/2";
+	"getIndividual/4" -> "shortType/2";
+	"writePrecedenzaF/2" -> "precedenzaF/3";
+	"writePrecedenzaF/2" -> "writePath/1";
+	"precedenzaF/3" -> "percorsoF/4";
+	"replaceSubString/4" -> "replaceAllOccurences/4";
+	"percorsoF/4" -> "arco/3";
+	"arco/3" -> "sequenceFlow/3";
+	"arco/3" -> "messageFlow/3";
+	"arco/3" -> "shortType/2";
+	"regola3/0" -> "getPropertyAssertion/10";
+	"regola3/0" -> "annotatedElement/3";
+	"regola3/0" -> "controlloPrecedenzaF/2";
+	"nodo/3" -> "task/3";
+	"nodo/3" -> "gateway/3";
+	"nodo/3" -> "event/3";
+	"getPropertyAssertion/10" -> "getIndividual/4";
+	"getPropertyAssertion/10" -> "propertyAssertion/3";
+	"annotatedElement/3" -> "has_DomainLink/2";
+	"annotatedElement/3" -> "activityKindOf/2";
+	"annotatedElement/3" -> "activityManagesData/2";
+	"annotatedElement/3" -> "activityHasPerformer/2";
+	"regola2/0" -> "getPropertyAssertion/10";
+	"regola2/0" -> "annotatedElement/3";
+	"regola2/0" -> "controlloPrecedenzaF/2";
+
+
+	"task/3" -> "genericElement/4";
+	"task/3" -> "descendantOf/2";
+	"event/3" -> "genericElement/4";
+	"event/3" -> "descendantOf/2";
+	"messageFlow/3" -> "classAssertion/2";
+	"messageFlow/3" -> "propertyAssertion/3";
+	"messageFlow/3" -> "shortType/2";
+	"messageFlow/3" -> "genericElement/4";
+	"sequenceFlow/3" -> "classAssertion/2";
+	"sequenceFlow/3" -> "propertyAssertion/3";
+	"sequenceFlow/3" -> "shortType/2";
+	"sequenceFlow/3" -> "genericElement/4";
+	"descendantOf/2" -> "subClassOf/2";
+	"gateway/3" -> "genericElement/4";
+	"gateway/3" -> "descendantOf/2";
+	"activityManagesData/2" -> "propertyAssertion/3";
+	"activityManagesData/2" -> "shortType/2";
+	"activityManagesData/2" -> "genericElement/4";
+	"activityManagesData/2" -> "getIndividual/4";
+	"genericElement/4" -> "classAssertion/2";
+	"genericElement/4" -> "propertyAssertion/3";
+	"genericElement/4" -> "shortType/2";
+	"activityKindOf/2" -> "propertyAssertion/3";
+	"activityKindOf/2" -> "shortType/2";
+	"activityKindOf/2" -> "genericElement/4";
+	"activityKindOf/2" -> "getIndividual/4";
+	"activityHasPerformer/2" -> "propertyAssertion/3";
+	"activityHasPerformer/2" -> "shortType/2";
+	"activityHasPerformer/2" -> "genericElement/4";
+	"activityHasPerformer/2" -> "getIndividual/4";
+	"has_DomainLink/2" -> "propertyAssertion/3";
+	"has_DomainLink/2" -> "shortType/2";
+	"has_DomainLink/2" -> "genericElement/4";
+	"has_DomainLink/2" -> "getIndividual/4";
+}
